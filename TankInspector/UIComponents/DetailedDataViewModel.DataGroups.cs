@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Smellyriver.Utilities;
 using Smellyriver.TankInspector.Modeling;
-using System.Globalization;
 
 namespace Smellyriver.TankInspector.UIComponents
 {

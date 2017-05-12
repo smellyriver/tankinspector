@@ -2,9 +2,6 @@
 using Smellyriver.TankInspector.UIComponents;
 using Smellyriver.Wpf.Interop;
 using System;
-using System.Diagnostics;
-using System.Reflection;
-using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
