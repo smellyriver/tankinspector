@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.TurretController"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:animation="clr-namespace:Smellyriver.Wpf.Animation;assembly=Smellyriver.Wpf"
+             mc:Ignorable="d" 
+             MouseLeave="UserControl_MouseLeave"
+             d:DesignHeight="325" d:DesignWidth="316">
+    <UserControl.Resources>
+        <Style TargetType="Shape" x:Key="WhiteStroke">
+            <Setter Property="Stroke" Value="White" />
+        </Style>
+        <Style TargetType="Shape" x:Key="Border" BasedOn="{StaticResource WhiteStroke}">
+            <Setter Property="StrokeThickness" Value="1" />
+            <Setter Property="Fill" Value="#80000000" />
+        </Style>
+        <Style TargetType="Shape" x:Key="Delimiter" BasedOn="{StaticResource WhiteStroke}">
+            <Setter Property="StrokeThickness" Value="0.5" />
+            <Setter Property="StrokeDashArray" Value="2,2" />
+        </Style>
+        <design:NegativeConverter x:Key="NegativeConverter" />
+
+        <Style TargetType="FrameworkElement" x:Key="ControllerComponent">
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5" />
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="1" ScaleY="1" />
+                </Setter.Value>
+            </Setter>
+            <Setter Property="animation:ShowHideAnimation.ShowStoryboard">
+                <Setter.Value>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.5" />
+                        <DoubleAnimation Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(ScaleTransform.ScaleX)" To="1" Duration="0:0:0.2" />
+                        <DoubleAnimation Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(ScaleTransform.ScaleY)" To="1" Duration="0:0:0.2" />
+                    </Storyboard>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="animation:ShowHideAnimation.HideStoryboard">
+                <Setter.Value>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5" />
+                        <DoubleAnimation Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(ScaleTransform.ScaleX)" To="0" Duration="0:0:0.2" />
+                        <DoubleAnimation Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(ScaleTransform.ScaleY)" To="0" Duration="0:0:0.2" />
+                    </Storyboard>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="animation:ShowHideAnimation.Visibility" Value="{Binding IsControllerShown, Converter={StaticResource BoolToVisibleHiddenConverter}}" />
+        </Style>
+
+        <Style TargetType="FrameworkElement" BasedOn="{StaticResource ControllerComponent}" x:Key="ControllerComponentDefaultHidden">
+            <Setter Property="animation:ShowHideAnimation.Visibility" Value="{Binding IsControllerShown, Converter={StaticResource BoolToVisibleHiddenConverter}}" />
+        </Style>
+
+        <Style TargetType="FrameworkElement" BasedOn="{StaticResource ControllerComponent}" x:Key="ControllerComponentDefaultCollapse">
+            <Setter Property="animation:ShowHideAnimation.Visibility" Value="{Binding IsControllerShown, Converter={StaticResource BoolToVisibleCollapsedConverter}}" />
+        </Style>
+
+        <Style TargetType="ContentControl" x:Key="GunPointer" >
+            <Setter Property="Width" Value="10" />
+            <Setter Property="Height" Value="10" />
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <Grid Width="10" Height="10">
+                            <Ellipse Width="10" Height="10" StrokeThickness="1" Stroke="White" Opacity="0.8" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            <Ellipse Width="6" Height="6" HorizontalAlignment="Center" VerticalAlignment="Center" Fill="White" Opacity="0.7" />
+                        </Grid>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid x:Name="HitTestPlaceHolder" DataContext="{Binding RelativeSource={RelativeSource AncestorType=UserControl}}" 
+          MouseMove="HitTestPlaceHolder_MouseMove" MouseDown="HitTestPlaceHolder_MouseDown" MouseUp="HitTestPlaceHolder_MouseUp"
+          MouseWheel="HitTestPlaceHolder_MouseWheel">
+        <Ellipse Fill="Transparent" IsHitTestVisible="True" Style="{StaticResource ControllerComponentDefaultCollapse}"/> <!-- hittest placeholder -->
+        <Grid Margin="20" x:Name="Root"  Cursor="{x:Static ui:Cursors.CrossHair}">
+            
+            <Grid RenderTransformOrigin="0.5,0.5" >
+                <Image x:Name="HullFigure" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center" MouseEnter="TankFigure_MouseEnter" />
+                <Canvas x:Name="BoundaryCanvas" Style="{StaticResource ControllerComponentDefaultCollapse}" />
+                <Grid.RenderTransform>
+                    <RotateTransform Angle="{Binding VehicleYaw, Converter={StaticResource NegativeConverter}}" />
+                </Grid.RenderTransform>
+            </Grid>
+
+            <Image x:Name="TurretFigure" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" MouseEnter="TankFigure_MouseEnter">
+                <Image.RenderTransform>
+                    <RotateTransform CenterX="0" CenterY="0" x:Name="GunFigureRotateTransform" />
+                </Image.RenderTransform>
+            </Image>
+
+            <Canvas x:Name="DynamicObjectContainer" Style="{StaticResource ControllerComponentDefaultCollapse}">
+                <ContentControl x:Name="GunPointer" Style="{StaticResource GunPointer}" Opacity="0.5" />
+                <ContentControl x:Name="OriginalGunPointer" Style="{StaticResource GunPointer}" Visibility="{Binding IsControllerShown, Converter={StaticResource BoolToVisibleHiddenConverter}}" />
+                <Line Visibility="Hidden" x:Name="YawDirectionLine" RenderTransformOrigin="0,0" Style="{StaticResource WhiteStroke}">
+                    <Line.RenderTransform>
+                        <RotateTransform CenterX="0" CenterY="0" x:Name="YawDirectionLineRotateTransform" />
+                    </Line.RenderTransform>
+                </Line>
+                <Ellipse Visibility="Hidden" x:Name="PitchCircle" Style="{StaticResource WhiteStroke}" />
+            </Canvas>
+            
+        </Grid>
+    </Grid>
+</UserControl>

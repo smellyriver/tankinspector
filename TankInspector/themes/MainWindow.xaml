@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+                    xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+                    xmlns:anim="clr-namespace:Smellyriver.Wpf.Animation;assembly=Smellyriver.Wpf"
+                    xmlns:local="clr-namespace:Smellyriver.TankInspector">
+    
+    <Style TargetType="Hyperlink" BasedOn="{StaticResource {x:Type Hyperlink}}">    
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+    </Style>
+
+
+</ResourceDictionary>

@@ -1,0 +1,584 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.HangarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:anim="clr-namespace:Smellyriver.Wpf.Animation;assembly=Smellyriver.Wpf"
+             xmlns:effects="clr-namespace:Smellyriver.Wpf.Effects;assembly=Smellyriver.Wpf"
+             xmlns:controls="clr-namespace:Smellyriver.Wpf.Controls;assembly=Smellyriver.Wpf"
+             xmlns:local="clr-namespace:Smellyriver.TankInspector"
+             PreviewMouseMove="HangarView_PreviewMouseMove"
+             KeyDown="HangarView_KeyDown"
+             KeyUp="HangarView_KeyUp"
+             mc:Ignorable="d"
+             Focusable="True" FocusVisualStyle="{x:Null}"
+             d:DesignHeight="1280" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/Hangar.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Storyboard x:Key="OpaquizeMenuItemsStoryboard">
+                <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.3" />
+            </Storyboard>
+
+            <Storyboard x:Key="TrasparentizeMenuItemsStoryboard">
+                <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0.02" Duration="0:0:0.3" />
+            </Storyboard>
+
+            <Style TargetType="FrameworkElement" x:Key="BriefFadeShowHideTransition">
+                <Setter Property="anim:ShowHideAnimation.ShowStoryboard">
+                    <Setter.Value>
+                        <Storyboard >
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.2" />
+                        </Storyboard>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="anim:ShowHideAnimation.HideStoryboard">
+                    <Setter.Value>
+                        <Storyboard >
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.2" />
+                        </Storyboard>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style TargetType="FrameworkElement" x:Key="HideDirectlyOnSniperMode">
+                <Setter Property="Visibility" Value="{Binding IsInSniperMode, Converter={StaticResource BoolToCollapsedVisibleConverter}}" />
+            </Style>
+
+            <Style TargetType="FrameworkElement" x:Key="HideOnSniperMode" BasedOn="{StaticResource BriefFadeShowHideTransition}">
+                <Setter Property="anim:ShowHideAnimation.Visibility" Value="{Binding IsInSniperMode, Converter={StaticResource BoolToCollapsedVisibleConverter}}" />
+            </Style>
+
+            <Style TargetType="FrameworkElement" x:Key="ShowOnSniperMode" BasedOn="{StaticResource BriefFadeShowHideTransition}">
+                <Setter Property="anim:ShowHideAnimation.Visibility" Value="{Binding IsInSniperMode, Converter={StaticResource BoolToVisibleCollapsedConverter}}" />
+                <Setter Property="anim:ShowHideAnimation.HideStoryboard" Value="{x:Null}" />
+            </Style>
+
+            <Style TargetType="ItemsControl" x:Key="PredecessorOrSuccessorBriefView">
+                <Setter Property="ItemsPanel">
+                    <Setter.Value>
+                        <ItemsPanelTemplate>
+                            <UniformGrid Rows="1" MaxWidth="158"/>
+                        </ItemsPanelTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="ItemTemplate">
+                    <Setter.Value>
+                        <DataTemplate>
+                            <Button Style="{StaticResource ContentButton}" design:ContentButtonStyle.HighlightBrightness="0.1" design:ContentButtonStyle.ShadowBrightness="-0.05" 
+                                    Click="TankButton_Click" Cursor="{x:Static ui:Cursors.Hand}">
+                                <Image Source="{Binding Converter={StaticResource TankContourIconConverter}}" Stretch="None" />
+                                <Button.ToolTip>
+                                    <ToolTip Style="{StaticResource DataTip}">
+                                        <ui:BriefTankTipView DataContext="{Binding}" />
+                                    </ToolTip>
+                                </Button.ToolTip>
+                            </Button>
+                        </DataTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style TargetType="StackPanel" x:Key="TankPredecessorOrSuccessorPanel">
+                <Setter Property="Height" Value="60" />
+                <Setter Property="Opacity" Value="1" />
+                <Setter Property="anim:ShowHideAnimation.ShowStoryboard">
+                    <Setter.Value>
+                        <Storyboard >
+                            <DoubleAnimation Storyboard.TargetProperty="Height" To="60" Duration="0:0:0.2" />
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.2" />
+                        </Storyboard>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="anim:ShowHideAnimation.HideStoryboard">
+                    <Setter.Value>
+                        <Storyboard >
+                            <DoubleAnimation Storyboard.TargetProperty="Height" To="0" Duration="0:0:0.2" />
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.2" />
+                        </Storyboard>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <AdornerDecorator>
+
+        <Grid>
+            <Grid Margin="-1000,0,-5,0" Width="1000" HorizontalAlignment="Left" Background="Black" Style="{StaticResource ShowOnSniperMode}" />
+            <Grid Margin="-5,0,-1000,0" Width="1000" HorizontalAlignment="Right" Background="Black" Style="{StaticResource ShowOnSniperMode}" />
+
+            <Grid Width="1280" Background="#e8000000">
+                <!-- National Flag Background -->
+                <Image Source="{Binding Tank.NationKey, Converter={StaticResource LargeBlurredFlagConverter}}" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="None" />
+
+                <Grid Margin="0,70,0,0">
+
+                    <DockPanel LastChildFill="True" >
+
+                        <!-- Tank title and description -->
+                        <StackPanel Style="{StaticResource HideDirectlyOnSniperMode}" VerticalAlignment="Top" Margin="20,30,20,0" DockPanel.Dock="Top">
+
+                            <Button x:Name="ToggleTankDescriptionButton" Command="{Binding ToggleTankDescriptionVisibilityCommand}" Style="{StaticResource ContentButton}" Cursor="{x:Static ui:Cursors.Hand}"
+                                HorizontalAlignment="Left">
+                                <StackPanel Orientation="Horizontal" Margin="-5,5">
+                                    <Image Stretch="None" Margin="-3,3,0,0">
+                                        <Image.Source>
+                                            <MultiBinding Converter="{StaticResource TankClassIconConverter}">
+                                                <Binding Path="Tank.Tank.Class" />
+                                                <Binding Path="Tank.IsElite" />
+                                            </MultiBinding>
+                                        </Image.Source>
+                                    </Image>
+                                    <TextBlock Text="{Binding Tank.Name}" VerticalAlignment="Center" FontSize="28" FontWeight="Bold" />
+                                </StackPanel>
+                            </Button>
+                            <StackPanel Visibility="{Binding HangarShowTankDescription, Source={x:Static local:ApplicationSettings.Default}, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+
+                                <TextBlock VerticalAlignment="Center" Margin="0,5" Text="{Binding Tank.TaxologyDescription}" />
+
+                                <ui:PriceView Price="{Binding Tank.Tank.Price}" CurrencyType="{Binding Tank.Tank.CurrencyType}" Margin="0,5" />
+
+                                <TextBlock HorizontalAlignment="Left" Text="{Binding Tank.Tank.Description}" Margin="0,5" Width="842" TextWrapping="Wrap" Opacity="0.8" />
+                            </StackPanel>
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/HorizontalSeparator.png" Width="1050" Margin="0,0,0,-40" />
+                        </StackPanel>
+
+                        <!-- Make space for bottom panel -->
+                        <Grid DockPanel.Dock="Bottom" Height="{Binding ActualHeight, ElementName=BottomPanel}" Style="{StaticResource HideDirectlyOnSniperMode}"/>
+
+                        <!-- Model View and Detail Data View-->
+                        <Grid Name="MajorViewContainer">
+                            <Grid Name="ModelViewSlideTransitionContainer" anim:ShowHideAnimation.Visibility="{Binding IsModelViewShown, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+
+                                <Grid Name="ModelViewContainer" IsHitTestVisible="True">
+                                    <Grid>
+                                       
+                                        <ui:SniperModeDecorator x:Name="SniperModeDecorator" IsInSniperMode="{Binding IsInSniperMode}">
+                                            <ui:ModelView DataContext="{Binding ModelView}" />
+                                        </ui:SniperModeDecorator>
+
+                                        <Grid Visibility="{Binding ShowSoftwareCrosshair, Source={x:Static local:ApplicationSettings.Default}, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                                            <Grid Style="{StaticResource HideDirectlyOnSniperMode}">
+                                                <Canvas SnapsToDevicePixels="True" IsHitTestVisible="False" Style="{StaticResource FadeShowHideAnimation}" anim:ShowHideAnimation.Visibility="{Binding ModelView.IsMouseOverModel, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                                                    <Line SnapsToDevicePixels="True" x:Name="CrosshairHorizontalLine" StrokeThickness="0.5">
+                                                        <Line.Stroke>
+                                                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                                                <GradientStop Color="Transparent" Offset="0" />
+                                                                <GradientStop Color="White" Offset="0.3" />
+                                                                <GradientStop Color="White" Offset="0.7" />
+                                                                <GradientStop Color="Transparent" Offset="1" />
+                                                            </LinearGradientBrush>
+                                                        </Line.Stroke>
+                                                    </Line>
+                                                    <Line SnapsToDevicePixels="True" x:Name="CrosshairVerticalLine" StrokeThickness="0.5">
+                                                        <Line.Stroke>
+                                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                                <GradientStop Color="Transparent" Offset="0" />
+                                                                <GradientStop Color="White" Offset="0.3" />
+                                                                <GradientStop Color="White" Offset="0.7" />
+                                                                <GradientStop Color="Transparent" Offset="1" />
+                                                            </LinearGradientBrush>
+                                                        </Line.Stroke>
+                                                    </Line>
+                                                    <!--<Rectangle Canvas.Left="0" Canvas.Top="0" SnapsToDevicePixels="True" x:Name="HitTestBulletin" Width="200" Height="200" Fill="Red" />-->
+                                                </Canvas>
+                                            </Grid>
+                                        </Grid>
+
+
+                                        <Grid Background="#C0000000" IsHitTestVisible="False" Visibility="{Binding IsTakingPhoto, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                                <TextBlock HorizontalAlignment="Center" FontSize="48" FontWeight="Bold" x:Uid="TakingPhoto">TAKING PHOTO</TextBlock>
+                                                <TextBlock HorizontalAlignment="Center" FontSize="16" FontStyle="Italic" x:Uid="TakePhotoPerformanceTip">depending on your graphics performance, this might take up to one minute</TextBlock>
+                                                <TextBlock HorizontalAlignment="Center" FontSize="24" Margin="0,10,0,0" x:Uid="TakePhotoHDModelTip">WORKS BETTER WITH AN HD MODEL!</TextBlock>
+                                            </StackPanel>
+                                        </Grid>
+                                        
+                                    </Grid>
+                                    
+                                    <!-- bottom left -->
+                                    <Viewbox HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="250" Margin="30,0,0,20" Style="{StaticResource HideOnSniperMode}"
+                                             StretchDirection="DownOnly">
+                                        <Grid>
+                                            <ToggleButton Cursor="{x:Static ui:Cursors.Hand}" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                                                          IsChecked="{Binding IsShowingCollisionModel, Mode=TwoWay}" >
+                                                <ToggleButton.Template>
+                                                    <ControlTemplate>
+                                                        <Grid>
+                                                            <VisualStateManager.VisualStateGroups>
+                                                                <VisualStateGroup x:Name="CommonStates">
+                                                                    <VisualState x:Name="Normal">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="0.0"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="MouseOver">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="0.15"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="Pressed">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="-0.15"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                </VisualStateGroup>
+                                                                <VisualStateGroup x:Name="CheckStates">
+                                                                    <VisualState x:Name="Checked">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="TexturedModelIcon" Storyboard.TargetProperty="Opacity" To="1.0" />
+                                                                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="CollisionModelIcon" Storyboard.TargetProperty="Opacity" To="0.0" />
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                    <VisualState x:Name="Unchecked">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="TexturedModelIcon" Storyboard.TargetProperty="Opacity" To="0.0" />
+                                                                            <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="CollisionModelIcon" Storyboard.TargetProperty="Opacity" To="1.0" />
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                </VisualStateGroup>
+                                                            </VisualStateManager.VisualStateGroups>
+                                                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ModelButtonBackground.png" Stretch="None" />
+                                                            <Image x:Name="TexturedModelIcon" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TexturedModel.png" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                            <Image x:Name="CollisionModelIcon" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CollisionModel.png" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                            <Grid.Effect>
+                                                                <effects:BrightContrastEffect x:Name="BrightnessEffect" Brightness="0.0" />
+                                                            </Grid.Effect>
+                                                        </Grid>
+                                                    </ControlTemplate>
+                                                </ToggleButton.Template>
+                                                <ToggleButton.ToolTip>
+                                                    <ToolTip x:Uid="ToggleCollisionModelButtonToolTip">Toggle between standard model and collision model view</ToolTip>
+                                                </ToggleButton.ToolTip>
+                                            </ToggleButton>
+
+                                            <ui:TurretController Width="250" Height="250" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"
+                                                                 VerticalTraverse="{Binding Tank.LoadedModules.Gun.Gun.VerticalTraverse}"
+                                                                 HorizontalTraverse="{Binding Tank.LoadedModules.Gun.Gun.HorizontalTraverse}"
+                                                                 VehicleYaw="{Binding ModelView.VehicleYaw}" TurretYaw="{Binding ModelView.TurretYaw, Mode=OneWayToSource}" GunPitch="{Binding ModelView.GunPitch, Mode=OneWayToSource}"
+                                                                 UseRealTraverseMode="{Binding UseRealTraverseSpeedOnTurretController, Source={x:Static local:ApplicationSettings.Default}}"
+                                                                 TurretTraverseSpeed="{Binding Tank.LoadedModules.Turret.Turret.RotationSpeed}"
+                                                                 GunTraverseSpeed="{Binding Tank.LoadedModules.Gun.Gun.RotationSpeed}"/>
+                                        </Grid>
+
+                                    </Viewbox>
+
+                                    <Viewbox StretchDirection="DownOnly" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,10,70,10">
+                                        <StackPanel>
+                                            <Grid VerticalAlignment="Bottom" Margin="0,0,0,10" Style="{StaticResource HideOnSniperMode}">
+                                                <ui:ArmorIndicator Ticks="{Binding Tank.RegularArmorValues}" HorizontalAlignment="Left" 
+                                                                   IsEnabled="{Binding IsShowingCollisionModel}"
+                                                                   SelectionBegin="{Binding ModelView.RegularArmorValueSelectionBegin, Mode=OneWayToSource}"
+                                                                   SelectionEnd="{Binding ModelView.RegularArmorValueSelectionEnd, Mode=OneWayToSource}"
+                                                                   HintValue="{Binding ModelView.RegularArmorHintValue, Mode=TwoWay}"
+                                                                   HasHintValue="{Binding ModelView.HasRegularArmorHintValue, Mode=TwoWay}"
+                                                                   SpectrumStops="{Binding ModelView.RegularArmorSpectrumStops, Mode=OneTime}">
+                                                    <ui:ArmorIndicator.ToolTip>
+                                                        <ToolTip x:Uid="RegularArmorIndicatorToolTip">Regular armor thicknesses</ToolTip>
+                                                    </ui:ArmorIndicator.ToolTip>
+                                                </ui:ArmorIndicator>
+
+                                                <ui:ArmorIndicator Ticks="{Binding Tank.SpacingArmorValues}" HorizontalAlignment="Left" TickPosition="Left" Margin="70,0,0,0"
+                                                                   IsEnabled="{Binding IsShowingCollisionModel}"
+                                                                   SelectionBegin="{Binding ModelView.SpacingArmorValueSelectionBegin, Mode=OneWayToSource}"
+                                                                   SelectionEnd="{Binding ModelView.SpacingArmorValueSelectionEnd, Mode=OneWayToSource}"
+                                                                   HintValue="{Binding ModelView.SpacingArmorHintValue, Mode=TwoWay}"
+                                                                   HasHintValue="{Binding ModelView.HasSpacingArmorHintValue, Mode=TwoWay}"
+                                                                   SpectrumStops="{Binding ModelView.SpacingArmorSpectrumStops, Mode=OneTime}">
+                                                    <ui:ArmorIndicator.ToolTip>
+                                                        <ToolTip x:Uid="SpacingArmorIndicatorToolTip">Spaced armor thicknesses</ToolTip>
+                                                    </ui:ArmorIndicator.ToolTip>
+                                                </ui:ArmorIndicator>
+
+                                            </Grid>
+                                            <Grid>
+                                                <ui:EquivalentArmorView ViewModel="{Binding EquivalentArmorView}" VerticalAlignment="Bottom" ShootTestResult="{Binding ModelView.ShootTestResult}"
+                                                                    TestShell="{Binding ModelView.TestShell, Mode=OneWayToSource}"/>
+                                            </Grid>
+                                        </StackPanel>
+                                    </Viewbox>
+
+                                </Grid>
+
+                            </Grid>
+
+                            <Grid Name="DetailedViewTransitionContainer" anim:ShowHideAnimation.Visibility="{Binding IsDetailedDataViewShown, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                                <ui:DetailedDataView DataContext="{Binding DetailedDataView}" Margin="50,0" HorizontalAlignment="Stretch" Height="{Binding ActualHeight, ElementName=MajorViewContainer}"  />
+                            </Grid>
+
+                            <Grid Style="{StaticResource HideOnSniperMode}" HorizontalAlignment="Left">
+                                <Button Style="{StaticResource TurnToLeftPageButton}" Command="{Binding TurnToLeftPageCommand}"  Cursor="{x:Static ui:Cursors.Hand}" />
+                            </Grid>
+                            <Grid Style="{StaticResource HideOnSniperMode}" HorizontalAlignment="Right">
+                                <Button Style="{StaticResource TurnToRightPageButton}" Command="{Binding TurnToRightPageCommand}" HorizontalAlignment="Right" Cursor="{x:Static ui:Cursors.Hand}" />
+                            </Grid>
+                        </Grid>
+                    </DockPanel>
+                </Grid>
+
+                <!-- Sidebar -->
+                <Grid Style="{StaticResource HideOnSniperMode}" HorizontalAlignment="Right">
+                    <Grid x:Name="Sidebar" Width="0" anim:ShowHideAnimation.Visibility="{Binding IsSidebarShown, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                        <anim:ShowHideAnimation.ShowStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Width" To="256" Duration="0:0:0.3" />
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.3" />
+                            </Storyboard>
+                        </anim:ShowHideAnimation.ShowStoryboard>
+                        <anim:ShowHideAnimation.HideStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="Width" To="0" Duration="0:0:0.3" />
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.3" />
+                            </Storyboard>
+                        </anim:ShowHideAnimation.HideStoryboard>
+                        <Grid.Background>
+                            <VisualBrush TileMode="Tile" Viewport="-1,0,255,598" ViewportUnits="Absolute" Stretch="None">
+                                <VisualBrush.Visual>
+                                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SidebarBackground.png" Stretch="None" />
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Grid.Background>
+                        <Grid Margin="20,50,0,0" x:Name="SidebarContent">
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SidebarHeader.png" VerticalAlignment="Top" Stretch="None" />
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SidebarFooter.png" VerticalAlignment="Bottom" Stretch="None" />
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SidebarBanner.png" VerticalAlignment="Top" Stretch="None">
+                                <Image.Style>
+                                    <Style TargetType="Image">
+                                        <Setter Property="Margin" Value="0,124,0,0" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsPredecessorPanelShown}" Value="False">
+                                                <Setter Property="Margin" Value="0,64,0,0" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Image.Style>
+                            </Image>
+
+                            <DockPanel Margin="0,50,0,0" LastChildFill="True">
+                                <StackPanel DockPanel.Dock="Top">
+                                    <Grid Height="{Binding ActualHeight, ElementName=TankHierachyPanel}" />
+                                    <TextBox x:Name="SearchTextBox" Style="{StaticResource SearchTextBox}" Text="{Binding SearchText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                     PreviewKeyDown="SearchTextBox_PreviewKeyDown" KeyDown="SearchTextBox_KeyDown">
+                                        <controls:WatermarkService.Watermark>
+                                            <TextBlock x:Uid="Search" HorizontalAlignment="Center" VerticalAlignment="Center" Text="SEARCH" Foreground="White" FontSize="14" />
+                                        </controls:WatermarkService.Watermark>
+                                        <TextBox.ToolTip>
+                                            <ToolTip x:Uid="SearchTextBoxToolTip">Type to find tanks</ToolTip>
+                                        </TextBox.ToolTip>
+                                    </TextBox>
+                                </StackPanel>
+
+
+                                <Grid DockPanel.Dock="Bottom" Height="82" />
+
+
+                                <ui:DragScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Hidden">
+                                    <ListBox ItemsSource="{Binding SearchResult}" Style="{StaticResource SearchResultList}" SelectedItem="{Binding HighlightedSearchResultItem, Mode=TwoWay}" />
+                                </ui:DragScrollViewer>
+                            </DockPanel>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <!-- TopRight Tank Hierachy -->
+                <StackPanel Margin="0,102,30,0" HorizontalAlignment="Right" MaxHeight="231" VerticalAlignment="Top" Style="{StaticResource HideOnSniperMode}"
+                        x:Name="TankHierachyPanel" MouseEnter="SidebarTrigger_MouseEnter">
+                    <StackPanel anim:ShowHideAnimation.Visibility="{Binding IsPredecessorPanelShown, Converter={StaticResource BoolToVisibleCollapsedConverter}}" Style="{StaticResource TankPredecessorOrSuccessorPanel}">
+                        <Grid>
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SmallTankIconFrame.png" Stretch="None" />
+                            <Viewbox StretchDirection="DownOnly" Margin="10,5,10,16">
+                                <ItemsControl Style="{StaticResource PredecessorOrSuccessorBriefView}" HorizontalAlignment="Center" ItemsSource="{Binding Tank.Predecessors}" />
+                            </Viewbox>
+                        </Grid>
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LeadToArrow.png" Stretch="None" Margin="0,-18,0,-9"  />
+                    </StackPanel>
+
+                    <Grid>
+                        <Button x:Name="CurrentTankButton" Style="{StaticResource ContentButton}" design:ContentButtonStyle.HighlightBrightness="0.1" design:ContentButtonStyle.ShadowBrightness="-5" Width="176" Height="119"
+                            Click="CurrentTankButton_Click" Cursor="{x:Static ui:Cursors.Hand}">
+                            <Grid>
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TankIconFrame.png" Stretch="None" />
+                                <Image Source="{Binding Tank, Converter={StaticResource TankIconConverter}}" Stretch="None" Margin="10,6,10,16" />
+                            </Grid>
+                            <Button.ToolTip>
+                                <ToolTip x:Uid="CurrentTankButtonToolTip">Click to open tech tree</ToolTip>
+                            </Button.ToolTip>
+
+                        </Button>
+
+                        <!--<ui:GameClientVersionTag GameClientVersion="{Binding Tank.Tank.Database.Version}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,20" />-->
+                    </Grid>
+                    
+                    <StackPanel anim:ShowHideAnimation.Visibility="{Binding IsSuccessorPanelShown, Converter={StaticResource BoolToVisibleCollapsedConverter}}" Style="{StaticResource TankPredecessorOrSuccessorPanel}">
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LeadToArrow.png" Stretch="None" Margin="0,-18,0,-9" />
+                        <Grid>
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SmallTankIconFrame.png" Stretch="None" />
+                            <Viewbox StretchDirection="DownOnly" Margin="10,5,10,16" >
+                                <ItemsControl Style="{StaticResource PredecessorOrSuccessorBriefView}" HorizontalAlignment="Center" ItemsSource="{Binding Tank.Successors}" />
+                            </Viewbox>
+                        </Grid>
+                    </StackPanel>
+
+                </StackPanel>
+
+
+                <!-- Bottom Panel -->
+                <Grid x:Name="BottomPanel" Style="{StaticResource HideOnSniperMode}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="82" >
+                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/HorizontalSeparator.png" VerticalAlignment="Top" IsHitTestVisible="False"/>
+
+                    <DockPanel LastChildFill="True">
+                        <Grid x:Name="ReferencePanel" DockPanel.Dock="Right" Width="236" MouseEnter="SidebarTrigger_MouseEnter">
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ComparingBackground.png" Opacity="0.2" Stretch="None" />
+                            <Grid Height="29" VerticalAlignment="Top" Margin="7,1,13,0">
+                                <TextBlock x:Uid="Reference" Text="REFERENCE" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" />
+                                <Button Style="{StaticResource ContentButton}" VerticalAlignment="Center" HorizontalAlignment="Right" Command="{Binding SearchForReferenceTanksCommand}" Cursor="{x:Static ui:Cursors.Hand}">
+                                    <Image Margin="-18" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SelectBenchmarkTankButton.png" Stretch="None" />
+                                    <Button.ToolTip>
+                                        <ToolTip x:Uid="SelectReferenceButtonToolTip">List the same tier and class tanks, which could be selected as reference</ToolTip>
+                                    </Button.ToolTip>
+                                </Button>
+                                <Button Style="{StaticResource ContentButton}" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,35,0" Command="{Binding SwitchReferenceTankCommand}" Cursor="{x:Static ui:Cursors.Hand}"
+                                        Visibility="{Binding CanSwitchReferenceTank, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                                    <Image Margin="-18" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SwitchReference.png" Stretch="None" />
+                                    <Button.ToolTip>
+                                        <ToolTip x:Uid="SwapReferenceButtonToolTip">Swap reference and current tank</ToolTip>
+                                    </Button.ToolTip>
+                                </Button>
+                            </Grid>
+                            <Grid Margin="10,29,10,0">
+                                <DockPanel LastChildFill="True" VerticalAlignment="Center">
+                                    <!--<ui:GameClientVersionTag DockPanel.Dock="Left" GameClientVersion="{Binding ReferenceTank.Tank.Database.Version}" MiniMode="True" />-->
+                                    <Image DockPanel.Dock="Left" HorizontalAlignment="Left" Source="{Binding ReferenceTank, Converter={StaticResource TankContourIconConverter}}" Stretch="None" />
+                                    <Viewbox StretchDirection="DownOnly" Stretch="Fill" VerticalAlignment="Center">
+                                        <TextBlock VerticalAlignment="Center" FontSize="18" Text="{Binding ReferenceTank.Tank.ShortName}" />
+                                    </Viewbox>
+                                
+                                    <DockPanel.ToolTip>
+                                        <ToolTip x:Uid="ReferenceTankToolTip">Current reference tank. The data showing on the tool tip of modules and in detail data view are compared with this tank. A reference tank is by default in elite configuration with 100% proficiency crews, with neither equipment nor consumables installed, as well as no crew skills and perks learnt. However, it will try to load a shot similar to current selected tank.</ToolTip>
+                                    </DockPanel.ToolTip>
+                                </DockPanel>
+                            </Grid>
+
+                        </Grid>
+
+                        <Grid HorizontalAlignment="Center">
+                            <Button Style="{StaticResource QuickConfigButton}" Command="{Binding LoadEliteConfigCommand}"
+                                    anim:ShowHideAnimation.Visibility="{Binding Tank.IsElite, Converter={StaticResource BoolToCollapsedVisibleConverter}}" VerticalAlignment="Center"
+                                    MouseEnter="LoadEliteConfigButton_MouseEnter" MouseLeave="LoadEliteConfigButton_MouseLeave">
+                                <Grid>
+                                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ElitizeBackground.png" Stretch="None" />
+                                </Grid>
+
+                                <Button.ToolTip>
+                                    <ToolTip x:Uid="LoadEliteConfigButtonToolTip">Load elite configuration</ToolTip>
+                                </Button.ToolTip>
+                            </Button>
+
+
+                            <Menu Style="{StaticResource ServiceMenu}">
+                                <Menu.Resources>
+                                    <Style TargetType="MenuItem" x:Key="HeaderItem" BasedOn="{StaticResource ServiceMenuTopLevelHeaderItem}">
+                                        <EventSetter Event="MouseEnter" Handler="ServiceMenuDetailedDataRelatedComponentHeader_MouseEnter" />
+                                        <EventSetter Event="MouseLeave" Handler="ServiceMenuDetailedDataRelatedComponentHeader_MouseLeave" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelPreviewableItem" BasedOn="{StaticResource ServiceMenuTopLevelItem}">
+                                        <EventSetter Event="PreviewMouseRightButtonDown" Handler="ServiceMenuPreviewableItem_PreviewMouseRightButtonDown" />
+                                        <EventSetter Event="PreviewMouseRightButtonUp" Handler="ServiceMenuPreviewableItem_PreviewMouseRightButtonUp" />
+                                        <EventSetter Event="MouseLeave" Handler="ServiceMenuPreviewableItem_MouseLeave" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelModuleOrShellItem" BasedOn="{StaticResource ServiceMenuTopLevelPreviewableItem}">
+                                        <EventSetter Event="MouseEnter" Handler="ServiceMenuTopLevelModuleOrShellItem_MouseEnter" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelEquipmentItem" BasedOn="{StaticResource ServiceMenuTopLevelPreviewableItem}">
+                                        <EventSetter Event="MouseEnter" Handler="ServiceMenuTopLevelEquipmentItem_MouseEnter" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelConsumableItem" BasedOn="{StaticResource ServiceMenuTopLevelPreviewableItem}">
+                                        <EventSetter Event="MouseEnter" Handler="ServiceMenuTopLevelConsumableItem_MouseEnter" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelEquipmentHeader" BasedOn="{StaticResource HeaderItem}">
+                                        <EventSetter Event="SubmenuOpened" Handler="ServiceMenuTopLevelEquipment_SubmenuOpened" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelConsumableHeader" BasedOn="{StaticResource HeaderItem}">
+                                        <EventSetter Event="SubmenuOpened" Handler="ServiceMenuTopLevelConsumable_SubmenuOpened" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuSecondLevelCrewItem" BasedOn="{StaticResource ServiceMenuSecondLevelCrewItemBase}">
+                                        <EventSetter Event="MouseEnter" Handler="ServiceMenuSecondLevelCrewItem_MouseEnter" />
+                                        <EventSetter Event="PreviewMouseRightButtonDown" Handler="ServiceMenuPreviewableItem_PreviewMouseRightButtonDown" />
+                                        <EventSetter Event="PreviewMouseRightButtonUp" Handler="ServiceMenuPreviewableItem_PreviewMouseRightButtonUp" />
+                                        <EventSetter Event="Click" Handler="ServiceMenuSecondLevelCrewItem_Click" />
+                                        <EventSetter Event="MouseLeave" Handler="ServiceMenuPreviewableItem_MouseLeave" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelCrewItem" BasedOn="{StaticResource ServiceMenuTopLevelCrewItemBase}">
+                                        <Setter Property="ItemContainerStyle" Value="{StaticResource ServiceMenuSecondLevelCrewItem}" />
+                                        <EventSetter Event="MouseEnter" Handler="ServiceMenuDetailedDataRelatedComponentHeader_MouseEnter" />
+                                        <EventSetter Event="MouseLeave" Handler="ServiceMenuPreviewableItem_MouseLeave" />
+                                        <EventSetter Event="SubmenuOpened" Handler="ServiceMenuTopLevelCrewItem_SubmenuOpened" />
+                                        <EventSetter Event="SubmenuClosed" Handler="ServiceMenuTopLevelCrewItem_SubmenuClosed" />
+                                    </Style>
+
+                                    <Style TargetType="MenuItem" x:Key="ServiceMenuTopLevelCrewHeader" BasedOn="{StaticResource ServiceMenuTopLevelCrewHeaderBase}">
+                                        <Setter Property="ItemContainerStyle" Value="{StaticResource ServiceMenuTopLevelCrewItem}" />
+                                        <EventSetter Event="MouseEnter" Handler="ServiceMenuDetailedDataRelatedComponentHeader_MouseEnter" />
+                                        <EventSetter Event="MouseLeave" Handler="ServiceMenuDetailedDataRelatedComponentHeader_MouseLeave" />
+                                        <EventSetter Event="SubmenuOpened" Handler="ServiceMenuTopLevelCrewHeader_SubmenuOpened" />
+                                        <EventSetter Event="SubmenuClosed" Handler="ServiceMenuTopLevelCrewHeader_SubmenuClosed" />
+                                    </Style>
+
+                                </Menu.Resources>
+                                <MenuItem Style="{StaticResource HeaderItem}" DataContext="{Binding Tank.LoadedModules.Gun}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelModuleOrShellItem}"/>
+                                <MenuItem Style="{StaticResource HeaderItem}" DataContext="{Binding Tank.LoadedModules.Turret}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelModuleOrShellItem}" />
+                                <MenuItem Style="{StaticResource HeaderItem}" DataContext="{Binding Tank.LoadedModules.Engine}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelModuleOrShellItem}" />
+                                <MenuItem Style="{StaticResource HeaderItem}" DataContext="{Binding Tank.LoadedModules.Chassis}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelModuleOrShellItem}" />
+                                <MenuItem Style="{StaticResource HeaderItem}" DataContext="{Binding Tank.LoadedModules.Radio}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelModuleOrShellItem}" />
+                                <Separator Style="{StaticResource ServiceMenuSeparator}"/>
+                                <MenuItem Style="{StaticResource HeaderItem}" DataContext="{Binding Tank.LoadedModules.Gun.SelectedShell}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelModuleOrShellItem}">
+                                    <MenuItem.Header>
+                                        <TextBlock Text="{Binding MaxAmmo}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5" />
+                                    </MenuItem.Header>
+                                </MenuItem>
+                                <Separator Style="{StaticResource ServiceMenuSeparator}"/>
+                                <MenuItem DataContext="{Binding Tank.LoadedEquipments[0]}" Tag="0" Style="{StaticResource ServiceMenuTopLevelEquipmentHeader}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelEquipmentItem}"/>
+                                <MenuItem DataContext="{Binding Tank.LoadedEquipments[1]}" Tag="1" Style="{StaticResource ServiceMenuTopLevelEquipmentHeader}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelEquipmentItem}"/>
+                                <MenuItem DataContext="{Binding Tank.LoadedEquipments[2]}" Tag="2" Style="{StaticResource ServiceMenuTopLevelEquipmentHeader}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelEquipmentItem}"/>
+                                <Separator Style="{StaticResource ServiceMenuSeparator}"/>
+                                <MenuItem DataContext="{Binding Tank.LoadedConsumables[0]}" Tag="0" Style="{StaticResource ServiceMenuTopLevelConsumableHeader}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelConsumableItem}"/>
+                                <MenuItem DataContext="{Binding Tank.LoadedConsumables[1]}" Tag="1" Style="{StaticResource ServiceMenuTopLevelConsumableHeader}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelConsumableItem}"/>
+                                <MenuItem DataContext="{Binding Tank.LoadedConsumables[2]}" Tag="2" Style="{StaticResource ServiceMenuTopLevelConsumableHeader}" ItemContainerStyle="{StaticResource ServiceMenuTopLevelConsumableItem}"/>
+                                <Separator Style="{StaticResource ServiceMenuSeparator}"/>
+                                <MenuItem DataContext="{Binding Tank.Crews}" Style="{StaticResource ServiceMenuTopLevelCrewHeader}" />
+                            </Menu>
+
+                        </Grid>
+                    </DockPanel>
+
+                </Grid>
+
+                <!-- Background Shadow and Highlight-->
+                <Grid IsHitTestVisible="False" Style="{StaticResource HideOnSniperMode}">
+                    <Grid.Background>
+                        <VisualBrush TileMode="Tile" Viewport="0,0,1,1">
+                            <VisualBrush.Visual>
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ContentBackgroundShadow.png" />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Grid.Background>
+                </Grid>
+            </Grid>
+        </Grid>
+    </AdornerDecorator>
+</UserControl>

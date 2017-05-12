@@ -1,0 +1,12 @@
+<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="HelloApp.Window1"
+    Title ="HelloApp"
+    Background="White"
+    >
+    <StackPanel>
+        <TextBlock x:Uid="loc1">Hello World</TextBlock>
+        <TextBlock x:Uid="loc2">Goodbye World</TextBlock>
+    </StackPanel>
+</Window>

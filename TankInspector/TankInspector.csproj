@@ -1,0 +1,1847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <UICulture>en-US</UICulture>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7038B15C-D530-44B7-8B95-EEE18C07E0DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Smellyriver.TankInspector</RootNamespace>
+    <AssemblyName>Smellyriver.TankInspector</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Tank Inspector</ProductName>
+    <PublisherName>Smellyriver</PublisherName>
+    <ApplicationRevision>1034</ApplicationRevision>
+    <ApplicationVersion>0.11.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NOLOGIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <LangVersion>5</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Smellyriver.TankInspector.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sti.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>33FAF4F6255E3BDA46FE453411452305097864A5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TankInspector_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="$(DefineConstants.Contains('PYTHON'))" />
+  </Choose>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs.Wpf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0c15020868fd6249, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ookii.Dialogs.1.0\lib\net35\Ookii.Dialogs.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.4.0.0-ci145\lib\net40\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Direct3D9.4.0.0-ci145\lib\net40\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Mathematics, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.Mathematics.4.0.0-ci145\lib\net40\SharpDX.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Smellyriver.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>3rdparty\Smellyriver.Common\Smellyriver.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Smellyriver.Wpf, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>3rdparty\Smellyriver.Common\Smellyriver.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Smellyriver.Wpf.Interop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>3rdparty\Smellyriver.Common\Smellyriver.Wpf.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Localizable>False</Localizable>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ApplicationSettings.cs" />
+    <Compile Include="ApplicationSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ApplicationSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationSettingsExtensions.cs" />
+    <Compile Include="DataAnalysis\ComplexDataItemViewDescriptor.cs" />
+    <Compile Include="DataAnalysis\DataGroupViewDescriptor.cs" />
+    <Compile Include="DataAnalysis\DataItemDescriptorBase.cs" />
+    <Compile Include="DataAnalysis\DataItemViewDescriptorCollection.cs" />
+    <Compile Include="DataAnalysis\DataSeparatorDescriptor.cs" />
+    <Compile Include="DataAnalysis\FixedSourceDataItemDescriptor.cs" />
+    <Compile Include="DataAnalysis\ICustomData.cs" />
+    <Compile Include="DataAnalysis\IValueTipContentElementProvider.cs" />
+    <Compile Include="DataAnalysis\IValueTipContentProvider.cs" />
+    <Compile Include="DataAnalysis\IUnitProvider.cs" />
+    <Compile Include="Design\CameraMode.cs" />
+    <Compile Include="Design\ComparedTankIconConverter.cs" />
+    <Compile Include="Design\CrewRoleIconConverter.cs" />
+    <Compile Include="Design\CrewRoleIconType.cs" />
+    <Compile Include="Design\CrewRankIconConverter.cs" />
+    <Compile Include="Design\CrewRankIconType.cs" />
+    <Compile Include="Design\DatabaseRelatedMultiValueConverter.cs" />
+    <Compile Include="Design\DatabaseRelatedValueConverter.cs" />
+    <Compile Include="Design\GUIImageConverter.cs" />
+    <Compile Include="Design\HalfConverter.cs" />
+    <Compile Include="Design\MainWindowContentHeightConverter.cs" />
+    <Compile Include="Design\MainWindowContentWidthConverter.cs" />
+    <Compile Include="Design\NegativeConverter.cs" />
+    <Compile Include="Design\RatioToSolidColorBrushConverter.cs" />
+    <Compile Include="Design\RomanNumber.cs" />
+    <Compile Include="Design\RomanNumberService.cs" />
+    <Compile Include="Graphics\ModelTexture.cs" />
+    <Compile Include="Graphics\ModelTextureManager.cs" />
+    <Compile Include="Graphics\Scene\CollisionModelHitTestResult.cs" />
+    <Compile Include="Graphics\Scene\HangerScene.HUD.cs" />
+    <Compile Include="Graphics\Scene\ProjectileTracerHitTestResult.cs" />
+    <Compile Include="Graphics\Scene\TestShellInfo.cs" />
+    <Compile Include="Graphics\Scene\ProjectileTracer.cs" />
+    <Compile Include="IO\IPackageIndexer.cs" />
+    <Compile Include="Modeling\Additional\CamouflageValues.cs" />
+    <Compile Include="Modeling\Database.Search.cs" />
+    <Compile Include="Modeling\DatabaseKey.cs" />
+    <Compile Include="Modeling\DatabaseObject.cs" />
+    <Compile Include="Modeling\IDatabaseObject.cs" />
+    <Compile Include="Modeling\PackageDatabase.cs" />
+    <Compile Include="Modeling\StatAttributeBase.cs" />
+    <Compile Include="Modeling\StatGroupAttribute.cs" />
+    <Compile Include="Modeling\StatSubItemAttribute.cs" />
+    <Compile Include="Modeling\Tank\AfterburningScript.cs" />
+    <Compile Include="Modeling\Tank\ArtilleryScript.cs" />
+    <Compile Include="Modeling\Tank\BadRoadsKingSkill.cs" />
+    <Compile Include="Modeling\Tank\BomberScript.cs" />
+    <Compile Include="Modeling\Tank\BrotherhoodSkill.cs" />
+    <Compile Include="Modeling\Tank\Invisibility.cs" />
+    <Compile Include="Modeling\Tank\CamouflageSkill.cs" />
+    <Compile Include="Modeling\Tank\CommanderSkill.cs" />
+    <Compile Include="Modeling\Tank\CrewBasicSkill.cs" />
+    <Compile Include="Modeling\Tank\CrewRole.cs" />
+    <Compile Include="Modeling\Tank\CrewSkillType.cs" />
+    <Compile Include="Modeling\Tank\DesperadoSkill.cs" />
+    <Compile Include="Modeling\Tank\DriverSkill.cs" />
+    <Compile Include="Modeling\Tank\DuplicatedCrewSkillPolicy.cs" />
+    <Compile Include="Modeling\ExpandableStatAttribute.cs" />
+    <Compile Include="Modeling\Tank\ExpertSkill.cs" />
+    <Compile Include="Modeling\Tank\ExtraPitchLimit.cs" />
+    <Compile Include="Modeling\Tank\ExtraPitchLimits.cs" />
+    <Compile Include="Modeling\Tank\FinderSkill.cs" />
+    <Compile Include="Modeling\Tank\FireFightingSkill.cs" />
+    <Compile Include="Modeling\Tank\GunnerSkill.cs" />
+    <Compile Include="Modeling\Tank\CrewSkillBase.cs" />
+    <Compile Include="Modeling\Tank\GunsmithSkill.cs" />
+    <Compile Include="Modeling\Tank\GunVerticalTraverse.cs" />
+    <Compile Include="Modeling\Tank\IntuitionSkill.cs" />
+    <Compile Include="Modeling\Tank\InventorSkill.cs" />
+    <Compile Include="Modeling\Tank\ITankExtensions.cs" />
+    <Compile Include="Modeling\Tank\LastEffortSkill.cs" />
+    <Compile Include="Modeling\Tank\PedantSkill.cs" />
+    <Compile Include="Modeling\Tank\RammingMasterSkill.cs" />
+    <Compile Include="Modeling\Tank\RancorousSkill.cs" />
+    <Compile Include="Modeling\Tank\RetransmitterSkill.cs" />
+    <Compile Include="Modeling\Tank\SmoothTurretSkill.cs" />
+    <Compile Include="Modeling\Tank\SniperSkill.cs" />
+    <Compile Include="Modeling\StatAttribute.cs" />
+    <Compile Include="Modeling\Tank\TypeCompDescr.cs" />
+    <Compile Include="Modeling\Tank\UniversalistSkill.cs" />
+    <Compile Include="Modeling\Tank\LoaderSkill.cs" />
+    <Compile Include="Modeling\Tank\TutorSkill.cs" />
+    <Compile Include="Modeling\Tank\ModificationContext.cs" />
+    <Compile Include="Modeling\Tank\AntifragmentationLiningScript.cs" />
+    <Compile Include="Modeling\Tank\CamouflageNetScript.cs" />
+    <Compile Include="Modeling\Tank\Consumable.cs" />
+    <Compile Include="Modeling\Tank\ConsumableDatabase.cs" />
+    <Compile Include="Modeling\Tank\ConsumableScript.cs" />
+    <Compile Include="Modeling\Tank\CrewSkill.cs" />
+    <Compile Include="Modeling\Tank\CrewDatabase.cs" />
+    <Compile Include="Modeling\Tank\EnhancedSuspensionScript.cs" />
+    <Compile Include="Modeling\Tank\Accessory.cs" />
+    <Compile Include="Modeling\Tank\EquipmentDatabase.cs" />
+    <Compile Include="Modeling\Tank\ArmorGroup.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkAmmoBay.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkChassis.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkCommodity.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkDamageableComponent.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkDamageableModule.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkEngine.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkFuelTank.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkHull.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkModule.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkRadio.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkShell.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkSurveyingDevice.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkTank.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkTankObject.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkTurret.cs" />
+    <Compile Include="Modeling\Tank\BenchmarkTurretRotator.cs" />
+    <Compile Include="Modeling\Additional\CamouflageValue.cs" />
+    <Compile Include="Modeling\Additional\CamouflageValueEntry.cs" />
+    <Compile Include="Modeling\Tank\DefaultArmorGroups.cs" />
+    <Compile Include="Modeling\Tank\Equipment.cs" />
+    <Compile Include="Modeling\Tank\EquipmentScript.cs" />
+    <Compile Include="Modeling\Tank\ExtinguisherScript.cs" />
+    <Compile Include="Modeling\Tank\FuelScript.cs" />
+    <Compile Include="Modeling\Tank\GrousersScript.cs" />
+    <Compile Include="Modeling\Tank\IAmmoBay.cs" />
+    <Compile Include="Modeling\Tank\IDamageableComponent.cs" />
+    <Compile Include="Modeling\Tank\IHasModel.cs" />
+    <Compile Include="Modeling\Tank\IShell.cs" />
+    <Compile Include="Modeling\Tank\ISurveyingDevice.cs" />
+    <Compile Include="Modeling\Tank\ITankInfo.cs" />
+    <Compile Include="Modeling\Tank\ITurretRotator.cs" />
+    <Compile Include="Modeling\Tank\MatchmakingWeightRules.cs" />
+    <Compile Include="Modeling\Tank\IModifier.cs" />
+    <Compile Include="Modeling\Tank\TidyPersonSkill.cs" />
+    <Compile Include="Modeling\Tank\RadiomanSkill.cs" />
+    <Compile Include="Modeling\Tank\EagleEyeSkill.cs" />
+    <Compile Include="Modeling\Tank\RemovedRpmLimiterScript.cs" />
+    <Compile Include="Modeling\Tank\RepairkitScript.cs" />
+    <Compile Include="Modeling\Tank\RepairSkill.cs" />
+    <Compile Include="Modeling\Tank\SixthSenseSkill.cs" />
+    <Compile Include="Modeling\Tank\SmoothDrivingSkill.cs" />
+    <Compile Include="Modeling\Tank\StaticAdditiveDeviceScript.cs" />
+    <Compile Include="Modeling\Tank\StaticFactorDeviceScript.cs" />
+    <Compile Include="Modeling\Tank\StereoscopeScript.cs" />
+    <Compile Include="Modeling\Tank\StimulatorScript.cs" />
+    <Compile Include="Modeling\Tank\VehicleFilter.cs" />
+    <Compile Include="Modeling\Tank\VirtualAmmoBay.cs" />
+    <Compile Include="Modeling\Tank\VirtualChassis.cs" />
+    <Compile Include="Modeling\Tank\VirtualCommodity.cs" />
+    <Compile Include="Modeling\Tank\VirtualDamageableComponent.cs" />
+    <Compile Include="Modeling\Tank\VirtualDamageableModule.cs" />
+    <Compile Include="Modeling\Tank\VirtualEngine.cs" />
+    <Compile Include="Modeling\Tank\VirtualFuelTank.cs" />
+    <Compile Include="Modeling\Tank\VirtualGun.cs" />
+    <Compile Include="Modeling\Tank\VirtualHull.cs" />
+    <Compile Include="Modeling\Tank\VirtualModule.cs" />
+    <Compile Include="Modeling\Tank\VirtualRadio.cs" />
+    <Compile Include="Modeling\Tank\VirtualShell.cs" />
+    <Compile Include="Modeling\Tank\VirtualSurveyingDevice.cs" />
+    <Compile Include="Modeling\Tank\VirtualTank.cs" />
+    <Compile Include="Modeling\Tank\VirtualTankObject.cs" />
+    <Compile Include="Modeling\Tank\IChassis.cs" />
+    <Compile Include="Modeling\Tank\ICommodity.cs" />
+    <Compile Include="Modeling\Tank\IDamageableModule.cs" />
+    <Compile Include="Modeling\Tank\IEngine.cs" />
+    <Compile Include="Modeling\Tank\IFuelTank.cs" />
+    <Compile Include="Modeling\Tank\IGun.cs" />
+    <Compile Include="Modeling\Tank\IHull.cs" />
+    <Compile Include="Modeling\Tank\IModule.cs" />
+    <Compile Include="Modeling\Tank\IRadio.cs" />
+    <Compile Include="Modeling\Tank\ITank.cs" />
+    <Compile Include="Modeling\Tank\ITankObject.cs" />
+    <Compile Include="Modeling\Tank\ITurret.cs" />
+    <Compile Include="Modeling\Tank\VirtualTurret.cs" />
+    <Compile Include="Modeling\Tank\VirtualTurretRotator.cs" />
+    <Compile Include="Design\SharpDXConverter.cs" />
+    <Compile Include="Graphics\Frameworks\Cameras.cs" />
+    <Compile Include="Graphics\Frameworks\D3D.cs" />
+    <Compile Include="Graphics\Frameworks\D3D9.cs" />
+    <Compile Include="Graphics\Frameworks\DisposeGroup.cs" />
+    <Compile Include="Graphics\Frameworks\Disposer.cs" />
+    <Compile Include="Graphics\Frameworks\DrawEventArgs.cs" />
+    <Compile Include="Graphics\Frameworks\DXElement.cs" />
+    <Compile Include="Graphics\Frameworks\D3D9ImageSource.cs" />
+    <Compile Include="Graphics\Frameworks\DXUtils.cs" />
+    <Compile Include="Graphics\Frameworks\FPS.cs" />
+    <Compile Include="Graphics\Frameworks\IDirect3D.cs" />
+    <Compile Include="Graphics\Scene\HangarScene.cs" />
+    <Compile Include="Graphics\Scene\QuadRender.cs" />
+    <Compile Include="Graphics\Scene\SceneBase.cs" />
+    <Compile Include="Graphics\Scene\SceneMeshBase.cs" />
+    <Compile Include="Graphics\Scene\TankMesh.cs" />
+    <Compile Include="Graphics\Smaa\SMAA.cs" />
+    <Compile Include="Modeling\Tank\VirtuosoSkill.cs" />
+    <Compile Include="Modeling\Tank\WoodHunterSkill.cs" />
+    <Compile Include="AppState.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>AppState.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SafeLog.cs" />
+    <Compile Include="UIComponents\AccessoryViewModelBase.cs" />
+    <Compile Include="UIComponents\AmmoBayViewModel.cs" />
+    <Compile Include="UIComponents\ArmorIndicator.xaml.cs">
+      <DependentUpon>ArmorIndicator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\BattleTiersViewModel.cs" />
+    <Compile Include="UIComponents\CamouflageValueComponentViewModel.cs" />
+    <Compile Include="UIComponents\CamouflageValueComponentWithCamouflageNetViewModel.cs" />
+    <Compile Include="UIComponents\ChangeAnimationContentControl.cs" />
+    <Compile Include="UIComponents\CanTraverseViewModel.cs" />
+    <Compile Include="UIComponents\CircularVisionRadiusViewModel.cs" />
+    <Compile Include="UIComponents\ConsumableViewModel.cs" />
+    <Compile Include="UIComponents\CrewBasicSkillViewModel.cs" />
+    <Compile Include="UIComponents\CrewSkillViewModel.cs" />
+    <Compile Include="UIComponents\CrewSkillViewModelBase.cs" />
+    <Compile Include="UIComponents\CrewViewModel.cs" />
+    <Compile Include="UIComponents\CrewViewModelCollection.cs" />
+    <Compile Include="UIComponents\Cursors.cs" />
+    <Compile Include="UIComponents\GameClientVersionTag.xaml.cs">
+      <DependentUpon>GameClientVersionTag.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\GunDepressionViewModel.cs" />
+    <Compile Include="UIComponents\GunElevationViewModel.cs" />
+    <Compile Include="UIComponents\GunVerticalTraverseComponentView.xaml.cs">
+      <DependentUpon>GunVerticalTraverseComponentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\GunVerticalTraverseComponentViewModel.cs" />
+    <Compile Include="UIComponents\EmptyConsumableViewModel.cs" />
+    <Compile Include="UIComponents\EmptyEquipmentViewModel.cs" />
+    <Compile Include="UIComponents\AccessoryView.xaml.cs">
+      <DependentUpon>AccessoryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\EquivalentArmorView.xaml.cs">
+      <DependentUpon>EquivalentArmorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\EquivalentArmorViewModel.cs" />
+    <Compile Include="Graphics\Scene\ShootTestResult.cs" />
+    <Compile Include="UIComponents\GunTraverseHelper.cs" />
+    <Compile Include="UIComponents\IPreviewable.cs" />
+    <Compile Include="UIComponents\IPriorityItem.cs" />
+    <Compile Include="UIComponents\MainWindowOverlayViewModel.cs" />
+    <Compile Include="UIComponents\MessagesWindow.xaml.cs">
+      <DependentUpon>MessagesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\MessagesWindowViewModel.cs" />
+    <Compile Include="UIComponents\MessageViewModel.cs" />
+    <Compile Include="Graphics\Scene\PenetrationState.cs" />
+    <Compile Include="UIComponents\HealthViewModel.cs" />
+    <Compile Include="UIComponents\DataViewPriorityItemsControl.cs" />
+    <Compile Include="UIComponents\DetailedDataGroupView.xaml.cs">
+      <DependentUpon>DetailedDataGroupView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\RemoveConsumableViewModel.cs" />
+    <Compile Include="UIComponents\RemoveEquipmentViewModel.cs" />
+    <Compile Include="UIComponents\EmptyAccessoryViewModel.cs" />
+    <Compile Include="UIComponents\AccessoryViewModel.cs" />
+    <Compile Include="UIComponents\EquipmentViewModel.cs" />
+    <Compile Include="UIComponents\FirstRunWindow.xaml.cs">
+      <DependentUpon>FirstRunWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\HelpAdorner.cs" />
+    <Compile Include="UIComponents\HelpService.cs" />
+    <Compile Include="UIComponents\IConsumableViewModel.cs" />
+    <Compile Include="UIComponents\IAccessoryViewModel.cs" />
+    <Compile Include="UIComponents\IEquipmentViewModel.cs" />
+    <Compile Include="UIComponents\ModelViewModel.CollisionModel.cs" />
+    <Compile Include="UIComponents\ReferenceTankType.cs" />
+    <Compile Include="UIComponents\ComplexDataItemViewModel.cs" />
+    <Compile Include="UIComponents\ReferenceTankChangedEventArgs.cs" />
+    <Compile Include="UIComponents\DataItem.cs" />
+    <Compile Include="UIComponents\DataGroupViewModel.cs" />
+    <Compile Include="DataAnalysis\DataItemViewDescriptor.cs" />
+    <Compile Include="DataAnalysis\DataItemViewDescriptorBase.cs" />
+    <Compile Include="DataAnalysis\IDataViewDescriptor.cs" />
+    <Compile Include="Design\RectangleToPositionsConverter.cs" />
+    <Compile Include="IO\MoDecoding\FastBinaryReader.cs" />
+    <Compile Include="IO\MoDecoding\MoData.cs" />
+    <Compile Include="IO\PackageFileInfo.cs" />
+    <Compile Include="IO\PackageImage.cs" />
+    <Compile Include="IO\ShellIcon.cs" />
+    <Compile Include="IO\XmlDecoding\BigworldXmlReader.cs" />
+    <Compile Include="Design\BoolConverter.cs" />
+    <Compile Include="Design\ContentButtonBrightnessEffect.cs" />
+    <Compile Include="Design\ContentButtonStyle.cs" />
+    <Compile Include="Design\FuelTypeNameConverter.cs" />
+    <Compile Include="Design\BottomMarginConverter.cs" />
+    <Compile Include="Design\LocalizationExtension.cs" />
+    <Compile Include="Design\ModelConverter.cs" />
+    <Compile Include="Design\CurrencyIconConverter.cs" />
+    <Compile Include="Design\ExperienceIconConverter.cs" />
+    <Compile Include="Design\ReversedEnumerableConverter.cs" />
+    <Compile Include="Design\ShellIconConverter.cs" />
+    <Compile Include="Design\ShellTypeNameConverter.cs" />
+    <Compile Include="Design\TankClassNameConverter.cs" />
+    <Compile Include="Graphics\DDSImage.cs" />
+    <Compile Include="Graphics\Geometry.cs" />
+    <Compile Include="Graphics\ModelMaterial.cs" />
+    <Compile Include="Graphics\ModelMaterialProperty.cs" />
+    <Compile Include="Graphics\ModelPrimitiveGroup.cs" />
+    <Compile Include="Graphics\ModelSectionDeserializable.cs" />
+    <Compile Include="Graphics\ModelRenderSet.cs" />
+    <Compile Include="Graphics\ModelVisual.cs" />
+    <Compile Include="Design\TankTierIconType.cs" />
+    <Compile Include="Graphics\Trackball.cs" />
+    <Compile Include="Modeling\Additional\BattleTierSpan.cs" />
+    <Compile Include="Modeling\Additional\BattleTierRules.cs" />
+    <Compile Include="Graphics\ModelPrimitive.cs" />
+    <Compile Include="Graphics\Vertex.cs" />
+    <Compile Include="IO\Cache.cs" />
+    <Compile Include="Modeling\Tank\CommonVehicleDatabase.cs" />
+    <Compile Include="DataAnalysis\DataItemDescriptor.cs" />
+    <Compile Include="Modeling\Tank\IHasArmor.cs" />
+    <Compile Include="Modeling\Tank\LODVisual.cs" />
+    <Compile Include="Modeling\Tank\ModelInfo.cs" />
+    <Compile Include="Modeling\Tank\HierachyInfo.cs" />
+    <Compile Include="Modeling\Additional\RegularBattleTierRule.cs" />
+    <Compile Include="Modeling\Tank\HandSide.cs" />
+    <Compile Include="Modeling\Additional\SpecialBattleTierRule.cs" />
+    <Compile Include="IO\LoadingImage.cs" />
+    <Compile Include="IO\PackageStream.cs" />
+    <Compile Include="IO\TankIcon.cs" />
+    <Compile Include="IO\TankIconType.cs" />
+    <Compile Include="IO\XmlDecoding\PackedSection.cs" />
+    <Compile Include="IO\XmlDecoding\PrimitiveReader.cs" />
+    <Compile Include="IO\XmlDecoding\XmlDecoder.cs" />
+    <Compile Include="Design\BoolToVisibilityConverter.cs" />
+    <Compile Include="Design\NationalFlagConverter.cs" />
+    <Compile Include="Design\NationalFlagType.cs" />
+    <Compile Include="Design\TankClassIconConverter.cs" />
+    <Compile Include="Design\TankClassConversionType.cs" />
+    <Compile Include="Design\TankIconConverter.cs" />
+    <Compile Include="IO\Gettext\DummyIResourceReader.cs" />
+    <Compile Include="IO\Gettext\GettextResourceManager.cs" />
+    <Compile Include="IO\Gettext\GettextResourceSet.cs" />
+    <Compile Include="Design\TankTierIconConverter.cs" />
+    <Compile Include="MainWindowViewModel.cs" />
+    <Compile Include="Modeling\Tank\TankObjectKey.cs" />
+    <Compile Include="Modeling\Tank\TankObjectType.cs" />
+    <Compile Include="Modeling\Tank\TechTree.cs" />
+    <Compile Include="Modeling\Tank\TechTreeLayout.cs" />
+    <Compile Include="Modeling\Tank\TechTreeLayoutGridDefinition.cs" />
+    <Compile Include="Modeling\Tank\TechTreeLayoutNode.cs" />
+    <Compile Include="Modeling\LocalizationDatabase.cs" />
+    <Compile Include="Modeling\TextDataInfo.cs" />
+    <Compile Include="Modeling\Tank\TrackMaterial.cs" />
+    <Compile Include="Modeling\Vector3D.cs" />
+    <Compile Include="Modeling\Vector4D.cs" />
+    <Compile Include="Modeling\Tank\WheelGroupDefinition.cs" />
+    <Compile Include="Modeling\Tank\WheelDefinition.cs" />
+    <Compile Include="Modeling\Tank\WheelInfo.cs" />
+    <Compile Include="Modeling\XmlReaderExtensions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="UIComponents\BriefTankTipView.xaml.cs">
+      <DependentUpon>BriefTankTipView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Design\ExperienceType.cs" />
+    <Compile Include="UIComponents\ChassisView.xaml.cs">
+      <DependentUpon>ChassisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\ChassisViewModel.cs" />
+    <Compile Include="UIComponents\ClassView.xaml.cs">
+      <DependentUpon>ClassView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\CommodityViewModel.cs" />
+    <Compile Include="UIComponents\CompactShellView.xaml.cs">
+      <DependentUpon>CompactShellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\CreditsView.xaml.cs">
+      <DependentUpon>CreditsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\CreditsViewModel.cs" />
+    <Compile Include="UIComponents\DamagableComponentView.xaml.cs">
+      <DependentUpon>DamagableComponentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\DamagableComponentViewModel.cs" />
+    <Compile Include="UIComponents\DamagableModuleViewModel.cs" />
+    <Compile Include="UIComponents\DataItemViewModel.cs" />
+    <Compile Include="UIComponents\DataItemViewModelBase.cs" />
+    <Compile Include="UIComponents\DataSeparatorViewModel.cs" />
+    <Compile Include="UIComponents\DataView.xaml.cs">
+      <DependentUpon>DataView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\DataViewModel.cs" />
+    <Compile Include="UIComponents\DeltaValueDisplayMode.cs" />
+    <Compile Include="UIComponents\DetailedDataRelatedComponentType.cs" />
+    <Compile Include="UIComponents\DetailedDataView.xaml.cs">
+      <DependentUpon>DetailedDataView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\DetailedDataViewModel.Comparation.cs" />
+    <Compile Include="UIComponents\DetailedDataViewModel.cs" />
+    <Compile Include="UIComponents\DetailedDataViewModel.DataGroups.cs" />
+    <Compile Include="UIComponents\DetailedDataViewModel.EventHandling.cs" />
+    <Compile Include="UIComponents\DragScrollViewer.cs" />
+    <Compile Include="UIComponents\EngineView.xaml.cs">
+      <DependentUpon>EngineView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\EngineViewModel.cs" />
+    <Compile Include="UIComponents\ExperienceView.xaml.cs">
+      <DependentUpon>ExperienceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\HangarViewModel.Search.cs" />
+    <Compile Include="UIComponents\HangarViewModel.UIStates.cs" />
+    <Compile Include="UIComponents\PricePerDamageViewModel.cs" />
+    <Compile Include="UIComponents\FuelTankView.xaml.cs">
+      <DependentUpon>FuelTankView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\FuelTankViewModel.cs" />
+    <Compile Include="UIComponents\FuelTypeViewModel.cs" />
+    <Compile Include="UIComponents\GearView.xaml.cs">
+      <DependentUpon>GearView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\GunView.xaml.cs">
+      <DependentUpon>GunView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\GunViewModel.cs" />
+    <Compile Include="UIComponents\HangarView.xaml.cs">
+      <DependentUpon>HangarView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modeling\Tank\AmmoBay.cs" />
+    <Compile Include="Modeling\Tank\Armor.cs" />
+    <Compile Include="Modeling\Tank\Burst.cs" />
+    <Compile Include="Modeling\Tank\Camouflage.cs" />
+    <Compile Include="Modeling\Tank\Chassis.cs" />
+    <Compile Include="Modeling\Tank\ChassisShotDispersion.cs" />
+    <Compile Include="Modeling\Tank\Clip.cs" />
+    <Compile Include="Modeling\Tank\Commodity.cs" />
+    <Compile Include="Modeling\NationalDatabase.cs" />
+    <Compile Include="Modeling\Tank\Crew.cs" />
+    <Compile Include="Modeling\Tank\CrewRoleType.cs" />
+    <Compile Include="Modeling\Tank\DamageableComponent.cs" />
+    <Compile Include="Modeling\Tank\DamageableModule.cs" />
+    <Compile Include="Modeling\Database.cs" />
+    <Compile Include="Modeling\Tank\Hull.cs" />
+    <Compile Include="Modeling\Tank\ISectionDeserializableImpl.cs" />
+    <Compile Include="Modeling\Tank\FuelTank.cs" />
+    <Compile Include="Modeling\Tank\FuelType.cs" />
+    <Compile Include="Modeling\Tank\HorizontalTraverse.cs" />
+    <Compile Include="Modeling\Tank\PitchLimits.cs" />
+    <Compile Include="Modeling\Tank\IDamageable.cs" />
+    <Compile Include="Modeling\Tank\Engine.cs" />
+    <Compile Include="Modeling\Tank\Gun.cs" />
+    <Compile Include="Modeling\Tank\IDeserializable.cs" />
+    <Compile Include="Modeling\Tank\ISectionDeserializable.cs" />
+    <Compile Include="Modeling\Tank\Module.cs" />
+    <Compile Include="Modeling\Tank\ModuleType.cs" />
+    <Compile Include="Modeling\Tank\PiercingPower.cs" />
+    <Compile Include="Modeling\Tank\PrimaryArmorKeys.cs" />
+    <Compile Include="Modeling\Tank\Radio.cs" />
+    <Compile Include="Modeling\Tank\Shell.cs" />
+    <Compile Include="Modeling\Tank\ShellDamage.cs" />
+    <Compile Include="Modeling\Tank\CurrencyType.cs" />
+    <Compile Include="Modeling\Tank\ShellType.cs" />
+    <Compile Include="Modeling\Tank\SpeedLimits.cs" />
+    <Compile Include="Modeling\Tank\SurveyingDevice.cs" />
+    <Compile Include="Modeling\Tank\TankInfo.cs" />
+    <Compile Include="Modeling\Tank\TankObject.cs" />
+    <Compile Include="Modeling\Tank\Tank.cs" />
+    <Compile Include="UIComponents\HorizontalTraverseViewModel.cs" />
+    <Compile Include="UIComponents\HullViewModel.cs" />
+    <Compile Include="UIComponents\IChangableComponent.cs" />
+    <Compile Include="UIComponents\IReferenceTankProvider.cs" />
+    <Compile Include="UIComponents\IDetailedDataRelatedComponent.cs" />
+    <Compile Include="UIComponents\ISlotViewModel.cs" />
+    <Compile Include="UIComponents\ModelView.xaml.cs">
+      <DependentUpon>ModelView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\NationalTechTreeNodeViewModel.cs" />
+    <Compile Include="UIComponents\NationalTechTreePageViewModel.cs" />
+    <Compile Include="UIComponents\NationalTechTreePageView.xaml.cs">
+      <DependentUpon>NationalTechTreePageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\PiercingPowerViewModel.cs" />
+    <Compile Include="UIComponents\PriceViewModel.cs" />
+    <Compile Include="UIComponents\RadioView.xaml.cs">
+      <DependentUpon>RadioView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Design\RatioToComparationIconConverter.cs" />
+    <Compile Include="UIComponents\RenderActivityLevel.cs" />
+    <Compile Include="UIComponents\SearchResultItemViewModel.cs" />
+    <Compile Include="UIComponents\SettingsView.xaml.cs">
+      <DependentUpon>SettingsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\SettingsViewModel.cs" />
+    <Compile Include="UIComponents\ShellArmorDamageViewModel.cs" />
+    <Compile Include="UIComponents\SniperModeDecorator.xaml.cs">
+      <DependentUpon>SniperModeDecorator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\SurveyingDeviceViewModel.cs" />
+    <Compile Include="UIComponents\TankFigureType.cs" />
+    <Compile Include="UIComponents\TankObjectViewModelFactory.cs" />
+    <Compile Include="UIComponents\TankViewModelBase.Components.cs" />
+    <Compile Include="UIComponents\TankViewModelBase.DataItemDescriptors.cs" />
+    <Compile Include="UIComponents\TankViewModelBase.ModuleViewModels.cs" />
+    <Compile Include="Modeling\Tank\TankClass.cs" />
+    <Compile Include="Modeling\Tank\TerrainResistance.cs" />
+    <Compile Include="Modeling\Tank\Turret.cs" />
+    <Compile Include="Modeling\Tank\TurretRotator.cs" />
+    <Compile Include="Modeling\Tank\TurretShotDispersion.cs" />
+    <Compile Include="Modeling\Tank\UnlockInfo.cs" />
+    <Compile Include="UIComponents\HangarViewModel.cs" />
+    <Compile Include="UIComponents\LoadingView.xaml.cs">
+      <DependentUpon>LoadingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\LoadingViewModel.cs" />
+    <Compile Include="UIComponents\ModelViewModel.cs" />
+    <Compile Include="Graphics\Model.cs" />
+    <Compile Include="UIComponents\ModuleViewModel.cs" />
+    <Compile Include="UIComponents\PriceView.xaml.cs">
+      <DependentUpon>PriceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\RadioViewModel.cs" />
+    <Compile Include="UIComponents\ShellView.xaml.cs">
+      <DependentUpon>ShellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\ShellViewModel.cs" />
+    <Compile Include="UIComponents\TankObjectViewModel.cs" />
+    <Compile Include="UIComponents\TankViewModel.cs" />
+    <Compile Include="UIComponents\TankGalleryItemViewModel.cs" />
+    <Compile Include="UIComponents\TankGalleryPageViewModel.cs" />
+    <Compile Include="UIComponents\TankGalleryView.xaml.cs">
+      <DependentUpon>TankGalleryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\TankGalleryViewModel.cs" />
+    <Compile Include="UIComponents\TankViewModelBase.cs" />
+    <Compile Include="UIComponents\TankViewModelCloneFlags.cs" />
+    <Compile Include="UIComponents\TelescopeView.xaml.cs">
+      <DependentUpon>TelescopeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\TestView.xaml.cs">
+      <DependentUpon>TestView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\TierView.xaml.cs">
+      <DependentUpon>TierView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\ComparedValueView.xaml.cs">
+      <DependentUpon>ComparedValueView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataAnalysis\ComparisonMode.cs" />
+    <Compile Include="UIComponents\Capture3DInputBorder.xaml.cs">
+      <DependentUpon>Capture3DInputBorder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\TurretController.xaml.cs">
+      <DependentUpon>TurretController.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\TurretRotatorViewModel.cs" />
+    <Compile Include="UIComponents\TurretView.xaml.cs">
+      <DependentUpon>TurretView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIComponents\TurretViewModel.cs" />
+    <Compile Include="UIComponents\BenchmarkShellViewModel.cs" />
+    <Compile Include="UIComponents\BenchmarkTankViewModel.cs" />
+    <Compile Include="UIComponents\WeightViewModel.cs" />
+    <Page Include="LocalizationResources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="themes\DataDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="themes\generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="themes\Hangar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="themes\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="themes\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="themes\TechTree.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="themes\ToolWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\ArmorIndicator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\BriefTankTipView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\ChassisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\ClassView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\CompactShellView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\CreditsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\DamagableComponentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\DataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\DetailedDataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\EngineView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\AccessoryView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\EquivalentArmorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\ExperienceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\FirstRunWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\FuelTankView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\GameClientVersionTag.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\GearView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\GunVerticalTraverseComponentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\GunView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\HangarView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="UIComponents\LoadingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\MessagesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\ModelView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\NationalTechTreePageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\PriceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\DetailedDataGroupView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UIComponents\RadioView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\SettingsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\ShellView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\SniperModeDecorator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\TankGalleryView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\TelescopeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\TestView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\TierView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\ComparedValueView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\Capture3DInputBorder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\TurretController.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIComponents\TurretView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ApplicationSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ApplicationSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Graphics\Texture\AreaTexDX9.dds">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Graphics\Texture\random-normal.dds">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Graphics\Texture\random.dds">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Graphics\Texture\SearchTex.dds">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\de.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\en-gb.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\fr.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\hu.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\ko.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\loc-csv.bat" />
+    <None Include="Localization\loc-dll.bat" />
+    <Compile Include="Modeling\Database.Maintainance.cs" />
+    <None Include="Localization\pl.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\ru.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\zh-hans.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\zh-hant.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\zh-tw.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Properties\TankInspectorKey.pfx" />
+    <None Include="AppState.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>AppState.Designer.cs</LastGenOutput>
+    </None>
+    <Resource Include="Resources\Fonts\wscsnbd.TTF">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Fonts\wscsnbdit.TTF">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Fonts\wscsnit.TTF">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Fonts\wscsnrg.TTF">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\Header.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\ContentBackgroundShadow.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\Flags\AmericaLargeBlurred.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\AmericaSmall.bmp">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\BritishLargeBlurred.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\BritishSmall.bmp">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\ChinaLargeBlurred.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\ChinaSmall.bmp">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\FranceLargeBlurred.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\FranceSmall.bmp">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\GermanyLargeBlurred.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\GermanySmall.bmp">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\JapanLargeBlurred.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\JapanSmall.bmp">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\SovietLargeBlurred.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\Flags\SovietSmall.bmp">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\Title.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\WotLogo.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\DatabaseItem.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\TankIcons\Classes\HeavyTank.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\HeavyTankElite.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\LightTank.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\LightTankElite.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\MediumTank.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\MediumTankElite.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\SelfPropelledGun.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\SelfPropelledGunElite.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\TankDestroyer.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\TankDestroyerElite.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\TankIconFrame.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\GameElements\Credit.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\Gold.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\SmallTankIconFrame.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\LeadToArrow.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\TankIcons\Tiers\1.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\10.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\2.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\3.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\4.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\5.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\6.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\7.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\8.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\9.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\BattleLevelBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\UIElements\MMFrame.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Additional\BattleTiers.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Additional\Camouflage.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Images\Flags\SwedenSmall.bmp" />
+    <Resource Include="Resources\Images\Flags\CzechLargeBlurred.png" />
+    <Resource Include="Resources\Images\Flags\CzechSmall.bmp" />
+    <SplashScreen Include="Resources\Images\UIElements\Splash.jpg" />
+    <Resource Include="Resources\Images\UIElements\ProText22.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ProIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SwitchReference.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\SPGGun.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\SPGHull.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\TankHull.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\TankTurret.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\TDGun.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\TDHull.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SettingsPanelBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\DropDownButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Fonts\OpenSans-CondLight.ttf">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Content Include="Graphics\Effect\HudEffect.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cursors\arrow.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cursors\crosshair.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cursors\drag.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cursors\hand.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cursors\hold.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cursors\ibeam.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Images\UIElements\PopupPanel.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\PopupTabNormal.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\PopupTabSelected.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\PopupWindowCloseButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Content Include="Resources\Cursors\rotate.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cursors\slide.cur">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Images\UIElements\LearnBiABackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LearnCamoBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Title-zh-HANS.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Title-zh-HANT.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LogoBig.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LogoSmall.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\sti.ico">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="sti.ico">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\MoveDirectionArrow.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\DarkGreenBulb.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LightGreenBulb.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\RedBulb.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LiveStatTipBanner.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LiveStatBanner.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationHigher1.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationHigher2.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationHigher3.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationLower1.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationLower2.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationLower3.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationPlainEquals.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\APCRShellNoDecal.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\APShellNoDecal.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\HEATShellNoDecal.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\HEShellNoDecal.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorNormalizationIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ImpactAngleIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\2xRuleIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\3xRuleIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ChangeTestShellButtonIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ChangeTestShellButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\DottedSeparator.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\EquivalentThicknessPanel.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ShowPasswordAsMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ShowPasswordAsText.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ShowPasswordBoxBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\IntroArrow.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ReferencePanelSeparator.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\BigRedButtonDisabled.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Waiting.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Info.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Stop.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Warning.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewPopupFill.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewPopupFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewPopupHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewListBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewMenuItem.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SkillSlot.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SliderThumb.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SliderTrack.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewExperienceIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewDeadIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewPopupContentFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewPopupContentHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CrewSlot.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SettingsIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CheckboxBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CheckboxTick.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipB.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipBL.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipBR.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipC.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipL.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipR.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipT.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipTL.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CommonTipTR.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Banner.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\BigRedButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\GreenButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorDensityModel.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\PenetrationMapModel.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorGaugeFill.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorGaugeFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorGaugeHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorMaskFill.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorMaskFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorMaskHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorArrow.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorRangeClearButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorRangeFill.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorRangeFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorRangeHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArmorIndicatorSelectedValueBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SearchResultItemMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SearchResultItemBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CompareButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SearchBarBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SearchBarMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <None Include="Modeling\Additional\CamouflageRegex.txt" />
+    <Resource Include="Resources\Images\UIElements\ComparingBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SelectBenchmarkTankButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SidebarBanner.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SidebarFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SidebarHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SidebarBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Graphics\Texture\random.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\AppIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LeftPageArrow.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ToNextTierIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationBetter1.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationBetter2.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationBetter3.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationEquals.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationWorse1.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationWorse2.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ComparationWorse3.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\AverageTankIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\DataTipSeparator.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\DataTipFill.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\DataTipFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\DataTipHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Content Include="Graphics\Effect\ClearGBuffer.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Effect\BuildArmorColor.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Effect\LightingTank.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Effect\ShowGBuffer.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Effect\RenderGBuffer.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Effect\SMAA.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Effect\SMAA.h">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphics\Effect\TankMesh.fx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Images\UIElements\CollisionModel.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModelButtonBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TexturedModel.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <None Include="Localization\LocBaml.exe" />
+    <Resource Include="Resources\Images\UIElements\TechTreePageOpacityMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\CloseTechTreeButton.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ElitizeBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\PopupEquippedIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\PopupTopConfigRibbon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\InsufficientLoadCapacityIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModulePopupItemBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModulePopupItemMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModuleBarSepartor.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModulePopupFill.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModulePopupFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModulePopupHeader.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreeSelectedFlagBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreeSelectedFlagMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreeGoldNodeBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ArrowHead.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreeObsoletedTankMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreePremiumTankMask.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreeNodeBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreeFooter.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TechTreeBackground.jpg">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\TopConfigRibbon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\HorizontalSeparatorThin.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SectionTitleBackgroundBlack.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SectionTitleBackgroundRed.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModuleViewTitleBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light1.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light10.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light11.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light12.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light2.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light3.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light4.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light5.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light6.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light7.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light8.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Tiers\Light9.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\MagazineGunIcon.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\Engine.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\Gun.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\Radio.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\Chassis.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\Turret.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\ModuleSlot.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\HorizontalSeparator.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\HeavyTankSmall.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\LightTankSmall.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\MediumTankSmall.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\SelfPropelledGunSmall.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\TankIcons\Classes\TankDestroyerSmall.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\EmptyFreeExperience.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\EmptyVehicleExperience.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\FreeExperience.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\UnlockExperience.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\GameElements\VehicleExperience.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\BriefTankTipBackground.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\SmellyriverLogo.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\Gear.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LoadingLogo.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LoadingTank1.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LoadingTank2.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LoadingTank3.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LoadingTank4.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LoadingTank5.png">
+      <Localizable>False</Localizable>
+    </Resource>
+    <Resource Include="Resources\Images\UIElements\LoadingTank6.png">
+      <Localizable>False</Localizable>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

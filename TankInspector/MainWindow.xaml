@@ -1,0 +1,249 @@
+﻿<Window x:Class="Smellyriver.TankInspector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+        xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+        xmlns:anim="clr-namespace:Smellyriver.Wpf.Animation;assembly=Smellyriver.Wpf"
+        xmlns:local="clr-namespace:Smellyriver.TankInspector"
+        SnapsToDevicePixels="True" UseLayoutRounding="True"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" 
+        PreviewKeyDown="Window_PreviewKeyDown" 
+        PreviewKeyUp="Window_PreviewKeyUp"
+        Activated="Window_Activated" Deactivated="Window_Deactivated"
+        x:Uid="MainWindow" Cursor="{x:Static ui:Cursors.Arrow}"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        Title="Tank Inspector" Height="700" Width="1300" MinHeight="480" MinWidth="640"  Icon="Resources/Images/sti.ico" WindowStyle="SingleBorderWindow" >
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/MainWindow.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <design:MainWindowContentHeightConverter x:Key="ContentHeightConverter" />
+            <design:MainWindowContentWidthConverter x:Key="ContentWidthConverter" />
+            <design:NegativeConverter x:Key="NegativeConverter" />
+            <Style TargetType="FrameworkElement" x:Key="PopupFrame">
+                <Setter Property="anim:ShowHideAnimation.Visibility" Value="{Binding IsShown, Converter={StaticResource BoolToVisibleHiddenConverter}}" />
+                <Setter Property="anim:ShowHideAnimation.ShowStoryboard">
+                    <Setter.Value>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.3" />
+                        </Storyboard>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="anim:ShowHideAnimation.HideStoryboard">
+                    <Setter.Value>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.3" />
+                        </Storyboard> 
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid x:Name="RootContainer">
+        <Viewbox StretchDirection="DownOnly">
+            <Grid x:Name="ContentContainer">
+                <Grid.Width>
+                    <MultiBinding Converter="{StaticResource ContentWidthConverter}">
+                        <Binding Path="ActualWidth" ElementName="RootContainer" />
+                        <Binding Path="ActualHeight" ElementName="RootContainer" />
+                    </MultiBinding>
+                </Grid.Width>
+                <Grid.Height>
+                    <MultiBinding Converter="{StaticResource ContentHeightConverter}">
+                        <Binding Path="ActualWidth" ElementName="RootContainer" />
+                        <Binding Path="ActualHeight" ElementName="RootContainer" />
+                    </MultiBinding>
+                </Grid.Height>
+
+                <!-- Main Content -->
+                <Grid Background="Black">
+
+                    <Grid.Style>
+                        <Style TargetType="Grid">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ShouldBlurBackground}" Value="True">
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <BlurEffect Radius="0" RenderingBias="Performance" KernelType="Gaussian" />
+                                        </Setter.Value>
+                                    </Setter>
+                                    <DataTrigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <DoubleAnimation Storyboard.TargetProperty="(Grid.Effect).(BlurEffect.Radius)" BeginTime="0:0:0.0001" To="10" Duration="0:0:0.3" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </DataTrigger.EnterActions>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Grid.Style>
+
+                    <!-- Background -->
+                    <Image Source="{Binding BackgroundImage}" VerticalAlignment="Top" HorizontalAlignment="Center" Stretch="None" d:IsLocked="True"
+                       Visibility="{Binding ShowBackgroundImage, Source={x:Static local:ApplicationSettings.Default}, Converter={StaticResource BoolToVisibleHiddenConverter}}"/>
+                    <Rectangle Height="200" VerticalAlignment="Bottom" d:IsLocked="True">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Color="#00000000" Offset="0"/>
+                                <GradientStop Color="#FF000000" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+
+                    <!-- Content -->
+                    <ui:HangarView x:Name="HangarView" HorizontalAlignment="Center" DataContext="{Binding Hangar}" />
+
+                    <ui:TankGalleryView x:Name="TankGallery" DataContext="{Binding TankGallery}" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+			            Width="{Binding ActualWidth, ElementName=ContentContainer}"
+			            Height="{Binding ActualHeight, ElementName=ContentContainer}"
+			            anim:ShowHideAnimation.Visibility="{Binding IsShown, Converter={StaticResource BoolToVisibleHiddenConverter}}">
+                        <ui:TankGalleryView.RenderTransform>
+                            <TranslateTransform Y="{Binding ActualHeight, ElementName=ContentContainer, Converter={StaticResource NegativeConverter}}" />
+                        </ui:TankGalleryView.RenderTransform>
+                        <anim:ShowHideAnimation.ShowStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(ui:TankGalleryView.RenderTransform).(TranslateTransform.Y)" To="0" Duration="0:0:1">
+                                    <DoubleAnimation.EasingFunction>
+                                        <ExponentialEase Exponent="9" EasingMode="EaseOut" />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </anim:ShowHideAnimation.ShowStoryboard>
+                        <anim:ShowHideAnimation.HideStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="(ui:TankGalleryView.RenderTransform).(TranslateTransform.Y)" To="{Binding ActualHeight, ElementName=ContentContainer, Converter={StaticResource NegativeConverter}}" Duration="0:0:1" FillBehavior="Stop" />
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity"  To="0" Duration="0:0:1" FillBehavior="Stop">
+                                    <DoubleAnimation.EasingFunction>
+                                        <ExponentialEase Exponent="9" EasingMode="EaseOut" />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </anim:ShowHideAnimation.HideStoryboard>
+                    </ui:TankGalleryView>
+
+                    <!-- Header -->
+                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/Header.png" VerticalAlignment="Top" HorizontalAlignment="Center" Stretch="None" 
+                   MouseDown="HeaderImage_MouseDown"/>
+
+                    <Grid Width="1280" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <Grid Margin="45,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="626">
+                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LogoSmall.png" IsHitTestVisible="False" HorizontalAlignment="Left" Stretch="None"  Margin="0,8,0,0" />
+                            <Image x:Uid="TitleImage" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/Title.png" IsHitTestVisible="False" HorizontalAlignment="Left" Margin="105,5,0,0" Stretch="None" />
+                        </Grid>
+
+                        <Grid Margin="0,30,30,0" VerticalAlignment="Top" HorizontalAlignment="Right">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
+                                <Button Style="{StaticResource LinkButton}" Command="{Binding SettingsViewModel.ShowCommand}" x:Uid="SettingsLink" ToolTip="Change preference settings">Preferences</Button>
+                                <TextBlock> | </TextBlock>
+                                <Button Style="{StaticResource LinkButton}" Command="{Binding CreditsViewModel.ShowCommand}" x:Uid="AboutLink" ToolTip="Show information about Tank Inspector">About</Button>
+                                <TextBlock> | </TextBlock>
+                                <Button Style="{StaticResource LinkButton}" Command="{Binding DonateCommand}" x:Uid="DonateLink" ToolTip="Donate to Smellyriver">Donate</Button>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Background="#D0000000" x:Name="TutorialView" Opacity="0">
+                        <Grid.Resources>
+                            <Storyboard x:Key="HideStoryboard" Completed="TutorialViewHideStoryboard_Completed">
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.3" FillBehavior="Stop" />
+                            </Storyboard>
+                            <Storyboard x:Key="ShowStoryboard">
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:1.0" />
+                                <DoubleAnimation Storyboard.TargetName="ReadButtonContainer" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:1.0" BeginTime="0:0:10" />
+                            </Storyboard>
+                        </Grid.Resources>
+
+                        <Grid Width="{Binding ActualWidth, ElementName=HangarView}" Visibility="{Binding TankGallery.IsShown, Converter={StaticResource BoolToHiddenVisibleConverter}}">
+
+                            <Grid x:Name="TechTreeButtonIntro" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,118,200,0">
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/IntroArrow.png" Stretch="None" HorizontalAlignment="Right" />
+                                <TextBlock x:Uid="TechTreeButtonIntro1" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right" FontWeight="Bold" Margin="0,0,25,20">Open Tech Tree</TextBlock>
+                                <TextBlock x:Uid="TechTreeButtonIntro2" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,15,25,0">also activates the sidebar</TextBlock>
+                            </Grid>
+
+                            <Grid x:Name="RightToggleDataViewIntro" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,170,20,0">
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/IntroArrow.png" Stretch="None" HorizontalAlignment="Right" />
+                                <TextBlock x:Uid="RightToggleDataViewIntro1" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right" FontWeight="Bold" Margin="0,0,25,20">Switch to Data View</TextBlock>
+                                <TextBlock x:Uid="RightToggleDataViewIntro2" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,15,25,0">to see detailed stats and comparisons</TextBlock>
+                            </Grid>
+
+                            <Grid x:Name="LeftToggleDataViewIntro" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,170,0,0">
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/IntroArrow.png" Stretch="None" HorizontalAlignment="Left">
+                                    <Image.LayoutTransform>
+                                        <RotateTransform Angle="180" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <TextBlock x:Uid="LeftToggleDataViewIntro1" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Bold" Margin="25,0,0,20">Switch to Data View</TextBlock>
+                                <TextBlock x:Uid="LeftToggleDataViewIntro2" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="25,15,0,0">to see detailed stats and comparisons</TextBlock>
+                            </Grid>
+
+                            <Grid  x:Name="ToggleCollisionButtonIntro" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,160" Width="231">
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/IntroArrow.png" Stretch="None" HorizontalAlignment="Center">
+                                    <Image.LayoutTransform>
+                                        <RotateTransform Angle="90" />
+                                    </Image.LayoutTransform>
+                                </Image>
+
+                                <TextBlock x:Uid="ToggleCollisionButtonIntro1" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center">Switch to Collision Model</TextBlock>
+                                <TextBlock x:Uid="ToggleCollisionButtonIntro2" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,35,0,0">to see armor layout</TextBlock>
+
+                            </Grid>
+
+                            <Grid x:Name="ConfigureTankIntro" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,250,100">
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/IntroArrow.png" Stretch="None" HorizontalAlignment="Center">
+                                    <Image.LayoutTransform>
+                                        <RotateTransform Angle="90" />
+                                    </Image.LayoutTransform>
+                                </Image>
+
+                                <TextBlock x:Uid="ConfigureTankIntro1" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center">Configure Tank</TextBlock>
+                                <TextBlock x:Uid="ConfigureTankIntro2" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,35,0,0">change modules, shells, equipment, consumables and crews</TextBlock>
+
+                            </Grid>
+
+                            <Grid x:Name="ReferenceTankIntro" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,100" Width="230">
+                                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/IntroArrow.png" Stretch="None" HorizontalAlignment="Center">
+                                    <Image.LayoutTransform>
+                                        <RotateTransform Angle="90" />
+                                    </Image.LayoutTransform>
+                                </Image>
+
+                                <TextBlock x:Uid="ReferenceTankIntro1" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center">Reference Tank</TextBlock>
+                                <TextBlock x:Uid="ReferenceTankIntro2" FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,35,0,0">your tank will be compared with it</TextBlock>
+
+                            </Grid>
+
+                            <StackPanel x:Name="CenterIntro" VerticalAlignment="Center" HorizontalAlignment="Center" Width="500">
+                                <TextBlock x:Uid="Welcom" Text="WELCOME!" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" />
+                                <TextBlock x:Uid="HereAreSomeBasics" Text="here are some basics about how to use Tank Inspector." FontSize="18" TextWrapping="Wrap" HorizontalAlignment="Center" />
+                                <StackPanel x:Name="ReadButtonContainer" Opacity="0">
+                                    <TextBlock x:Uid="ClickToContinue" Text="click the button below when you are ready." FontSize="18" TextWrapping="Wrap" HorizontalAlignment="Center" />
+
+                                    <Button Style="{StaticResource ContentButton}" HorizontalAlignment="Center" Margin="0,20,0,0" Click="ReadyButton_Click" Cursor="{x:Static ui:Cursors.Hand}">
+                                        <Grid>
+                                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/BigRedButton.png" Margin="-26" Stretch="None" />
+                                            <TextBlock Foreground="LightGray" FontSize="18" FontWeight="Bold" Text="GOTCHA" HorizontalAlignment="Center" VerticalAlignment="Center" x:Uid="Ready" />
+                                        </Grid>
+                                    </Button>
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+
+
+                    <ui:LoadingView x:Name="LoadingView" DataContext="{Binding LoadingViewModel}" d:IsHidden="True"/>
+
+                </Grid>
+
+                <ui:CreditsView x:Name="CreditsView" DataContext="{Binding CreditsViewModel}"  Style="{StaticResource PopupFrame}" />
+                <Grid IsHitTestVisible="True">
+                    <ui:SettingsView x:Name="SettingsView" DataContext="{Binding SettingsViewModel}" Style="{StaticResource PopupFrame}" />
+                </Grid>
+
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Window>

@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CamouflageValues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Entries>
+    <Entry Vehicle="ussr:MS-1">
+      <Value Stationary="0.151" Moving="0.114" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="ussr:Tetrarch_LL">
+      <Value Stationary="0.1569" Moving="0.12" Firing="0.0403" />
+    </Entry>
+    <Entry Vehicle="ussr:T-60">
+      <Value Stationary="0.174" Moving="0.131" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="ussr:BT-2">
+      <Value Stationary="0.151" Moving="0.114" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="ussr:T-26">
+      <Value Stationary="0.14" Moving="0.106" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="ussr:M3_Stuart_LL">
+      <Value Stationary="0.1525" Moving="0.1525" Firing="0.0458" />
+    </Entry>
+    <Entry Vehicle="ussr:T-127">
+      <Value Stationary="0.18" Moving="0.135" Firing="0.052" />
+    </Entry>
+    <Entry Vehicle="ussr:BT-SV">
+      <Value Stationary="0.1687" Moving="0.1256" Firing="0.0489" />
+    </Entry>
+    <Entry Vehicle="ussr:BT-7">
+      <Value Stationary="0.165" Moving="0.165" Firing="0.05" />
+    </Entry>
+    <Entry Vehicle="ussr:LTP">
+      <Value Stationary="0.203" Moving="0.154" Firing="0.059" />
+    </Entry>
+    <Entry Vehicle="ussr:T-46">
+      <Value Stationary="0.161" Moving="0.121" Firing="0.045" />
+    </Entry>
+    <Entry Vehicle="ussr:T-70">
+      <Value Stationary="0.176" Moving="0.132" Firing="0.049" />
+    </Entry>
+    <Entry Vehicle="ussr:Valentine_LL">
+      <Value Stationary="0.18" Moving="0.18" Firing="0.052" />
+    </Entry>
+    <Entry Vehicle="ussr:A-20">
+      <Value Stationary="0.163" Moving="0.163" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="ussr:T80">
+      <Value Stationary="0.183" Moving="0.183" Firing="0.051" />
+    </Entry>
+    <Entry Vehicle="ussr:T-50">
+      <Value Stationary="0.177" Moving="0.18" Firing="0.054" />
+    </Entry>
+    <Entry Vehicle="ussr:MT25">
+      <Value Stationary="0.149" Moving="0.149" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="ussr:A-32">
+      <Value Stationary="0.16" Moving="0.12" Firing="0.042" />
+    </Entry>
+    <Entry Vehicle="ussr:T-28">
+      <Value Stationary="0.117" Moving="0.087" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="ussr:Matilda_II_LL">
+      <Value Stationary="0.151" Moving="0.117" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="ussr:T-34">
+      <Value Stationary="0.146" Moving="0.109" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="ussr:T-34-85">
+      <Value Stationary="0.143" Moving="0.109" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="ussr:A43">
+      <Value Stationary="0.122" Moving="0.091" Firing="0.03" />
+    </Entry>
+    <Entry Vehicle="ussr:T-43">
+      <Value Stationary="0.149" Moving="0.114" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="ussr:KV-13">
+      <Value Stationary="0.154" Moving="0.117" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="ussr:A44">
+      <Value Stationary="0.126" Moving="0.094" Firing="0.028" />
+    </Entry>
+    <Entry Vehicle="ussr:T44_85">
+      <Value Stationary="0.1692" Moving="0.1269" Firing="0.0423" />
+    </Entry>
+    <Entry Vehicle="ussr:T-44">
+      <Value Stationary="0.163" Moving="0.123" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="ussr:Object416">
+      <Value Stationary="0.242" Moving="0.146" Firing="0.048" />
+    </Entry>
+    <Entry Vehicle="ussr:T-54">
+      <Value Stationary="0.157" Moving="0.117" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="ussr:Object_140">
+      <Value Stationary="0.167" Moving="0.125" Firing="0.033" />
+    </Entry>
+    <Entry Vehicle="ussr:T62A">
+      <Value Stationary="0.154" Moving="0.117" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="ussr:KV-220_action">
+      <Value Stationary="0.074" Moving="0.037" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="ussr:KV-220">
+      <Value Stationary="0.074" Moving="0.037" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="ussr:Churchill_LL">
+      <Value Stationary="0.08" Moving="0.043" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="ussr:KV1">
+      <Value Stationary="0.074" Moving="0.037" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="ussr:T150">
+      <Value Stationary="0.066" Moving="0.031" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="ussr:KV-1s">
+      <Value Stationary="0.071" Moving="0.04" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="ussr:KV2">
+      <Value Stationary="0.043" Moving="0.023" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="ussr:KV-3">
+      <Value Stationary="0.063" Moving="0.031" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="ussr:IS">
+      <Value Stationary="0.083" Moving="0.04" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="ussr:KV-5">
+      <Value Stationary="0.034" Moving="0.017" Firing="0.006" />
+    </Entry>
+    <Entry Vehicle="ussr:Object252">
+      <Value Stationary="0.071" Moving="0.037" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="ussr:KV4">
+      <Value Stationary="0.023" Moving="0.011" Firing="0.006" />
+    </Entry>
+    <Entry Vehicle="ussr:IS-3">
+      <Value Stationary="0.071" Moving="0.037" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="ussr:IS8">
+      <Value Stationary="0.063" Moving="0.034" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="ussr:ST_I">
+      <Value Stationary="0.063" Moving="0.034" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="ussr:IS-7">
+      <Value Stationary="0.069" Moving="0.034" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="ussr:IS-4">
+      <Value Stationary="0.069" Moving="0.034" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="ussr:AT-1">
+      <Value Stationary="0.214" Moving="0.129" Firing="0.077" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-76">
+      <Value Stationary="0.229" Moving="0.137" Firing="0.091" />
+    </Entry>
+    <Entry Vehicle="ussr:GAZ-74b">
+      <Value Stationary="0.229" Moving="0.137" Firing="0.077" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-85">
+      <Value Stationary="0.226" Moving="0.137" Firing="0.077" />
+    </Entry>
+    <Entry Vehicle="ussr:SU100Y">
+      <Value Stationary="0.069" Moving="0.043" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-100">
+      <Value Stationary="0.223" Moving="0.134" Firing="0.063" />
+    </Entry>
+    <Entry Vehicle="ussr:SU122_44">
+      <Value Stationary="0.217" Moving="0.131" Firing="0.06" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-152">
+      <Value Stationary="0.166" Moving="0.1" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="ussr:SU100M1">
+      <Value Stationary="0.203" Moving="0.123" Firing="0.06" />
+    </Entry>
+    <Entry Vehicle="ussr:ISU-152">
+      <Value Stationary="0.154" Moving="0.091" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-101">
+      <Value Stationary="0.206" Moving="0.123" Firing="0.051" />
+    </Entry>
+    <Entry Vehicle="ussr:SU122_54">
+      <Value Stationary="0.22" Moving="0.131" Firing="0.06" />
+    </Entry>
+    <Entry Vehicle="ussr:Object_704">
+      <Value Stationary="0.177" Moving="0.109" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="ussr:Object263">
+      <Value Stationary="0.143" Moving="0.089" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="ussr:Object268">
+      <Value Stationary="0.166" Moving="0.1" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-18">
+      <Value Stationary="0.131" Moving="0.069" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-26">
+      <Value Stationary="0.134" Moving="0.069" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-5">
+      <Value Stationary="0.15" Moving="0.075" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="ussr:SU122A">
+      <Value Stationary="0.163" Moving="0.083" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-8">
+      <Value Stationary="0.083" Moving="0.043" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="ussr:SU14_1">
+      <Value Stationary="0.0743" Moving="0.037" Firing="0.0063" />
+    </Entry>
+    <Entry Vehicle="ussr:S-51">
+      <Value Stationary="0.0486" Moving="0.026" Firing="0.0043" />
+    </Entry>
+    <Entry Vehicle="ussr:SU-14">
+      <Value Stationary="0.0371" Moving="0.02" Firing="0.0031" />
+    </Entry>
+    <Entry Vehicle="ussr:Object_212">
+      <Value Stationary="0.0371" Moving="0.02" Firing="0.0031" />
+    </Entry>
+    <Entry Vehicle="ussr:Object_261">
+      <Value Stationary="0.066" Moving="0.034" Firing="0.007" />
+    </Entry>
+	<Entry Vehicle="ussr:Object_430">
+      <Value Stationary="0.1780" Moving="0.1340" Firing="0.035" />
+    </Entry>
+	<Entry Vehicle="ussr:R104_Object_430_II">
+      <Value Stationary="0.1660" Moving="0.1240" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="germany:Ltraktor">
+      <Value Stationary="0.137" Moving="0.103" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="germany:H39_captured">
+      <Value Stationary="0.157" Moving="0.118" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="germany:PzII">
+      <Value Stationary="0.151" Moving="0.114" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="germany:PzI">
+      <Value Stationary="0.163" Moving="0.123" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="germany:Pz35t">
+      <Value Stationary="0.154" Moving="0.114" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="germany:T-15">
+      <Value Stationary="0.197" Moving="0.197" Firing="0.06" />
+    </Entry>
+    <Entry Vehicle="germany:PzII_J">
+      <Value Stationary="0.174" Moving="0.131" Firing="0.051" />
+    </Entry>
+    <Entry Vehicle="germany:Pz38t">
+      <Value Stationary="0.18" Moving="0.135" Firing="0.052" />
+    </Entry>
+    <Entry Vehicle="germany:PzIII_A">
+      <Value Stationary="0.18" Moving="0.18" Firing="0.052" />
+    </Entry>
+    <Entry Vehicle="germany:Pz_II_AusfG">
+      <Value Stationary="0.186" Moving="0.186" Firing="0.039" />
+    </Entry>
+    <Entry Vehicle="germany:PzI_ausf_C">
+      <Value Stationary="0.191" Moving="0.191" Firing="0.054" />
+    </Entry>
+    <Entry Vehicle="germany:Pz38_NA">
+      <Value Stationary="0.176" Moving="0.176" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="germany:PzII_Luchs">
+      <Value Stationary="0.171" Moving="0.171" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="germany:VK1602">
+      <Value Stationary="0.169" Moving="0.169" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="germany:VK2801">
+      <Value Stationary="0.143" Moving="0.143" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="germany:Auf_Panther">
+      <Value Stationary="0.109" Moving="0.109" Firing="0.027" />
+    </Entry>
+    <Entry Vehicle="germany:S35_captured">
+      <Value Stationary="0.143" Moving="0.107" Firing="0.041" />
+    </Entry>
+    <Entry Vehicle="germany:PzIII">
+      <Value Stationary="0.1637" Moving="0.1257" Firing="0.0426" />
+    </Entry>
+    <Entry Vehicle="germany:VK2001DB">
+      <Value Stationary="0.159" Moving="0.119" Firing="0.041" />
+    </Entry>
+    <Entry Vehicle="germany:T-25">
+      <Value Stationary="0.131" Moving="0.097" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="germany:PzIII_IV">
+      <Value Stationary="0.14" Moving="0.109" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="germany:PzIV">
+      <Value Stationary="0.149" Moving="0.114" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="germany:PzIV_schmalturm">
+      <Value Stationary="0.131" Moving="0.1" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="germany:VK3002DB_V1">
+      <Value Stationary="0.14" Moving="0.106" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="germany:VK3001P">
+      <Value Stationary="0.097" Moving="0.074" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="germany:VK3002M">
+      <Value Stationary="0.096" Moving="0.072" Firing="0.0226" />
+    </Entry>
+    <Entry Vehicle="germany:Panther_M10">
+      <Value Stationary="0.094" Moving="0.071" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="germany:VK3002DB">
+      <Value Stationary="0.129" Moving="0.097" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="germany:PzV">
+      <Value Stationary="0.094" Moving="0.071" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="germany:Panther_II">
+      <Value Stationary="0.097" Moving="0.071" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="germany:Indien_Panzer">
+      <Value Stationary="0.1189" Moving="0.0914" Firing="0.0269" />
+    </Entry>
+    <Entry Vehicle="germany:Pro_Ag_A">
+      <Value Stationary="0.146" Moving="0.111" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="germany:E-50">
+      <Value Stationary="0.091" Moving="0.069" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="germany:Leopard1">
+      <Value Stationary="0.143" Moving="0.109" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="germany:E50_Ausf_M">
+      <Value Stationary="0.1" Moving="0.077" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="germany:B-1bis_captured">
+      <Value Stationary="0.075" Moving="0.038" Firing="0.022" />
+    </Entry>
+    <Entry Vehicle="germany:DW_II">
+      <Value Stationary="0.075" Moving="0.037" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="germany:VK3001H">
+      <Value Stationary="0.0734" Moving="0.0369" Firing="0.0191" />
+    </Entry>
+    <Entry Vehicle="germany:VK3601H">
+      <Value Stationary="0.0649" Moving="0.0323" Firing="0.0154" />
+    </Entry>
+    <Entry Vehicle="germany:PzVI">
+      <Value Stationary="0.069" Moving="0.037" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="germany:PzVI_Tiger_P">
+      <Value Stationary="0.069" Moving="0.037" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="germany:Lowe">
+      <Value Stationary="0.04" Moving="0.023" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="germany:VK4502A">
+      <Value Stationary="0.043" Moving="0.023" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="germany:PzVIB_Tiger_II">
+      <Value Stationary="0.046" Moving="0.023" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="germany:E-75">
+      <Value Stationary="0.043" Moving="0.023" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="germany:VK4502P">
+      <Value Stationary="0.043" Moving="0.023" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="germany:E-100">
+      <Value Stationary="0.031" Moving="0.017" Firing="0.003" />
+    </Entry>
+    <Entry Vehicle="germany:Maus">
+      <Value Stationary="0.0143" Moving="0.0086" Firing="0.0026" />
+    </Entry>
+    <Entry Vehicle="germany:PanzerJager_I">
+      <Value Stationary="0.194" Moving="0.117" Firing="0.065" />
+    </Entry>
+    <Entry Vehicle="germany:G20_Marder_II">
+      <Value Stationary="0.217" Moving="0.131" Firing="0.091" />
+    </Entry>
+    <Entry Vehicle="germany:Hetzer">
+      <Value Stationary="0.243" Moving="0.146" Firing="0.091" />
+    </Entry>
+    <Entry Vehicle="germany:StuGIII">
+      <Value Stationary="0.2194" Moving="0.1343" Firing="0.0771" />
+    </Entry>
+    <Entry Vehicle="germany:DickerMax">
+      <Value Stationary="0.171" Moving="0.103" Firing="0.054" />
+    </Entry>
+    <Entry Vehicle="germany:JagdPzIV">
+      <Value Stationary="0.24" Moving="0.146" Firing="0.086" />
+    </Entry>
+    <Entry Vehicle="germany:E-25">
+      <Value Stationary="0.254" Moving="0.151" Firing="0.091" />
+    </Entry>
+    <Entry Vehicle="germany:JagdPanther">
+      <Value Stationary="0.134" Moving="0.083" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="germany:JagdTiger_SdKfz_185">
+      <Value Stationary="0.109" Moving="0.066" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="germany:JagdPantherII">
+      <Value Stationary="0.103" Moving="0.063" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="germany:Ferdinand">
+      <Value Stationary="0.111" Moving="0.069" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="germany:JagdTiger">
+      <Value Stationary="0.109" Moving="0.066" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="germany:JagdPz_E100">
+      <Value Stationary="0.029" Moving="0.02" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="germany:Marder_III">
+      <Value Stationary="0.1949" Moving="0.1169" Firing="0.0684" />
+    </Entry>
+    <Entry Vehicle="germany:Pz_Sfl_IVc">
+      <Value Stationary="0.1308" Moving="0.0785" Firing="0.0425" />
+    </Entry>
+    <Entry Vehicle="germany:Nashorn">
+      <Value Stationary="0.1256" Moving="0.0754" Firing="0.0408" />
+    </Entry>
+    <Entry Vehicle="germany:Sturer_Emil">
+      <Value Stationary="0.1154" Moving="0.0692" Firing="0.0255" />
+    </Entry>
+    <Entry Vehicle="germany:RhB_Waffentrager">
+      <Value Stationary="0.2256" Moving="0.1354" Firing="0.0458" />
+    </Entry>
+    <Entry Vehicle="germany:Waffentrager_IV">
+      <Value Stationary="0.159" Moving="0.0954" Firing="0.0323" />
+    </Entry>
+    <Entry Vehicle="germany:Waffentrager_E100">
+      <Value Stationary="0.0051" Moving="0.0031" Firing="0.0001" />
+    </Entry>
+    <Entry Vehicle="germany:GW_Mk_VIe">
+      <Value Stationary="0.1614" Moving="0.0814" Firing="0.0303" />
+    </Entry>
+    <Entry Vehicle="germany:Wespe">
+      <Value Stationary="0.162" Moving="0.081" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="germany:Bison_I">
+      <Value Stationary="0.089" Moving="0.044" Firing="0.013" />
+    </Entry>
+    <Entry Vehicle="germany:Pz_Sfl_IVb">
+      <Value Stationary="0.168" Moving="0.084" Firing="0.035" />
+    </Entry>
+    <Entry Vehicle="germany:Sturmpanzer_II">
+      <Value Stationary="0.173" Moving="0.087" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="germany:Grille">
+      <Value Stationary="0.157" Moving="0.08" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="germany:Hummel">
+      <Value Stationary="0.1223" Moving="0.0629" Firing="0.0177" />
+    </Entry>
+    <Entry Vehicle="germany:G_Panther">
+      <Value Stationary="0.04" Moving="0.02" Firing="0.005" />
+    </Entry>
+    <Entry Vehicle="germany:GW_Tiger_P">
+      <Value Stationary="0.037" Moving="0.014" Firing="0.003" />
+    </Entry>
+    <Entry Vehicle="germany:G_Tiger">
+      <Value Stationary="0.051" Moving="0.029" Firing="0.005" />
+    </Entry>
+    <Entry Vehicle="germany:G_E">
+      <Value Stationary="0.017" Moving="0.009" Firing="0.001" />
+    </Entry>
+    <Entry Vehicle="usa:T1_Cunningham">
+      <Value Stationary="0.1277" Moving="0.0971" Firing="0.0289" />
+    </Entry>
+    <Entry Vehicle="usa:T2_lt">
+      <Value Stationary="0.151" Moving="0.114" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="usa:T1_E6">
+      <Value Stationary="0.146" Moving="0.109" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="usa:M2_lt">
+      <Value Stationary="0.137" Moving="0.106" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="usa:M22_Locust">
+      <Value Stationary="0.204" Moving="0.204" Firing="0.061" />
+    </Entry>
+    <Entry Vehicle="usa:M3_Stuart">
+      <Value Stationary="0.153" Moving="0.153" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="usa:M5_Stuart">
+      <Value Stationary="0.171" Moving="0.171" Firing="0.049" />
+    </Entry>
+    <Entry Vehicle="usa:M24_Chaffee">
+      <Value Stationary="0.1389" Moving="0.14" Firing="0.0326" />
+    </Entry>
+    <Entry Vehicle="usa:T21">
+      <Value Stationary="0.154" Moving="0.154" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="usa:T71">
+      <Value Stationary="0.143" Moving="0.143" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="usa:T2_med">
+      <Value Stationary="0.106" Moving="0.077" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="usa:M2_med">
+      <Value Stationary="0.122" Moving="0.092" Firing="0.032" />
+    </Entry>
+    <Entry Vehicle="usa:M3_Grant">
+      <Value Stationary="0.08" Moving="0.06" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="usa:M4A2E4">
+      <Value Stationary="0.12" Moving="0.091" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="usa:Ram-II">
+      <Value Stationary="0.129" Moving="0.097" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="usa:M4_Sherman">
+      <Value Stationary="0.129" Moving="0.097" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="usa:M7_med">
+      <Value Stationary="0.149" Moving="0.114" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="usa:M4A3E8_Sherman">
+      <Value Stationary="0.126" Moving="0.094" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="usa:Sherman_Jumbo">
+      <Value Stationary="0.117" Moving="0.089" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="usa:T20">
+      <Value Stationary="0.163" Moving="0.126" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="usa:T26_E4_SuperPershing">
+      <Value Stationary="0.134" Moving="0.1" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="usa:T69">
+      <Value Stationary="0.129" Moving="0.094" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="usa:Pershing">
+      <Value Stationary="0.13" Moving="0.097" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="usa:M46_Patton">
+      <Value Stationary="0.134" Moving="0.103" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="usa:T54E1">
+      <Value Stationary="0.1" Moving="0.077" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="usa:M60">
+      <Value Stationary="0.07" Moving="0.052" Firing="0.015" />
+    </Entry>
+    <Entry Vehicle="usa:M48A1">
+      <Value Stationary="0.086" Moving="0.06" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="usa:T14">
+      <Value Stationary="0.08" Moving="0.043" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="usa:T1_hvy">
+      <Value Stationary="0.046" Moving="0.023" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="usa:M6">
+      <Value Stationary="0.049" Moving="0.02" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="usa:T29">
+      <Value Stationary="0.051" Moving="0.029" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="usa:M6A2E1">
+      <Value Stationary="0.011" Moving="0.005" Firing="0.002" />
+    </Entry>
+    <Entry Vehicle="usa:T34_hvy">
+      <Value Stationary="0.043" Moving="0.02" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="usa:T32">
+      <Value Stationary="0.06" Moving="0.031" Firing="0.012" />
+    </Entry>
+    <Entry Vehicle="usa:M103">
+      <Value Stationary="0.049" Moving="0.026" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="usa:T110">
+      <Value Stationary="0.046" Moving="0.026" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="usa:T57_58">
+      <Value Stationary="0.051" Moving="0.023" Firing="0.006" />
+    </Entry>
+    <Entry Vehicle="usa:T18">
+      <Value Stationary="0.194" Moving="0.137" Firing="0.074" />
+    </Entry>
+    <Entry Vehicle="usa:T82">
+      <Value Stationary="0.243" Moving="0.146" Firing="0.075" />
+    </Entry>
+    <Entry Vehicle="usa:T40">
+      <Value Stationary="0.211" Moving="0.129" Firing="0.077" />
+    </Entry>
+    <Entry Vehicle="usa:M8A1">
+      <Value Stationary="0.22" Moving="0.134" Firing="0.086" />
+    </Entry>
+    <Entry Vehicle="usa:T49">
+      <Value Stationary="0.209" Moving="0.126" Firing="0.08" />
+    </Entry>
+    <Entry Vehicle="usa:M10_Wolverine">
+      <Value Stationary="0.18" Moving="0.109" Firing="0.066" />
+    </Entry>
+    <Entry Vehicle="usa:M36_Slagger">
+      <Value Stationary="0.174" Moving="0.106" Firing="0.063" />
+    </Entry>
+    <Entry Vehicle="usa:M18_Hellcat">
+      <Value Stationary="0.211" Moving="0.129" Firing="0.077" />
+    </Entry>
+    <Entry Vehicle="usa:T25_AT">
+      <Value Stationary="0.197" Moving="0.12" Firing="0.06" />
+    </Entry>
+    <Entry Vehicle="usa:T25_2">
+      <Value Stationary="0.183" Moving="0.111" Firing="0.066" />
+    </Entry>
+    <Entry Vehicle="usa:T28">
+      <Value Stationary="0.183" Moving="0.111" Firing="0.055" />
+    </Entry>
+    <Entry Vehicle="usa:T28_Prototype">
+      <Value Stationary="0.1263" Moving="0.0771" Firing="0.038" />
+    </Entry>
+    <Entry Vehicle="usa:T95">
+      <Value Stationary="0.183" Moving="0.111" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="usa:T30">
+      <Value Stationary="0.092" Moving="0.0571" Firing="0.0209" />
+    </Entry>
+    <Entry Vehicle="usa:T110E4">
+      <Value Stationary="0.103" Moving="0.063" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="usa:T110E3">
+      <Value Stationary="0.057" Moving="0.057" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="usa:T57">
+      <Value Stationary="0.1586" Moving="0.0794" Firing="0.0351" />
+    </Entry>
+    <Entry Vehicle="usa:M7_Priest">
+      <Value Stationary="0.126" Moving="0.063" Firing="0.028" />
+    </Entry>
+    <Entry Vehicle="usa:M37">
+      <Value Stationary="0.144" Moving="0.072" Firing="0.032" />
+    </Entry>
+    <Entry Vehicle="usa:M41">
+      <Value Stationary="0.166" Moving="0.083" Firing="0.025" />
+    </Entry>
+    <Entry Vehicle="usa:M44">
+      <Value Stationary="0.1" Moving="0.051" Firing="0.015" />
+    </Entry>
+    <Entry Vehicle="usa:M12">
+      <Value Stationary="0.12" Moving="0.06" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="usa:M40M43">
+      <Value Stationary="0.1057" Moving="0.0543" Firing="0.0091" />
+    </Entry>
+    <Entry Vehicle="usa:M53_55">
+      <Value Stationary="0.063" Moving="0.031" Firing="0.005" />
+    </Entry>
+    <Entry Vehicle="usa:T92">
+      <Value Stationary="0.08" Moving="0.04" Firing="0.005" />
+    </Entry>
+    <Entry Vehicle="france:RenaultFT">
+      <Value Stationary="0.137" Moving="0.103" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="france:D1">
+      <Value Stationary="0.129" Moving="0.091" Firing="0.032" />
+    </Entry>
+    <Entry Vehicle="france:Hotchkiss_H35">
+      <Value Stationary="0.16" Moving="0.12" Firing="0.049" />
+    </Entry>
+    <Entry Vehicle="france:AMX38">
+      <Value Stationary="0.16" Moving="0.12" Firing="0.047" />
+    </Entry>
+    <Entry Vehicle="france:AMX40">
+      <Value Stationary="0.134" Moving="0.1" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="france:ELC_AMX">
+      <Value Stationary="0.22" Moving="0.22" Firing="0.054" />
+    </Entry>
+    <Entry Vehicle="france:AMX_12t">
+      <Value Stationary="0.183" Moving="0.183" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="france:AMX_13_75">
+      <Value Stationary="0.18" Moving="0.18" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="france:AMX_13_90">
+      <Value Stationary="0.177" Moving="0.177" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="france:D2">
+      <Value Stationary="0.127" Moving="0.095" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="france:Lorraine40t">
+      <Value Stationary="0.12" Moving="0.091" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="france:Bat_Chatillon25t">
+      <Value Stationary="0.171" Moving="0.129" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="france:B1">
+      <Value Stationary="0.077" Moving="0.04" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="france:BDR_G1B">
+      <Value Stationary="0.066" Moving="0.034" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="france:ARL_44">
+      <Value Stationary="0.054" Moving="0.029" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="france:AMX_M4_1945">
+      <Value Stationary="0.066" Moving="0.034" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="france:FCM_50t">
+      <Value Stationary="0.046" Moving="0.023" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="france:AMX_50_100">
+      <Value Stationary="0.057" Moving="0.031" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="france:AMX_50_120">
+      <Value Stationary="0.049" Moving="0.026" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="france:F10_AMX_50B">
+      <Value Stationary="0.04" Moving="0.023" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="france:RenaultFT_AC">
+      <Value Stationary="0.149" Moving="0.091" Firing="0.054" />
+    </Entry>
+    <Entry Vehicle="france:FCM_36Pak40">
+      <Value Stationary="0.186" Moving="0.111" Firing="0.066" />
+    </Entry>
+    <Entry Vehicle="france:RenaultUE57">
+      <Value Stationary="0.271" Moving="0.163" Firing="0.1" />
+    </Entry>
+    <Entry Vehicle="france:Somua_Sau_40">
+      <Value Stationary="0.161" Moving="0.097" Firing="0.05" />
+    </Entry>
+    <Entry Vehicle="france:S_35CA">
+      <Value Stationary="0.214" Moving="0.129" Firing="0.066" />
+    </Entry>
+    <Entry Vehicle="france:ARL_V39">
+      <Value Stationary="0.166" Moving="0.097" Firing="0.057" />
+    </Entry>
+    <Entry Vehicle="france:AMX_AC_Mle1946">
+      <Value Stationary="0.106" Moving="0.066" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="france:AMX_AC_Mle1948">
+      <Value Stationary="0.134" Moving="0.083" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="france:AMX50_Foch">
+      <Value Stationary="0.14" Moving="0.086" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="france:AMX_50Fosh_155">
+      <Value Stationary="0.14" Moving="0.086" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="france:RenaultBS">
+      <Value Stationary="0.139" Moving="0.07" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="france:Lorraine39_L_AM">
+      <Value Stationary="0.176" Moving="0.089" Firing="0.039" />
+    </Entry>
+    <Entry Vehicle="france:AMX_Ob_Am105">
+      <Value Stationary="0.193" Moving="0.097" Firing="0.041" />
+    </Entry>
+    <Entry Vehicle="france:_105_leFH18B2">
+      <Value Stationary="0.0771" Moving="0.0386" Firing="0.0161" />
+    </Entry>
+    <Entry Vehicle="france:AMX_105AM">
+      <Value Stationary="0.146" Moving="0.074" Firing="0.03" />
+    </Entry>
+    <Entry Vehicle="france:AMX_13F3AM">
+      <Value Stationary="0.18" Moving="0.091" Firing="0.024" />
+    </Entry>
+    <Entry Vehicle="france:Lorraine155_50">
+      <Value Stationary="0.086" Moving="0.043" Firing="0.012" />
+    </Entry>
+    <Entry Vehicle="france:Lorraine155_51">
+      <Value Stationary="0.111" Moving="0.057" Firing="0.016" />
+    </Entry>
+    <Entry Vehicle="france:Bat_Chatillon155_55">
+      <Value Stationary="0.071" Moving="0.037" Firing="0.01" />
+    </Entry>
+    <Entry Vehicle="france:Bat_Chatillon155_58">
+      <Value Stationary="0.12" Moving="0.06" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="uk:GB03_Cruiser_Mk_I">
+      <Value Stationary="0.129" Moving="0.097" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="uk:GB58_Cruiser_Mk_III">
+      <Value Stationary="0.131" Moving="0.1" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="uk:GB69_Cruiser_Mk_II">
+      <Value Stationary="0.149" Moving="0.112" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="uk:GB59_Cruiser_Mk_IV">
+      <Value Stationary="0.154" Moving="0.117" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="uk:GB60_Covenanter">
+      <Value Stationary="0.168" Moving="0.168" Firing="0.044" />
+    </Entry>
+    <Entry Vehicle="uk:GB04_Valentine">
+      <Value Stationary="0.179" Moving="0.134" Firing="0.044" />
+    </Entry>
+    <Entry Vehicle="uk:GB20_Crusader">
+      <Value Stationary="0.169" Moving="0.169" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="uk:GB01_Medium_Mark_I">
+      <Value Stationary="0.0806" Moving="0.0629" Firing="0.0194" />
+    </Entry>
+    <Entry Vehicle="uk:GB05_Vickers_Medium_Mk_II">
+      <Value Stationary="0.094" Moving="0.071" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="uk:GB06_Vickers_Medium_Mk_III">
+      <Value Stationary="0.119" Moving="0.089" Firing="0.033" />
+    </Entry>
+    <Entry Vehicle="uk:GB07_Matilda">
+      <Value Stationary="0.151" Moving="0.114" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="uk:GB68_Matilda_Black_Prince">
+      <Value Stationary="0.143" Moving="0.109" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="uk:GB21_Cromwell">
+      <Value Stationary="0.146" Moving="0.111" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="uk:GB22_Comet">
+      <Value Stationary="0.151" Moving="0.114" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="uk:GB23_Centurion">
+      <Value Stationary="0.114" Moving="0.086" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="uk:GB24_Centurion_Mk3">
+      <Value Stationary="0.117" Moving="0.089" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="uk:GB70_FV4202_105">
+      <Value Stationary="0.14" Moving="0.106" Firing="0.031" />
+    </Entry>
+    <Entry Vehicle="uk:GB51_Excelsior">
+      <Value Stationary="0.089" Moving="0.043" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="uk:GB08_Churchill_I">
+      <Value Stationary="0.083" Moving="0.043" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="uk:GB63_TOG_II">
+      <Value Stationary="0.054" Moving="0.029" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="uk:GB09_Churchill_VII">
+      <Value Stationary="0.077" Moving="0.04" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="uk:GB10_Black_Prince">
+      <Value Stationary="0.074" Moving="0.037" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="uk:GB11_Caernarvon">
+      <Value Stationary="0.054" Moving="0.029" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="uk:GB12_Conqueror">
+      <Value Stationary="0.049" Moving="0.026" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="uk:GB13_FV215b">
+      <Value Stationary="0.049" Moving="0.026" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="uk:GB39_Universal_CarrierQF2">
+      <Value Stationary="0.197" Moving="0.117" Firing="0.069" />
+    </Entry>
+    <Entry Vehicle="uk:GB42_Valentine_AT">
+      <Value Stationary="0.203" Moving="0.123" Firing="0.071" />
+    </Entry>
+    <Entry Vehicle="uk:GB57_Alecto">
+      <Value Stationary="0.269" Moving="0.163" Firing="0.1" />
+    </Entry>
+    <Entry Vehicle="uk:GB73_AT2">
+      <Value Stationary="0.171" Moving="0.103" Firing="0.063" />
+    </Entry>
+    <Entry Vehicle="uk:GB74_AT8">
+      <Value Stationary="0.183" Moving="0.111" Firing="0.063" />
+    </Entry>
+    <Entry Vehicle="uk:GB40_Gun_Carrier_Churchill">
+      <Value Stationary="0.157" Moving="0.094" Firing="0.051" />
+    </Entry>
+    <Entry Vehicle="uk:GB71_AT_15A">
+      <Value Stationary="0.129" Moving="0.077" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="uk:GB75_AT7">
+      <Value Stationary="0.174" Moving="0.106" Firing="0.063" />
+    </Entry>
+    <Entry Vehicle="uk:GB72_AT15">
+      <Value Stationary="0.12" Moving="0.074" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="uk:GB32_Tortoise">
+      <Value Stationary="0.089" Moving="0.054" Firing="0.026" />
+    </Entry>
+    <Entry Vehicle="uk:GB48_FV215b_183">
+      <Value Stationary="0.103" Moving="0.063" Firing="0.02" />
+    </Entry>
+    <Entry Vehicle="uk:GB25_Loyd_Carrier">
+      <Value Stationary="0.189" Moving="0.094" Firing="0.041" />
+    </Entry>
+    <Entry Vehicle="uk:GB78_Sexton_I">
+      <Value Stationary="0.145" Moving="0.073" Firing="0.035" />
+    </Entry>
+    <Entry Vehicle="uk:GB27_Sexton">
+      <Value Stationary="0.145" Moving="0.073" Firing="0.035" />
+    </Entry>
+    <Entry Vehicle="uk:GB26_Birch_Gun">
+      <Value Stationary="0.148" Moving="0.074" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="uk:GB28_Bishop">
+      <Value Stationary="0.114" Moving="0.057" Firing="0.024" />
+    </Entry>
+    <Entry Vehicle="uk:GB77_FV304">
+      <Value Stationary="0.2" Moving="0.1" Firing="0.042" />
+    </Entry>
+    <Entry Vehicle="uk:GB29_Crusader_5inch">
+      <Value Stationary="0.163" Moving="0.082" Firing="0.023" />
+    </Entry>
+    <Entry Vehicle="uk:GB79_FV206">
+      <Value Stationary="0.077" Moving="0.038" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="uk:GB30_FV3805">
+      <Value Stationary="0.082" Moving="0.041" Firing="0.009" />
+    </Entry>
+    <Entry Vehicle="uk:GB31_Conqueror_Gun">
+      <Value Stationary="0.066" Moving="0.033" Firing="0.004" />
+    </Entry>
+    <Entry Vehicle="china:Ch06_Renault_NC31">
+      <Value Stationary="0.129" Moving="0.097" Firing="0.034" />
+    </Entry>
+    <Entry Vehicle="china:Ch07_Vickers_MkE_Type_BT26">
+      <Value Stationary="0.146" Moving="0.109" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="china:Ch08_Type97_Chi_Ha">
+      <Value Stationary="0.165" Moving="0.124" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="china:Ch09_M5">
+      <Value Stationary="0.166" Moving="0.166" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="china:Ch15_59_16">
+      <Value Stationary="0.174" Moving="0.174" Firing="0.046" />
+    </Entry>
+    <Entry Vehicle="china:Ch02_Type62">
+      <Value Stationary="0.166" Moving="0.166" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="china:Ch16_WZ_131">
+      <Value Stationary="0.165" Moving="0.165" Firing="0.036" />
+    </Entry>
+    <Entry Vehicle="china:Ch17_WZ131_1_WZ132">
+      <Value Stationary="0.171" Moving="0.171" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="china:Ch21_T34">
+      <Value Stationary="0.146" Moving="0.111" Firing="0.04" />
+    </Entry>
+    <Entry Vehicle="china:Ch20_Type58">
+      <Value Stationary="0.143" Moving="0.106" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="china:Ch04_T34_1">
+      <Value Stationary="0.183" Moving="0.134" Firing="0.043" />
+    </Entry>
+    <Entry Vehicle="china:Ch01_Type59">
+      <Value Stationary="0.16" Moving="0.12" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="china:Ch01_Type59_Gold">
+      <Value Stationary="0.16" Moving="0.12" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="china:Ch14_T34_3">
+      <Value Stationary="0.149" Moving="0.112" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="china:Ch05_T34_2">
+      <Value Stationary="0.171" Moving="0.129" Firing="0.037" />
+    </Entry>
+    <Entry Vehicle="china:Ch18_WZ-120">
+      <Value Stationary="0.157" Moving="0.117" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="china:Ch19_121">
+      <Value Stationary="0.151" Moving="0.114" Firing="0.029" />
+    </Entry>
+    <Entry Vehicle="china:Ch10_IS2">
+      <Value Stationary="0.08" Moving="0.04" Firing="0.017" />
+    </Entry>
+    <Entry Vehicle="china:Ch23_112">
+      <Value Stationary="0.0663" Moving="0.0331" Firing="0.0129" />
+    </Entry>
+    <Entry Vehicle="china:Ch11_110">
+      <Value Stationary="0.066" Moving="0.031" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="china:Ch03_WZ-111">
+      <Value Stationary="0.069" Moving="0.037" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="china:Ch12_111_1_2_3">
+      <Value Stationary="0.069" Moving="0.037" Firing="0.011" />
+    </Entry>
+    <Entry Vehicle="china:Ch22_113">
+      <Value Stationary="0.066" Moving="0.034" Firing="0.014" />
+    </Entry>
+    <Entry Vehicle="china:Ch24_Type64">
+      <Value Stationary="0.1538" Moving="0.1538" Firing="0.038" />
+    </Entry>
+	<Entry Vehicle="japan:Chi_Ni">
+      <Value Stationary="0.1600" Moving="0.1200" Firing="0.038" />
+    </Entry>
+	<Entry Vehicle="japan:NC27">
+      <Value Stationary="0.1400" Moving="0.1050" Firing="0.036" />
+    </Entry>
+	<Entry Vehicle="japan:Ha_Go">
+      <Value Stationary="0.1530" Moving="0.1150" Firing="0.036" />
+    </Entry>
+	<Entry Vehicle="japan:Chi_Ri">
+      <Value Stationary="0.1000" Moving="0.0750" Firing="0.025" />
+    </Entry>
+	<Entry Vehicle="japan:Chi_Nu">
+      <Value Stationary="0.1400" Moving="0.1050" Firing="0.036" />
+    </Entry>
+	<Entry Vehicle="japan:Chi_He">
+      <Value Stationary="0.1504" Moving="0.1160" Firing="0.040" />
+    </Entry>
+	<Entry Vehicle="japan:Chi_To">
+      <Value Stationary="0.1260" Moving="0.0940" Firing="0.031" />
+    </Entry>
+	<Entry Vehicle="japan:Chi_Ha">
+      <Value Stationary="0.1650" Moving="0.1240" Firing="0.048" />
+    </Entry>
+	<Entry Vehicle="japan:Ke_Ni">
+      <Value Stationary="0.1930" Moving="0.1930" Firing="0.058" />
+    </Entry>
+	<Entry Vehicle="japan:STA_1">
+      <Value Stationary="0.1550" Moving="0.1160" Firing="0.037" />
+    </Entry>
+	<Entry Vehicle="japan:Ke_Ho">
+      <Value Stationary="0.1920" Moving="0.1920" Firing="0.051" />
+    </Entry>
+	<Entry Vehicle="japan:Type_61">
+      <Value Stationary="0.0920" Moving="0.0690" Firing="0.019" />
+    </Entry>
+	<Entry Vehicle="japan:ST_B1">
+      <Value Stationary="0.1370" Moving="0.1030" Firing="0.029" />
+    </Entry>
+	<Entry Vehicle="japan:Chi_Nu_Kai">
+      <Value Stationary="0.1410" Moving="0.1060" Firing="0.037" />
+    </Entry>
+  </Entries>
+</CamouflageValues>

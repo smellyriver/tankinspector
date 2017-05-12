@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.DetailedDataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             PreviewMouseMove="UserControl_PreviewMouseMove"
+             MouseEnter="UserControl_MouseEnter"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/DataDisplay.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <design:HalfConverter x:Key="HalfConverter" />
+
+            <Style TargetType="ui:DetailedDataGroupView">
+                <Setter Property="MinimumPriority" Value="{Binding DataContext.MinimumDataPriority, RelativeSource={RelativeSource AncestorType=UserControl}}" />
+                <Setter Property="Width" Value="300" />
+                <Setter Property="MinHeight" Value="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType=Grid}, Converter={StaticResource HalfConverter}}" />
+                <Setter Property="Height" Value="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType=Grid}, Converter={StaticResource HalfConverter}}" />
+                <Setter Property="IsHitTestVisible" Value="True" />
+            </Style>
+
+            <Style TargetType="ui:DetailedDataGroupView" x:Key="UpperDataView" BasedOn="{StaticResource {x:Type ui:DetailedDataGroupView}}">
+                <Setter Property="VerticalAlignment" Value="Top" />
+            </Style>
+
+            <Style TargetType="ui:DetailedDataGroupView" x:Key="LowerDataView" BasedOn="{StaticResource {x:Type ui:DetailedDataGroupView}}">
+                <Setter Property="VerticalAlignment" Value="Bottom" />
+            </Style>
+
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid Background="Transparent" IsHitTestVisible="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <ui:DetailedDataGroupView x:Name="FirePowerDataGroupView" Style="{StaticResource UpperDataView}" DataContext="{Binding FirePowerDataGroup}" />
+            <ui:DetailedDataGroupView x:Name="ScoutabilityDataGroupView" Style="{StaticResource LowerDataView}" DataContext="{Binding ScoutabilityDataGroup}" />
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <ui:DetailedDataGroupView x:Name="ManeuverabilityDataGroupView" Style="{StaticResource UpperDataView}" DataContext="{Binding ManeuverabilityDataGroup}" />
+            <ui:DetailedDataGroupView x:Name="BattleDataGroupView" Style="{StaticResource LowerDataView}" DataContext="{Binding BattleDataGroup}" />
+        </Grid>
+
+        <Grid Grid.Column="2">
+            <ui:DetailedDataGroupView x:Name="MobilityDataGroupView" Style="{StaticResource UpperDataView}" DataContext="{Binding MobilityDataGroup}" />
+            <ui:DetailedDataGroupView x:Name="EconomyDataGroupView" Style="{StaticResource LowerDataView}" DataContext="{Binding EconomyDataGroup}" />
+        </Grid>
+
+        <Grid Grid.Column="3">
+            <ui:DetailedDataGroupView x:Name="SurvivabilityDataGroupView" Style="{StaticResource UpperDataView}" DataContext="{Binding SurvivabilityDataGroup}" />
+            <ui:DetailedDataGroupView x:Name="MiscellaneousDataGroupView" Style="{StaticResource LowerDataView}" DataContext="{Binding MiscellaneousDataGroup}" />
+        </Grid>
+
+    </Grid>
+
+
+</UserControl>

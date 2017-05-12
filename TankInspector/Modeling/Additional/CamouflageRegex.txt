@@ -1,0 +1,3 @@
+﻿^(?<nation>[^\t]+)\t(?<class>[^\t]+)\t(?<tier>\d\d*)\t(?<name>[^\t]+)([\d\.]*\t){14}[^\t]*\t(?<stationary_int>\d+)\.(?<stationary_dec>\d+)\%\t(?<moving_int>\d+)\.(?<moving_dec>\d+)\%\t(?<shooting_int>\d+)\.(?<shooting_dec>\d+)\%.+$
+
+<Entry Vehicle="${name}"><Value Stationary="0.${stationary_int}${stationary_dec}" Moving="0.${moving_int}${moving_dec}" Firing="0.${shooting_int}${shooting_dec}" /></Entry>

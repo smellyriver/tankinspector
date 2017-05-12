@@ -1,0 +1,281 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:effects="clr-namespace:Smellyriver.Wpf.Effects;assembly=Smellyriver.Wpf"
+             mc:Ignorable="d"  PreviewKeyDown="Window_PreviewKeyDown"
+             d:DesignHeight="380" d:DesignWidth="819">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/Settings.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="TextBlock" x:Key="PanelTitle" BasedOn="{StaticResource {x:Type TextBlock}}">
+                <Setter Property="FontWeight" Value="Bold" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+            <Style TargetType="TextBlock" x:Key="SubTitle" BasedOn="{StaticResource {x:Type TextBlock}}">
+                <Setter Property="FontWeight" Value="Bold" />
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+            <Style TargetType="UniformGrid" x:Key="TwoColumnOptionGrid">
+                <Style.Resources>
+                    <Style TargetType="CheckBox" BasedOn="{StaticResource {x:Type CheckBox}}">
+                        <Setter Property="VerticalAlignment" Value="Center" />
+                    </Style>
+                </Style.Resources>
+                <Setter Property="Columns" Value="2" />
+
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid Height="380" Width="819" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/PopupPanel.png" />
+            <TextBlock x:Uid="Title" Text="SETTINGS" Style="{StaticResource PanelTitle}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,10,0,0" />
+            <TabControl Margin="0,32,0,0" Style="{StaticResource SettingsTabControl}" Opacity="0.6" >
+                <TabItem x:Uid="GameClientSection" Header="GAME CLIENT">
+                    <StackPanel Margin="20">
+                        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" x:Uid="LocateGameFolderPrompt">Tank Inspector reads tank models and data from your game client. Please locate it here.</TextBlock>
+                        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" x:Uid="TakeEffectOnNextLaunchPrompt">This setting will take effect at next time you launch Tank Inspector.</TextBlock>
+                        <Grid>
+                            <TextBlock FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0" x:Uid="GameFolder">Game Path:</TextBlock>
+                            <TextBox x:Name="GamePathTextBox" TextChanged="GamePathTextBox_TextChanged" Background="Transparent" HorizontalAlignment="Left" Margin="100,0,0,0" Width="500" VerticalContentAlignment="Center" LostFocus="GamePathTextBox_LostFocus"
+                             Text="{Binding GameFolder, Mode=TwoWay}" Height="24"/>
+                            <Button Style="{StaticResource ContentButton}" HorizontalAlignment="Left" Margin="610,0,0,0" Click="BrowseGameFolderButton_Click" Cursor="{x:Static ui:Cursors.Hand}">
+                                <Grid>
+                                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/GreenButton.png" Margin="-9" Stretch="None" />
+                                    <TextBlock Text="..." HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Grid>
+                            </Button>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+                <TabItem x:Uid="GeneralSection" Header="GENERAL">
+                    <UniformGrid Margin="20" Rows="2" Columns="1" Height="50" VerticalAlignment="Top">
+                        <CheckBox IsChecked="{Binding ShowBackgroundImage, Mode=TwoWay}" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <TextBlock x:Uid="ShowBackgroundImage">Show background image</TextBlock>
+                            <CheckBox.ToolTip>
+                                <ToolTip x:Uid="ShowBackgroundImageTip">
+                                    Select to show a random background image, otherwise the background will be left blank.
+                                </ToolTip>
+                            </CheckBox.ToolTip>
+                        </CheckBox>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock x:Uid="PhotoSize" VerticalAlignment="Center">Photo size (width): </TextBlock>
+                            <ComboBox ItemsSource="{Binding PhotoSizeLevels}" SelectedItem="{Binding SelectedPhotoSizeLevel, Mode=TwoWay}" Margin="10,0,0,0" Width="80" />
+                            <TextBlock x:Uid="TakePhotoMessage" Margin="10,0,0,0" FontStyle="Italic" VerticalAlignment="Center">*press PRINTSCREEN in model view to take photo</TextBlock>
+                        </StackPanel>
+                        
+                    </UniformGrid>
+                </TabItem>
+                <TabItem x:Uid="GraphicsSection" Header="GRAPHICS">
+                    <StackPanel Margin="20">
+
+                        <TextBlock x:Uid="QualitySubSection" Text="QUALITY" Style="{StaticResource SubTitle}" Margin="0,0,0,5"/>
+                        <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" x:Uid="PerformancePrompt">The following options increases model graphics quality, but may impact performance. If Tank Inspector is running slowly, try to turn part or all of them off.</TextBlock>
+                        <UniformGrid Style="{StaticResource TwoColumnOptionGrid}" Height="75" Margin="0,0,0,5">
+                            <CheckBox IsChecked="{Binding SSAOEnabled, Mode=TwoWay}" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="SSAO">SSAO</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="SSAOTip">
+                                        SSAO creates ambient-occluded shadings. This option could impact render performance, if Tank Inspector is running slowly, try to turn it off.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding SMAAEnabled, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="SMAA">SMAA</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="SMAATip">
+                                        SMAA provides anti-aliasing for model rendering, making the model edges smoother. This option could impact render performance, if Tank Inspector is running slowly, try to turn it off.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding SpecularTextureEnabled, Mode=TwoWay}" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="Specularity">Specularity</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="SpecularityTip">
+                                        Specularity simulates light reflection, making certain materials shiny. This option could impact render performance, if Tank Inspector is running slowly, try to turn it off.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding NormalTextureEnabled, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="NormalMapping">Normal Mapping</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="NormalMappingTip">
+                                        Normal mapping enhances the appearance and details of models. This option could impact render performance, if Tank Inspector is running slowly, try to turn it off.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding AnisotropicFilterEnabled, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock VerticalAlignment="Center" x:Uid="AnisotropicFilter">Anisotropic Filtering</TextBlock>
+                                    <ComboBox ItemsSource="{Binding AnisotropicLevels}" SelectedItem="{Binding SelectedAnisotropicFilterLevel, Mode=TwoWay}" Margin="10,0,0,0" Width="80"
+                                      Visibility="{Binding AnisotropicFilterEnabled, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                                        <ComboBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding StringFormat={design:Localization AnisotropicLevelFormat}}" />
+                                            </DataTemplate>
+                                        </ComboBox.ItemTemplate>
+                                    </ComboBox>
+                                </StackPanel>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="AnisotropicFilterTip">
+                                        Anisotropic Filtering enhances texture image quality by eliminates aliasing effects. If Tank Inspector is running slowly, try to lower the filter level or turn it off.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                        </UniformGrid>
+                        <TextBlock x:Uid="DisplaySubSection" Text="DISPLAY" Style="{StaticResource SubTitle}" Margin="0,10,0,5"/>
+                        <UniformGrid Style="{StaticResource TwoColumnOptionGrid}" Height="75">
+                            <!-- placeholder -->
+                            <CheckBox IsChecked="{Binding CollisionModelStrokeEnabled, Mode=TwoWay}" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="CollisionModelStroke">Collision Model Stroke</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="CollisionModelStrokeTip">
+                                        Select to enable drawing strokes to separate different thickness of armors in collision model.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding WireframeMode, Mode=TwoWay}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="WireframeMode">Wireframe Mode</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="WireframeModeTip">
+                                        Select to use wireframe mode while rendering models.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding ShowFPS, Mode=TwoWay}" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="ShowFPS">Show FPS</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="ShowFPSTip">
+                                        Select to display how many frames are rendered within one second on the top-left of the model view.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding ShowModelTriangleCount, Mode=TwoWay}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="ShowModelTriangleCount">Show Model Triangle Count</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="ShowModelTriangleCountTip">
+                                        Select to display how many triangles are there in the model being rendered on the top-left of the model view.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding ShowSoftwareCrosshair, Mode=TwoWay}" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left">
+                                <TextBlock x:Uid="ShowSoftwareCrosshair">Show Crosshair on Model</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="ShowSoftwareCrosshairTip">
+                                        Select to display a crosshair while your mouse is over the model. This is useful if you want to figure out where the mouse is pointing to in your screenshot.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                        </UniformGrid>
+
+                    </StackPanel>
+                </TabItem>
+                <TabItem x:Uid="GarageSection" Header="GARAGE">
+                    <StackPanel Margin="20">
+                        <Grid Height="20">
+                            <CheckBox IsChecked="{Binding UseRealTraverseSpeedOnTurretController, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="UseRealTraverseSpeedOnTurretController">Use actual traverse speed for turret controller</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="UseRealTraverseSpeedOnTurretControllerTip">
+                                        The turret and gun will traverse in their actual speed while being manipulated with the turret controller, instead of changing their facing immediately.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                        </Grid>
+                        <UniformGrid Columns="1" Height="175" VerticalAlignment="Top">
+                            <TextBlock x:Uid="WhenChangingVehicle" FontWeight="Bold">When changing vehicle:</TextBlock>
+                            <CheckBox IsChecked="{Binding AutoLoadEliteConfigEnabled, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="AutoLoadEliteConfig">Load elite configuration</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="AutoLoadEliteConfigTip">
+                                        Load elite configuration automatically for newly selected tanks.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding RecruitNewCrewsOnChangingVehicle, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="ReuseCrews">Recruit new crews</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="ReuseCrewsTip">
+                                        Recruit new crews, instead of trying to retrain current crews by sustaining their training level and skills.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding RecruitFullyTrainedCrews, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="RecruitFullyTrainedCrews">Recruit fully trained crews</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="RecruitFullyTrainedCrewsTip">
+                                        Newly recruited crews have 100% proficiency instead of 50%.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding AutoResetReferenceTankEnabled, Mode=TwoWay}" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="AutoResetReferenceTank">Reset reference tank to default benchmark tank</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="AutoResetReferenceTankTip">
+                                        Reset reference tank to default benchmark tank, even if you have selected another tank as reference.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding ResetShellTypeOnChangingVehicle, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="ResetToDefaultAmmunition">Reset to default ammunition</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="ResetToDefaultAmmunitionTip">
+                                        Reset to default ammunition type instead of trying to keep previously selected type.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding ClearEquipmentsOnChangingVehicle, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="ClearEquipments">Clear equipments</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="ClearEquipmentsTip">
+                                        Clear installed equipments instead of trying to reuse them.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            <CheckBox IsChecked="{Binding ClearConsumablesOnChangingVehicle, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <TextBlock x:Uid="ClearConsumables">Clear consumables</TextBlock>
+                                <CheckBox.ToolTip>
+                                    <ToolTip x:Uid="ClearConsumablesTip">
+                                        Clear installed consumables instead of trying to reuse them.
+                                    </ToolTip>
+                                </CheckBox.ToolTip>
+                            </CheckBox>
+                            
+                        </UniformGrid>
+                    </StackPanel>
+                </TabItem>
+                <TabItem x:Uid="DataSection" Header="DATA">
+                    <UniformGrid Margin="20" Columns="1" Rows="2" Height="50" VerticalAlignment="Top">
+                        <CheckBox IsChecked="{Binding ShowDescriptionInDataTip, Mode=TwoWay}" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <TextBlock x:Uid="ShowDescriptionInDataTip">Show description in data tooltip</TextBlock>
+                            <CheckBox.ToolTip>
+                                <ToolTip x:Uid="ShowDescriptionInDataTipTip">
+                                    Select to show description of data items in their tooltips.
+                                </ToolTip>
+                            </CheckBox.ToolTip>
+                        </CheckBox>
+                        <CheckBox IsChecked="{Binding ShowAsMuchStatsAsPossible, Mode=TwoWay}" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <TextBlock x:Uid="ShowAsMuchStatsAsPossible">Show as much stats as possible</TextBlock>
+                            <CheckBox.ToolTip>
+                                <ToolTip x:Uid="ShowAsMuchStatsAsPossibleTip">
+                                    Unimportant stats are defaultly collapsed in the data page. Enable this option to show as much stats as possible to fill up the data page.
+                                </ToolTip>
+                            </CheckBox.ToolTip>
+                        </CheckBox>
+                    </UniformGrid>
+                </TabItem>
+            </TabControl>
+            <Button Style="{StaticResource ContentButton}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,18,18,0" Click="CloseButton_Click">
+                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/PopupWindowCloseButton.png" Margin="-9" Stretch="None" />
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,1081 @@
+﻿Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,LocalizationVersion:System.Int32.$Content,None,True,True,,21
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LocalizerLinkURL:System.String.$Content,None,True,True,,http://wot-france.blogspot.fr
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CommonTest:System.String.$Content,None,True,True,,TP
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ColonSyntax:System.String.$Content,None,True,True,,"{0} : {1}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ObsoleteLocalization:System.String.$Content,None,True,True,,"Ce pack de langue FR est obsolète et imcompatible. Veuillez le mettre à jour, ou l&apos;effacer pour utiliser la langue par défaut."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ObsoleteLocalizationTitle:System.String.$Content,None,True,True,,Pack de langue obsolète
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FollowingAreInvalidGamePathes:System.String.$Content,None,True,True,,Un ou plusieurs chemins vers le jeu sont invalides et ont été supprimés de vos réglages :
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelectedGamePathIsInvalid:System.String.$Content,None,True,True,,Le chemin vers le jeu est invalide. Veuillez réessayer.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelectGameRootFolder:System.String.$Content,None,True,True,,"Sélectionnez le répertoire d&apos;installation du jeu :"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameFolderChangedMessage:System.String.$Content,None,True,True,,La modification du chemin vers le répertoire du jeu prendra effet lors du prochain démarrage.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameFolderChangedTitle:System.String.$Content,None,True,True,,Chemin vers le jeu modifié
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMailAddress:System.String.$Content,None,True,True,,"L&apos;adresse e-mail saisie est invalide. Veuillez réessayer, ou laissez-là vide si vous ne voulez pas la fournir."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMailAddressTitle:System.String.$Content,None,True,True,,Adresse e-mail invalide
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DonationTip:System.String.$Content,None,True,True,,"Merci beaucoup de soutenir Smelldriver et Tank Inspector. Vous allez être redirigé vers la page des dons dans votre navigateur.
+
+Veuillez renseigner votre adresse e-mail lors du don."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DonationTitle:System.String.$Content,None,True,True,,Merci !
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidGamePath:System.String.$Content,None,True,True,,Chemin du client invalide
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HeavyTank:System.String.$Content,None,True,True,,Char lourd
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MediumTank:System.String.$Content,None,True,True,,Char moyen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LightTank:System.String.$Content,None,True,True,,Char léger
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankDestroyer:System.String.$Content,None,True,True,,Chasseur de chars
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelfPropelledGun:System.String.$Content,None,True,True,,Canon automoteur
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HeavyTankShort:System.String.$Content,None,True,True,,CLD
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MediumTankShort:System.String.$Content,None,True,True,,CMN
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LightTankShort:System.String.$Content,None,True,True,,CLG
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankDestroyerShort:System.String.$Content,None,True,True,,CDC
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelfPropelledGunShort:System.String.$Content,None,True,True,,CAM
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BenchmarkTankName:System.String.$Content,None,True,True,,"{0} de rang {1} de référence"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BenchmarkTankShortName:System.String.$Content,None,True,True,,"{0}-{1}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Tier:System.String.$Content,None,True,True,,Rang
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Name:System.String.$Content,None,True,True,,Nom
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Elite:System.String.$Content,None,True,True,,Élite
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankTaxologyDescription:System.String.$Content,None,True,True,,{1} de rang {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EliteTankTaxologyDescription:System.String.$Content,None,True,True,,{1} élite de rang {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AP:System.String.$Content,None,True,True,,AP
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_APCR:System.String.$Content,None,True,True,,APCR
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_APHE:System.String.$Content,None,True,True,,APHE
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HE:System.String.$Content,None,True,True,,HE
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HEAT:System.String.$Content,None,True,True,,HEAT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PremiumHE:System.String.$Content,None,True,True,,HE premium
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellTypeDisplay:System.String.$Content,None,True,True,,"{0} mm {1}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessNotApplicable:System.String.$Content,None,True,True,,N/A
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessRicochet:System.String.$Content,None,True,True,,RICOCHET
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessUnpenetratable:System.String.$Content,None,True,True,,∞
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDevice:System.String.$Content,None,True,True,,"Appareil d&apos;observation"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotator:System.String.$Content,None,True,True,,Mécanimse de rotation de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBay:System.String.$Content,None,True,True,,Râtelier de munitions
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Diesel:System.String.$Content,None,True,True,,Diesel
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gasoline:System.String.$Content,None,True,True,,Essence
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTank:System.String.$Content,None,True,True,,Réservoir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Penetration:System.String.$Content,None,True,True,,Pénétration
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Caliber:System.String.$Content,None,True,True,,Calibre
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Damage:System.String.$Content,None,True,True,,Dégâts
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Armor:System.String.$Content,None,True,True,,Blindage
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Price:System.String.$Content,None,True,True,,Prix
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PricePerDamage:System.String.$Content,None,True,True,,Prix du point de dégât
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePower:System.String.$Content,None,True,True,,Puissance du moteur
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SpecificPower:System.String.$Content,None,True,True,,Puissance massique
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FireChance:System.String.$Content,None,True,True,,"Probabilité d&apos;incendie"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DefaultSuperstructure:System.String.$Content,None,True,True,,(Superstructure par défaut)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxLoad:System.String.$Content,None,True,True,,Limite de charge
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioDistance:System.String.$Content,None,True,True,,Portée radio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AddDatabase:System.String.$Content,None,True,True,,Ajoutez une autre version du client du jeu...
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameVersionExisted:System.String.$Content,None,True,True,,Un client avec la même version existe déjà.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameVersionExistedTitle:System.String.$Content,None,True,True,,Version du client existante
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverseYes:System.String.$Content,None,True,True,,Oui
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverseNo:System.String.$Content,None,True,True,,Non
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NotApplicable:System.String.$Content,None,True,True,,n/a
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_At400m:System.String.$Content,None,True,True,,à 400 m 
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveEquipment:System.String.$Content,None,True,True,,Retirer
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveEquipmentDescription:System.String.$Content,None,True,True,,Retirer cet équipement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveConsumable:System.String.$Content,None,True,True,,Retirer
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveConsumableDescription:System.String.$Content,None,True,True,,Retirer ce consommable
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyEquipmentSlot:System.String.$Content,None,True,True,,"Emplacement d&apos;équipement vide"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyEquipmentSlotDescription:System.String.$Content,None,True,True,,Cliquez pour choisir un équipement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyConsumableSlot:System.String.$Content,None,True,True,,Emplacement de consommable vide
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyConsumableSlotDescription:System.String.$Content,None,True,True,,Cliquez pour choisir un consommable
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SecondsBeforeCamouflageNetActivate:System.String.$Content,None,True,True,,Après {0} secondes
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NormalCamouflageValue:System.String.$Content,None,True,True,,Valeur normale : {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SecondsBeforeStereoscopeActivate:System.String.$Content,None,True,True,,Après {0} secondes
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NormalViewRangeValue:System.String.$Content,None,True,True,,Valeur normale: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BasicSkill:System.String.$Content,None,True,True,,Qualification principale
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BasicSkills:System.String.$Content,None,True,True,,Qualifications principales
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitSeconds:System.String.$Content,None,True,True,,{0} s
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMinutes:System.String.$Content,None,True,True,,{0} min
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPer100Meters:System.String.$Content,None,True,True,,{0} × 20 ₥
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitFactor:System.String.$Content,None,True,True,,{0} ɑ
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMillimeters:System.String.$Content,None,True,True,,{0} mm
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMeters:System.String.$Content,None,True,True,,{0} m
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitShotsPerMinute:System.String.$Content,None,True,True,,{0} coups/min
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitDegrees:System.String.$Content,None,True,True,,{0} deg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitTimes:System.String.$Content,None,True,True,,{0} x
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitDegreesPerSecond:System.String.$Content,None,True,True,,{0} deg/s
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitShots:System.String.$Content,None,True,True,,{0} coups
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHealthPoints:System.String.$Content,None,True,True,,{0} PV
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHealthPointsPerMinute:System.String.$Content,None,True,True,,{0} PV/min
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitKilograms:System.String.$Content,None,True,True,,{0} kg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitPerMeter:System.String.$Content,None,True,True,,{0}/m
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPerSecond:System.String.$Content,None,True,True,,{0} m/s
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPerSquareSecond:System.String.$Content,None,True,True,,{0} m/s²
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitNewtons:System.String.$Content,None,True,True,,{0} N
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitKilometersPerHour:System.String.$Content,None,True,True,,{0} km/h
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHorsePowers:System.String.$Content,None,True,True,,{0} ch
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHorsePowersPerTon:System.String.$Content,None,True,True,,{0} ch/t
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitCredits:System.String.$Content,None,True,True,,{0} cr
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitGolds:System.String.$Content,None,True,True,,{0} or
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitCreditsPerHealthPoint:System.String.$Content,None,True,True,,{0} cr/PV
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitGoldsPerHealthPoint:System.String.$Content,None,True,True,,{0} or/PV
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Turrets:System.String.$Content,None,True,True,,Tourelles
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Engines:System.String.$Content,None,True,True,,Moteurs
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Radios:System.String.$Content,None,True,True,,Radios
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Hull:System.String.$Content,None,True,True,,Châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gun:System.String.$Content,None,True,True,,Canons
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Shells:System.String.$Content,None,True,True,,Obus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagePerMinute:System.String.$Content,None,True,True,,Dégâts par minute
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RateOfFire:System.String.$Content,None,True,True,,Cadence de tir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ReloadTime:System.String.$Content,None,True,True,,Temps de chargement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ClipCount:System.String.$Content,None,True,True,,Obus dans le barillet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ClipReloadTime:System.String.$Content,None,True,True,,Temps de chargement d'un obus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BurstCount:System.String.$Content,None,True,True,,Obus dans le barillet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BurstRateOfFire:System.String.$Content,None,True,True,,Cadence de tir du barillet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxAmmo:System.String.$Content,None,True,True,,Obus max.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Accuracy:System.String.$Content,None,True,True,,Précision
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AimingTime:System.String.$Content,None,True,True,,Vitesse de visée
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunShotDispersion:System.String.$Content,None,True,True,,Dispersion du cercle de visée
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionAfterShot:System.String.$Content,None,True,True,,après un tir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnTurretRotation:System.String.$Content,None,True,True,,tourelle en rotation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnTurretFullSpeedRotating:System.String.$Content,None,True,True,,tourelle en rotation à vitesse max.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionWhileGunDamaged:System.String.$Content,None,True,True,,avec canon endommagé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Elevation:System.String.$Content,None,True,True,,Élévation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Depression:System.String.$Content,None,True,True,,Dépression
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HorizontalTraverse:System.String.$Content,None,True,True,,Angle de rotation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RotationSpeed:System.String.$Content,None,True,True,,Vitesse de rotation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Health:System.String.$Content,None,True,True,,Points de structure
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Regenerated:System.String.$Content,None,True,True,,Réparé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegeneratedHealth:System.String.$Content,None,True,True,,Points de structure après réparation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RepairCostFactor:System.String.$Content,None,True,True,,Facteur de coût de réparation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Weight:System.String.$Content,None,True,True,,Poids
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VerticalTraverse:System.String.$Content,None,True,True,,Rotation verticale
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DefaultPitchLimits:System.String.$Content,None,True,True,,par défaut
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FrontExtraPitchLimit:System.String.$Content,None,True,True,,avant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BackExtraPitchLimit:System.String.$Content,None,True,True,,arrière
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExtraPitchLimitTransition:System.String.$Content,None,True,True,,transition
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Turret:System.String.$Content,None,True,True,,Tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Guns:System.String.$Content,None,True,True,,Canons
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CircularVisionRadius:System.String.$Content,None,True,True,,Portée de vue
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Frontal:System.String.$Content,None,True,True,,avant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Side:System.String.$Content,None,True,True,,côté
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Rear:System.String.$Content,None,True,True,,arrière
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Shell:System.String.$Content,None,True,True,,Obus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ModuleDamage:System.String.$Content,None,True,True,,Dégâts de module
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExplosionRadius:System.String.$Content,None,True,True,,"Rayon d&apos;explosion"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationLossFactorByDistance:System.String.$Content,None,True,True,,Facteur de perte de pénétration
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxDistance:System.String.$Content,None,True,True,,Distance max.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Speed:System.String.$Content,None,True,True,,"Vitesse de l&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gravity:System.String.$Content,None,True,True,,"Gravité de l&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Chassis:System.String.$Content,None,True,True,,Suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SpeedLimits:System.String.$Content,None,True,True,,Vitesse maximale
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Forward:System.String.$Content,None,True,True,,marche avant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Backward:System.String.$Content,None,True,True,,marche arrière
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TerrainResistance:System.String.$Content,None,True,True,,Résistance au sol
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnHardTerrain:System.String.$Content,None,True,True,,sur du terrain normal
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnMediumTerrain:System.String.$Content,None,True,True,,sur du terrain modérément meuble
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnSoftTerrain:System.String.$Content,None,True,True,,sur du terrain meuble
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverse:System.String.$Content,None,True,True,,Peut pivoter
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BrakeForce:System.String.$Content,None,True,True,,Force de freinage
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxClimbAngle:System.String.$Content,None,True,True,,"Angle d&apos;escalade max."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleMove:System.String.$Content,None,True,True,,en mouvement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleFullSpeedMoving:System.String.$Content,None,True,True,,en mouvement à vitesse max.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleRotation:System.String.$Content,None,True,True,,en rotation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleFullSpeedRotating:System.String.$Content,None,True,True,,en rotation à vitesse max.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelType:System.String.$Content,None,True,True,,Type de carburant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SignalDistance:System.String.$Content,None,True,True,,Portée radio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CamouflageValues:System.String.$Content,None,True,True,,Taux de dissimulation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_StationaryCamouflageValue:System.String.$Content,None,True,True,,"à l&apos;arrêt"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MovingCamouflageValue:System.String.$Content,None,True,True,,en mouvement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FiringStationaryCamouflageValue:System.String.$Content,None,True,True,,"en tirant à l&apos;arrêt"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FiringMovingCamouflageValue:System.String.$Content,None,True,True,,en tirant en mouvement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FirePower:System.String.$Content,None,True,True,,Puissance de feu
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Scoutability:System.String.$Content,None,True,True,,Reconnaissance
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Economy:System.String.$Content,None,True,True,,Économie
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Miscellaneous:System.String.$Content,None,True,True,,Divers
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Mobility:System.String.$Content,None,True,True,,Mobilité
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Survivability:System.String.$Content,None,True,True,,Durabilité
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Maneuverability:System.String.$Content,None,True,True,,Confort
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Battle:System.String.$Content,None,True,True,,Combat
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeed:System.String.$Content,None,True,True,,Vitesse de rotation du canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverse:System.String.$Content,None,True,True,,Angle de rotation du canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverse:System.String.$Content,None,True,True,,Angle de rotation de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeed:System.String.$Content,None,True,True,,Vitesse de rotation de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeed:System.String.$Content,None,True,True,,Vitesse de rotation du char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeight:System.String.$Content,None,True,True,,châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeight:System.String.$Content,None,True,True,,tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeight:System.String.$Content,None,True,True,,suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeight:System.String.$Content,None,True,True,,canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeight:System.String.$Content,None,True,True,,radio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquipmentWeight:System.String.$Content,None,True,True,,équipement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeight:System.String.$Content,None,True,True,,moteur
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealth:System.String.$Content,None,True,True,,châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRegeneratedHealth:System.String.$Content,None,True,True,,châssis - réparé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealth:System.String.$Content,None,True,True,,tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRegeneratedHealth:System.String.$Content,None,True,True,,tourelle - réparée
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealth:System.String.$Content,None,True,True,,râtelier de munitions
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayRegeneratedHealth:System.String.$Content,None,True,True,,râtelier de munitions - réparé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealth:System.String.$Content,None,True,True,,rotateur de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorRegeneratedHealth:System.String.$Content,None,True,True,,rotateur de la tourelle - réparé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealth:System.String.$Content,None,True,True,,réservoir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankRegeneratedHealth:System.String.$Content,None,True,True,,réservoir - réparé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealth:System.String.$Content,None,True,True,,moteur
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineRegeneratedHealth:System.String.$Content,None,True,True,,moteur - réparé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealth:System.String.$Content,None,True,True,,suspension 
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRegeneratedHealth:System.String.$Content,None,True,True,,suspension - répaée
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealth:System.String.$Content,None,True,True,,canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRegeneratedHealth:System.String.$Content,None,True,True,,canon - réparé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealth:System.String.$Content,None,True,True,,"appareil d&apos;observation"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceRegeneratedHealth:System.String.$Content,None,True,True,,"appareil d&apos;observation - réparé"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealth:System.String.$Content,None,True,True,,radio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioRegeneratedHealth:System.String.$Content,None,True,True,,radio - réparée
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmor:System.String.$Content,None,True,True,,châssis - avant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmor:System.String.$Content,None,True,True,,châssis - côté
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmor:System.String.$Content,None,True,True,,châssis - arrière
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmor:System.String.$Content,None,True,True,,tourelle - avant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmor:System.String.$Content,None,True,True,,tourelle - côté
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmor:System.String.$Content,None,True,True,,tourelle - arrière
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmor:System.String.$Content,None,True,True,,suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmor:System.String.$Content,None,True,True,,canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChance:System.String.$Content,None,True,True,,"Probabilité d&apos;incendie du moteur"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPrice:System.String.$Content,None,True,True,,Prix du char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMaxRepairCost:System.String.$Content,None,True,True,,coût de réparation max.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiers:System.String.$Content,None,True,True,,niveaux de bataille
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeight:System.String.$Content,None,True,True,,poids de création de partie
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealth:System.String.$Content,None,True,True,,char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComponentHealth:System.String.$Content,None,True,True,,Durabilité du module
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VehicleWeight:System.String.$Content,None,True,True,,char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPrice:System.String.$Content,None,True,True,,"Prix de l&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamage:System.String.$Content,None,True,True,,"Prix de l&apos;obus par point de dégât"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealthFullName:System.String.$Content,None,True,True,,Durabilité du râtelier de munition
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeedFullName:System.String.$Content,None,True,True,,Vitesse de rotation du char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisForwardSpeedLimitFullName:System.String.$Content,None,True,True,,Vitesse maximale en marche avant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBackwardSpeedLimitFullName:System.String.$Content,None,True,True,,Vitesse maximale en marche arrière
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHardTerrainResistanceFullName:System.String.$Content,None,True,True,,Résistance au sol sur du terrain normal
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMediumTerrainResistanceFullName:System.String.$Content,None,True,True,,Résistance au sol sur du terrain modérément meuble
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisSoftTerrainResistanceFullName:System.String.$Content,None,True,True,,Résistance au sol sur du terrain meuble
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisCanTraverseFullName:System.String.$Content,None,True,True,,La suspension peut pivoter
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBrakeForceFullName:System.String.$Content,None,True,True,,Force de freinage
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxClimbAngleFullName:System.String.$Content,None,True,True,,"Angle d&apos;escalade max."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleMoveFullName:System.String.$Content,None,True,True,,Dispersion en mouvement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedMovingFullName:System.String.$Content,None,True,True,,Dispersion en mouvement à vitesse maximale
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleRotationFullName:System.String.$Content,None,True,True,,Dispersion en rotation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedRotatingFullName:System.String.$Content,None,True,True,,Dispersion en rotation à vitesse maximale
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxLoadFullName:System.String.$Content,None,True,True,,Charge maximale de la suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealthFullName:System.String.$Content,None,True,True,,Durabilité de la suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeightFullName:System.String.$Content,None,True,True,,Poids de la suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmorFullName:System.String.$Content,None,True,True,,Blindage de la suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePowerFullName:System.String.$Content,None,True,True,,Puissance du moteur
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineSpecificPowerFullName:System.String.$Content,None,True,True,,Puissance spécifique
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChanceFullName:System.String.$Content,None,True,True,,"Probabilité d&apos;incendie du moteur"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealthFullName:System.String.$Content,None,True,True,,Durabilité du moteur
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeightFullName:System.String.$Content,None,True,True,,Poids du moteur
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealthFullName:System.String.$Content,None,True,True,,Durabilité du réservoir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankFuelTypeFullName:System.String.$Content,None,True,True,,Type de carburant
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunReloadTimeFullName:System.String.$Content,None,True,True,,Temps de chargement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAccuracyFullName:System.String.$Content,None,True,True,,Précision
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmorFullName:System.String.$Content,None,True,True,,Blindage du canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAimingTimeFullName:System.String.$Content,None,True,True,,Vitesse de visée
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRateOfFireFullName:System.String.$Content,None,True,True,,Cadence de tir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunElevationFullName:System.String.$Content,None,True,True,,Élévation
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDepressionFullName:System.String.$Content,None,True,True,,Dépression
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCamouflageFactorAfterShot:System.String.$Content,None,True,True,,Taux de dissimulation après un tir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionAfterShotFullName:System.String.$Content,None,True,True,,Dispersion après un tir
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretRotationFullName:System.String.$Content,None,True,True,,Dispersion lors de la rotation de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretFullSpeedRotatingFullName:System.String.$Content,None,True,True,,Dispersion lors de la rotation de la tourelle à vitesse maximale
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionWhileGunDamagedFullName:System.String.$Content,None,True,True,,Dispersion avec un canon endommagé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverseFullName:System.String.$Content,None,True,True,,Angle de rotation du canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeedFullName:System.String.$Content,None,True,True,,Vitesse de rotation du canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunMaxAmmoFullName:System.String.$Content,None,True,True,,Capacité en obus max.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipCountFullName:System.String.$Content,None,True,True,,Obus dans le barillet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipReloadTimeFullName:System.String.$Content,None,True,True,,Temps de chargement d'un obus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstCountFullName:System.String.$Content,None,True,True,,Obus dans le barillet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstRateOfFireFullName:System.String.$Content,None,True,True,,Cadence de tir du barillet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCaliberFullName:System.String.$Content,None,True,True,,Calibre
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealthFullName:System.String.$Content,None,True,True,,Durabilité du canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeightFullName:System.String.$Content,None,True,True,,Poids du canon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmorFullName:System.String.$Content,None,True,True,,Blindage frontal du châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmorFullName:System.String.$Content,None,True,True,,Blindage latéral du châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmorFullName:System.String.$Content,None,True,True,,Blindage arrière du châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealthFullName:System.String.$Content,None,True,True,,Durabilité du châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeightFullName:System.String.$Content,None,True,True,,Poids du châssis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealthFullName:System.String.$Content,None,True,True,,Durabilité de la radio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioSignalDistanceFullName:System.String.$Content,None,True,True,,Portée radio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeightFullName:System.String.$Content,None,True,True,,Poids de la radio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellCaliberFullName:System.String.$Content,None,True,True,,Calibre
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellExplosionRadiusFullName:System.String.$Content,None,True,True,,"Rayon d&apos;explosion"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellSpeedFullName:System.String.$Content,None,True,True,,"Vitesse de l&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellGravityFullName:System.String.$Content,None,True,True,,"Gravité de l&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellMaxDistanceFullName:System.String.$Content,None,True,True,,"Distance max. de l&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationFullName:System.String.$Content,None,True,True,,Pénétration
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationAt400mFullName:System.String.$Content,None,True,True,,Pénétration à 400 m
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellArmorDamageFullName:System.String.$Content,None,True,True,,Dégâts
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellDamagePerMinuteFullName:System.String.$Content,None,True,True,,Dégâts par minute
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellModuleDamageFullName:System.String.$Content,None,True,True,,Dégâts de module
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPriceFullName:System.String.$Content,None,True,True,,"Prix d&apos;un obus"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamageFullName:System.String.$Content,None,True,True,,"Prix d&apos;un obus par dégât"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPiercingPowerLossFactorByDistanceFullName:System.String.$Content,None,True,True,,"Facteur de perte de pénétration de l&apos;obus en fonction de la distance"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealthFullName:System.String.$Content,None,True,True,,"Durabilité de l&apos;appareil d&apos;observation"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealthFullName:System.String.$Content,None,True,True,,Durabilité du char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankWeightFullName:System.String.$Content,None,True,True,,Poids du char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankEquipmentWeightFullName:System.String.$Content,None,True,True,,"Poids de l&apos;équipement"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankRepairCostFullName:System.String.$Content,None,True,True,,Coûts de réparation du char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeightFullName:System.String.$Content,None,True,True,,Poids de création de partie
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiersFullName:System.String.$Content,None,True,True,,Rangs de bataille
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPriceFullName:System.String.$Content,None,True,True,,Prix du char
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankStationaryCamouflageFullName:System.String.$Content,None,True,True,,"Taux de dissimulation à l&apos;arrêt"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMovingCamouflageFullName:System.String.$Content,None,True,True,,Taux de dissimulation en mouvement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringStationaryCamouflageFullName:System.String.$Content,None,True,True,,"Taux de dissimulation en tirant à l&apos;arrêt"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringMovingCamouflageFullName:System.String.$Content,None,True,True,,Taux de dissimulation en tirant en mouvement
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealthFullName:System.String.$Content,None,True,True,,Durabilité du mécanisme de rotation de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeedFullName:System.String.$Content,None,True,True,,Vitesse de rotation de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretCircularVisionRadiusFullName:System.String.$Content,None,True,True,,Portée de vue
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmorFullName:System.String.$Content,None,True,True,,Blindage frontal de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmorFullName:System.String.$Content,None,True,True,,Blindage latéral de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmorFullName:System.String.$Content,None,True,True,,Blindage arrière de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverseFullName:System.String.$Content,None,True,True,,Vitesse de rotation de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealthFullName:System.String.$Content,None,True,True,,Durabilité de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeightFullName:System.String.$Content,None,True,True,,Poids de la tourelle
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale du râtelier de munition. Si cette valeur diminue en dessous de sa valeur de durabilité réparée correspondante, le temps de rechargement sera augmenté de 100%. Si cette valeur atteint zéro et qu&apos;il y a des obus dans le râtelier de munition, une détonation aura lieu et le char explosera immédiatement."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeedDescription:System.String.$Content,None,True,True,,La vitesse de rotation de la suspension
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisForwardSpeedLimitDescription:System.String.$Content,None,True,True,,La vitesse maximale du véhicule en marche avant.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBackwardSpeedLimitDescription:System.String.$Content,None,True,True,,La vitesse maximale du véhicule en marche arrière.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHardTerrainResistanceDescription:System.String.$Content,None,True,True,,"Le facteur de résistance appliqué lorsque le véhicule se déplace ou tourne sur du terrain normal (routes, trottoirs et pavés)."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMediumTerrainResistanceDescription:System.String.$Content,None,True,True,,"Le facteur de résistance appliqué lorsque le véhicule se déplace ou tourne sur du terrain modérément meuble (certains chemins, terre, sable, herbe and eau peu profonde)."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisSoftTerrainResistanceDescription:System.String.$Content,None,True,True,,Le facteur de résistance appliqué lorsque le véhicule se déplace ou tourne sur du terrain meuble (marécages et eaux profondes).
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisCanTraverseDescription:System.String.$Content,None,True,True,,Si la suspension peut tourner sur place sans avancer ni reculer.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBrakeForceDescription:System.String.$Content,None,True,True,,La force de freinage du véhicule.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxClimbAngleDescription:System.String.$Content,None,True,True,,"L&apos;angle maximal que le véhicule peut escalader."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleMoveDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de visée lorsque le véhicule se déplace.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedMovingDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de visée lorsque le véhicule se déplace à vitesse maximale.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleRotationDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de visée lorsque le véhicule tourne.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedRotatingDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de visée lorsque le véhicule tourne à vitesse maximale.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxLoadDescription:System.String.$Content,None,True,True,,La charge maximale de la suspension.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale de la suspension. Si cette valeur atteint zéro, la chenille se cassera et le véhicule ne pourra plus se déplacer ou tourner. Cependant, une suspension endommagée n&apos;affecte pas la mobilité du véhicule. Les deux chenilles ont leur propre durabilité."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeightDescription:System.String.$Content,None,True,True,,Le poids de la suspension.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmorDescription:System.String.$Content,None,True,True,,Le blindage des chenilles.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePowerDescription:System.String.$Content,None,True,True,,La puissance effective du moteur.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineSpecificPowerDescription:System.String.$Content,None,True,True,,"La puissance du moteur divisé par le poids du véhicule, reflète la performance d&apos;accélération du véhicule."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChanceDescription:System.String.$Content,None,True,True,,"La probabilité que le moteur prenne feu lorsqu&apos;il est touché."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale du moteur. Si cette valeur descend en dessous de la valeur de durabilité réparée correspondante, le véhicules se déplacera et tournera 50% plus lentement. Si cette valeur atteint zéro, le moteur sera détruit donc le véhicule ne pourra plus se déplacer ni tourner."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeightDescription:System.String.$Content,None,True,True,,Le poids du moteur.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale du réservoir. Si cette valeur atteint zéro, le char prendra feu."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankFuelTypeDescription:System.String.$Content,None,True,True,,Le type de carburant stocké dans ce réservoir.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunReloadTimeDescription:System.String.$Content,None,True,True,,"Le temps de rechargement du canon. Pour un canon a barillet, c&apos;est le temps nécessaire pour recharger le barillet complet."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAccuracyDescription:System.String.$Content,None,True,True,,"La précision du canon, à peu près le rayon minimal du cercle de visée projeté à 100 m du canon. Pour être exacte, cette valeur décrie 3 déviations σ standards dans la distribution normale, depuis le centre de votre visée."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmorDescription:System.String.$Content,None,True,True,,Le blindage du canon.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAimingTimeDescription:System.String.$Content,None,True,True,,"Le temps de visée du canon, représenté par le temps nécessaire pour que le cercle de visée rétrécisse à sa taille 1/e (à peur près un tiers)."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRateOfFireDescription:System.String.$Content,None,True,True,,"Représente le nombre d&apos;obus qui peuvent être tirés en une minute."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunElevationDescription:System.String.$Content,None,True,True,,"L&apos;angle maximal auquel le canon peut s&apos;élever."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDepressionDescription:System.String.$Content,None,True,True,,"L&apos;angle maximal auquel le canon peut s&apos;abaisser."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionAfterShotDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de dispersion après que le canon ait tiré.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretRotationDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de dispersion lors de la rotation de la tourelle.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretFullSpeedRotatingDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de dispersion lors de la rotation de la tourelle à vitesse maximale.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionWhileGunDamagedDescription:System.String.$Content,None,True,True,,Le facteur de dispersion appliqué au cercle de dispersion quand le canon est endommagé.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverseDescription:System.String.$Content,None,True,True,,"L&apos;angle sur lequel le canon peut pivoter."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeedDescription:System.String.$Content,None,True,True,,"La vitesse de rotation maximale du canon lorsqu&apos;il bouge dans son angle de rotation."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunMaxAmmoDescription:System.String.$Content,None,True,True,,La capacité en munitions du char.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipCountDescription:System.String.$Content,None,True,True,,"La capacité en munitions d&apos;un barillet."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipReloadTimeDescription:System.String.$Content,None,True,True,,"Le temps de rechargement d&apos;un obus dans le barillet."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstCountDescription:System.String.$Content,None,True,True,,"Le nombre d&apos;obus qui peuvent être tirés en un tir."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstRateOfFireDescription:System.String.$Content,None,True,True,,"Réprésente le nombre d&apos;obus qui peuvent être tirés en une minute, si le rechargement du barillet n&apos;était pas nécessaire."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCaliberDescription:System.String.$Content,None,True,True,,Le calibre du canon.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale du canon. Si cette valeur descend en dessous de sa valeur de durabilité réparée correspondante, le rayon du cercle de visée sera augmenté de 100%. Si cette valeur atteint zéro, le canon sera détruit et ne pourra pas tirer."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeightDescription:System.String.$Content,None,True,True,,Le poids du canon.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmorDescription:System.String.$Content,None,True,True,,Le blindage frontal principal du châssis.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmorDescription:System.String.$Content,None,True,True,,Le blindage latéral principal du châssis.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmorDescription:System.String.$Content,None,True,True,,Le blindage arrière principal du châssis.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale du châssis, qui est prise en compte dans la durabilité maximale du char."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeightDescription:System.String.$Content,None,True,True,,Le poids du châssis.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale de la radio. Si cette valeur descend en dessous de sa valeur de durabilité réparée correspondante, la portée radio sera diminuée de 50%."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioSignalDistanceDescription:System.String.$Content,None,True,True,,"La portée du signal de la radio. Deux chars alliés peuvent se voir l&apos;un l&apos;autre et les ennemis qu&apos;ils ont détecté si leur distance est inférieure à la somme de leur portée radio."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeightDescription:System.String.$Content,None,True,True,,Le poids de la radio.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellCaliberDescription:System.String.$Content,None,True,True,,"Le calibre de l&apos;obus."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellExplosionRadiusDescription:System.String.$Content,None,True,True,,"Le rayon que l&apos;explosion de l&apos;obus HE peut atteindre."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellSpeedDescription:System.String.$Content,None,True,True,,"La vitesse de l&apos;obus."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellGravityDescription:System.String.$Content,None,True,True,,"L&apos;accélération de la pesanteur de l&apos;obus."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellMaxDistanceDescription:System.String.$Content,None,True,True,,"La distance maximale que l&apos;obus peut atteindre."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationDescription:System.String.$Content,None,True,True,,"La puissance de pénétration de l&apos;obus. Cette valeur représente la puissance de pénétration à un distance de 100 m et de 400 m, entre laquelle la puissance de pénétration diminuera linéairement. Cette valeur est aléatoirement augmentée ou diminuée de 25% au plus."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellArmorDamageDescription:System.String.$Content,None,True,True,,"Les dégâts alpha de l&apos;obus. Cette valeur est augmentée ou diminuée de 25% au plus."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellDamagePerMinuteDescription:System.String.$Content,None,True,True,,"Les dégâts moyen qui peuvent être fait en une minute avec le type d&apos;obus sélectionné."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellModuleDamageDescription:System.String.$Content,None,True,True,,"Les dégâts qu&apos;un obus peut faire aux modules."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPriceDescription:System.String.$Content,None,True,True,,"Le prix d&apos;un seul tir."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamageDescription:System.String.$Content,None,True,True,,"Le prix de l&apos;obus divisé par ses dégâts alpha."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPiercingPowerLossFactorByDistanceDescription:System.String.$Content,None,True,True,,"Le facteur appliqué à la puissance de pénétration d&apos;un obus HEAT, s&apos;il touche un blindage (espacé), sa puissance de pénétration diminuera avec la distance par ce facteur."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale des appareils d&apos;observation. Si cette valeur descend en dessous de sa valeur de durabilité réparée correspondante, la portée de vue sera diminuée de 50%."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealthDescription:System.String.$Content,None,True,True,,La durabilité maximale du char.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankWeightDescription:System.String.$Content,None,True,True,,Le poids du char.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankEquipmentWeightDescription:System.String.$Content,None,True,True,,"Le poids de tous l&apos;équipement chargé."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankRepairCostDescription:System.String.$Content,None,True,True,,Le coût maximal de réparation du char.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiersDescription:System.String.$Content,None,True,True,,Les niveaux de bataille que le char peut rencontrer. Un niveau de bataille inférieur à 11 égal à peu près le rang maximal des chars qui peuvent apparaître dans cette bataille. Les batailles de niveau 11 ont plus de chars de rang X et moins de chars de rang VIII ou IX.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPriceDescription:System.String.$Content,None,True,True,,Le prix pour acheter ce char en configuration de base.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankStationaryCamouflageDescription:System.String.$Content,None,True,True,,"Le pourcentage de portée de vue annulée à l&apos;ennemi qui essaie de vous détecter alors que vous êtes immobile. Cette valeur est mesurée par des tests, peut être imprécis. Basé majoritairement sur les résultats des tests d&apos;AndrasD et Devilhunter."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMovingCamouflageDescription:System.String.$Content,None,True,True,,"Le pourcentage de portée de vue annulée à l&apos;ennemi qui essaie de vous détecter alors que vous vous déplacez. Cette valeur est mesurée par des tests, peut être imprécis. Basé majoritairement sur les résultats des tests d&apos;AndrasD et Devilhunter."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringStationaryCamouflageDescription:System.String.$Content,None,True,True,,"Le pourcentage de portée de vue annulée à l&apos;ennemi qui essaie de vous détecter alors que vous tirez à l&apos;arrêt. Cette valeur est mesurée par des tests, peut être imprécis. Basé majoritairement sur les résultats des tests d&apos;AndrasD et Devilhunter."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringMovingCamouflageDescription:System.String.$Content,None,True,True,,"Le pourcentage de portée de vue annulée à l&apos;ennemi qui essaie de vous détecter alors que vous tirez en mouvement. Cette valeur est mesurée par des tests, peut être imprécis. Basé majoritairement sur les résultats des tests d&apos;AndrasD et Devilhunter."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeightDescription:System.String.$Content,None,True,True,,"Le poids de création de partie du char, reflète l&apos;importance du char dans l&apos;équipe considérée par le système de création de partie."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale du mécanisme de rotation de la tourelle. Si cette valeur descend en dessous de sa valeur de durabilité réparée correspondante, la vitesse de rotation de la tourelle sera diminuée de 50%. Si cette valeur atteint zéro, la tourelle sera bloquée et ne pourra plus tourner."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeedDescription:System.String.$Content,None,True,True,,La vitesse de rotation maximale de la tourelle.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretCircularVisionRadiusDescription:System.String.$Content,None,True,True,,La portée de vue maximale du char.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmorDescription:System.String.$Content,None,True,True,,Le blindage frontal principal de la tourelle.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmorDescription:System.String.$Content,None,True,True,,Le blindage latéral principal de la tourelle.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmorDescription:System.String.$Content,None,True,True,,Le blindage arrière principal de la tourelle.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverseDescription:System.String.$Content,None,True,True,,"L&apos;angle de rotation de la tourelle."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealthDescription:System.String.$Content,None,True,True,,"La durabilité maximale de la tourelle, qui est prise en compte dans la durabilité maximale du char."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeightDescription:System.String.$Content,None,True,True,,Le poids de la tourelle.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealtDescription:System.String.$Content,None,True,True,,"Dégâts causés par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceivedDescription:System.String.$Content,None,True,True,,"Dégâts reçus par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceivedDescription:System.String.$Content,None,True,True,,"Dégâts potentiels (des tirs pénétrants, non-pénétrants et ricochets) par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssistDescription:System.String.$Content,None,True,True,,"Dégâts assistés par bataille, en détectant l&apos;ennemi. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssistDescription:System.String.$Content,None,True,True,,"Dégâts assistés par bataille, en détruisant les chenilles des chars ennemis. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRateDescription:System.String.$Content,None,True,True,,"Taux de tirs au but de ce char, avec les ricochets et les tirs non-pénétrants inclus. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperienceDescription:System.String.$Content,None,True,True,,"Expérience gagnée par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncomeDescription:System.String.$Content,None,True,True,,"Revenu net par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncomeDescription:System.String.$Content,None,True,True,,"Revenu brut par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCostDescription:System.String.$Content,None,True,True,,"Coût d&apos;exploitation par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCostDescription:System.String.$Content,None,True,True,,"Coût des consommables par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCostDescription:System.String.$Content,None,True,True,,"Coût des munitions par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCostDescription:System.String.$Content,None,True,True,,"Coût des réparations par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileageDescription:System.String.$Content,None,True,True,,"Distance parcourue par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpottedDescription:System.String.$Content,None,True,True,,"Ennemis détectés (pour la première fois) bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRateDescription:System.String.$Content,None,True,True,,"Taux de victoire de ce char. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamagedDescription:System.String.$Content,None,True,True,,"Ennemis endommagés par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiencyDescription:System.String.$Content,None,True,True,,"Efficacité PA de ce char. L&apos;efficacité PA est une version modifiée de l&apos;efficacité de wot-news, utilisée par vBAddict.net. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7EfficiencyDescription:System.String.$Content,None,True,True,,"Efficacité WN7 de ce char. Le WN7 est généralement considéré comme le système d&apos;efficacité standard. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8EfficiencyDescription:System.String.$Content,None,True,True,,"Efficacité WN8(D) de ce char. Le WN8 est la prochaine génération de système d&apos;efficacité qui est toujours en développement. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiencyDescription:System.String.$Content,None,True,True,,"La capacité de combat de ce char. La capacité de bataille est une variante de l&apos;efficacité d&apos;XVM. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilledDescription:System.String.$Content,None,True,True,,"Ennemis détruits par bataille. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTimeDescription:System.String.$Content,None,True,True,,"Temps de bataille moyen de ce char. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRateDescription:System.String.$Content,None,True,True,,"Taux de survie de ce char. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSizeDescription:System.String.$Content,None,True,True,,"Taille de l&apos;échantillon de ce char. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinuteDescription:System.String.$Content,None,True,True,,"Expérience gagnée par minute. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRateDescription:System.String.$Content,None,True,True,,"Taux de pénétration de ce char. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRateDescription:System.String.$Content,None,True,True,,"Taux de ricochets de de tirs non-pénétrants. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatioDescription:System.String.$Content,None,True,True,,"Pourcentage de chars détruits dans la première minute et qui n&apos;a détecté aucun char. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatioDescription:System.String.$Content,None,True,True,,"Pourcentage de chars qui n&apos;a pas bougé et n&apos;a fait aucun dégât. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeightDescription:System.String.$Content,None,True,True,,"Rangs de bataille moyen rencontrés par ce char. C&apos;est une LiveStat basée sur les batailles aléatoires des 30 derniers jours. Donnée fournie par vBAddict.net."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealtFullName:System.String.$Content,None,True,True,,Dégâts causés moyens
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceivedFullName:System.String.$Content,None,True,True,,Dégâts reçus moyens
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceivedFullName:System.String.$Content,None,True,True,,Dégâts potentiels reçus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssistFullName:System.String.$Content,None,True,True,,Assistance moyenne par détection
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssistFullName:System.String.$Content,None,True,True,,Assistance moyenne par déchenillage
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRateFullName:System.String.$Content,None,True,True,,Taux de tirs au but
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperienceFullName:System.String.$Content,None,True,True,,Expérience moyenne
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncomeFullName:System.String.$Content,None,True,True,,Revenu net moyen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncomeFullName:System.String.$Content,None,True,True,,Revenu brut moyen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCostFullName:System.String.$Content,None,True,True,,"Coût d&apos;exploitation moyen"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCostFullName:System.String.$Content,None,True,True,,Coût moyen des consommables
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCostFullName:System.String.$Content,None,True,True,,Coût moyen des munitions
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCostFullName:System.String.$Content,None,True,True,,Coût de réparation moyen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileageFullName:System.String.$Content,None,True,True,,Distance parcourue moyenne
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpottedFullName:System.String.$Content,None,True,True,,"Nombre moyen d&apos;ennemis détectés"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRateFullName:System.String.$Content,None,True,True,,Taux de victoire
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamagedFullName:System.String.$Content,None,True,True,,"Nombre moyen d&apos;ennemis endommagé"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiencyFullName:System.String.$Content,None,True,True,,Efficacité PA moyenne
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7EfficiencyFullName:System.String.$Content,None,True,True,,Efficacité WN7 moyenne
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8EfficiencyFullName:System.String.$Content,None,True,True,,Efficacité WN8 moyenne
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiencyFullName:System.String.$Content,None,True,True,,Capacité de bataille moyenne
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilledFullName:System.String.$Content,None,True,True,,"Nombre moyen d&apos;ennemis détruits"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTimeFullName:System.String.$Content,None,True,True,,Temps de bataille moyen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRateFullName:System.String.$Content,None,True,True,,Taux de survie
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSizeFullName:System.String.$Content,None,True,True,,"Taille d&apos;échantillon vBAddict"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinuteFullName:System.String.$Content,None,True,True,,Expérience par minute
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRateFullName:System.String.$Content,None,True,True,,Taux de pénétration
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRateFullName:System.String.$Content,None,True,True,,Taux de tirs sans dégât
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatioFullName:System.String.$Content,None,True,True,,Ratio de kamikazes
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatioFullName:System.String.$Content,None,True,True,,"Ratio d&apos;endormis"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeightFullName:System.String.$Content,None,True,True,,Poids de création de partie moyen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealt:System.String.$Content,None,True,True,,Dégâts causés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceived:System.String.$Content,None,True,True,,Dégâts reçus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceived:System.String.$Content,None,True,True,,Dégâts potentiels
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Assist:System.String.$Content,None,True,True,,Assistance
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssist:System.String.$Content,None,True,True,,par éclairage
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssist:System.String.$Content,None,True,True,,par déchenillage
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRate:System.String.$Content,None,True,True,,Tirs au but
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperience:System.String.$Content,None,True,True,,Expérience
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageIncome:System.String.$Content,None,True,True,,Revenu
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncome:System.String.$Content,None,True,True,,net
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncome:System.String.$Content,None,True,True,,brut
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankOperationCost:System.String.$Content,None,True,True,,"Coût d&apos;exploitation"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCost:System.String.$Content,None,True,True,,total
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCost:System.String.$Content,None,True,True,,consommables
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCost:System.String.$Content,None,True,True,,munitions
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCost:System.String.$Content,None,True,True,,réparations
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileage:System.String.$Content,None,True,True,,Distance parcourue
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotted:System.String.$Content,None,True,True,,Ennemis détectés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRate:System.String.$Content,None,True,True,,Victoires
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamaged:System.String.$Content,None,True,True,,Ennemis endommagés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Efficiency:System.String.$Content,None,True,True,,Efficacité
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiency:System.String.$Content,None,True,True,,PA
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7Efficiency:System.String.$Content,None,True,True,,WN7
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8Efficiency:System.String.$Content,None,True,True,,WN8
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiency:System.String.$Content,None,True,True,,Box
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilled:System.String.$Content,None,True,True,,Ennemis détruits
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTime:System.String.$Content,None,True,True,,Temps de bataille
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRate:System.String.$Content,None,True,True,,Survie
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSize:System.String.$Content,None,True,True,,Échantillon vBAddict
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinute:System.String.$Content,None,True,True,,Expérience par minute
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRate:System.String.$Content,None,True,True,,Pénétration
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRate:System.String.$Content,None,True,True,,Tirs sans dégât
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatio:System.String.$Content,None,True,True,,Kamikazes
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatio:System.String.$Content,None,True,True,,Endormis
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Matchmaking:System.String.$Content,None,True,True,,Création de partie
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeight:System.String.$Content,None,True,True,,rang
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithTank:System.String.$Content,None,True,True,,Comparer avec le char : {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedGun:System.String.$Content,None,True,True,,Comparer avec le canon remplacé : {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedTurret:System.String.$Content,None,True,True,,Comparer avec la tourelle remplacée : {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedEngine:System.String.$Content,None,True,True,,Comparer avec le moteur remplacé : {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedRadio:System.String.$Content,None,True,True,,Comparer avec la radio remplacée : {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedChassis:System.String.$Content,None,True,True,,Comparer avec la suspension remplacée : {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedShell:System.String.$Content,None,True,True,,"Comparer avec l&apos;obus remplacé : {0}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownLoginError:System.String.$Content,None,True,True,,"Connection échouée à cause d&apos;une erreur inconnue."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Messages:System.String.$Content,None,True,True,,Messages
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MessagesWithCount:System.String.$Content,None,True,True,,Messages ({0})
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectLinkToolTip:System.String.$Content,None,True,True,,"Vous êtes actuellement connecté avec {0}. Cliquez pour vous déconnecter de Tank Online and sortir, vous pouvez vous connecter avec un autre compte la prochaine fois."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidMessage:System.String.$Content,None,True,True,,Erreur : message invalide
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToCreateMessageDirectory:System.String.$Content,None,True,True,,"Échec du stockage du message que vous avez reçu. S&apos;il y a un information importante dans vos messages, assurez-vous de les sauvegarder manuellement."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToCreateMessageDirectoryTitle:System.String.$Content,None,True,True,,Erreur : message invalide
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ConnectFailed:System.String.$Content,None,True,True,,Échec de la connexion
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OfflineMessage:System.String.$Content,None,True,True,,"À cause de certains problèmes de connexion, vous êtes actuellement en mode hors-ligne. Toutes les fonctionnalités qui nécessitent une connexion internet (par exemple les LiveStats) ne fonctionneront pas tant que Tank Inspector ne pourra pas avoir à nouveau accès au serveur.
+
+Message d'erreur : {0}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OfflineTitle:System.String.$Content,None,True,True,,Mode hors-ligne
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidAccount:System.String.$Content,None,True,True,,Votre adresse e-mail ou votre mot de passe est erroné. Veuillez réessayer.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CannotCreateAccount:System.String.$Content,None,True,True,,Ne peut pas créer un compte. Êtes-vous de Mars ?
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailOccupied:System.String.$Content,None,True,True,,Cette adresse e-mail est utilisée par un autre compte.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailTooLong:System.String.$Content,None,True,True,,Cette adresse e-mail est trop longue.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMail:System.String.$Content,None,True,True,,Cette adresse e-mail est invalide.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidInviteCode:System.String.$Content,None,True,True,,"Ce code d&apos;invitation est invalide."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidRequest:System.String.$Content,None,True,True,,Erreur : requête invalide
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PasswordTooLong:System.String.$Content,None,True,True,,"Ce mot de passe est trop long, essayez-en un plus facile à retenir."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownRegisterError:System.String.$Content,None,True,True,,"Échec de l&apos;enregistrement à cause d&apos;une erreur inconnue."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ResetPasswordEMailSent:System.String.$Content,None,True,True,,Un message avec les instructions à suivre pour réinitialiser votre mot de passe a été envoyé à {0}.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ResetPasswordEMailSentTitle:System.String.$Content,None,True,True,,Message de réinitialisation envoyé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailed:System.String.$Content,None,True,True,,"Désolé mais nous n&apos;avons pas réussi à envoyer un message de réinitialisation de mot de passe à {0}. Veuillez réessayer plus tard."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailedTitle:System.String.$Content,None,True,True,,"Échec de l&apos;envoi du message de réinitialisation"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailedWithReason:System.String.$Content,None,True,True,,"Désolé mais nous n&apos;avons pas réussi à envoyer un message de réinitialisation de mot de passe à {0}. Veuillez réessayer plus tard.
+
+Message d&apos;erreur : {1}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailNotActivated:System.String.$Content,None,True,True,,"Votre adresse e-mail n&apos;a pas encore été validée, veuillez cliquer sur le lien dans le message que nous avons envoyé à votre adresse e-mail dès que possible.
+
+Voulez-vous que nous renvoyons le message de validation (si vous n&apos;en avez pas reçu) ?"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailNotActivatedTitle:System.String.$Content,None,True,True,,Adresse e-mail non validée
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ActivationEMailSent:System.String.$Content,None,True,True,,"Un message de validation a été envoyé. Veuillez cliquer sur le lien s&apos;y trouvant pour valider votre adresse e-mail."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ActivationEMailSentTitle:System.String.$Content,None,True,True,,Message de validation envoyé
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailed:System.String.$Content,None,True,True,,"Désolé mais nous n&apos;avons pas réussi à vous envoyer un message de validation. Veuillez réessayer plus tard."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailedTitle:System.String.$Content,None,True,True,,"Échec de l&apos;envoi du message de validation"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailedWithReason:System.String.$Content,None,True,True,,"Échec de l&apos;envoi du message de validation
+
+Message d&apos;erreur : {0}."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToOpenServicePage:System.String.$Content,None,True,True,,"Désolé, mais en ce moment, nous ne pouvons pas fournir ce service.
+
+Message d&apos;erreur : {0}."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToOpenServicePageTitle:System.String.$Content,None,True,True,,Incapable de fournir le service
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegisterSucceed:System.String.$Content,None,True,True,,Votre compte est créé. Un message de confirmation sera envoyé à votre adresse e-mail.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegisterSucceedTitle:System.String.$Content,None,True,True,,Prêt !
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedOnException:System.String.$Content,None,True,True,,Vous êtes déconnecté.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedDueToUnknownError:System.String.$Content,None,True,True,,"Vous êtes déconnecté à cause d&apos;une erreur inconnue."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AccountLoggedInElsewhere:System.String.$Content,None,True,True,,Vous êtes déconnecté parce que votre compte est connecté ailleurs.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedTitle:System.String.$Content,None,True,True,,Déconnecté
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownError:System.String.$Content,None,True,True,,erreur inconnue
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DuowanWoT:System.String.$Content,None,True,True,,Duowan WoT (Chine)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DuowanWoTDescription:System.String.$Content,None,True,True,,Collaborateur officiel WoT Chine
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoT:System.String.$Content,None,True,True,,Baidu WoT (Chine)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTDescription:System.String.$Content,None,True,True,,Forum WoT le plus peuplé du monde
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTGiftCardEvent:System.String.$Content,None,True,True,,Obtenir une carte cadeau Baidu WoT !
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTGiftCardEventLearnMore:System.String.$Content,None,True,True,,En savoir plus...
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WOTNews:System.String.$Content,None,True,True,,WoT-News (Russie)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WOTNewsDescription:System.String.$Content,None,True,True,,"Site d&apos;informations WoT Russie"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_vBAddict:System.String.$Content,None,True,True,,vBAddict.net
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_vBAddictDescription:System.String.$Content,None,True,True,,Fournisseur de statistiques en temps réel
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_XVMGarphy:System.String.$Content,None,True,True,,XVMCN (Chine)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_XVMGarphyDescription:System.String.$Content,None,True,True,,"Recherche de statistiques WoT &amp; équipe de traduction de XVM"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FTR:System.String.$Content,None,True,True,,For the Record
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FTRDescription:System.String.$Content,None,True,True,,"Site d&apos;information WoT"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AnisotropicLevelFormat:System.String.$Content,None,True,True,,{0}x
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PNGFileFilter:System.String.$Content,None,True,True,,PNG (*.png)|*.png
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SaveAs:System.String.$Content,None,True,True,,Enregistrer sous...
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.$Content,Text,True,True,,PRENDRE UNE PHOTO
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.FontSize,None,True,True,,48
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"dépend des performances de vos graphismes, ça peut prendre jusqu&apos;à une minute"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,FONCTIONNE MIEUX AVEC UN MODÈLE HD !
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.Controls.TextBlock.FontSize,None,True,True,,24
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,ToggleCollisionModelButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Basculer entre la vue du modèle visuel et du modèle de collision.
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,RegularArmorIndicatorToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Épaisseur du blindage normal
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SpacingArmorIndicatorToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Épaisseur du blindage espacé
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.Text,Text,True,True,,RECHERCHER
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFFFFFFF
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SearchTextBoxToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Types des chars trouvés
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,CurrentTankButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Cliquez pour ouvrir l&apos;arbre de recherche technologique"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.Text,Text,True,True,,RÉFÉRENCE
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SelectReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Liste des chars du même rang et de la même classe, qui peuvent être choisi comme référence."
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SwapReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Échanger char de référence et char actuel
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,ReferenceTankToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Char de référence actuel. Les paramètres montrés dans l&apos;infobulle des modules et dans la vue des paramètres détaillées sont comparés avec ce char. Un char de référence est par défaut en configuration élite avec un équipage entraîné à 100%, sans équipement ni consommables installés, ainsi que sans compétences et aptitudes d&apos;équipages apprises. Cependant, il essaiera de charger une version similaire du char actuellement sélectionné"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,LoadEliteConfigButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Charger la configuration élite
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.Controls.TextBlock.Text,Text,True,True,,Rang
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.Title,Title,True,True,,Tank Inspector PRO
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.FrameworkElement.Height,None,False,True,,441
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.FrameworkElement.Width,None,False,True,,620
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.ResizeMode,None,False,True,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.Controls.Image.$Content,None,False,True,,
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.Controls.Image.Source,None,False,True,,"pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.UIElement.IsHitTestVisible,None,False,True,,False
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.FrameworkElement.Height,None,False,True,,25
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.Controls.Button.$Content,Button,True,True,,Soutenir et financer Tank Inspector PRO sur indiegogo.com !
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.FrameworkElement.Margin,None,False,True,,"10,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.Controls.Control.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.$Content,Text,True,True,,DÉMONSTRATION
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.$Content,Text,True,True,,PHOTO HD
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.FontSize,None,True,True,,32
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Prenez des photos haute résolution du char choisi.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Appuyez sur <b>IMPR. ÉCRAN</b> dans la vue du modèle pour prendre une photo.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Plus de paramètres seront disponibles dans Tank Inspector PRO.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.Text,Text,True,True,,V.S.
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.Text,Text,True,True,,Référence :
+Smellyriver.TankInspector.g.en-US.resources:shellview.baml,Millimeters:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:shellview.baml,Millimeters:System.Windows.Controls.TextBlock.Text,Text,True,True,,mm
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.Text,Text,True,True,,mm
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:tankgalleryview.baml,CloseTechTreeButtonToolTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Fermer l&apos;abre de recherche technologique"
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveStatNotLoadedTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Cette donnée statistique n&apos;est pas chargée."
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveLoadingTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Récupération des statistiques depuis le serveur…
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveStatLoadFailedTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,échec du chargement de cette donnée statistique. Veuillez réessayer plus tard en resélectionnant ce véhicule.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.SizeToContent,None,False,True,,Height
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.Title,Title,True,True,,Connexion
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.FrameworkElement.Width,None,False,True,,523
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.Icon,None,False,True,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.ResizeMode,None,False,True,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.$Content,Text,True,True,,CONNEXION
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.FontSize,None,True,True,,28
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,À TANK INSPECTOR ONLINE
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,20
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.FrameworkElement.Margin,None,False,True,,"10,45,10,10"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.$Content,Text,True,True,,E-MAIL
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.Margin,None,False,True,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.$Content,Text,True,True,,MOT DE PASSE
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.Margin,None,False,True,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ToggleShowPasswordTop:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Cliquez pour montrer ou masquer votre mot de passe.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"CODE D&apos;INVITATION"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.Margin,None,False,True,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserCheckbox:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Je suis nouveau (<u>s&apos;enregistrer</u>).
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserCheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckbox:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Je suis nouveau et j&apos;ai un compte d&apos;invitation."
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckboxTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Nous domme désolé mais les versions beta ne sont disponibles que pour les testeurs invités. Essayez notre version publique si vous n&apos;avez pas de code d&apos;invitation."
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ResetPassword:System.Windows.Controls.Button.$Content,Button,True,True,,Réinitialiser le mot de passe
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ResetPassword:System.Windows.Controls.Control.Foreground,None,False,True,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.Controls.TextBlock.$Content,Text,True,True,,envoi la requête de réinitialisation du mot de passe…
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AgreeToEULACheckbox:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Je susi d&apos;accord avec le contrat de licence d&apos;utilisateur final agree to the End User License Agreement, s&apos;il en existe une."
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AgreeToEULACheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"L&apos;adresse e-mail et le mot de passe ci-dessus seront votre accès à Tank Inspector Online à l&apos;avenir."
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.FrameworkElement.Margin,None,False,True,,"20,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"<b>N&apos;utilisez PAS votre compte World of Tanks</b>. Utilisez un autre mot de passe, et de préférence une autre adresse e-mail (si votre compte WoT est une adresse e-mail)."
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.FrameworkElement.Margin,None,False,True,,"20,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.$Content,Text,True,True,,CONNEXION...
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.FontSize,None,True,True,,24
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AutoConnecting:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Connexion automatique :
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AutoConnecting:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.Text,Text,True,True,,SE CONNECTER
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:generic.baml,Font:System.Windows.Media.FontFamily.$Content,Font,True,True,,"Segoe UI, Tahoma, pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Fonts/\#Segoe UI, Tahoma, Arial"
+Smellyriver.TankInspector.g.en-US.resources:generic.baml,CondensedFont:System.Windows.Media.FontFamily.$Content,Font,True,True,,"Open Sans Condensed, pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Fonts/\#Open Sans Condensed, Segoe UI Condensed, Segoe UI"
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.Text,Text,True,True,,V.S.
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.Text,Text,True,True,,Référence :
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.Margin,None,False,True,,6
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.FontSize,None,True,True,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.Text,Text,True,True,,LIVESTAT
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.FontSize,None,True,True,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.Text,Text,True,True,,basée sur 
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.FontSize,None,True,True,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.Text,Text,True,True,, batailles
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.Text,Text,True,True,,CHARGEMENT
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.FrameworkElement.Margin,None,False,True,,"0,-5,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.FrameworkElement.Margin,None,False,True,,"0,31,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.UIElement.Opacity,None,False,True,,0.0
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.Text,Text,True,True,,"Construction du cache, veuillez patienter."
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.UIElement.SnapsToDevicePixels,None,False,True,,True
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.UseLayoutRounding,None,False,True,,True
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.Title,Title,True,True,,Tank Inspector
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.Height,None,False,True,,700
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.Width,None,False,True,,1300
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.MinHeight,None,False,True,,480
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.MinWidth,None,False,True,,640
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.Icon,None,False,True,,Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.WindowStyle,None,True,False,,SingleBorderWindow
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.$Content,None,False,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.Source,None,False,True,,"pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.UIElement.IsHitTestVisible,None,False,True,,False
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.FrameworkElement.Margin,None,False,True,,"105,5,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.Stretch,None,True,False,,Aucun
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ProButton:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Tank Inspector PRO
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,SettingsLink:System.Windows.Controls.Button.$Content,Button,True,True,,Préférences
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,SettingsLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Modifier les réglages de préférence
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,AboutLink:System.Windows.Controls.Button.$Content,Button,True,True,,À propos
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,AboutLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Afficher des information à propos de Tank Inspector
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DonateLink:System.Windows.Controls.Button.$Content,Button,True,True,,Faire un don
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DonateLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Faire un don à Smellyriver
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DisconnectLink:System.Windows.Controls.Button.$Content,Button,True,True,,Se déconnecter
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.Controls.Button.$Content,Button,True,True,,Se connecter
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Vous êtes actuellement en mode hors-ligne. Toutes les fonctionnalités qui nécessitent une connexion internet (par exemple les LiveStats) ne fonctionneront pas tant que Tank Inspector ne pourra pas avoir à nouveau accès au serveur. Cliquez pour vous connecter à Tank Inspector en ligne.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Ouvrir l&apos;abre de recherche technologique"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,25,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,active également la barre latérale
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,15,25,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Passer à la vue des paramètres
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,25,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,pour voir des paramètres détaillés et des comparaisons
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,15,25,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Passer à la vue des paramètres
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.Margin,None,False,True,,"25,0,0,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,pour voir des paramètres détaillés et des comparaisons
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"25,15,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Passer au modèle
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,pour voir la disposition du blindage
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Configurer le char
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"modifier les modules, les obus, l&apos;équipement, les consommables et les membres d&apos;équipage"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Char de référence
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,votre char sera comparé à celui-ci
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.Text,Text,True,True,,BIENVENUE !
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.FontSize,None,True,True,,36
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.Text,Text,True,True,,voici quelques bases de comment utiliser Tank Inspector.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.Text,Text,True,True,,cliquez sur le bouton ci-dessous quand vous êtes prêt.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.Text,Text,True,True,,"CONTINUER"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.Controls.TextBlock.$Content,Text,True,True,,ÉQUIVALENT
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.FrameworkElement.Margin,None,False,True,,4
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,ImpactAngleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"L&apos;angle auquel l&apos;obus de test touchera le blindage visé."
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,NormalizationAngleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"L&apos;angle auquel l&apos;angle d&apos;impact est ajusté vers l&apos;axe normal du blindage. Applicable seulement aux obus AP et APCR."
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,2xRuleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Si le calibre de l&apos;obus est égal 2 fois ou plus à l&apos;épaisseur nominale du blindage, l&apos;angle de normalisation sera augmenté. S&apos;applique seulement aux obus AP et APCR."
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,3xRuleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Si le calibre de l&apos;obus est égale à 3 fois ou plus l&apos;épaisseur nominale du blindage, aucun ricochet ne peut arriver même si l&apos;angle d&apos;impact est supérieur à 70° de la normale. S&apos;applique seulement aux obus AP et APCR."
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,APShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Obus AP, avec une normalisation standard d&apos;un angle de 5°"
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,APCRShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Obus APCR avec une normalisation standard de 2°.
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,HEShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Obus HE
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,HEATShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Obus HEAT
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,CaliberTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Calibre d&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,ToggleSelectShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Cliquer pour afficher ou masquer la vue de sélection d&apos;obus"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ElementMenuItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Cliquer pour équiper
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ElementMenuItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,", maintenez le bouton droit de la souris pour masquer temporairement ce menu"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewElementMenuItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Cliquer pour apprendre ou oublier
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewElementMenuItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,", maintenez le bouton droit de la souris pour masquer temporairement ce menu"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPrefix:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPrefix:System.Windows.Controls.TextBlock.Text,Text,True,True,,"Niveau d&apos;entraînement pour"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPostfix:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPostfix:System.Windows.Controls.TextBlock.Text,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ToggleCrewDeadOrAliveTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Basculer entre un équipage décédé et vivant.
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewMenuTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Cliquer pour configurer les compétences et les niveaux d&apos;entraînement de l&apos;équipage"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,BulkLearnCamoButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Apprendre la compétence camouflage pour tous les membres d&apos;équipage
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,BulkLearnBiAButtonTooltip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Apprendre l&apos;aptitude frère d&apos;arme pour tous les membres d&apos;équipage
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TurnToLeftPageButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Basculer entre la vue du modèle et la vue des paramètres détaillés
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TurnToRightPageButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Basculer entre la vue du modèle et la vue des paramètres détaillés
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SelectAsReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Sélectionner comme char de référence
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SearchResultItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Sélectionner ce char
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SearchResultItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Sélectionner comme char de référence
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.Title,Title,True,True,,Bienvenue
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.FrameworkElement.Width,None,False,True,,624
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.Icon,None,False,True,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.ResizeMode,None,False,True,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.SizeToContent,None,False,True,,Height
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.$Content,Text,True,True,,BIENVENUE
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.FontSize,None,True,True,,28
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tank Inspector lit les modèles des chars et les paramètres de votre client du jeu. Veuillez le localiser.
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Répertoire du jeu :
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,10,0"
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.Text,Text,True,True,,SUIVANT
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:modelview.baml,FPS:System.Windows.Controls.TextBlock.$Content,Text,True,True,,FPS :
+Smellyriver.TankInspector.g.en-US.resources:modelview.baml,Triangles:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Triangles :
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.Title,Title,True,True,,Messages
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.SizeToContent,None,False,True,,Height
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MinWidth,None,False,True,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MaxWidth,None,False,True,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.Width,None,False,True,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MinHeight,None,False,True,,180
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.Icon,None,False,True,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.$Content,Text,True,True,,MESSAGES
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.FontSize,None,True,True,,28
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.Text,Text,True,True,,FERMER
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.Controls.TextBlock.Text,Text,True,True,,PARAMÈTRES
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Top
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.Margin,None,False,True,,"15,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameClientSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,CLIENT DU JEU
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tank Inspector lit les modèles des chars et les paramètres de votre client du jeu. Veuillez le localiser.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,10"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Ce réglage prendra effet lors du prochain démarrage de Tank Inspector.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,10"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Chemin du jeu :
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,10,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GeneralSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,GÉNÉRAL
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowBackgroundImage:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Afficher l&apos;image d&apos;arrière-plan"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowBackgroundImageTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Sélectionner une image d&apos;arrière-plan aléatoire, sinon l&apos;arrière-plan sera laissé vide."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PhotoSize:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Dimensions de la photo (largeur):
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PhotoSize:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.Controls.TextBlock.$Content,Text,True,True,,*appuyez sur IMPR. ÉCRAN dans la vue du modèle pour prendre une photo
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.FrameworkElement.Margin,None,False,True,,"10,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GraphicsSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,GRAPHISMES
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.Controls.TextBlock.Text,Text,True,True,,QUALITÉ
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Les options suivantes augmentent la qualité du modèle graphique mais peuvent impacter les performances. Si Tank Inspector fonctionne lentement, essayer de désactiver certaines de voire toutes ces options."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SSAO:System.Windows.Controls.TextBlock.$Content,Text,True,True,,SSAO
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SSAOTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"La SSAO crée des ombres d&apos;occlusion ambiantes. Cette option peut impacter les performances de rendu, si Tank Inspector fonctionne lentement, essayez de la désactiver."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SMAA:System.Windows.Controls.TextBlock.$Content,Text,True,True,,SMAA
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SMAATip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Le SMAA fourni un anticrénelage pour le rendu du modèle, rendant les bords du modèles plus doux. Cette option peut impacter les performances de rendu, si Tank Inspector fonctionne lentement, essayez de la désactiver."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Specularity:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Spécularité
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SpecularityTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"La spécularité simule la réflexion de la lumière, rendant certains matériaux brillants. Cette option peut impacter les performances de rendu, si Tank Inspector fonctionne lentement, essayez de la désactiver."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,NormalMapping:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Normal mapping
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,NormalMappingTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Le normal mapping améliore l&apos;apparence et les détails des modèles. Cette option peut impacter les performances de rendu, si Tank Inspector fonctionne lentement, essayez de la désactiver."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilter:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Filtre anisotropique
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilter:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilterTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Le filtre anisotropique améliore la qualité de la texture de l&apos;image en éliminant les effets du crénelage. Si Tank Inspector fonctionne lentement, essayez de désactiver cette option."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.Controls.TextBlock.Text,Text,True,True,,AFFICHAGE
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,CollisionModelStroke:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Trait du modèle de collision
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,CollisionModelStrokeTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Sélectionnez pour activer le dessin de traits pour séparer les différentes épaisseur de blindage dans le modèle de collision.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WireframeMode:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Mode filaire
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WireframeModeTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Sélectionnez pour utiliser le mode filaire des modèles de rendu.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowFPS:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Afficher les FPS
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowFPSTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Sélectionnez pour afficher dans le coin supérieur gauche de la vue du modèle le nombre d&apos;images qui sont rendu en une seconde."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowModelTriangleCount:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Afficher le décompte des triangles du modèle
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowModelTriangleCountTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Sélectionnez pour afficher dans le coin supérieur gauche de la vue du modèle combien de triangles il y a dans le modèle qui est rendu.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowSoftwareCrosshair:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Afficher le réticule de visée sur le modèle
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowSoftwareCrosshairTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Sélectionnez pour afficher un réticule de visée lorsque la souris survole le modèle. C&apos;est utile si vous voulez savoir où la souris pointe sur votre capture d&apos;écran.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GarageSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,GARAGE
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,UseRealTraverseSpeedOnTurretController:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Utiliser la vitesse de rotation pour le contrôleur de tourelle
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,UseRealTraverseSpeedOnTurretControllerTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"La tourelle et le canon tourneront avec leur vrai vitesse lorsqu&apos;ils sont manipulés avec le contrôleur de tourelle au lieu de changer leur direction instantanément."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WhenChangingVehicle:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Lors d&apos;un changement de véhicule :"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WhenChangingVehicle:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoLoadEliteConfig:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Charger la configuration élite
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoLoadEliteConfigTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Charger automatiquement la configuration élite pour les chars nouvellement sélectionnés.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ReuseCrews:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Recruter de nouveaux membres d&apos;équipage"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ReuseCrewsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Recruter de nouveaux membres d&apos;équipages au lieu d&apos;essayer de les réentraîner en leur enlevant leurs compétences et aptitudes."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,RecruitFullyTrainedCrews:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Recruter des membres d&apos;équipages entraînés à 100%"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,RecruitFullyTrainedCrewsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Les nouveaux membres d&apos;équipage recruté ont un niveau d&apos;entraînement à 100% au lieu de 50%."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoResetReferenceTank:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Réinitiliaser le char de référence au char de référence par défaut
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoResetReferenceTankTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Réinitilise le char de référence au char de référence par défaut même si vous avez choisi un autre char de référence."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ResetToDefaultAmmunition:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Réinitilaiser aux munitions par défaut
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ResetToDefaultAmmunitionTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Réinitilise les munitions par défaut au lieu d&apos;essayer de reprendre le choix précédemment sélectionné."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearEquipments:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Effacer l&apos;équipement"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearEquipmentsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Effacer les équipements installés au lieu d&apos;essayer de les réutiliser."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearConsumables:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Effacer les consommables
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearConsumablesTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Effacer les consommables installés au lieu d&apos;essayer de les réutiliser."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DataSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,PARAMÈTRES
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowDescriptionInDataTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Afficher la description dans l&apos;info-bulle des paramètres"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowDescriptionInDataTipTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Choisissez pour afficher la description des paramètres dans leurs info-bulles.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowAsMuchStatsAsPossible:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Afficher le plus de paramètres possibles
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowAsMuchStatsAsPossibleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Les paramètres sans importance sont par défaut repliés dans la page des paramètres. Activez cette option pour afficher le plus de paramètres possibles pour remplir la page la page des paramètres.
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.$Content,None,False,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.Source,None,False,True,,"/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Top
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.Margin,None,False,True,,"170,47,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.Stretch,None,True,False,,None
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Top
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.Text,Text,True,True,,DE SMELLYRIVER
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.Margin,None,False,True,,"171,87,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.Controls.Button.$Content,Button,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Visiter notre site internet
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.Controls.ContentControl.Content,Button,True,True,,Visiter notre site internet
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.FrameworkElement.Margin,None,False,True,,"0,15,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.Controls.TextBlock.Text,Text,True,True,,"Copyright © 2013 - 2014, Smellyriver."
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ProductVersion:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ProductVersion:System.Windows.Controls.TextBlock.Text,Text,True,True,,Version
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.Controls.TextBlock.$Content,Text,True,True,,REMERCIEMENTS À
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.FrameworkElement.Margin,None,False,True,,"0,20,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,DesignedAndCraftedBy:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Conçu par <i>hillin</i> et <i>edward</i>.
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,QualityAssurance:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Assurance qualité : <i>appark</i>
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,LocalizationTitle:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Traduction en <b>français</b> : <i>Jonathan “John_Messias” Previdi</i>.
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,AdditionalLocalizationCredits:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,LocalizerLink:System.Windows.Controls.Button.$Content,Button,True,True,,WoT France
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,TechTreeTankButtonToolTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Choisir ce char
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.FontSize,None,True,True,,48
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.Text,Text,True,True,,CHARGEMENT

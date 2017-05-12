@@ -1,0 +1,799 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+                    xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+                    xmlns:effects="clr-namespace:Smellyriver.Wpf.Effects;assembly=Smellyriver.Wpf"
+                    xmlns:animation="clr-namespace:Smellyriver.Wpf.Animation;assembly=Smellyriver.Wpf"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <FontFamily x:Key="DefaultFont" x:Uid="Font">Wasco Sans, pack://application:,,,/Smellyriver.TankInspector;component/Resources/Fonts/#Wasco Sans, Segoe UI, Arial</FontFamily>
+
+    <FontFamily x:Key="CondensedFont" x:Uid="CondensedFont">Open Sans Condensed, pack://application:,,,/Smellyriver.TankInspector;component/Resources/Fonts/#Open Sans Condensed, Segoe UI Condensed, Segoe UI</FontFamily>
+    
+    <design:BoolToVisibilityConverter x:Key="BoolToVisibleHiddenConverter" TrueValue="Visible" FalseValue="Hidden" />
+    <design:BoolToVisibilityConverter x:Key="BoolToHiddenVisibleConverter" TrueValue="Hidden" FalseValue="Visible" />
+    <design:BoolToVisibilityConverter x:Key="BoolToVisibleCollapsedConverter" TrueValue="Visible" FalseValue="Collapsed" />
+    <design:BoolToVisibilityConverter x:Key="BoolToCollapsedVisibleConverter" TrueValue="Collapsed" FalseValue="Visible" />
+
+
+    <Style TargetType="Image">
+        <Setter Property="RenderOptions.BitmapScalingMode" Value="HighQuality" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="UseLayoutRounding" Value="True" />
+    </Style>
+
+    <Style TargetType="Control">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFont}" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+    </Style>
+
+    <Style TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFont}" />
+        <Setter Property="Foreground" Value="LightGray" />
+    </Style>
+
+    <Style TargetType="TextBox">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFont}" />
+        <Setter Property="Foreground" Value="LightGray" />
+        <Setter Property="CaretBrush" Value="LightGray" />
+    </Style>
+
+    <Style TargetType="Hyperlink">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFont}" />
+        <Setter Property="Foreground" Value="LightGray" />
+    </Style>
+
+    <Storyboard x:Key="FadeInStoryboard">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.3" />
+    </Storyboard>
+
+    <Storyboard x:Key="FadeOutStoryboard">
+        <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.3" FillBehavior="Stop" />
+    </Storyboard>
+
+    <Style TargetType="FrameworkElement" x:Key="FadeShowHideAnimation">
+        <Setter Property="animation:ShowHideAnimation.ShowStoryboard" Value="{StaticResource FadeInStoryboard}" />
+        <Setter Property="animation:ShowHideAnimation.HideStoryboard" Value="{StaticResource FadeOutStoryboard}" />
+    </Style>
+
+
+    <Style TargetType="RichTextBox">
+        <Style.Resources>
+            <Style TargetType="Run">
+                <Setter Property="Foreground" Value="LightGray" />
+            </Style>
+        </Style.Resources>
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFont}" />
+        <Setter Property="Foreground" Value="LightGray" />
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource DefaultFont}" />
+        <Setter Property="Foreground" Value="LightGray" />
+    </Style>
+
+    <Style TargetType="ToolTip" x:Key="BorderlessToolTip">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <ContentPresenter />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="ToolTip" x:Key="DataTip">
+        <Setter Property="Width" Value="233" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <Grid Width="233" MinHeight="60">
+                        <DockPanel LastChildFill="True" Width="{Binding ActualWidth, ElementName=ContentPresenter}" Height="{Binding ActualHeight, ElementName=ContentPresenter}">
+                            <Image Margin="-5,-3,-5,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/DataTipHeader.png" Stretch="None" DockPanel.Dock="Top" />
+                            <Image Margin="-5,0,-5,-8" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/DataTipFooter.png" Stretch="None" DockPanel.Dock="Bottom" />
+                            <Grid Margin="-5,0" Width="233">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/DataTipFill.png" Stretch="Fill" />
+                                </Grid.Background>
+                            </Grid>
+                        </DockPanel>
+                        <Grid>
+                            <ContentPresenter Margin="5,0" x:Name="ContentPresenter" VerticalAlignment="Top"/>
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="ToolTip">
+        <Style.Resources>
+            <DataTemplate DataType="{x:Type system:String}">
+                <StackPanel>
+                    <TextBlock Text="{Binding}" Foreground="LightGray" MaxWidth="400" TextWrapping="Wrap" />
+                </StackPanel>
+            </DataTemplate>
+        </Style.Resources>
+        <Setter Property="MinWidth" Value="46" />
+        <Setter Property="MinHeight" Value="14" />
+        <Setter Property="Padding" Value="5" />
+        <Setter Property="Template" >
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <Grid>
+                        <DockPanel LastChildFill="True" Width="{Binding ActualWidth, ElementName=ContentPresenterContainer}" Height="{Binding ActualHeight, ElementName=ContentPresenterContainer}">
+                            <DockPanel DockPanel.Dock="Top">
+                                <DockPanel LastChildFill="True" Height="6">
+                                    <Image Margin="-5,-2,0,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipTL.png" Width="28" DockPanel.Dock="Left" Stretch="None" />
+                                    <Image Margin="0,-2,-5,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipTR.png" Width="28" DockPanel.Dock="Right" Stretch="None" />
+                                    <Image Margin="0,-2,-0.5,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipT.png" Stretch="Fill" />
+                                </DockPanel>
+                            </DockPanel>
+                            <DockPanel DockPanel.Dock="Bottom" Height="7" Margin="0,-0.5,0,0">
+                                <DockPanel LastChildFill="True">
+                                    <Image Margin="-5,0,0,-9" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipBL.png" Width="28" DockPanel.Dock="Left" Stretch="None" />
+                                    <Image Margin="0,0,-5,-9" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipBR.png" Width="28" DockPanel.Dock="Right" Stretch="None" />
+                                    <Image Margin="0,0,-0.5,-9" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipB.png" Stretch="Fill" />
+                                </DockPanel>
+                            </DockPanel>
+                            <DockPanel>
+                                <DockPanel LastChildFill="True">
+                                    <Image Margin="-5,0,0,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipL.png" Stretch="Fill" DockPanel.Dock="Left" Width="28" />
+                                    <Image Margin="0,0,-5,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipR.png" Stretch="Fill" DockPanel.Dock="Right" Width="28" />
+                                    <Image Margin="0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CommonTipC.png" Stretch="Fill" />
+                                </DockPanel>
+                            </DockPanel>
+                        </DockPanel>
+                        <Grid x:Name="ContentPresenterContainer" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <ContentPresenter Margin="{TemplateBinding Padding}" />
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+
+    <Style TargetType="Button" x:Key="ContentButton">
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <ContentPresenter Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="-1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <ContentPresenter.Effect>
+                            <design:ContentButtonBrightnessEffect x:Name="BrightnessEffect" Brightness="0.0" 
+                                                                  HighlightBrightness="{TemplateBinding Property=design:ContentButtonStyle.HighlightBrightness}" 
+                                                                  ShadowBrightness="{TemplateBinding Property=design:ContentButtonStyle.ShadowBrightness}" />
+                        </ContentPresenter.Effect>
+                    </ContentPresenter>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style TargetType="Button" x:Key="ContentButtonWithDisabledEffect">
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="0"/>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="1"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="-1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="0"/>
+                                    </Storyboard>
+                                </VisualState>
+
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <ContentPresenter Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+
+
+
+                            <ContentPresenter.Effect>
+                                <design:ContentButtonBrightnessEffect x:Name="BrightnessEffect" Brightness="0.0" 
+                                                                  HighlightBrightness="{TemplateBinding Property=design:ContentButtonStyle.HighlightBrightness}" 
+                                                                  ShadowBrightness="{TemplateBinding Property=design:ContentButtonStyle.ShadowBrightness}" />
+                            </ContentPresenter.Effect>
+                        </ContentPresenter>
+
+                        <Grid.Effect>
+                            <effects:GrayscaleEffect x:Name="GrayscaleEffect" DesaturationFactor="1.0" />
+                        </Grid.Effect>
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="IconButton">
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="MinHeight" Value="23"/>
+        <Setter Property="MinWidth" Value="75"/>
+        <Setter Property="Opacity" Value="0.6" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <ContentPresenter x:Name="ContentPresenter" HorizontalAlignment="Center" VerticalAlignment="Center" RecognizesAccessKey="True" />
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsDefaulted" Value="true">
+                            <Setter Property="Opacity" Value="0.6" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Opacity" Value="1.0" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Opacity" Value="0.5" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="ToggleButton" x:Key="ContentToggleButton">
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Grid>
+
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="0"/>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="1"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="-1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="0"/>
+                                    </Storyboard>
+                                </VisualState>
+
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <ContentPresenter Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+
+
+
+                            <ContentPresenter.Effect>
+                                <design:ContentButtonBrightnessEffect x:Name="BrightnessEffect" Brightness="0.0" 
+                                                                  HighlightBrightness="{TemplateBinding Property=design:ContentButtonStyle.HighlightBrightness}" 
+                                                                  ShadowBrightness="{TemplateBinding Property=design:ContentButtonStyle.ShadowBrightness}" />
+                            </ContentPresenter.Effect>
+                        </ContentPresenter>
+
+                        <Grid.Effect>
+                            <effects:GrayscaleEffect x:Name="GrayscaleEffect" DesaturationFactor="1.0" />
+                        </Grid.Effect>
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="ToggleButton" x:Key="SaturationToggleButton">
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Grid>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="0.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="0.15"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="-0.15"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="1.0" />
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Opacity" To="1.0" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="0.0" />
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Opacity" To="0.2" />
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <ContentPresenter x:Name="ContentPresenter" Opacity="1.0" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}">
+                            <ContentPresenter.Effect>
+                                <effects:GrayscaleEffect x:Name="GrayscaleEffect" DesaturationFactor="1.0" />
+                            </ContentPresenter.Effect>
+                        </ContentPresenter>
+
+                        <Grid.Effect>
+                            <effects:BrightContrastEffect x:Name="BrightnessEffect" Brightness="0.0" />
+                        </Grid.Effect>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="SaturationRadioButton" TargetType="{x:Type RadioButton}">
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Grid>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="0.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="0.15"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Brightness" To="-0.15"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="1.0" />
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Opacity" To="1.0" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="GrayscaleEffect" Storyboard.TargetProperty="DesaturationFactor" To="0.0" />
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Opacity" To="0.2" />
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <ContentPresenter x:Name="ContentPresenter" Opacity="1.0" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}">
+                            <ContentPresenter.Effect>
+                                <effects:GrayscaleEffect x:Name="GrayscaleEffect" DesaturationFactor="1.0" />
+                            </ContentPresenter.Effect>
+                        </ContentPresenter>
+
+                        <Grid.Effect>
+                            <effects:BrightContrastEffect x:Name="BrightnessEffect" Brightness="0.0" />
+                        </Grid.Effect>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style TargetType="{x:Type ui:ChangeAnimationContentControl}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ui:ChangeAnimationContentControl}">
+                    <Grid x:Name="ContentContainer">
+                        <Grid.Resources>
+                            <Storyboard x:Key="ShowStoryboard">
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5">
+                                    <DoubleAnimation.EasingFunction>
+                                        <BackEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                            <Storyboard x:Key="HideStoryboard">
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5" />
+                            </Storyboard>
+                        </Grid.Resources>
+                        <ContentPresenter x:Name="ContentPresenter1" ContentTemplate="{TemplateBinding ContentTemplate}" Cursor="{TemplateBinding Cursor}"
+                                          Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        <ContentPresenter x:Name="ContentPresenter2" ContentTemplate="{TemplateBinding ContentTemplate}" Cursor="{TemplateBinding Cursor}"
+                                          Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+    <Style x:Key="{x:Type CheckBox}" TargetType="{x:Type CheckBox}">
+        <Setter Property="SnapsToDevicePixels"  Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <BulletDecorator Background="Transparent">
+                        <BulletDecorator.Bullet>
+                            <Grid>
+                                <Image SnapsToDevicePixels="True" UseLayoutRounding="True" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CheckboxBackground.png" Stretch="None" />
+                                <Image SnapsToDevicePixels="True" UseLayoutRounding="True" x:Name="CheckMark" Opacity="0.0" Margin="2,-3,0,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CheckboxTick.png" Stretch="None" />
+                                <Grid.Effect>
+                                    <design:ContentButtonBrightnessEffect x:Name="BrightnessEffect" Brightness="0.0" 
+                                                                  HighlightBrightness="{TemplateBinding Property=design:ContentButtonStyle.HighlightBrightness}" 
+                                                                  ShadowBrightness="{TemplateBinding Property=design:ContentButtonStyle.ShadowBrightness}" />
+                                </Grid.Effect>
+                            </Grid>
+                        </BulletDecorator.Bullet>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="-1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="CheckMark" Storyboard.TargetProperty="Opacity" To="1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="CheckMark" Storyboard.TargetProperty="Opacity" To="0.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter Margin="4,0,0,0"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            RecognizesAccessKey="True" />
+                    </BulletDecorator>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+
+    <Style x:Key="SliderButtonStyle" TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border Background="Transparent" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="SliderThumbStyle" TargetType="{x:Type Thumb}">
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="Height" Value="16" />
+        <Setter Property="Width" Value="9" />
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Image Margin="-4,-4,-7,-8" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SliderThumb.png" DockPanel.Dock="Top">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="BrightnessEffect" Storyboard.TargetProperty="Progress" To="-1.0"/>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <Image.Effect>
+                            <design:ContentButtonBrightnessEffect x:Name="BrightnessEffect" Brightness="0.0" 
+                                                                  HighlightBrightness="{TemplateBinding Property=design:ContentButtonStyle.HighlightBrightness}" 
+                                                                  ShadowBrightness="{TemplateBinding Property=design:ContentButtonStyle.ShadowBrightness}" />
+                        </Image.Effect>
+                    </Image>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsDragging" Value="True">
+                <Setter Property="Cursor" Value="{x:Static ui:Cursors.Slide}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
+
+    <Style TargetType="{x:Type Slider}">
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Slider}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Image Grid.Row="1" Margin="-1,-5" Height="14" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SliderTrack.png" Stretch="Fill" />
+
+                        <Track Grid.Row="1" x:Name="PART_Track">
+                            <Track.DecreaseRepeatButton>
+                                <RepeatButton Style="{StaticResource SliderButtonStyle}" Command="Slider.DecreaseLarge" />
+                            </Track.DecreaseRepeatButton>
+                            <Track.Thumb>
+                                <Thumb Style="{StaticResource SliderThumbStyle}" />
+                            </Track.Thumb>
+                            <Track.IncreaseRepeatButton>
+                                <RepeatButton Style="{StaticResource SliderButtonStyle}" Command="Slider.IncreaseLarge" />
+                            </Track.IncreaseRepeatButton>
+                        </Track>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+
+    </Style>
+
+
+
+    <Style x:Key="LinkButton" TargetType="Button" BasedOn="{StaticResource ResourceKey={x:Type Button}}" >
+
+        <Setter Property="Width" Value="Auto"/>
+        <Setter Property="Foreground" Value="LightGray" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding  ContentTemplate}" VerticalAlignment="Center">
+                        <ContentPresenter.Resources>
+                            <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                <Setter Property="TextDecorations" Value="Underline" />
+                                <Setter Property="Foreground" Value="{Binding Foreground, RelativeSource={RelativeSource AncestorType={x:Type Button}}}" />
+                            </Style>
+                        </ContentPresenter.Resources>
+                    </ContentPresenter>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="LightGray" />
+        <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                <Setter Property="Foreground" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    
+
+    <Style x:Key="{x:Type ComboBox}" TargetType="{x:Type ComboBox}">
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto" />
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto" />
+        <Setter Property="ScrollViewer.CanContentScroll" Value="true" />
+        <Setter Property="MinWidth" Value="120" />
+        <Setter Property="MinHeight" Value="23" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ComboBox}">
+                    <ControlTemplate.Resources>
+                        <ControlTemplate x:Key="ComboBoxTextBox" TargetType="{x:Type TextBox}">
+                            <Border x:Name="PART_ContentHost" Focusable="False" Background="{TemplateBinding Background}" />
+                        </ControlTemplate>
+
+                        <Style TargetType="{x:Type ComboBoxItem}">
+                            <Setter Property="SnapsToDevicePixels" Value="true" />
+                            <Setter Property="OverridesDefaultStyle" Value="true" />
+                            <Setter Property="Cursor" Value="{x:Static ui:Cursors.Hand}" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type ComboBoxItem}">
+                                        <Border x:Name="Border" Padding="4" SnapsToDevicePixels="true" Background="Transparent" BorderBrush="Transparent" BorderThickness="1">
+                                            <VisualStateManager.VisualStateGroups>
+                                                <VisualStateGroup x:Name="SelectionStates">
+                                                    <VisualState x:Name="Unselected" />
+                                                    <VisualState x:Name="Selected">
+                                                        <Storyboard>
+                                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+                                                                <EasingColorKeyFrame KeyTime="0" Value="#F02E2E22" />
+                                                            </ColorAnimationUsingKeyFrames>
+                                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)">
+                                                                <EasingColorKeyFrame KeyTime="0" Value="#3F3F2F" />
+                                                            </ColorAnimationUsingKeyFrames>
+                                                        </Storyboard>
+                                                    </VisualState>
+                                                    <VisualState x:Name="SelectedUnfocused">
+                                                        <Storyboard>
+                                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+                                                                <EasingColorKeyFrame KeyTime="0" Value="#F02E2E22" />
+                                                            </ColorAnimationUsingKeyFrames>
+                                                        </Storyboard>
+                                                    </VisualState>
+                                                </VisualStateGroup>
+                                                <VisualStateGroup x:Name="CommonStates">
+                                                    <VisualState x:Name="Normal" />
+                                                    <VisualState x:Name="MouseOver">
+                                                        <Storyboard>
+                                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+                                                                <EasingColorKeyFrame KeyTime="0" Value="#F02E2E22" />
+                                                            </ColorAnimationUsingKeyFrames>
+                                                            <ColorAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)">
+                                                                <EasingColorKeyFrame KeyTime="0" Value="#3F3F2F" />
+                                                            </ColorAnimationUsingKeyFrames>
+                                                        </Storyboard>
+                                                    </VisualState>
+                                                </VisualStateGroup>
+                                            </VisualStateManager.VisualStateGroups>
+                                            <ContentPresenter />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ControlTemplate.Resources>
+                    
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="20" />
+                        </Grid.ColumnDefinitions>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="EditStates">
+                                <VisualState x:Name="Editable">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="PART_EditableTextBox">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="ContentSite">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Uneditable" />
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ToggleButton x:Name="ToggleButton" Style="{StaticResource ContentToggleButton}" Grid.ColumnSpan="2" Focusable="false" ClickMode="Press" 
+                                      IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                            <Border BorderBrush="#575748" BorderThickness="1" Padding="1" Background="#C0000000">
+                                <Image HorizontalAlignment="Right" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/DropDownButton.png" Stretch="None" />
+                            </Border>
+                        </ToggleButton>
+                        <ContentPresenter x:Name="ContentSite" IsHitTestVisible="False" Content="{TemplateBinding SelectionBoxItem}"
+                                            ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                            Margin="3,3,23,3" VerticalAlignment="Stretch" HorizontalAlignment="Left" />
+                        <TextBox x:Name="PART_EditableTextBox" Style="{x:Null}" Template="{StaticResource ComboBoxTextBox}"
+                                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="3,3,23,3" Focusable="True"
+                                    Background="Transparent" Visibility="Hidden" IsReadOnly="{TemplateBinding IsReadOnly}" />
+                        <Popup x:Name="Popup" Placement="Bottom" IsOpen="{TemplateBinding IsDropDownOpen}" AllowsTransparency="True"
+                                Focusable="False" PopupAnimation="Slide">
+                            <Grid x:Name="DropDown" SnapsToDevicePixels="True" MinWidth="{TemplateBinding ActualWidth}" MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                <Border x:Name="DropDownBorder" BorderThickness="1" BorderBrush="#404032" Background="#E0000000" />
+                                <ui:DragScrollViewer SnapsToDevicePixels="True">
+                                    <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                </ui:DragScrollViewer>
+                            </Grid>
+                        </Popup>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="HasItems" Value="false">
+                            <Setter TargetName="DropDownBorder" Property="MinHeight" Value="95" />
+                        </Trigger>
+                        <Trigger Property="IsGrouping" Value="true">
+                            <Setter Property="ScrollViewer.CanContentScroll" Value="false" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+</ResourceDictionary>

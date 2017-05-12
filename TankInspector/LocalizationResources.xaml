@@ -1,0 +1,608 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+    <system:Int32 x:Uid="LocalizationVersion" x:Key="LocalizationVersion">35</system:Int32>
+    <system:String x:Uid="L10N_LocalizerLinkURL" x:Key="L10N_LocalizerLinkURL">(empty)</system:String>
+    <system:String x:Uid="L10N_ColonSyntax" x:Key="L10N_ColonSyntax">{0}: {1}</system:String>
+    <system:String x:Uid="L10N_CommonTest" x:Key="L10N_CommonTest">CT</system:String>
+    <system:String x:Uid="L10N_ObsoleteLocalization" x:Key="L10N_ObsoleteLocalization">This language pack of US English is obsolete and incompatible. Please update it, or delete it to use a fallback language.</system:String>
+    <system:String x:Uid="L10N_ObsoleteLocalizationTitle" x:Key="L10N_ObsoleteLocalizationTitle">Obsolete Language Pack</system:String>
+    <system:String x:Uid="L10N_FollowingAreInvalidGamePathes" x:Key="L10N_FollowingAreInvalidGamePathes">One or more game paths are invalid and are removed from your settings:</system:String>
+    <system:String x:Uid="L10N_SelectedGamePathIsInvalid" x:Key="L10N_SelectedGamePathIsInvalid">Selected game path is invalid, please try again.</system:String>
+    <system:String x:Uid="L10N_SelectGameRootFolder" x:Key="L10N_SelectGameRootFolder">Select game root folder:</system:String>
+    <system:String x:Uid="L10N_GameFolderChangedMessage" x:Key="L10N_GameFolderChangedMessage">The change of game path will take effect on the next time.</system:String>
+    <system:String x:Uid="L10N_GameFolderChangedTitle" x:Key="L10N_GameFolderChangedTitle">Game Path Changed</system:String>
+    <system:String x:Uid="L10N_InvalidEMailAddress" x:Key="L10N_InvalidEMailAddress">The e-Mail address you entered is invalid. Please try again, or leave it blank if you do not want to provide it.</system:String>
+    <system:String x:Uid="L10N_InvalidEMailAddressTitle" x:Key="L10N_InvalidEMailAddressTitle">Invalid e-Mail Address</system:String>
+    <system:String x:Uid="L10N_DonationTip" x:Key="L10N_DonationTip">Thank you very much for supporting Smellyriver and Tank Inspector. You will be navigated to the donation page in your web browser.&#x0d;&#x0a;&#x0d;&#x0a;Please fill in your e-Mail address while donating.</system:String>
+    <system:String x:Uid="L10N_DonationTitle" x:Key="L10N_DonationTitle">Thank You!</system:String>
+    <system:String x:Uid="L10N_InvalidGamePath" x:Key="L10N_InvalidGamePath">Invalid Client Path</system:String>
+    <system:String x:Uid="L10N_HeavyTank" x:Key="L10N_HeavyTank">Heavy Tank</system:String>
+    <system:String x:Uid="L10N_MediumTank" x:Key="L10N_MediumTank">Medium Tank</system:String>
+    <system:String x:Uid="L10N_LightTank" x:Key="L10N_LightTank">Light Tank</system:String>
+    <system:String x:Uid="L10N_TankDestroyer" x:Key="L10N_TankDestroyer">Tank Destroyer</system:String>
+    <system:String x:Uid="L10N_SelfPropelledGun" x:Key="L10N_SelfPropelledGun">Self-Propelled Gun</system:String>
+    <system:String x:Uid="L10N_HeavyTankShort" x:Key="L10N_HeavyTankShort">HT</system:String>
+    <system:String x:Uid="L10N_MediumTankShort" x:Key="L10N_MediumTankShort">MT</system:String>
+    <system:String x:Uid="L10N_LightTankShort" x:Key="L10N_LightTankShort">LT</system:String>
+    <system:String x:Uid="L10N_TankDestroyerShort" x:Key="L10N_TankDestroyerShort">TD</system:String>
+    <system:String x:Uid="L10N_SelfPropelledGunShort" x:Key="L10N_SelfPropelledGunShort">SPG</system:String>
+    <system:String x:Uid="L10N_BenchmarkTankName" x:Key="L10N_BenchmarkTankName">{0} Benchmark {1}</system:String>
+    <system:String x:Uid="L10N_BenchmarkTankShortName" x:Key="L10N_BenchmarkTankShortName">{0}-{1}</system:String>
+    <system:String x:Uid="L10N_Tier" x:Key="L10N_Tier">Tier</system:String>
+    <system:String x:Uid="L10N_Name" x:Key="L10N_Name">Name</system:String>
+    <system:String x:Uid="L10N_Elite" x:Key="L10N_Elite">Elite</system:String>
+    <system:String x:Uid="L10N_TankTaxologyDescription" x:Key="L10N_TankTaxologyDescription">Tier {0} {1}</system:String>
+    <system:String x:Uid="L10N_EliteTankTaxologyDescription" x:Key="L10N_EliteTankTaxologyDescription">Tier {0} Elite {1}</system:String>
+    <system:String x:Uid="L10N_AP" x:Key="L10N_AP">AP</system:String>
+    <system:String x:Uid="L10N_APCR" x:Key="L10N_APCR">APCR</system:String>
+    <system:String x:Uid="L10N_APHE" x:Key="L10N_APHE">APHE</system:String>
+    <system:String x:Uid="L10N_HE" x:Key="L10N_HE">HE</system:String>
+    <system:String x:Uid="L10N_HEAT" x:Key="L10N_HEAT">HEAT</system:String>
+    <system:String x:Uid="L10N_PremiumHE" x:Key="L10N_PremiumHE">Premium HE</system:String>
+    <system:String x:Uid="L10N_ShellTypeDisplay" x:Key="L10N_ShellTypeDisplay">{0}mm {1}</system:String>
+    <system:String x:Uid="L10N_EquivalentThicknessNotApplicable" x:Key="L10N_EquivalentThicknessNotApplicable">N/A</system:String>
+    <system:String x:Uid="L10N_EquivalentThicknessRicochet" x:Key="L10N_EquivalentThicknessRicochet">RICOCHET</system:String>
+    <system:String x:Uid="L10N_EquivalentThicknessUnpenetratable" x:Key="L10N_EquivalentThicknessUnpenetratable">∞</system:String>
+    <system:String x:Uid="L10N_SurveyingDevice" x:Key="L10N_SurveyingDevice">Surveying Device</system:String>
+    <system:String x:Uid="L10N_TurretRotator" x:Key="L10N_TurretRotator">Turret Rotator</system:String>
+    <system:String x:Uid="L10N_AmmoBay" x:Key="L10N_AmmoBay">Ammo Rack</system:String>
+    <system:String x:Uid="L10N_Diesel" x:Key="L10N_Diesel">Diesel</system:String>
+    <system:String x:Uid="L10N_Gasoline" x:Key="L10N_Gasoline">Gasoline</system:String>
+    <system:String x:Uid="L10N_FuelTank" x:Key="L10N_FuelTank">Fuel Tank</system:String>
+    <system:String x:Uid="L10N_Penetration" x:Key="L10N_Penetration">Penetration</system:String>
+    <system:String x:Uid="L10N_Caliber" x:Key="L10N_Caliber">Caliber</system:String>
+    <system:String x:Uid="L10N_Damage" x:Key="L10N_Damage">Damage</system:String>
+    <system:String x:Uid="L10N_Armor" x:Key="L10N_Armor">Armor</system:String>
+    <system:String x:Uid="L10N_Price" x:Key="L10N_Price">Price</system:String>
+    <system:String x:Uid="L10N_PricePerDamage" x:Key="L10N_PricePerDamage">Price per Damage</system:String>
+    <system:String x:Uid="L10N_EnginePower" x:Key="L10N_EnginePower">Power</system:String>
+    <system:String x:Uid="L10N_SpecificPower" x:Key="L10N_SpecificPower">Specific Power</system:String>
+    <system:String x:Uid="L10N_FireChance" x:Key="L10N_FireChance">Chance on Fire</system:String>
+    <system:String x:Uid="L10N_DefaultSuperstructure" x:Key="L10N_DefaultSuperstructure">(Default Superstructure)</system:String>
+    <system:String x:Uid="L10N_MaxLoad" x:Key="L10N_MaxLoad">Max. Load</system:String>
+    <system:String x:Uid="L10N_RadioDistance" x:Key="L10N_RadioDistance">Signal Distance</system:String>
+    <system:String x:Uid="L10N_AddDatabase" x:Key="L10N_AddDatabase">Add another version of game client...</system:String>
+    <system:String x:Uid="L10N_GameVersionExisted" x:Key="L10N_GameVersionExisted">A client with the same version is already existed.</system:String>
+    <system:String x:Uid="L10N_GameVersionExistedTitle" x:Key="L10N_GameVersionExistedTitle">Client Version Existed</system:String>
+    <system:String x:Uid="L10N_CanTraverseYes" x:Key="L10N_CanTraverseYes">Yes</system:String>
+    <system:String x:Uid="L10N_CanTraverseNo" x:Key="L10N_CanTraverseNo">No</system:String>
+    <system:String x:Uid="L10N_NotApplicable" x:Key="L10N_NotApplicable">n/a</system:String>
+    <system:String x:Uid="L10N_At400m" x:Key="L10N_At400m">at 400m</system:String>
+    <system:String x:Uid="L10N_RemoveEquipment" x:Key="L10N_RemoveEquipment">Remove</system:String>
+    <system:String x:Uid="L10N_RemoveEquipmentDescription" x:Key="L10N_RemoveEquipmentDescription">Remove this equipment</system:String>
+    <system:String x:Uid="L10N_RemoveConsumable" x:Key="L10N_RemoveConsumable">Remove</system:String>
+    <system:String x:Uid="L10N_RemoveConsumableDescription" x:Key="L10N_RemoveConsumableDescription">Remove this consumable</system:String>
+    <system:String x:Uid="L10N_EmptyEquipmentSlot" x:Key="L10N_EmptyEquipmentSlot">Empty Equipment Slot</system:String>
+    <system:String x:Uid="L10N_EmptyEquipmentSlotDescription" x:Key="L10N_EmptyEquipmentSlotDescription">Click to select an equipment</system:String>
+    <system:String x:Uid="L10N_EmptyConsumableSlot" x:Key="L10N_EmptyConsumableSlot">Empty Consumable Slot</system:String>
+    <system:String x:Uid="L10N_EmptyConsumableSlotDescription" x:Key="L10N_EmptyConsumableSlotDescription">Click to select a consumable</system:String>
+    <system:String x:Uid="L10N_SecondsBeforeCamouflageNetActivate" x:Key="L10N_SecondsBeforeCamouflageNetActivate">Still After {0} Seconds</system:String>
+    <system:String x:Uid="L10N_NormalCamouflageValue" x:Key="L10N_NormalCamouflageValue">Normal Value: {0}</system:String>
+    <system:String x:Uid="L10N_SecondsBeforeStereoscopeActivate" x:Key="L10N_SecondsBeforeStereoscopeActivate">Still After {0} Seconds</system:String>
+    <system:String x:Uid="L10N_NormalViewRangeValue" x:Key="L10N_NormalViewRangeValue">Normal Value: {0}</system:String>
+    <system:String x:Uid="L10N_BasicSkill" x:Key="L10N_BasicSkill">Basic Skill</system:String>
+    <system:String x:Uid="L10N_BasicSkills" x:Key="L10N_BasicSkills">Basic Skills</system:String>
+    
+    <system:String x:Uid="L10N_UnitSeconds" x:Key="L10N_UnitSeconds">{0} s</system:String>
+    <system:String x:Uid="L10N_UnitMinutes" x:Key="L10N_UnitMinutes">{0} min</system:String>
+    <system:String x:Uid="L10N_UnitMetersPer100Meters" x:Key="L10N_UnitMetersPer100Meters">{0}×20mil</system:String>
+    <system:String x:Uid="L10N_UnitFactor" x:Key="L10N_UnitFactor">{0} ɑ</system:String>
+    <system:String x:Uid="L10N_UnitMillimeters" x:Key="L10N_UnitMillimeters">{0} mm</system:String>
+    <system:String x:Uid="L10N_UnitMeters" x:Key="L10N_UnitMeters">{0} m</system:String>
+    <system:String x:Uid="L10N_UnitShotsPerMinute" x:Key="L10N_UnitShotsPerMinute">{0} cpm</system:String>
+    <system:String x:Uid="L10N_UnitDegrees" x:Key="L10N_UnitDegrees">{0}°</system:String>
+    <system:String x:Uid="L10N_UnitTimes" x:Key="L10N_UnitTimes">{0}x</system:String>
+    <system:String x:Uid="L10N_UnitDegreesPerSecond" x:Key="L10N_UnitDegreesPerSecond">{0}°/s</system:String>
+    <system:String x:Uid="L10N_UnitShots" x:Key="L10N_UnitShots">{0} c</system:String>
+    <system:String x:Uid="L10N_UnitHealthPoints" x:Key="L10N_UnitHealthPoints">{0} pt</system:String>
+    <system:String x:Uid="L10N_UnitHealthPointsPerMinute" x:Key="L10N_UnitHealthPointsPerMinute">{0} ppm</system:String>
+    <system:String x:Uid="L10N_UnitKilograms" x:Key="L10N_UnitKilograms">{0} kg</system:String>
+    <system:String x:Uid="L10N_UnitPerMeter" x:Key="L10N_UnitPerMeter">{0}/m</system:String>
+    <system:String x:Uid="L10N_UnitMetersPerSecond" x:Key="L10N_UnitMetersPerSecond">{0} m/s</system:String>
+    <system:String x:Uid="L10N_UnitMetersPerSquareSecond" x:Key="L10N_UnitMetersPerSquareSecond">{0} m/s²</system:String>
+    <system:String x:Uid="L10N_UnitNewtons" x:Key="L10N_UnitNewtons">{0} N</system:String>
+    <system:String x:Uid="L10N_UnitKilometersPerHour" x:Key="L10N_UnitKilometersPerHour">{0} km/h</system:String>
+    <system:String x:Uid="L10N_UnitHorsePowers" x:Key="L10N_UnitHorsePowers">{0} hp</system:String>
+    <system:String x:Uid="L10N_UnitHorsePowersPerTon" x:Key="L10N_UnitHorsePowersPerTon">{0} hp/t</system:String>
+    <system:String x:Uid="L10N_UnitCredits" x:Key="L10N_UnitCredits">{0} cr</system:String>
+    <system:String x:Uid="L10N_UnitGolds" x:Key="L10N_UnitGolds">{0} G</system:String>
+    <system:String x:Uid="L10N_UnitCreditsPerHealthPoint" x:Key="L10N_UnitCreditsPerHealthPoint">{0} cr/pt</system:String>
+    <system:String x:Uid="L10N_UnitGoldsPerHealthPoint" x:Key="L10N_UnitGoldsPerHealthPoint">{0} G/pt</system:String>
+
+    <system:String x:Uid="L10N_Turrets" x:Key="L10N_Turrets">Turrets</system:String>
+    <system:String x:Uid="L10N_Engines" x:Key="L10N_Engines">Engines</system:String>
+    <system:String x:Uid="L10N_Radios" x:Key="L10N_Radios">Radios</system:String>
+    <system:String x:Uid="L10N_Hull" x:Key="L10N_Hull">Hull</system:String>
+
+    <system:String x:Uid="L10N_Gun" x:Key="L10N_Gun">Gun</system:String>
+    <system:String x:Uid="L10N_Shells" x:Key="L10N_Shells">Shells</system:String>
+    <system:String x:Uid="L10N_DamagePerMinute" x:Key="L10N_DamagePerMinute">Damage per Minute</system:String>
+    <system:String x:Uid="L10N_RateOfFire" x:Key="L10N_RateOfFire">Rate of Fire</system:String>
+    <system:String x:Uid="L10N_ReloadTime" x:Key="L10N_ReloadTime">Reload Time</system:String>
+    <system:String x:Uid="L10N_ClipCount" x:Key="L10N_ClipCount">Shells in Magazine</system:String>
+    <system:String x:Uid="L10N_ClipReloadTime" x:Key="L10N_ClipReloadTime">Magazine Reload Time</system:String>
+    <system:String x:Uid="L10N_BurstCount" x:Key="L10N_BurstCount">Shells in Burst</system:String>
+    <system:String x:Uid="L10N_BurstRateOfFire" x:Key="L10N_BurstRateOfFire">Burst Rate of Fire</system:String>
+    <system:String x:Uid="L10N_MaxAmmo" x:Key="L10N_MaxAmmo">Max. Ammo</system:String>
+    <system:String x:Uid="L10N_Accuracy" x:Key="L10N_Accuracy">Accuracy</system:String>
+    <system:String x:Uid="L10N_AimingTime" x:Key="L10N_AimingTime">Aim Time</system:String>
+    <system:String x:Uid="L10N_GunShotDispersion" x:Key="L10N_GunShotDispersion">Aiming Circle Spread</system:String>
+    <system:String x:Uid="L10N_DispersionAfterShot" x:Key="L10N_DispersionAfterShot">after Shot</system:String>
+    <system:String x:Uid="L10N_DispersionOnTurretRotation" x:Key="L10N_DispersionOnTurretRotation">on Turret Traverse</system:String>
+    <system:String x:Uid="L10N_DispersionOnTurretFullSpeedRotating" x:Key="L10N_DispersionOnTurretFullSpeedRotating">on Turret Full Speed Traversing</system:String>
+    <system:String x:Uid="L10N_DispersionWhileGunDamaged" x:Key="L10N_DispersionWhileGunDamaged">while Gun Damaged</system:String>
+    <system:String x:Uid="L10N_Elevation" x:Key="L10N_Elevation">Elevation</system:String>
+    <system:String x:Uid="L10N_Depression" x:Key="L10N_Depression">Depression</system:String>
+    <system:String x:Uid="L10N_HorizontalTraverse" x:Key="L10N_HorizontalTraverse">Horizontal Traverse</system:String>
+    <system:String x:Uid="L10N_RotationSpeed" x:Key="L10N_RotationSpeed">Traverse Speed</system:String>
+    <system:String x:Uid="L10N_Health" x:Key="L10N_Health">Health</system:String>
+    <system:String x:Uid="L10N_Regenerated" x:Key="L10N_Regenerated">Regenerated</system:String>
+    <system:String x:Uid="L10N_RegeneratedHealth" x:Key="L10N_RegeneratedHealth">Regenerated Health</system:String>
+    <system:String x:Uid="L10N_RepairCostFactor" x:Key="L10N_RepairCostFactor">Repair Cost Factor</system:String>
+    <system:String x:Uid="L10N_Weight" x:Key="L10N_Weight">Weight</system:String>
+    <system:String x:Uid="L10N_VerticalTraverse" x:Key="L10N_VerticalTraverse">Vertical Traverse</system:String>
+    <system:String x:Uid="L10N_DefaultPitchLimits" x:Key="L10N_DefaultPitchLimits">Default</system:String>
+    <system:String x:Uid="L10N_FrontExtraPitchLimit" x:Key="L10N_FrontExtraPitchLimit">Front</system:String>
+    <system:String x:Uid="L10N_BackExtraPitchLimit" x:Key="L10N_BackExtraPitchLimit">Rear</system:String>
+    <system:String x:Uid="L10N_ExtraPitchLimitTransition" x:Key="L10N_ExtraPitchLimitTransition">Transition</system:String>
+
+    <system:String x:Uid="L10N_Turret" x:Key="L10N_Turret">Turret</system:String>
+    <system:String x:Uid="L10N_Guns" x:Key="L10N_Guns">Guns</system:String>
+    <system:String x:Uid="L10N_CircularVisionRadius" x:Key="L10N_CircularVisionRadius">View Range</system:String>
+    <system:String x:Uid="L10N_Frontal" x:Key="L10N_Frontal">Front</system:String>
+    <system:String x:Uid="L10N_Side" x:Key="L10N_Side">Side</system:String>
+    <system:String x:Uid="L10N_Rear" x:Key="L10N_Rear">Rear</system:String>
+    
+    <system:String x:Uid="L10N_Shell" x:Key="L10N_Shell">Shell</system:String>
+    <system:String x:Uid="L10N_ModuleDamage" x:Key="L10N_ModuleDamage">Module Damage</system:String>
+    <system:String x:Uid="L10N_ExplosionRadius" x:Key="L10N_ExplosionRadius">Explosion Radius</system:String>
+    <system:String x:Uid="L10N_PenetrationLossFactorByDistance" x:Key="L10N_PenetrationLossFactorByDistance">Penetration Loss Factor</system:String>
+    <system:String x:Uid="L10N_MaxDistance" x:Key="L10N_MaxDistance">Max. Distance</system:String>
+    <system:String x:Uid="L10N_Speed" x:Key="L10N_Speed">Shell Velocity</system:String>
+    <system:String x:Uid="L10N_Gravity" x:Key="L10N_Gravity">Shell Gravity</system:String>
+
+    <system:String x:Uid="L10N_Chassis" x:Key="L10N_Chassis">Chassis</system:String>
+    <system:String x:Uid="L10N_SpeedLimits" x:Key="L10N_SpeedLimits">Speed Limitations</system:String>
+    <system:String x:Uid="L10N_Forward" x:Key="L10N_Forward">Forward</system:String>
+    <system:String x:Uid="L10N_Backward" x:Key="L10N_Backward">Reverse</system:String>
+    <system:String x:Uid="L10N_TerrainResistance" x:Key="L10N_TerrainResistance">Terrain Resistance</system:String>
+    <system:String x:Uid="L10N_OnHardTerrain" x:Key="L10N_OnHardTerrain">on Hard Terrain</system:String>
+    <system:String x:Uid="L10N_OnMediumTerrain" x:Key="L10N_OnMediumTerrain">on Medium Terrain</system:String>
+    <system:String x:Uid="L10N_OnSoftTerrain" x:Key="L10N_OnSoftTerrain">on Soft Terrain</system:String>
+    <system:String x:Uid="L10N_CanTraverse" x:Key="L10N_CanTraverse">Pivot</system:String>
+    <system:String x:Uid="L10N_BrakeForce" x:Key="L10N_BrakeForce">Brake Force</system:String>
+    <system:String x:Uid="L10N_MaxClimbAngle" x:Key="L10N_MaxClimbAngle">Max. Climb Angle</system:String>
+    <system:String x:Uid="L10N_DispersionOnVehicleMove" x:Key="L10N_DispersionOnVehicleMove">on Vehicle Move</system:String>
+    <system:String x:Uid="L10N_DispersionOnVehicleFullSpeedMoving" x:Key="L10N_DispersionOnVehicleFullSpeedMoving">on Vehicle Full Speed Moving</system:String>
+    <system:String x:Uid="L10N_DispersionOnVehicleRotation" x:Key="L10N_DispersionOnVehicleRotation">on Vehicle Traverse</system:String>
+    <system:String x:Uid="L10N_DispersionOnVehicleFullSpeedRotating" x:Key="L10N_DispersionOnVehicleFullSpeedRotating">on Vehicle Full Speed Traversing</system:String>
+
+    <system:String x:Uid="L10N_FuelType" x:Key="L10N_FuelType">Fuel Type</system:String>
+
+    <system:String x:Uid="L10N_SignalDistance" x:Key="L10N_SignalDistance">Signal Distance</system:String>
+    <system:String x:Uid="L10N_CamouflageValues" x:Key="L10N_CamouflageValues">Camouflage Values</system:String>
+    <system:String x:Uid="L10N_StationaryCamouflageValue" x:Key="L10N_StationaryCamouflageValue">while Stationary</system:String>
+    <system:String x:Uid="L10N_MovingCamouflageValue" x:Key="L10N_MovingCamouflageValue">while Moving</system:String>
+    <system:String x:Uid="L10N_FiringStationaryCamouflageValue" x:Key="L10N_FiringStationaryCamouflageValue">while Firing in Stationary</system:String>
+    <system:String x:Uid="L10N_FiringMovingCamouflageValue" x:Key="L10N_FiringMovingCamouflageValue">while Firing and Moving</system:String>
+
+    <system:String x:Uid="L10N_FirePower" x:Key="L10N_FirePower">Fire Power</system:String>
+    <system:String x:Uid="L10N_Scoutability" x:Key="L10N_Scoutability">Scoutability</system:String>
+    <system:String x:Uid="L10N_Economy" x:Key="L10N_Economy">Economy</system:String>
+    <system:String x:Uid="L10N_Miscellaneous" x:Key="L10N_Miscellaneous">Miscellaneous</system:String>
+    <system:String x:Uid="L10N_Mobility" x:Key="L10N_Mobility">Mobility</system:String>
+    <system:String x:Uid="L10N_Survivability" x:Key="L10N_Survivability">Survivability</system:String>
+    <system:String x:Uid="L10N_Maneuverability" x:Key="L10N_Maneuverability">Maneuverability</system:String>
+    <system:String x:Uid="L10N_Battle" x:Key="L10N_Battle">Battle</system:String>
+    <system:String x:Uid="L10N_GunRotationSpeed" x:Key="L10N_GunRotationSpeed">Gun Traverse Speed</system:String>
+    <system:String x:Uid="L10N_GunHorizontalTraverse" x:Key="L10N_GunHorizontalTraverse">Gun Horizontal Traverse</system:String>
+    <system:String x:Uid="L10N_TurretHorizontalTraverse" x:Key="L10N_TurretHorizontalTraverse">Turret Horizontal Traverse</system:String>
+    <system:String x:Uid="L10N_TurretRotationSpeed" x:Key="L10N_TurretRotationSpeed">Turret Traverse Speed</system:String>
+    <system:String x:Uid="L10N_ChassisRotationSpeed" x:Key="L10N_ChassisRotationSpeed">Chassis Traverse Speed</system:String>
+    <system:String x:Uid="L10N_HullWeight" x:Key="L10N_HullWeight">Hull</system:String>
+    <system:String x:Uid="L10N_TurretWeight" x:Key="L10N_TurretWeight">Turret</system:String>
+    <system:String x:Uid="L10N_ChassisWeight" x:Key="L10N_ChassisWeight">Chassis</system:String>
+    <system:String x:Uid="L10N_GunWeight" x:Key="L10N_GunWeight">Gun</system:String>
+    <system:String x:Uid="L10N_RadioWeight" x:Key="L10N_RadioWeight">Radio</system:String>
+    <system:String x:Uid="L10N_EquipmentWeight" x:Key="L10N_EquipmentWeight">Equipment</system:String>
+    <system:String x:Uid="L10N_EngineWeight" x:Key="L10N_EngineWeight">Engine</system:String>
+    <system:String x:Uid="L10N_HullHealth" x:Key="L10N_HullHealth">Hull</system:String>
+    <system:String x:Uid="L10N_HullRegeneratedHealth" x:Key="L10N_HullRegeneratedHealth">Hull - Regenerated</system:String>
+    <system:String x:Uid="L10N_TurretHealth" x:Key="L10N_TurretHealth">Turret</system:String>
+    <system:String x:Uid="L10N_TurretRegeneratedHealth" x:Key="L10N_TurretRegeneratedHealth">Turret - Regenerated</system:String>
+    <system:String x:Uid="L10N_AmmoBayHealth" x:Key="L10N_AmmoBayHealth">Ammo Rack</system:String>
+    <system:String x:Uid="L10N_AmmoBayRegeneratedHealth" x:Key="L10N_AmmoBayRegeneratedHealth">Ammo Rack - Regenerated</system:String>
+    <system:String x:Uid="L10N_TurretRotatorHealth" x:Key="L10N_TurretRotatorHealth">Turret Rotator</system:String>
+    <system:String x:Uid="L10N_TurretRotatorRegeneratedHealth" x:Key="L10N_TurretRotatorRegeneratedHealth">Turret Rotator - Regenerated</system:String>
+    <system:String x:Uid="L10N_FuelTankHealth" x:Key="L10N_FuelTankHealth">Fuel Tank</system:String>
+    <system:String x:Uid="L10N_FuelTankRegeneratedHealth" x:Key="L10N_FuelTankRegeneratedHealth">Fuel Tank - Regenerated</system:String>
+    <system:String x:Uid="L10N_EngineHealth" x:Key="L10N_EngineHealth">Engine</system:String>
+    <system:String x:Uid="L10N_EngineRegeneratedHealth" x:Key="L10N_EngineRegeneratedHealth">Engine - Regenerated</system:String>
+    <system:String x:Uid="L10N_ChassisHealth" x:Key="L10N_ChassisHealth">Track</system:String>
+    <system:String x:Uid="L10N_ChassisRegeneratedHealth" x:Key="L10N_ChassisRegeneratedHealth">Track - Regenerated</system:String>
+    <system:String x:Uid="L10N_GunHealth" x:Key="L10N_GunHealth">Gun</system:String>
+    <system:String x:Uid="L10N_GunRegeneratedHealth" x:Key="L10N_GunRegeneratedHealth">Gun - Regenerated</system:String>
+    <system:String x:Uid="L10N_SurveyingDeviceHealth" x:Key="L10N_SurveyingDeviceHealth">Surveying Device</system:String>
+    <system:String x:Uid="L10N_SurveyingDeviceRegeneratedHealth" x:Key="L10N_SurveyingDeviceRegeneratedHealth">Surveying Device - Regenerated</system:String>
+    <system:String x:Uid="L10N_RadioHealth" x:Key="L10N_RadioHealth">Radio</system:String>
+    <system:String x:Uid="L10N_RadioRegeneratedHealth" x:Key="L10N_RadioRegeneratedHealth">Radio - Regenerated</system:String>
+    <system:String x:Uid="L10N_HullFrontalArmor" x:Key="L10N_HullFrontalArmor">Hull - Frontal</system:String>
+    <system:String x:Uid="L10N_HullSideArmor" x:Key="L10N_HullSideArmor">Hull - Side</system:String>
+    <system:String x:Uid="L10N_HullRearArmor" x:Key="L10N_HullRearArmor">Hull - Rear</system:String>
+    <system:String x:Uid="L10N_TurretFrontalArmor" x:Key="L10N_TurretFrontalArmor">Turret - Frontal</system:String>
+    <system:String x:Uid="L10N_TurretSideArmor" x:Key="L10N_TurretSideArmor">Turret - Side</system:String>
+    <system:String x:Uid="L10N_TurretRearArmor" x:Key="L10N_TurretRearArmor">Turret - Rear</system:String>
+    <system:String x:Uid="L10N_ChassisArmor" x:Key="L10N_ChassisArmor">Track</system:String>
+    <system:String x:Uid="L10N_GunArmor" x:Key="L10N_GunArmor">Gun</system:String>
+    <system:String x:Uid="L10N_EngineFireChance" x:Key="L10N_EngineFireChance">Engine Chance on Fire</system:String>
+    <system:String x:Uid="L10N_TankPrice" x:Key="L10N_TankPrice">Tank Price</system:String>
+    <system:String x:Uid="L10N_TankMaxRepairCost" x:Key="L10N_TankMaxRepairCost">Max. Repair</system:String>
+    <system:String x:Uid="L10N_TankBattleTiers" x:Key="L10N_TankBattleTiers">Battle Tiers</system:String>
+    <system:String x:Uid="L10N_TankMatchmakingWeight" x:Key="L10N_TankMatchmakingWeight">Matchmaking Weight</system:String>
+    <system:String x:Uid="L10N_TankHealth" x:Key="L10N_TankHealth">Tank</system:String>
+    <system:String x:Uid="L10N_ComponentHealth" x:Key="L10N_ComponentHealth">Module Health</system:String>
+    <system:String x:Uid="L10N_VehicleWeight" x:Key="L10N_VehicleWeight">Tank</system:String>
+    <system:String x:Uid="L10N_ShellPrice" x:Key="L10N_ShellPrice">Shell Price</system:String>
+    <system:String x:Uid="L10N_ShellPricePerDamage" x:Key="L10N_ShellPricePerDamage">Shell Price per Damage</system:String>
+
+    <system:String x:Uid="L10N_AmmoBayHealthFullName" x:Key="L10N_AmmoBayHealthFullName">Ammo Rack Health</system:String>
+    <system:String x:Uid="L10N_ChassisRotationSpeedFullName" x:Key="L10N_ChassisRotationSpeedFullName">Chassis Traverse Speed</system:String>
+    <system:String x:Uid="L10N_ChassisForwardSpeedLimitFullName" x:Key="L10N_ChassisForwardSpeedLimitFullName">Forward Speed Limit</system:String>
+    <system:String x:Uid="L10N_ChassisBackwardSpeedLimitFullName" x:Key="L10N_ChassisBackwardSpeedLimitFullName">Reverse Speed Limit</system:String>
+    <system:String x:Uid="L10N_ChassisHardTerrainResistanceFullName" x:Key="L10N_ChassisHardTerrainResistanceFullName">Hard Terrain Resistance</system:String>
+    <system:String x:Uid="L10N_ChassisMediumTerrainResistanceFullName" x:Key="L10N_ChassisMediumTerrainResistanceFullName">Medium Terrain Resistance</system:String>
+    <system:String x:Uid="L10N_ChassisSoftTerrainResistanceFullName" x:Key="L10N_ChassisSoftTerrainResistanceFullName">Soft Terrain Resistance</system:String>
+    <system:String x:Uid="L10N_ChassisCanTraverseFullName" x:Key="L10N_ChassisCanTraverseFullName">Chassis Pivot</system:String>
+    <system:String x:Uid="L10N_ChassisBrakeForceFullName" x:Key="L10N_ChassisBrakeForceFullName">Brake Force</system:String>
+    <system:String x:Uid="L10N_ChassisMaxClimbAngleFullName" x:Key="L10N_ChassisMaxClimbAngleFullName">Max. Climb Angle</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleMoveFullName" x:Key="L10N_ChassisDispersionOnVehicleMoveFullName">Unit ACS on Vehicle Move</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleFullSpeedMovingFullName" x:Key="L10N_ChassisDispersionOnVehicleFullSpeedMovingFullName">ACS on Vehicle Full Speed Moving</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleRotationFullName" x:Key="L10N_ChassisDispersionOnVehicleRotationFullName">Unit ACS on Vehicle Rotation</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleFullSpeedRotatingFullName" x:Key="L10N_ChassisDispersionOnVehicleFullSpeedRotatingFullName">ACS on Vehicle Full Speed Traversing</system:String>
+    <system:String x:Uid="L10N_ChassisMaxLoadFullName" x:Key="L10N_ChassisMaxLoadFullName">Suspension Max. Load</system:String>
+    <system:String x:Uid="L10N_ChassisHealthFullName" x:Key="L10N_ChassisHealthFullName">Track Health</system:String>
+    <system:String x:Uid="L10N_ChassisWeightFullName" x:Key="L10N_ChassisWeightFullName">Chassis Weight</system:String>
+    <system:String x:Uid="L10N_ChassisArmorFullName" x:Key="L10N_ChassisArmorFullName">Track Armor</system:String>
+    <system:String x:Uid="L10N_EnginePowerFullName" x:Key="L10N_EnginePowerFullName">Engine Power</system:String>
+    <system:String x:Uid="L10N_EngineSpecificPowerFullName" x:Key="L10N_EngineSpecificPowerFullName">Specific Power</system:String>
+    <system:String x:Uid="L10N_EngineFireChanceFullName" x:Key="L10N_EngineFireChanceFullName">Engine Chance on Fire</system:String>
+    <system:String x:Uid="L10N_EngineHealthFullName" x:Key="L10N_EngineHealthFullName">Engine Health</system:String>
+    <system:String x:Uid="L10N_EngineWeightFullName" x:Key="L10N_EngineWeightFullName">Engine Weight</system:String>
+    <system:String x:Uid="L10N_FuelTankHealthFullName" x:Key="L10N_FuelTankHealthFullName">Fuel Tank Health</system:String>
+    <system:String x:Uid="L10N_FuelTankFuelTypeFullName" x:Key="L10N_FuelTankFuelTypeFullName">Fuel Type</system:String>
+    <system:String x:Uid="L10N_GunReloadTimeFullName" x:Key="L10N_GunReloadTimeFullName">Reload Time</system:String>
+    <system:String x:Uid="L10N_GunAccuracyFullName" x:Key="L10N_GunAccuracyFullName">Accuracy</system:String>
+    <system:String x:Uid="L10N_GunArmorFullName" x:Key="L10N_GunArmorFullName">Gun Armor</system:String>
+    <system:String x:Uid="L10N_GunAimingTimeFullName" x:Key="L10N_GunAimingTimeFullName">Aim Time</system:String>
+    <system:String x:Uid="L10N_GunRateOfFireFullName" x:Key="L10N_GunRateOfFireFullName">Rate of Fire</system:String>
+    <system:String x:Uid="L10N_GunElevationFullName" x:Key="L10N_GunElevationFullName">Elevation</system:String>
+    <system:String x:Uid="L10N_GunDepressionFullName" x:Key="L10N_GunDepressionFullName">Depression</system:String>
+    <system:String x:Uid="L10N_GunCamouflageFactorAfterShot" x:Key="L10N_GunCamouflageFactorAfterShot">Camouflage Factor after Shot</system:String>
+    <system:String x:Uid="L10N_GunDispersionAfterShotFullName" x:Key="L10N_GunDispersionAfterShotFullName">ACS after Shot</system:String>
+    <system:String x:Uid="L10N_GunDispersionOnTurretRotationFullName" x:Key="L10N_GunDispersionOnTurretRotationFullName">Unit ACS on Turret Traverse</system:String>
+    <system:String x:Uid="L10N_GunDispersionOnTurretFullSpeedRotatingFullName" x:Key="L10N_GunDispersionOnTurretFullSpeedRotatingFullName">ACS on Turret Full Speed Traversing</system:String>
+    <system:String x:Uid="L10N_GunDispersionWhileGunDamagedFullName" x:Key="L10N_GunDispersionWhileGunDamagedFullName">ACS while Gun Damaged</system:String>
+    <system:String x:Uid="L10N_GunHorizontalTraverseFullName" x:Key="L10N_GunHorizontalTraverseFullName">Gun Horizontal Traverse</system:String>
+    <system:String x:Uid="L10N_GunRotationSpeedFullName" x:Key="L10N_GunRotationSpeedFullName">Gun Traverse Speed</system:String>
+    <system:String x:Uid="L10N_GunMaxAmmoFullName" x:Key="L10N_GunMaxAmmoFullName">Max Ammo</system:String>
+    <system:String x:Uid="L10N_GunClipCountFullName" x:Key="L10N_GunClipCountFullName">Clip Count</system:String>
+    <system:String x:Uid="L10N_GunClipReloadTimeFullName" x:Key="L10N_GunClipReloadTimeFullName">Clip Reload Time</system:String>
+    <system:String x:Uid="L10N_GunBurstCountFullName" x:Key="L10N_GunBurstCountFullName">Burst Count</system:String>
+    <system:String x:Uid="L10N_GunBurstRateOfFireFullName" x:Key="L10N_GunBurstRateOfFireFullName">Burst Rate of Fire</system:String>
+    <system:String x:Uid="L10N_GunCaliberFullName" x:Key="L10N_GunCaliberFullName">Caliber</system:String>
+    <system:String x:Uid="L10N_GunHealthFullName" x:Key="L10N_GunHealthFullName">Gun Health</system:String>
+    <system:String x:Uid="L10N_GunWeightFullName" x:Key="L10N_GunWeightFullName">Gun Weight</system:String>
+    <system:String x:Uid="L10N_HullFrontalArmorFullName" x:Key="L10N_HullFrontalArmorFullName">Hull Frontal Armor</system:String>
+    <system:String x:Uid="L10N_HullSideArmorFullName" x:Key="L10N_HullSideArmorFullName">Hull Side Armor</system:String>
+    <system:String x:Uid="L10N_HullRearArmorFullName" x:Key="L10N_HullRearArmorFullName">Hull Rear Armor</system:String>
+    <system:String x:Uid="L10N_HullHealthFullName" x:Key="L10N_HullHealthFullName">Hull Health</system:String>
+    <system:String x:Uid="L10N_HullWeightFullName" x:Key="L10N_HullWeightFullName">Hull Weight</system:String>
+    <system:String x:Uid="L10N_RadioHealthFullName" x:Key="L10N_RadioHealthFullName">Radio Health</system:String>
+    <system:String x:Uid="L10N_RadioSignalDistanceFullName" x:Key="L10N_RadioSignalDistanceFullName">Radio Signal Distance</system:String>
+    <system:String x:Uid="L10N_RadioWeightFullName" x:Key="L10N_RadioWeightFullName">Radio Weight</system:String>
+    <system:String x:Uid="L10N_ShellCaliberFullName" x:Key="L10N_ShellCaliberFullName">Caliber</system:String>
+    <system:String x:Uid="L10N_ShellExplosionRadiusFullName" x:Key="L10N_ShellExplosionRadiusFullName">Explosion Radius</system:String>
+    <system:String x:Uid="L10N_ShellSpeedFullName" x:Key="L10N_ShellSpeedFullName">Shell Velocity</system:String>
+    <system:String x:Uid="L10N_ShellGravityFullName" x:Key="L10N_ShellGravityFullName">Shell Gravity</system:String>
+    <system:String x:Uid="L10N_ShellMaxDistanceFullName" x:Key="L10N_ShellMaxDistanceFullName">Shell Max. Distance</system:String>
+    <system:String x:Uid="L10N_ShellPenetrationFullName" x:Key="L10N_ShellPenetrationFullName">Penetration</system:String>
+    <system:String x:Uid="L10N_ShellPenetrationAt400mFullName" x:Key="L10N_ShellPenetrationAt400mFullName">Penetration at 400m</system:String>
+    <system:String x:Uid="L10N_ShellArmorDamageFullName" x:Key="L10N_ShellArmorDamageFullName">Alpha Damage</system:String>
+    <system:String x:Uid="L10N_ShellDamagePerMinuteFullName" x:Key="L10N_ShellDamagePerMinuteFullName">Damage per Minute</system:String>
+    <system:String x:Uid="L10N_ShellModuleDamageFullName" x:Key="L10N_ShellModuleDamageFullName">Alpha Module Damage</system:String>
+    <system:String x:Uid="L10N_ShellPriceFullName" x:Key="L10N_ShellPriceFullName">Shell Price</system:String>
+    <system:String x:Uid="L10N_ShellPricePerDamageFullName" x:Key="L10N_ShellPricePerDamageFullName">Shell Price per Damage</system:String>
+    <system:String x:Uid="L10N_ShellPiercingPowerLossFactorByDistanceFullName" x:Key="L10N_ShellPiercingPowerLossFactorByDistanceFullName">Shell Penetration-Distance Loss Factor</system:String>
+    <system:String x:Uid="L10N_SurveyingDeviceHealthFullName" x:Key="L10N_SurveyingDeviceHealthFullName">Surveying Device Health</system:String>
+    <system:String x:Uid="L10N_TankHealthFullName" x:Key="L10N_TankHealthFullName">Tank Health</system:String>
+    <system:String x:Uid="L10N_TankWeightFullName" x:Key="L10N_TankWeightFullName">Tank Weight</system:String>
+    <system:String x:Uid="L10N_TankEquipmentWeightFullName" x:Key="L10N_TankEquipmentWeightFullName">Equipment Weight</system:String>
+    <system:String x:Uid="L10N_TankRepairCostFullName" x:Key="L10N_TankRepairCostFullName">Tank Repair Cost</system:String>
+    <system:String x:Uid="L10N_TankMatchmakingWeightFullName" x:Key="L10N_TankMatchmakingWeightFullName">Matchmaking Weight</system:String>
+    <system:String x:Uid="L10N_TankBattleTiersFullName" x:Key="L10N_TankBattleTiersFullName">Battle Tiers</system:String>
+    <system:String x:Uid="L10N_TankPriceFullName" x:Key="L10N_TankPriceFullName">Tank Price</system:String>
+    <system:String x:Uid="L10N_TankStationaryCamouflageFullName" x:Key="L10N_TankStationaryCamouflageFullName">Stationary Camouflage Factor</system:String>
+    <system:String x:Uid="L10N_TankMovingCamouflageFullName" x:Key="L10N_TankMovingCamouflageFullName">Moving Camouflage Factor</system:String>
+    <system:String x:Uid="L10N_TankFiringStationaryCamouflageFullName" x:Key="L10N_TankFiringStationaryCamouflageFullName">Firing Stationary Camouflage Factor</system:String>
+    <system:String x:Uid="L10N_TankFiringMovingCamouflageFullName" x:Key="L10N_TankFiringMovingCamouflageFullName">Firing Moving Camouflage Factor</system:String>
+    <system:String x:Uid="L10N_TurretRotatorHealthFullName" x:Key="L10N_TurretRotatorHealthFullName">Turret Rotator Health</system:String>
+    <system:String x:Uid="L10N_TurretRotationSpeedFullName" x:Key="L10N_TurretRotationSpeedFullName">Turret Traverse Speed</system:String>
+    <system:String x:Uid="L10N_TurretCircularVisionRadiusFullName" x:Key="L10N_TurretCircularVisionRadiusFullName">View Range</system:String>
+    <system:String x:Uid="L10N_TurretFrontalArmorFullName" x:Key="L10N_TurretFrontalArmorFullName">Turret Frontal Armor</system:String>
+    <system:String x:Uid="L10N_TurretSideArmorFullName" x:Key="L10N_TurretSideArmorFullName">Turret Side Armor</system:String>
+    <system:String x:Uid="L10N_TurretRearArmorFullName" x:Key="L10N_TurretRearArmorFullName">Turret Rear Armor</system:String>
+    <system:String x:Uid="L10N_TurretHorizontalTraverseFullName" x:Key="L10N_TurretHorizontalTraverseFullName">Turret Horizontal Traverse</system:String>
+    <system:String x:Uid="L10N_TurretHealthFullName" x:Key="L10N_TurretHealthFullName">Turret Health</system:String>
+    <system:String x:Uid="L10N_TurretWeightFullName" x:Key="L10N_TurretWeightFullName">Turret Weight</system:String>
+
+
+    <system:String x:Uid="L10N_AmmoBayHealthDescription" x:Key="L10N_AmmoBayHealthDescription">The maximum health of the ammo rack. If this value drops down to less than its corresponding regenerated health value, the reloading time will be increased by 100%. If this value reaches zero and there are shells on the ammo rack, a sympathetic detonation will occur and the tank will explode immediately.</system:String>
+    <system:String x:Uid="L10N_ChassisRotationSpeedDescription" x:Key="L10N_ChassisRotationSpeedDescription">The traverse speed of the chassis.</system:String>
+    <system:String x:Uid="L10N_ChassisForwardSpeedLimitDescription" x:Key="L10N_ChassisForwardSpeedLimitDescription">The maximum maintainable forward speed of the vehicle.</system:String>
+    <system:String x:Uid="L10N_ChassisBackwardSpeedLimitDescription" x:Key="L10N_ChassisBackwardSpeedLimitDescription">The maximum maintainable reverse speed of the vehicle.</system:String>
+    <system:String x:Uid="L10N_ChassisHardTerrainResistanceDescription" x:Key="L10N_ChassisHardTerrainResistanceDescription">The resistance factor applied while the vehicle is moving or traversing on hard terrains (roads, pavement and cobblestones).</system:String>
+    <system:String x:Uid="L10N_ChassisMediumTerrainResistanceDescription" x:Key="L10N_ChassisMediumTerrainResistanceDescription">The resistance factor applied while the vehicle is moving or traversing on medium terrains (some paths, dirt, sand, grass and shallow water).</system:String>
+    <system:String x:Uid="L10N_ChassisSoftTerrainResistanceDescription" x:Key="L10N_ChassisSoftTerrainResistanceDescription">The resistance factor applied while the vehicle is moving or traversing on soft terrains (swamps and deep water).</system:String>
+    <system:String x:Uid="L10N_ChassisCanTraverseDescription" x:Key="L10N_ChassisCanTraverseDescription">Whether the chassis can traverse on the spot without moving forwards or backwards.</system:String>
+    <system:String x:Uid="L10N_ChassisBrakeForceDescription" x:Key="L10N_ChassisBrakeForceDescription">The braking power of the vehicle.</system:String>
+    <system:String x:Uid="L10N_ChassisMaxClimbAngleDescription" x:Key="L10N_ChassisMaxClimbAngleDescription">The maximum angle to which the vehicle can climb.</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleMoveDescription" x:Key="L10N_ChassisDispersionOnVehicleMoveDescription">The unit spread factor applied to the aiming-circle while the vehicle is moving.</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleFullSpeedMovingDescription" x:Key="L10N_ChassisDispersionOnVehicleFullSpeedMovingDescription">The spread factor applied to the aiming-circle while the vehicle is moving in full speed.</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleRotationDescription" x:Key="L10N_ChassisDispersionOnVehicleRotationDescription">The unit spread factor applied to the aiming-circle while the vehicle is traversing.</system:String>
+    <system:String x:Uid="L10N_ChassisDispersionOnVehicleFullSpeedRotatingDescription" x:Key="L10N_ChassisDispersionOnVehicleFullSpeedRotatingDescription">The spread factor applied to the aiming-circle while the vehicle is traversing in full speed.</system:String>
+    <system:String x:Uid="L10N_ChassisMaxLoadDescription" x:Key="L10N_ChassisMaxLoadDescription">The maximum load of the suspension.</system:String>
+    <system:String x:Uid="L10N_ChassisHealthDescription" x:Key="L10N_ChassisHealthDescription">The maximum health of the tracks. If this value reaches zero, the tracks will be broken so the vehicle cannot move or traverse. However, a damaged chassis does not affect the mobility of the vehicle. Both tracks have its own health pool.</system:String>
+    <system:String x:Uid="L10N_ChassisWeightDescription" x:Key="L10N_ChassisWeightDescription">The weight of the chassis.</system:String>
+    <system:String x:Uid="L10N_ChassisArmorDescription" x:Key="L10N_ChassisArmorDescription">The armor of the tracks.</system:String>
+    <system:String x:Uid="L10N_EnginePowerDescription" x:Key="L10N_EnginePowerDescription">The effective output power of the engine.</system:String>
+    <system:String x:Uid="L10N_EngineSpecificPowerDescription" x:Key="L10N_EngineSpecificPowerDescription">The power of engine divided by the weight of the vehicle, reflects the vehicle's acceleration performance.</system:String>
+    <system:String x:Uid="L10N_EngineFireChanceDescription" x:Key="L10N_EngineFireChanceDescription">Chance of the engine will catch fire while being hit.</system:String>
+    <system:String x:Uid="L10N_EngineHealthDescription" x:Key="L10N_EngineHealthDescription">The maximum health of the engine. If this value drops down to less than its corresponding regenerated health value, the vehicle would move and traverse 50% slower. If this value reaches zero, the engine will be broken so the vehicle cannot move or traverse.</system:String>
+    <system:String x:Uid="L10N_EngineWeightDescription" x:Key="L10N_EngineWeightDescription">The weight of the engine.</system:String>
+    <system:String x:Uid="L10N_FuelTankHealthDescription" x:Key="L10N_FuelTankHealthDescription">The maximum health of the fuel tank. If this value reaches zero, the tank will catch fire.</system:String>
+    <system:String x:Uid="L10N_FuelTankFuelTypeDescription" x:Key="L10N_FuelTankFuelTypeDescription">The type of fuel stored in this fuel tank.</system:String>
+    <system:String x:Uid="L10N_GunReloadTimeDescription" x:Key="L10N_GunReloadTimeDescription">The reload time of the gun. For a auto-loading gun, this is the time needed to reload the entire magazine.</system:String>
+    <system:String x:Uid="L10N_GunAccuracyDescription" x:Key="L10N_GunAccuracyDescription">The accuracy of the gun, roughly the minimum radius of the aiming circle back-projected to 100 meters away from the gun. To be exact, this value describes 3 standard deviations σ in a normal distribute, from the center of your aim.</system:String>
+    <system:String x:Uid="L10N_GunArmorDescription" x:Key="L10N_GunArmorDescription">The armor of the gun.</system:String>
+    <system:String x:Uid="L10N_GunAimingTimeDescription" x:Key="L10N_GunAimingTimeDescription">The aiming time of the gun, represented by the time needed for the aiming circle to shrink to its 1/e (roughly one thirds) size.</system:String>
+    <system:String x:Uid="L10N_GunRateOfFireDescription" x:Key="L10N_GunRateOfFireDescription">Represents how many shells could fire within one minute.</system:String>
+    <system:String x:Uid="L10N_GunElevationDescription" x:Key="L10N_GunElevationDescription">Maximum angle the gun could elevate.</system:String>
+    <system:String x:Uid="L10N_GunDepressionDescription" x:Key="L10N_GunDepressionDescription">Maximum angle the gun could depress.</system:String>
+    <system:String x:Uid="L10N_GunDispersionAfterShotDescription" x:Key="L10N_GunDispersionAfterShotDescription">The spread factor applied to the aiming-circle after the gun fires.</system:String>
+    <system:String x:Uid="L10N_GunDispersionOnTurretRotationDescription" x:Key="L10N_GunDispersionOnTurretRotationDescription">The unit spread factor applied to the aiming-circle while the turret is traversing.</system:String>
+    <system:String x:Uid="L10N_GunDispersionOnTurretFullSpeedRotatingDescription" x:Key="L10N_GunDispersionOnTurretFullSpeedRotatingDescription">The spread factor applied to the aiming-circle while the turret is traversing in full speed.</system:String>
+    <system:String x:Uid="L10N_GunDispersionWhileGunDamagedDescription" x:Key="L10N_GunDispersionWhileGunDamagedDescription">The spread factor applied to the aiming-circle while the gun is damaged.</system:String>
+    <system:String x:Uid="L10N_GunHorizontalTraverseDescription" x:Key="L10N_GunHorizontalTraverseDescription">The horizontal traverse range of the gun.</system:String>
+    <system:String x:Uid="L10N_GunRotationSpeedDescription" x:Key="L10N_GunRotationSpeedDescription">The maximum traverse speed of the gun while moving within its traverse range.</system:String>
+    <system:String x:Uid="L10N_GunMaxAmmoDescription" x:Key="L10N_GunMaxAmmoDescription">The ammunition capacity of the tank.</system:String>
+    <system:String x:Uid="L10N_GunClipCountDescription" x:Key="L10N_GunClipCountDescription">The ammunition capacity of a stripper clip.</system:String>
+    <system:String x:Uid="L10N_GunClipReloadTimeDescription" x:Key="L10N_GunClipReloadTimeDescription">The reload time of the stripper clip.</system:String>
+    <system:String x:Uid="L10N_GunBurstCountDescription" x:Key="L10N_GunBurstCountDescription">Number of shells could be fired in one shot.</system:String>
+    <system:String x:Uid="L10N_GunBurstRateOfFireDescription" x:Key="L10N_GunBurstRateOfFireDescription">Represents how many shells could be fire within one minute, if stripper clip reloading is not needed.</system:String>
+    <system:String x:Uid="L10N_GunCaliberDescription" x:Key="L10N_GunCaliberDescription">The caliber of the gun.</system:String>
+    <system:String x:Uid="L10N_GunHealthDescription" x:Key="L10N_GunHealthDescription">The maximum health of the gun. If this value drops down to less than its corresponding regenerated health value, the size of the aiming circle will be enlarged by 100%. If this value reaches zero, the gun will be broken and cannot shoot.</system:String>
+    <system:String x:Uid="L10N_GunWeightDescription" x:Key="L10N_GunWeightDescription">The weight of the gun.</system:String>
+    <system:String x:Uid="L10N_HullFrontalArmorDescription" x:Key="L10N_HullFrontalArmorDescription">The primary frontal armor of the hull.</system:String>
+    <system:String x:Uid="L10N_HullSideArmorDescription" x:Key="L10N_HullSideArmorDescription">The primary side armor of the hull.</system:String>
+    <system:String x:Uid="L10N_HullRearArmorDescription" x:Key="L10N_HullRearArmorDescription">The primary rear armor of the hull.</system:String>
+    <system:String x:Uid="L10N_HullHealthDescription" x:Key="L10N_HullHealthDescription">The maximum health of the hull, which will be added up to the maximum health of the tank.</system:String>
+    <system:String x:Uid="L10N_HullWeightDescription" x:Key="L10N_HullWeightDescription">The weight of the hull.</system:String>
+    <system:String x:Uid="L10N_RadioHealthDescription" x:Key="L10N_RadioHealthDescription">The maximum health of the radio. If this value drops down to less than its corresponding regenerated health value, the signal distance will be reduced by 50%. </system:String>
+    <system:String x:Uid="L10N_RadioSignalDistanceDescription" x:Key="L10N_RadioSignalDistanceDescription">The signal distance of the radio. Two friendly tank could see each other and the enemies they spotted if their distance is less than the sum of their radio signal distances.</system:String>
+    <system:String x:Uid="L10N_RadioWeightDescription" x:Key="L10N_RadioWeightDescription">The weight of the radio.</system:String>
+    <system:String x:Uid="L10N_ShellCaliberDescription" x:Key="L10N_ShellCaliberDescription">The caliber of the shell.</system:String>
+    <system:String x:Uid="L10N_ShellExplosionRadiusDescription" x:Key="L10N_ShellExplosionRadiusDescription">The radius the HE shell explosion could affect.</system:String>
+    <system:String x:Uid="L10N_ShellSpeedDescription" x:Key="L10N_ShellSpeedDescription">The flying speed of the shell.</system:String>
+    <system:String x:Uid="L10N_ShellGravityDescription" x:Key="L10N_ShellGravityDescription">The gravity acceleration of the shell.</system:String>
+    <system:String x:Uid="L10N_ShellMaxDistanceDescription" x:Key="L10N_ShellMaxDistanceDescription">The maximum distance the shell could reach.</system:String>
+    <system:String x:Uid="L10N_ShellPenetrationDescription" x:Key="L10N_ShellPenetrationDescription">The piecing power of the shell. This value is represented by the piecing powers at 100m and 400m distance, between which the piecing power will reduce linearly. The value is randomly shifted by no more than 25%.</system:String>
+    <system:String x:Uid="L10N_ShellArmorDamageDescription" x:Key="L10N_ShellArmorDamageDescription">The alpha damage of the shell. The value is randomly shifted by no more than 25%.</system:String>
+    <system:String x:Uid="L10N_ShellDamagePerMinuteDescription" x:Key="L10N_ShellDamagePerMinuteDescription">The average damage could be dealt within one minute with the selected type of shell.</system:String>
+    <system:String x:Uid="L10N_ShellModuleDamageDescription" x:Key="L10N_ShellModuleDamageDescription">The damage of a shell could deal to modules and devices.</system:String>
+    <system:String x:Uid="L10N_ShellPriceDescription" x:Key="L10N_ShellPriceDescription">The price of a single shot.</system:String>
+    <system:String x:Uid="L10N_ShellPricePerDamageDescription" x:Key="L10N_ShellPricePerDamageDescription">Shell price divided by its alpha damage.</system:String>
+    <system:String x:Uid="L10N_ShellPiercingPowerLossFactorByDistanceDescription" x:Key="L10N_ShellPiercingPowerLossFactorByDistanceDescription">The factor applied to the piecing power of an HEAT shell, if it hits any (spaced) armor, its piecing power will be reduced by distance with this factor.</system:String>
+    <system:String x:Uid="L10N_SurveyingDeviceHealthDescription" x:Key="L10N_SurveyingDeviceHealthDescription">The maximum health of the surveying device. If this value drops down to less than its corresponding regenerated health value, the view range will be reduced by 50%. </system:String>
+    <system:String x:Uid="L10N_TankHealthDescription" x:Key="L10N_TankHealthDescription">The maximum health of the tank.</system:String>
+    <system:String x:Uid="L10N_TankWeightDescription" x:Key="L10N_TankWeightDescription">The weight of the tank.</system:String>
+    <system:String x:Uid="L10N_TankEquipmentWeightDescription" x:Key="L10N_TankEquipmentWeightDescription">The weight of all the equipment loaded.</system:String>
+    <system:String x:Uid="L10N_TankRepairCostDescription" x:Key="L10N_TankRepairCostDescription">The maximum repair cost of the tank.</system:String>
+    <system:String x:Uid="L10N_TankBattleTiersDescription" x:Key="L10N_TankBattleTiersDescription">The battle tiers to which this tank could encounter. A battle tier less than Ⅺ roughly equals to the highest tier of tanks which could appeared in its battle. Tier Ⅺ and Ⅻ battles has more tier Ⅹ tanks and less tier Ⅷ or Ⅸ tanks.</system:String>
+    <system:String x:Uid="L10N_TankPriceDescription" x:Key="L10N_TankPriceDescription">The price to buy this tank in stock configuration.</system:String>
+    <system:String x:Uid="L10N_TankStationaryCamouflageDescription" x:Key="L10N_TankStationaryCamouflageDescription">The percentage of view range negated to the enemy who is trying to spot you while you are stationary. This value is measured by tests, might be inaccurate. Mostly based on the test result of AndrasD and Devilhunter.</system:String>
+    <system:String x:Uid="L10N_TankMovingCamouflageDescription" x:Key="L10N_TankMovingCamouflageDescription">The percentage of view range negated to the enemy who is trying to spot you while you are moving. This value is measured by tests, might be inaccurate. Mostly based on the test result of AndrasD and Devilhunter.</system:String>
+    <system:String x:Uid="L10N_TankFiringStationaryCamouflageDescription" x:Key="L10N_TankFiringStationaryCamouflageDescription">The percentage of view range negated to the enemy who is trying to spot you while you are shooting in stationary. This value is measured by tests, might be inaccurate. Mostly based on the test result of AndrasD and Devilhunter.</system:String>
+    <system:String x:Uid="L10N_TankFiringMovingCamouflageDescription" x:Key="L10N_TankFiringMovingCamouflageDescription">The percentage of view range negated to the enemy who is trying to spot you while you are shooting and moving. This value is measured by tests, might be inaccurate. Mostly based on the test result of AndrasD and Devilhunter.</system:String>
+    <system:String x:Uid="L10N_TankMatchmakingWeightDescription" x:Key="L10N_TankMatchmakingWeightDescription">The matchmaking weight of the tank, reflects the tank's importance to the team considered by the matchmaking system.</system:String>
+    <system:String x:Uid="L10N_TurretRotatorHealthDescription" x:Key="L10N_TurretRotatorHealthDescription">The maximum health of the turret rotator. If this value drops down to less than its corresponding regenerated health value, the traverse speed of the turret will be reduced by 50%. If this value reaches zero, the turret would get stuck and cannot traverse.</system:String>
+    <system:String x:Uid="L10N_TurretRotationSpeedDescription" x:Key="L10N_TurretRotationSpeedDescription">The maximum traverse speed of the turret.</system:String>
+    <system:String x:Uid="L10N_TurretCircularVisionRadiusDescription" x:Key="L10N_TurretCircularVisionRadiusDescription">The maximum view range of the tank.</system:String>
+    <system:String x:Uid="L10N_TurretFrontalArmorDescription" x:Key="L10N_TurretFrontalArmorDescription">The primary frontal armor of the turret.</system:String>
+    <system:String x:Uid="L10N_TurretSideArmorDescription" x:Key="L10N_TurretSideArmorDescription">The primary side armor of the turret.</system:String>
+    <system:String x:Uid="L10N_TurretRearArmorDescription" x:Key="L10N_TurretRearArmorDescription">The primary rear armor of the turret.</system:String>
+    <system:String x:Uid="L10N_TurretHorizontalTraverseDescription" x:Key="L10N_TurretHorizontalTraverseDescription">The horizontal traverse range of the turret.</system:String>
+    <system:String x:Uid="L10N_TurretHealthDescription" x:Key="L10N_TurretHealthDescription">The maximum health of the turret, which will be added up to the maximum health of the tank</system:String>
+    <system:String x:Uid="L10N_TurretWeightDescription" x:Key="L10N_TurretWeightDescription">The weight of the turret.</system:String>
+
+    <system:String x:Uid="L10N_AverageDamageDealtDescription" x:Key="L10N_AverageDamageDealtDescription">Average damage dealt per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageDamageReceivedDescription" x:Key="L10N_AverageDamageReceivedDescription">Average damage received per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AveragePotentialDamageReceivedDescription" x:Key="L10N_AveragePotentialDamageReceivedDescription">Average potential damage (from penetrated, non-penetrated and ricochet shoot) received per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageSpotAssistDescription" x:Key="L10N_AverageSpotAssistDescription">Average damage assisted per battle, by spotting enemy. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageDetrackAssistDescription" x:Key="L10N_AverageDetrackAssistDescription">Average damage assisted per battle, by destroying enemy tank's track. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_HitRateDescription" x:Key="L10N_HitRateDescription">Hit rate of this tank, with ricochets and unpenetrated shoots included. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageExperienceDescription" x:Key="L10N_AverageExperienceDescription">Average experience gained per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageNetIncomeDescription" x:Key="L10N_AverageNetIncomeDescription">Average net income per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageGrossIncomeDescription" x:Key="L10N_AverageGrossIncomeDescription">Average gross income per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageOperationCostDescription" x:Key="L10N_AverageOperationCostDescription">Average operation cost per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageConsumableCostDescription" x:Key="L10N_AverageConsumableCostDescription">Average consumable cost per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageAmmunitionCostDescription" x:Key="L10N_AverageAmmunitionCostDescription">Average ammunition cost per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageRepairCostDescription" x:Key="L10N_AverageRepairCostDescription">Average repair cost per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageMileageDescription" x:Key="L10N_AverageMileageDescription">Average mileage per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageSpottedDescription" x:Key="L10N_AverageSpottedDescription">Average enemy spotted (for the first time) per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_WinRateDescription" x:Key="L10N_WinRateDescription">Win rate of this tank. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageDamagedDescription" x:Key="L10N_AverageDamagedDescription">Average enemy damaged per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageWNXEfficiencyDescription" x:Key="L10N_AverageWNXEfficiencyDescription">PA efficiency of this tank. PA efficiency is a modified version of the wot-news efficiency, used by vBAddict.net. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageWN7EfficiencyDescription" x:Key="L10N_AverageWN7EfficiencyDescription">WN7 efficiency of this tank. WN7 is generally considered the standard efficiency system. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageWN8EfficiencyDescription" x:Key="L10N_AverageWN8EfficiencyDescription">WN8(D) efficiency of this tank. WN8 is a next generation efficiency system which is still in development. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageBoxEfficiencyDescription" x:Key="L10N_AverageBoxEfficiencyDescription">The battle capacity of this tank. Battle capacity is a variant of the XVM efficiency. This is a LiveStat which is based on random battles in the last 30 days. Based on data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageKilledDescription" x:Key="L10N_AverageKilledDescription">Average enemy killed per battle. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageBattleTimeDescription" x:Key="L10N_AverageBattleTimeDescription">Average battle time of this tank. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_SurviveRateDescription" x:Key="L10N_SurviveRateDescription">Survive rate of this tank. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_VBAddictSampleSizeDescription" x:Key="L10N_VBAddictSampleSizeDescription">Sample size of this tank. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_ExperiencePerMinuteDescription" x:Key="L10N_ExperiencePerMinuteDescription">Experience gained per minute. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_PenetrationRateDescription" x:Key="L10N_PenetrationRateDescription">Penetration rate of this tank. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_DamagelessShotsRateDescription" x:Key="L10N_DamagelessShotsRateDescription">Ricochet and unpenetration rate. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_KamikazeRatioDescription" x:Key="L10N_KamikazeRatioDescription">Percentage the tank was destroyed in the first minute and spotted any tanks. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_SleepingRatioDescription" x:Key="L10N_SleepingRatioDescription">Percentage the tank was not moved and did not dealt any damage. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+    <system:String x:Uid="L10N_AverageMatchmakingTierWeightDescription" x:Key="L10N_AverageMatchmakingTierWeightDescription">Average battle tier encountered by this tank. This is a LiveStat which is based on random battles in the last 30 days. Data provided by vBAddict.net.</system:String>
+
+    <system:String x:Uid="L10N_AverageDamageDealtFullName" x:Key="L10N_AverageDamageDealtFullName">Average Damage Dealt</system:String>
+    <system:String x:Uid="L10N_AverageDamageReceivedFullName" x:Key="L10N_AverageDamageReceivedFullName">Average Damage Received</system:String>
+    <system:String x:Uid="L10N_AveragePotentialDamageReceivedFullName" x:Key="L10N_AveragePotentialDamageReceivedFullName">Average Potential Damage Received</system:String>
+    <system:String x:Uid="L10N_AverageSpotAssistFullName" x:Key="L10N_AverageSpotAssistFullName">Average Assist by Spotting</system:String>
+    <system:String x:Uid="L10N_AverageDetrackAssistFullName" x:Key="L10N_AverageDetrackAssistFullName">Average Assist by Detrack</system:String>
+    <system:String x:Uid="L10N_HitRateFullName" x:Key="L10N_HitRateFullName">Hit Rate</system:String>
+    <system:String x:Uid="L10N_AverageExperienceFullName" x:Key="L10N_AverageExperienceFullName">Average Experience</system:String>
+    <system:String x:Uid="L10N_AverageNetIncomeFullName" x:Key="L10N_AverageNetIncomeFullName">Average Net Income</system:String>
+    <system:String x:Uid="L10N_AverageGrossIncomeFullName" x:Key="L10N_AverageGrossIncomeFullName">Average Gross Income</system:String>
+    <system:String x:Uid="L10N_AverageOperationCostFullName" x:Key="L10N_AverageOperationCostFullName">Average Operation Cost</system:String>
+    <system:String x:Uid="L10N_AverageConsumableCostFullName" x:Key="L10N_AverageConsumableCostFullName">Average Consumable Cost</system:String>
+    <system:String x:Uid="L10N_AverageAmmunitionCostFullName" x:Key="L10N_AverageAmmunitionCostFullName">Average Ammunition Cost</system:String>
+    <system:String x:Uid="L10N_AverageRepairCostFullName" x:Key="L10N_AverageRepairCostFullName">Average Repair Cost</system:String>
+    <system:String x:Uid="L10N_AverageMileageFullName" x:Key="L10N_AverageMileageFullName">Average Mileage</system:String>
+    <system:String x:Uid="L10N_AverageSpottedFullName" x:Key="L10N_AverageSpottedFullName">Average Spotted</system:String>
+    <system:String x:Uid="L10N_WinRateFullName" x:Key="L10N_WinRateFullName">Win Rate</system:String>
+    <system:String x:Uid="L10N_AverageDamagedFullName" x:Key="L10N_AverageDamagedFullName">Average Damaged</system:String>
+    <system:String x:Uid="L10N_AverageWNXEfficiencyFullName" x:Key="L10N_AverageWNXEfficiencyFullName">Average PA Efficiency</system:String>
+    <system:String x:Uid="L10N_AverageWN7EfficiencyFullName" x:Key="L10N_AverageWN7EfficiencyFullName">Average WN7 Efficiency</system:String>
+    <system:String x:Uid="L10N_AverageWN8EfficiencyFullName" x:Key="L10N_AverageWN8EfficiencyFullName">Average WN8 Efficiency</system:String>
+    <system:String x:Uid="L10N_AverageBoxEfficiencyFullName" x:Key="L10N_AverageBoxEfficiencyFullName">Average Battle Capacity</system:String>
+    <system:String x:Uid="L10N_AverageKilledFullName" x:Key="L10N_AverageKilledFullName">Average Killed</system:String>
+    <system:String x:Uid="L10N_AverageBattleTimeFullName" x:Key="L10N_AverageBattleTimeFullName">Average Battle Time</system:String>
+    <system:String x:Uid="L10N_SurviveRateFullName" x:Key="L10N_SurviveRateFullName">Survive Rate</system:String>
+    <system:String x:Uid="L10N_VBAddictSampleSizeFullName" x:Key="L10N_VBAddictSampleSizeFullName">vBAddict Sample Size</system:String>
+    <system:String x:Uid="L10N_ExperiencePerMinuteFullName" x:Key="L10N_ExperiencePerMinuteFullName">Experience per Minute</system:String>
+    <system:String x:Uid="L10N_PenetrationRateFullName" x:Key="L10N_PenetrationRateFullName">Penetration Rate</system:String>
+    <system:String x:Uid="L10N_DamagelessShotsRateFullName" x:Key="L10N_DamagelessShotsRateFullName">Damageless Shot Rate</system:String>
+    <system:String x:Uid="L10N_KamikazeRatioFullName" x:Key="L10N_KamikazeRatioFullName">Kamikaze Ratio</system:String>
+    <system:String x:Uid="L10N_SleepingRatioFullName" x:Key="L10N_SleepingRatioFullName">Sleeping Ratio</system:String>
+    <system:String x:Uid="L10N_AverageMatchmakingTierWeightFullName" x:Key="L10N_AverageMatchmakingTierWeightFullName">Average Matchmaking Tier Weight</system:String>
+
+
+    <system:String x:Uid="L10N_AverageDamageDealt" x:Key="L10N_AverageDamageDealt">Avg. Damage Dealt</system:String>
+    <system:String x:Uid="L10N_AverageDamageReceived" x:Key="L10N_AverageDamageReceived">Avg. Damage Received</system:String>
+    <system:String x:Uid="L10N_AveragePotentialDamageReceived" x:Key="L10N_AveragePotentialDamageReceived">Avg. Potential Damage</system:String>
+    <system:String x:Uid="L10N_Assist" x:Key="L10N_Assist">Avg. Assist</system:String>
+    <system:String x:Uid="L10N_AverageSpotAssist" x:Key="L10N_AverageSpotAssist">by Spotting</system:String>
+    <system:String x:Uid="L10N_AverageDetrackAssist" x:Key="L10N_AverageDetrackAssist">by Detrack</system:String>
+    <system:String x:Uid="L10N_HitRate" x:Key="L10N_HitRate">Hit Rate</system:String>
+    <system:String x:Uid="L10N_AverageExperience" x:Key="L10N_AverageExperience">Avg. Experience</system:String>
+    <system:String x:Uid="L10N_AverageIncome" x:Key="L10N_AverageIncome">Avg. Income</system:String>
+    <system:String x:Uid="L10N_AverageNetIncome" x:Key="L10N_AverageNetIncome">Net</system:String>
+    <system:String x:Uid="L10N_AverageGrossIncome" x:Key="L10N_AverageGrossIncome">Gross</system:String>
+    <system:String x:Uid="L10N_TankOperationCost" x:Key="L10N_TankOperationCost">Operation Cost</system:String>
+    <system:String x:Uid="L10N_AverageOperationCost" x:Key="L10N_AverageOperationCost">Avg. Total</system:String>
+    <system:String x:Uid="L10N_AverageConsumableCost" x:Key="L10N_AverageConsumableCost">Avg. Consumables</system:String>
+    <system:String x:Uid="L10N_AverageAmmunitionCost" x:Key="L10N_AverageAmmunitionCost">Avg. Ammunition</system:String>
+    <system:String x:Uid="L10N_AverageRepairCost" x:Key="L10N_AverageRepairCost">Avg. Repair</system:String>
+    <system:String x:Uid="L10N_AverageMileage" x:Key="L10N_AverageMileage">Avg. Mileage</system:String>
+    <system:String x:Uid="L10N_AverageSpotted" x:Key="L10N_AverageSpotted">Avg. Spotted</system:String>
+    <system:String x:Uid="L10N_WinRate" x:Key="L10N_WinRate">Win Rate</system:String>
+    <system:String x:Uid="L10N_AverageDamaged" x:Key="L10N_AverageDamaged">Avg. Damaged</system:String>
+    <system:String x:Uid="L10N_Efficiency" x:Key="L10N_Efficiency">Avg. Efficiency</system:String>
+    <system:String x:Uid="L10N_AverageWNXEfficiency" x:Key="L10N_AverageWNXEfficiency">PA</system:String>
+    <system:String x:Uid="L10N_AverageWN7Efficiency" x:Key="L10N_AverageWN7Efficiency">WN7</system:String>
+    <system:String x:Uid="L10N_AverageWN8Efficiency" x:Key="L10N_AverageWN8Efficiency">WN8</system:String>
+    <system:String x:Uid="L10N_AverageBoxEfficiency" x:Key="L10N_AverageBoxEfficiency">Box</system:String>
+    <system:String x:Uid="L10N_AverageKilled" x:Key="L10N_AverageKilled">Avg. Killed</system:String>
+    <system:String x:Uid="L10N_AverageBattleTime" x:Key="L10N_AverageBattleTime">Avg. Battle Time</system:String>
+    <system:String x:Uid="L10N_SurviveRate" x:Key="L10N_SurviveRate">Survive Rate</system:String>
+    <system:String x:Uid="L10N_VBAddictSampleSize" x:Key="L10N_VBAddictSampleSize">vBAddict Sample Size</system:String>
+    <system:String x:Uid="L10N_ExperiencePerMinute" x:Key="L10N_ExperiencePerMinute">Experience per Minute</system:String>
+    <system:String x:Uid="L10N_PenetrationRate" x:Key="L10N_PenetrationRate">Penetration Rate</system:String>
+    <system:String x:Uid="L10N_DamagelessShotsRate" x:Key="L10N_DamagelessShotsRate">Damageless Shots Rate</system:String>
+    <system:String x:Uid="L10N_KamikazeRatio" x:Key="L10N_KamikazeRatio">Kamikaze Ratio</system:String>
+    <system:String x:Uid="L10N_SleepingRatio" x:Key="L10N_SleepingRatio">Sleeping Ratio</system:String>
+    <system:String x:Uid="L10N_Matchmaking" x:Key="L10N_Matchmaking">Matchmaking</system:String>
+    <system:String x:Uid="L10N_AverageMatchmakingTierWeight" x:Key="L10N_AverageMatchmakingTierWeight">Avg. Tier</system:String>
+
+
+
+    <system:String x:Uid="L10N_ComparingWithTank" x:Key="L10N_ComparingWithTank">Comparing with Tank: {0}</system:String>
+    <system:String x:Uid="L10N_ComparingWithReplacedGun" x:Key="L10N_ComparingWithReplacedGun">Comparing with Replaced Gun: {0}</system:String>
+    <system:String x:Uid="L10N_ComparingWithReplacedTurret" x:Key="L10N_ComparingWithReplacedTurret">Comparing with Replaced Turret: {0}</system:String>
+    <system:String x:Uid="L10N_ComparingWithReplacedEngine" x:Key="L10N_ComparingWithReplacedEngine">Comparing with Replaced Engine: {0}</system:String>
+    <system:String x:Uid="L10N_ComparingWithReplacedRadio" x:Key="L10N_ComparingWithReplacedRadio">Comparing with Replaced Radio: {0}</system:String>
+    <system:String x:Uid="L10N_ComparingWithReplacedChassis" x:Key="L10N_ComparingWithReplacedChassis">Comparing with Replaced chassis: {0}</system:String>
+    <system:String x:Uid="L10N_ComparingWithReplacedShell" x:Key="L10N_ComparingWithReplacedShell">Comparing with Replaced Shell: {0}</system:String>
+    <!--<system:String x:Uid="L10N_" x:Key="L10N_"></system:String>-->
+
+    <system:String x:Uid="L10N_UnknownLoginError" x:Key="L10N_UnknownLoginError">Login failed due to an unknown error.</system:String>
+    <system:String x:Uid="L10N_Messages" x:Key="L10N_Messages">Messages</system:String>
+    <system:String x:Uid="L10N_MessagesWithCount" x:Key="L10N_MessagesWithCount">Messages({0})</system:String>
+    <system:String x:Uid="L10N_DisconnectLinkToolTip" x:Key="L10N_DisconnectLinkToolTip">You are currently connected with {0}. Click to disconnect from Tank Inspector Online and exit, you can connect with another account next time.</system:String>
+    <system:String x:Uid="L10N_InvalidMessage" x:Key="L10N_InvalidMessage">Error: invalid message</system:String>
+    <system:String x:Uid="L10N_FailedToCreateMessageDirectory" x:Key="L10N_FailedToCreateMessageDirectory">Failed to store the message you received. If there is important information in your messages, be sure to save them manually.</system:String>
+    <system:String x:Uid="L10N_FailedToCreateMessageDirectoryTitle" x:Key="L10N_FailedToCreateMessageDirectoryTitle">Error</system:String>
+
+
+    <system:String x:Uid="L10N_ConnectFailed" x:Key="L10N_ConnectFailed">Failed to connect.</system:String>
+    <system:String x:Uid="L10N_OfflineMessage" x:Key="L10N_OfflineMessage">Because of some network issues, you are currently in offline mode. Any feature which requires a network connection (e.g. the LiveStats) will not work until Tank Inspector is able to access the server again.&#x0d;&#x0a;&#x0d;&#x0a;Error message: {0}</system:String>
+    <system:String x:Uid="L10N_OfflineTitle" x:Key="L10N_OfflineTitle">Offline Mode</system:String>
+    <system:String x:Uid="L10N_InvalidAccount" x:Key="L10N_InvalidAccount">Either your e-Mail address or your password is incorrect. Please try again.</system:String>
+    <system:String x:Uid="L10N_CannotCreateAccount" x:Key="L10N_CannotCreateAccount">Cannot create account. Are you from Mars?</system:String>
+    <system:String x:Uid="L10N_EMailOccupied" x:Key="L10N_EMailOccupied">This e-Mail is occupied by another account.</system:String>
+    <system:String x:Uid="L10N_EMailTooLong" x:Key="L10N_EMailTooLong">This e-Mail address is too long.</system:String>
+    <system:String x:Uid="L10N_InvalidEMail" x:Key="L10N_InvalidEMail">This e-Mail address is invalid.</system:String>
+    <system:String x:Uid="L10N_InvalidInviteCode" x:Key="L10N_InvalidInviteCode">This invite code is invalid.</system:String>
+    <system:String x:Uid="L10N_InvalidRequest" x:Key="L10N_InvalidRequest">Error: invalid request.</system:String>
+    <system:String x:Uid="L10N_PasswordTooLong" x:Key="L10N_PasswordTooLong">This password is too long, try a memory-friendly one.</system:String>
+    <system:String x:Uid="L10N_UnknownRegisterError" x:Key="L10N_UnknownRegisterError">Failed to register due to an unknown error.</system:String>
+    <system:String x:Uid="L10N_ResetPasswordEMailSent" x:Key="L10N_ResetPasswordEMailSent">A letter with instruction of how to reset your password is sent to {0}.</system:String>
+    <system:String x:Uid="L10N_ResetPasswordEMailSentTitle" x:Key="L10N_ResetPasswordEMailSentTitle">Reset Mail Sent</system:String>
+    <system:String x:Uid="L10N_SendResetPasswordEMailFailed" x:Key="L10N_SendResetPasswordEMailFailed">Sorry but we are failed to send a reset password mail to {0}. Please try again later.</system:String>
+    <system:String x:Uid="L10N_SendResetPasswordEMailFailedTitle" x:Key="L10N_SendResetPasswordEMailFailedTitle">Send Reset Mail Failed</system:String>
+    <system:String x:Uid="L10N_SendResetPasswordEMailFailedWithReason" x:Key="L10N_SendResetPasswordEMailFailedWithReason">Sorry but we are failed to send a reset password mail to {0}. Please try again later.&#x0d;&#x0a;&#x0d;&#x0a;Error message: {1}.</system:String>
+
+    <system:String x:Uid="L10N_EMailNotActivated" x:Key="L10N_EMailNotActivated">Your e-Mail address is not validated yet, please click the link in the letter we sent to your e-Mail address as soon as possible. &#x0d;&#x0a; &#x0d;&#x0a;Would you like for us to resend the validation letter (if you haven't received one)?</system:String>
+    <system:String x:Uid="L10N_EMailNotActivatedTitle" x:Key="L10N_EMailNotActivatedTitle">E-Mail Address Not Validated</system:String>
+    <system:String x:Uid="L10N_ActivationEMailSent" x:Key="L10N_ActivationEMailSent">A validation letter has been sent. Please click the link in it to validate your e-Mail address.</system:String>
+    <system:String x:Uid="L10N_ActivationEMailSentTitle" x:Key="L10N_ActivationEMailSentTitle">Validation Letter Sent</system:String>
+    <system:String x:Uid="L10N_SendActivationEMailFailed" x:Key="L10N_SendActivationEMailFailed">Sorry but we are failed to send a validation letter. Please try again later.</system:String>
+    <system:String x:Uid="L10N_SendActivationEMailFailedTitle" x:Key="L10N_SendActivationEMailFailedTitle">Send Validation Mail Failed</system:String>
+    <system:String x:Uid="L10N_SendActivationEMailFailedWithReason" x:Key="L10N_SendActivationEMailFailedWithReason">Sorry but we are failed to send a validation letter. Please try again later.&#x0d;&#x0a;&#x0d;&#x0a;Error message: {0}. </system:String>
+
+    <system:String x:Uid="L10N_FailedToOpenServicePage" x:Key="L10N_FailedToOpenServicePage">Sorry, but meanwhile we are unable to provide this service.&#x0d;&#x0a;&#x0d;&#x0a;Error message: {0}.</system:String>
+    <system:String x:Uid="L10N_FailedToOpenServicePageTitle" x:Key="L10N_FailedToOpenServicePageTitle">Unable to Provide Service</system:String>
+    
+    <system:String x:Uid="L10N_RegisterSucceed" x:Key="L10N_RegisterSucceed">Your account is created. A confirmation letter will be sent to your e-Mail.</system:String>
+    <system:String x:Uid="L10N_RegisterSucceedTitle" x:Key="L10N_RegisterSucceedTitle">Ready!</system:String>
+    <system:String x:Uid="L10N_DisconnectedOnException" x:Key="L10N_DisconnectedOnException">You are disconnected.</system:String>
+    <system:String x:Uid="L10N_DisconnectedDueToUnknownError" x:Key="L10N_DisconnectedDueToUnknownError">You are disconnected due to an unknown error.</system:String>
+    <system:String x:Uid="L10N_AccountLoggedInElsewhere" x:Key="L10N_AccountLoggedInElsewhere">You are disconnected because your account is connected elsewhere.</system:String>
+    <system:String x:Uid="L10N_DisconnectedTitle" x:Key="L10N_DisconnectedTitle">Disconnected</system:String>
+
+    <system:String x:Uid="L10N_UnknownError" x:Key="L10N_UnknownError">unknown error</system:String>
+
+    <system:String x:Uid="L10N_DuowanWoT" x:Key="L10N_DuowanWoT">Duowan WoT (Chinese)</system:String>
+    <system:String x:Uid="L10N_DuowanWoTDescription" x:Key="L10N_DuowanWoTDescription">Chinese WoT official collaborator</system:String>
+    <system:String x:Uid="L10N_BaiduWoT" x:Key="L10N_BaiduWoT">Baidu WoT (Chinese)</system:String>
+    <system:String x:Uid="L10N_BaiduWoTDescription" x:Key="L10N_BaiduWoTDescription">Most populated WoT forum in the world</system:String>
+    <system:String x:Uid="L10N_BaiduWoTGiftCardEvent" x:Key="L10N_BaiduWoTGiftCardEvent">Get Baidu WoT gift card!</system:String>
+    <system:String x:Uid="L10N_BaiduWoTGiftCardEventLearnMore" x:Key="L10N_BaiduWoTGiftCardEventLearnMore">Learn more...</system:String>
+    <system:String x:Uid="L10N_WOTNews" x:Key="L10N_WOTNews">WoT-News (Russian)</system:String>
+    <system:String x:Uid="L10N_WOTNewsDescription" x:Key="L10N_WOTNewsDescription">Russian WoT news site</system:String>
+    <system:String x:Uid="L10N_vBAddict" x:Key="L10N_vBAddict">vBAddict.net</system:String>
+    <system:String x:Uid="L10N_vBAddictDescription" x:Key="L10N_vBAddictDescription">LiveStat provider</system:String>
+    <system:String x:Uid="L10N_XVMGarphy" x:Key="L10N_XVMGarphy">XVMCN (Chinese)</system:String>
+    <system:String x:Uid="L10N_XVMGarphyDescription" x:Key="L10N_XVMGarphyDescription">WoT stats-research &amp; XVM localization team</system:String>
+    <system:String x:Uid="L10N_FTR" x:Key="L10N_FTR">For the Record</system:String>
+    <system:String x:Uid="L10N_FTRDescription" x:Key="L10N_FTRDescription">For the Record WoT news site</system:String>
+    
+    <system:String x:Uid="L10N_AnisotropicLevelFormat" x:Key="L10N_AnisotropicLevelFormat">{0}x</system:String>
+    <system:String x:Uid="L10N_PNGFileFilter" x:Key="L10N_PNGFileFilter">PNG File (*.png)|*.png</system:String>
+    <system:String x:Uid="L10N_SaveAs" x:Key="L10N_SaveAs">Save as</system:String>
+</ResourceDictionary>
+    

@@ -1,0 +1,48 @@
+﻿<Window x:Class="Smellyriver.TankInspector.UIComponents.FirstRunWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+        x:Uid="FirstRunWindow" Cursor="{x:Static ui:Cursors.Arrow}"
+        PreviewKeyDown="Window_PreviewKeyDown"
+        Title="Welcome" Width="624" WindowStartupLocation="CenterScreen" Icon="/Resources/Images/sti.ico" ResizeMode="NoResize" SizeToContent="Height">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/ToolWindow.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeBackground.jpg" TileMode="Tile" Viewport="-100,0,2089,220" ViewportUnits="Absolute" />
+        </Grid.Background>
+        <Grid VerticalAlignment="Top">
+            <Grid.Background>
+                <ImageBrush ImageSource="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/Banner.png" Stretch="None" />
+            </Grid.Background>
+            <TextBlock Foreground="LightGray" FontSize="28" FontWeight="Bold" Margin="10" x:Uid="Welcome">WELCOME</TextBlock>
+        </Grid>
+        <StackPanel Margin="10,100,10,10">
+            
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,5" Foreground="Black" x:Uid="LocateGameFolderPrompt">Tank Inspector reads tank models and data from your game client. Please locate it here.</TextBlock>
+            <Grid Margin="0,0,0,10">
+                <TextBlock FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0" Foreground="Black" x:Uid="GameFolder">Game Folder:</TextBlock>
+                <TextBox Height="24" x:Name="GamePathTextBox" HorizontalAlignment="Left" Margin="100,0,0,0" Width="400" VerticalContentAlignment="Center" Foreground="Black" />
+                <Button Style="{StaticResource ContentButton}" HorizontalAlignment="Left" Margin="510,0,0,0" Click="BrowseGameFolderButton_Click" Cursor="{x:Static ui:Cursors.Hand}">
+                    <Grid>
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/GreenButton.png" Margin="-9" Stretch="None" />
+                        <TextBlock Text="..." Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Grid>
+                </Button>
+            </Grid>
+            <Grid Height="18"/>
+
+            <Button Style="{StaticResource ContentButton}" HorizontalAlignment="Center" Margin="0,20,0,0" Click="ReadyButton_Click" Cursor="{x:Static ui:Cursors.Hand}">
+                <Grid>
+                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/BigRedButton.png" Margin="-26" Stretch="None" />
+                    <TextBlock Foreground="LightGray" FontSize="18" FontWeight="Bold" Text="READY" HorizontalAlignment="Center" VerticalAlignment="Center" x:Uid="Ready" />
+                </Grid>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.BriefTankTipView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             mc:Ignorable="d" 
+             Background="Transparent"
+             Height="90">
+
+    <UserControl.Resources>
+
+        <design:NationalFlagConverter x:Key="LargeBlurredFlagConverter" Type="LargeBlurred" />
+        <design:TankClassIconConverter x:Key="TankClassIconConverter" Type="Small" />
+        <design:TankIconConverter x:Key="TankSmallIconConverter" Type="Small" />
+        <design:TankTierIconConverter x:Key="TankTierIconConverter" />
+        <design:TankClassNameConverter x:Key="TankClassNameConverter" Type="Auto" />
+
+    </UserControl.Resources>
+    <Grid>
+
+        <Image Source="{Binding NationKey, Converter={StaticResource LargeBlurredFlagConverter}}" HorizontalAlignment="Left" />
+        <Image Source="{Binding Converter={StaticResource TankSmallIconConverter}}" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,14,0,0" />
+        <TextBlock Text="{Binding Tank.ShortName}" Margin="87,20,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" />
+        <!--<Image Source="{Binding Tank.Class, Converter={StaticResource TankClassIconConverter}}" Margin="20,14,0,0" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image.Source>
+                <MultiBinding Converter="{StaticResource TankClassIconConverter}">
+                    <Binding Path="Tank.Class" />
+                    <Binding Path="Tank.IsElite" />
+                </MultiBinding>
+            </Image.Source>
+        </Image>
+        <Image Source="{Binding Tank.Tier, Converter={StaticResource TankTierIconConverter}}" Stretch="None" Margin="58,30,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>-->
+        <StackPanel Margin="19,58,17,0" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ToNextTierIcon.png" Stretch="None" Visibility="{Binding IsPredecessor, Converter={StaticResource BoolToVisibleCollapsedConverter}}"/>
+                <ui:ExperienceView Experience="{Binding UnlockExperiencePrice}" ExperienceType="Unlock" Margin="0,3" />
+                <ui:PriceView Price="{Binding Tank.Price}" CurrencyType="{Binding Tank.CurrencyType}" Margin="3" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,1080 @@
+﻿Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,LocalizationVersion:System.Int32.$Content,None,True,True,,35
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LocalizerLinkURL:System.String.$Content,None,True,True,,(empty)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CommonTest:System.String.$Content,None,True,True,,CT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ObsoleteLocalization:System.String.$Content,None,True,True,,"Ez a magyar nyelvi csomag elavult és nem kompatibilis. Kérlek frissítsd vagy töröld ki, hogy angolul tudd használni a programot."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ObsoleteLocalizationTitle:System.String.$Content,None,True,True,,Elavult nyelvi csomag
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FollowingAreInvalidGamePathes:System.String.$Content,None,True,True,,"Egy vagy több elérési út érvénytelen, így el lett távolítva a beállításokból:"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelectedGamePathIsInvalid:System.String.$Content,None,True,True,,"A megadott elérési út érvénytelen, kérlek add meg újra"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelectGameRootFolder:System.String.$Content,None,True,True,,Válaszd ki a játék főkönyvtárát:
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameFolderChangedMessage:System.String.$Content,None,True,True,,Az elérési út megváltoztatása a következő indításnál lép érvénybe.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameFolderChangedTitle:System.String.$Content,None,True,True,,Az elérési út sikeresen meg lett változtatva.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMailAddress:System.String.$Content,None,True,True,,"A megadott e-mail cím érvénytelen. Próbáld újra vagy hagyd üresen, ha nem akarod megadni."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMailAddressTitle:System.String.$Content,None,True,True,,Érvénytelen e-mail cím
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DonationTip:System.String.$Content,None,True,True,,"Köszönjük, hogy támogatod a fejlesztőcsapatot és a Tank Inspector-t. A megnyíló böngészőablakban tudsz adományozni.
+
+Kérlek add meg az e-mail címed ha adományozol."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DonationTitle:System.String.$Content,None,True,True,,Köszönjük!
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidGamePath:System.String.$Content,None,True,True,,Érvénytelen a kliens elérési útja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HeavyTank:System.String.$Content,None,True,True,,Nehéz tank
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MediumTank:System.String.$Content,None,True,True,,Közepes tank
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LightTank:System.String.$Content,None,True,True,,Könnyű tank
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankDestroyer:System.String.$Content,None,True,True,,Páncélvadász
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelfPropelledGun:System.String.$Content,None,True,True,,Önjáró löveg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HeavyTankShort:System.String.$Content,None,True,True,,HT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MediumTankShort:System.String.$Content,None,True,True,,MT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LightTankShort:System.String.$Content,None,True,True,,LT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankDestroyerShort:System.String.$Content,None,True,True,,TD
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelfPropelledGunShort:System.String.$Content,None,True,True,,SPG
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BenchmarkTankName:System.String.$Content,None,True,True,,{0} Benchmark {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BenchmarkTankShortName:System.String.$Content,None,True,True,,{0}-{1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Tier:System.String.$Content,None,True,True,,Tier
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Name:System.String.$Content,None,True,True,,Név
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Elite:System.String.$Content,None,True,True,,Elit
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankTaxologyDescription:System.String.$Content,None,True,True,,Tier {0} {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EliteTankTaxologyDescription:System.String.$Content,None,True,True,,Tier {0} Elit {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AP:System.String.$Content,None,True,True,,AP
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_APCR:System.String.$Content,None,True,True,,APCR
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_APHE:System.String.$Content,None,True,True,,APHE
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HE:System.String.$Content,None,True,True,,HE
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HEAT:System.String.$Content,None,True,True,,HESH
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PremiumHE:System.String.$Content,None,True,True,,Premium HE
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellTypeDisplay:System.String.$Content,None,True,True,,{0}mm {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessNotApplicable:System.String.$Content,None,True,True,,N/A
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessRicochet:System.String.$Content,None,True,True,,LEPATTAN
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessUnpenetratable:System.String.$Content,None,True,True,,∞
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDevice:System.String.$Content,None,True,True,,Periszkóp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotator:System.String.$Content,None,True,True,,Toronyforgató mechanika
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBay:System.String.$Content,None,True,True,,Lőszerrekesz
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Diesel:System.String.$Content,None,True,True,,Dízel
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gasoline:System.String.$Content,None,True,True,,Gázolaj
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTank:System.String.$Content,None,True,True,,Üzemanyagtartály
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Penetration:System.String.$Content,None,True,True,,Páncélátütés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Caliber:System.String.$Content,None,True,True,,Kaliber
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Damage:System.String.$Content,None,True,True,,Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Armor:System.String.$Content,None,True,True,,Páncélzat
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Price:System.String.$Content,None,True,True,,Ár
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PricePerDamage:System.String.$Content,None,True,True,,Ár/Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePower:System.String.$Content,None,True,True,,Lóerő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SpecificPower:System.String.$Content,None,True,True,,Specifikus erő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FireChance:System.String.$Content,None,True,True,,Motortűz esélye
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DefaultSuperstructure:System.String.$Content,None,True,True,,(Alapértelmezett felépítmény)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxLoad:System.String.$Content,None,True,True,,Maximális terhelhetőség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioDistance:System.String.$Content,None,True,True,,Rádió hatótáv
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AddDatabase:System.String.$Content,None,True,True,,Másik verziójú klienst társíts a programhoz...
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameVersionExisted:System.String.$Content,None,True,True,,Egy azonos verziójú kliens már létezik.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameVersionExistedTitle:System.String.$Content,None,True,True,,Kliens verzió létezik
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverseYes:System.String.$Content,None,True,True,,Igen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverseNo:System.String.$Content,None,True,True,,Nem
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NotApplicable:System.String.$Content,None,True,True,,n/a
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_At400m:System.String.$Content,None,True,True,,400 méteren
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveEquipment:System.String.$Content,None,True,True,,Eltávolít
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveEquipmentDescription:System.String.$Content,None,True,True,,Felszerelés eltávolítása
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveConsumable:System.String.$Content,None,True,True,,Eltávolít
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveConsumableDescription:System.String.$Content,None,True,True,,Fogyócikk eltávolítása
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyEquipmentSlot:System.String.$Content,None,True,True,,Üres felszerelési hely
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyEquipmentSlotDescription:System.String.$Content,None,True,True,,Kattintással válaszd ki a felszerelést
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyConsumableSlot:System.String.$Content,None,True,True,,Üres fogyócikk hely
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyConsumableSlotDescription:System.String.$Content,None,True,True,,Kattintással válaszd ki a fogyócikket
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SecondsBeforeCamouflageNetActivate:System.String.$Content,None,True,True,,Still {0} másodperc múlva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NormalCamouflageValue:System.String.$Content,None,True,True,,Normál érték: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SecondsBeforeStereoscopeActivate:System.String.$Content,None,True,True,,Still {0} másodperc múlva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NormalViewRangeValue:System.String.$Content,None,True,True,,Normál érték: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BasicSkill:System.String.$Content,None,True,True,,Alap képesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BasicSkills:System.String.$Content,None,True,True,,Alap képességek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitSeconds:System.String.$Content,None,True,True,,{0} s
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMinutes:System.String.$Content,None,True,True,,{0} perc
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPer100Meters:System.String.$Content,None,True,True,,{0}×20mil
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitFactor:System.String.$Content,None,True,True,,{0} ɑ
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMillimeters:System.String.$Content,None,True,True,,{0} mm
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMeters:System.String.$Content,None,True,True,,{0} m
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitShotsPerMinute:System.String.$Content,None,True,True,,{0} cpm
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitDegrees:System.String.$Content,None,True,True,,{0}°
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitTimes:System.String.$Content,None,True,True,,{0}x
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitDegreesPerSecond:System.String.$Content,None,True,True,,{0}°/s
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitShots:System.String.$Content,None,True,True,,{0} c
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHealthPoints:System.String.$Content,None,True,True,,{0} Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHealthPointsPerMinute:System.String.$Content,None,True,True,,{0} ppm
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitKilograms:System.String.$Content,None,True,True,,{0} kg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitPerMeter:System.String.$Content,None,True,True,,{0}/m
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPerSecond:System.String.$Content,None,True,True,,{0} m/s
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPerSquareSecond:System.String.$Content,None,True,True,,{0} m/s²
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitNewtons:System.String.$Content,None,True,True,,{0} N
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitKilometersPerHour:System.String.$Content,None,True,True,,{0} km/h
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHorsePowers:System.String.$Content,None,True,True,,{0} lóerő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHorsePowersPerTon:System.String.$Content,None,True,True,,{0} lóerő/t
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitCredits:System.String.$Content,None,True,True,,{0} Kredit
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitGolds:System.String.$Content,None,True,True,,{0} Arany
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitCreditsPerHealthPoint:System.String.$Content,None,True,True,,{0} Kredit/Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitGoldsPerHealthPoint:System.String.$Content,None,True,True,,{0} Arany/Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Turrets:System.String.$Content,None,True,True,,Tornyok
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Engines:System.String.$Content,None,True,True,,Motorok
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Radios:System.String.$Content,None,True,True,,Rádiók
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Hull:System.String.$Content,None,True,True,,Páncéltest
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gun:System.String.$Content,None,True,True,,Löveg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Shells:System.String.$Content,None,True,True,,Lövedékek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagePerMinute:System.String.$Content,None,True,True,,Sebzés/Perc
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RateOfFire:System.String.$Content,None,True,True,,Tűzgyorsaság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ReloadTime:System.String.$Content,None,True,True,,Újratöltési idő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ClipCount:System.String.$Content,None,True,True,,Lövedékek a tárban
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ClipReloadTime:System.String.$Content,None,True,True,,Tár újratöltési ideje
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BurstCount:System.String.$Content,None,True,True,,Lövedékek a sorozatban
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BurstRateOfFire:System.String.$Content,None,True,True,,Sorozat tűzgyorsasága
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxAmmo:System.String.$Content,None,True,True,,Maximális lőszermennyiség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Accuracy:System.String.$Content,None,True,True,,Pontosság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AimingTime:System.String.$Content,None,True,True,,Célzási idő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunShotDispersion:System.String.$Content,None,True,True,,Célzókör szórása
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionAfterShot:System.String.$Content,None,True,True,,lövés után
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnTurretRotation:System.String.$Content,None,True,True,,toronyforgatás közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnTurretFullSpeedRotating:System.String.$Content,None,True,True,,max. seb. toronyforg. közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionWhileGunDamaged:System.String.$Content,None,True,True,,sérült löveggel
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Elevation:System.String.$Content,None,True,True,,Elevációs szög
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Depression:System.String.$Content,None,True,True,,Depressziós szög
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HorizontalTraverse:System.String.$Content,None,True,True,,Horizontális lövegkitérítési szög
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RotationSpeed:System.String.$Content,None,True,True,,Toronyforgatás sebessége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Health:System.String.$Content,None,True,True,,Életerő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Regenerated:System.String.$Content,None,True,True,,Javított
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegeneratedHealth:System.String.$Content,None,True,True,,Javított életerő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RepairCostFactor:System.String.$Content,None,True,True,,Javítási költség faktor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Weight:System.String.$Content,None,True,True,,Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VerticalTraverse:System.String.$Content,None,True,True,,Vertikális kitéríthetőség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DefaultPitchLimits:System.String.$Content,None,True,True,,Alapértelmezett
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FrontExtraPitchLimit:System.String.$Content,None,True,True,,Frontális vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BackExtraPitchLimit:System.String.$Content,None,True,True,,Hátsó vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExtraPitchLimitTransition:System.String.$Content,None,True,True,,Harckocsi forgatása
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Turret:System.String.$Content,None,True,True,,Torony
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Guns:System.String.$Content,None,True,True,,Lövegek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CircularVisionRadius:System.String.$Content,None,True,True,,Látótáv
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Frontal:System.String.$Content,None,True,True,,Frontális vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Side:System.String.$Content,None,True,True,,Oldalsó vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Rear:System.String.$Content,None,True,True,,Hátsó vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Shell:System.String.$Content,None,True,True,,Lövedék
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ModuleDamage:System.String.$Content,None,True,True,,Modul sérülés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExplosionRadius:System.String.$Content,None,True,True,,Robbanási sugár
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationLossFactorByDistance:System.String.$Content,None,True,True,,Páncélátütés csökkenési faktor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxDistance:System.String.$Content,None,True,True,,Maximális távolság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Speed:System.String.$Content,None,True,True,,Lövedék sebessége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gravity:System.String.$Content,None,True,True,,Lövedékre ható gravitációs erő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Chassis:System.String.$Content,None,True,True,,Alváz
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SpeedLimits:System.String.$Content,None,True,True,,Végsebesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Forward:System.String.$Content,None,True,True,,Előre
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Backward:System.String.$Content,None,True,True,,Hátra
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TerrainResistance:System.String.$Content,None,True,True,,Talajellenállás
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnHardTerrain:System.String.$Content,None,True,True,,kemény talajon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnMediumTerrain:System.String.$Content,None,True,True,,közepes talajon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnSoftTerrain:System.String.$Content,None,True,True,,laza talajon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverse:System.String.$Content,None,True,True,,Helyben megfordul?
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BrakeForce:System.String.$Content,None,True,True,,Fékezőerő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxClimbAngle:System.String.$Content,None,True,True,,Max. emelkedési szög
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleMove:System.String.$Content,None,True,True,,mozgás közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleFullSpeedMoving:System.String.$Content,None,True,True,,max. seb. mozgás alatt
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleRotation:System.String.$Content,None,True,True,,a jármű forgatása közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleFullSpeedRotating:System.String.$Content,None,True,True,,a jármű max. seb. forg. közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelType:System.String.$Content,None,True,True,,Üzemanyag típus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SignalDistance:System.String.$Content,None,True,True,,Rádió hatótávolsága
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CamouflageValues:System.String.$Content,None,True,True,,Álcázási értékek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_StationaryCamouflageValue:System.String.$Content,None,True,True,,álló helyzetben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MovingCamouflageValue:System.String.$Content,None,True,True,,mozgás közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FiringStationaryCamouflageValue:System.String.$Content,None,True,True,,álló helyzetben tüzelés közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FiringMovingCamouflageValue:System.String.$Content,None,True,True,,mozgás és tüzelés közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FirePower:System.String.$Content,None,True,True,,Tűzerő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Scoutability:System.String.$Content,None,True,True,,Spottolhatóság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Economy:System.String.$Content,None,True,True,,Gazdasági adatok
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Miscellaneous:System.String.$Content,None,True,True,,Egyéb
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Mobility:System.String.$Content,None,True,True,,Mozgékonyság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Survivability:System.String.$Content,None,True,True,,Túlélési esély
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Maneuverability:System.String.$Content,None,True,True,,Fegyverzet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Battle:System.String.$Content,None,True,True,,Csata
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeed:System.String.$Content,None,True,True,,A löveg forgatási sebessége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverse:System.String.$Content,None,True,True,,Horizontális kitéríthetőség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverse:System.String.$Content,None,True,True,,A torony kitéríthetősége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeed:System.String.$Content,None,True,True,,Toronyforgatási sebesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeed:System.String.$Content,None,True,True,,Alváz forgatási sebessége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeight:System.String.$Content,None,True,True,,Páncéltest
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeight:System.String.$Content,None,True,True,,Torony
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeight:System.String.$Content,None,True,True,,Alváz
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeight:System.String.$Content,None,True,True,,Löveg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeight:System.String.$Content,None,True,True,,Rádio
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquipmentWeight:System.String.$Content,None,True,True,,Felszerelés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeight:System.String.$Content,None,True,True,,Motor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealth:System.String.$Content,None,True,True,,Páncéltest
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRegeneratedHealth:System.String.$Content,None,True,True,,Páncéltest - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealth:System.String.$Content,None,True,True,,Torony
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRegeneratedHealth:System.String.$Content,None,True,True,,Torony - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealth:System.String.$Content,None,True,True,,Lőszerrekesz
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayRegeneratedHealth:System.String.$Content,None,True,True,,Lőszerrekesz - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealth:System.String.$Content,None,True,True,,Toronyforgató mechanika
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorRegeneratedHealth:System.String.$Content,None,True,True,,Toronyforgató mechanika - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealth:System.String.$Content,None,True,True,,Üzemanyagtartály
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankRegeneratedHealth:System.String.$Content,None,True,True,,Üzemanyagtartály - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealth:System.String.$Content,None,True,True,,Motor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineRegeneratedHealth:System.String.$Content,None,True,True,,Motor - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealth:System.String.$Content,None,True,True,,Lánctalp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRegeneratedHealth:System.String.$Content,None,True,True,,Lánctalp - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealth:System.String.$Content,None,True,True,,Löveg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRegeneratedHealth:System.String.$Content,None,True,True,,Löveg - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealth:System.String.$Content,None,True,True,,Periszkóp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceRegeneratedHealth:System.String.$Content,None,True,True,,Periszkóp - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealth:System.String.$Content,None,True,True,,Rádió
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioRegeneratedHealth:System.String.$Content,None,True,True,,Rádio - megjavítva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmor:System.String.$Content,None,True,True,,Páncéltest - elöl
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmor:System.String.$Content,None,True,True,,Páncéltest - oldalt
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmor:System.String.$Content,None,True,True,,Páncéltest - hátul
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmor:System.String.$Content,None,True,True,,Lövegtorony - elöl
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmor:System.String.$Content,None,True,True,,Lövegtorony - oldalt
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmor:System.String.$Content,None,True,True,,Lövegtorony - hátul
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmor:System.String.$Content,None,True,True,,Lánctalp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmor:System.String.$Content,None,True,True,,Löveg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChance:System.String.$Content,None,True,True,,Motor kigyulladásának esélye
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPrice:System.String.$Content,None,True,True,,A harckocsi ára
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMaxRepairCost:System.String.$Content,None,True,True,,Max. Javítási költség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiers:System.String.$Content,None,True,True,,Csata Tierek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeight:System.String.$Content,None,True,True,,Matchmaking Súly
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealth:System.String.$Content,None,True,True,,Tank
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComponentHealth:System.String.$Content,None,True,True,,Modul Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VehicleWeight:System.String.$Content,None,True,True,,Tank
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPrice:System.String.$Content,None,True,True,,Lövedék ára
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamage:System.String.$Content,None,True,True,,Ár/Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealthFullName:System.String.$Content,None,True,True,,Lőszerrekesz Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeedFullName:System.String.$Content,None,True,True,,Páncéltest Forgási Sebesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisForwardSpeedLimitFullName:System.String.$Content,None,True,True,,Végsebesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBackwardSpeedLimitFullName:System.String.$Content,None,True,True,,Tolatás közbeni végsebesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHardTerrainResistanceFullName:System.String.$Content,None,True,True,,Kemény talaj ellenállás
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMediumTerrainResistanceFullName:System.String.$Content,None,True,True,,Közepes talaj ellenállás
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisSoftTerrainResistanceFullName:System.String.$Content,None,True,True,,Laza talaj ellenállás
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisCanTraverseFullName:System.String.$Content,None,True,True,,Páncéltest képes egy helyben megfordulni
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBrakeForceFullName:System.String.$Content,None,True,True,,Fékezőerő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxClimbAngleFullName:System.String.$Content,None,True,True,,Max. emelkedési szög
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleMoveFullName:System.String.$Content,None,True,True,,Szórás Mozgás Közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedMovingFullName:System.String.$Content,None,True,True,,Szórás Max. Sebességnél
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleRotationFullName:System.String.$Content,None,True,True,,Szórás Forgás Közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedRotatingFullName:System.String.$Content,None,True,True,,Szórás Max. Seb. Forgás Közben
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxLoadFullName:System.String.$Content,None,True,True,,Felfüggesztés Max. Terhelhetősége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealthFullName:System.String.$Content,None,True,True,,Lánctalp Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeightFullName:System.String.$Content,None,True,True,,Alváz Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmorFullName:System.String.$Content,None,True,True,,Lánctalp páncélzata
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePowerFullName:System.String.$Content,None,True,True,,Motor teljesítmény
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineSpecificPowerFullName:System.String.$Content,None,True,True,,Specifikus Teljesítmény
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChanceFullName:System.String.$Content,None,True,True,,Motor kigyulladásának esélye
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealthFullName:System.String.$Content,None,True,True,,Motor Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeightFullName:System.String.$Content,None,True,True,,Motor Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealthFullName:System.String.$Content,None,True,True,,Üzemanyagtartály Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankFuelTypeFullName:System.String.$Content,None,True,True,,Üzemanyagtípus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunReloadTimeFullName:System.String.$Content,None,True,True,,Újratöltési idő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAccuracyFullName:System.String.$Content,None,True,True,,Pontosság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmorFullName:System.String.$Content,None,True,True,,Löveg páncélzata
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAimingTimeFullName:System.String.$Content,None,True,True,,Célzási idő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRateOfFireFullName:System.String.$Content,None,True,True,,Tűzgyorsaság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunElevationFullName:System.String.$Content,None,True,True,,Elevációs szög
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDepressionFullName:System.String.$Content,None,True,True,,Depressziós szög
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCamouflageFactorAfterShot:System.String.$Content,None,True,True,,Álcafaktor lövés után
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionAfterShotFullName:System.String.$Content,None,True,True,,Szórás Löv. Ut.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretRotationFullName:System.String.$Content,None,True,True,,Szórás Tor. Forg.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretFullSpeedRotatingFullName:System.String.$Content,None,True,True,,Szórás Max. Tor. Forg.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionWhileGunDamagedFullName:System.String.$Content,None,True,True,,Szórás Sérült Lövegnél
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverseFullName:System.String.$Content,None,True,True,,Löveg Horizontális Kitéríthetősége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeedFullName:System.String.$Content,None,True,True,,Lövegkitérítési Sebesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunMaxAmmoFullName:System.String.$Content,None,True,True,,Max. Lövedékszám
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipCountFullName:System.String.$Content,None,True,True,,Tár kapacitása
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipReloadTimeFullName:System.String.$Content,None,True,True,,Tár újratöltési ideje
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstCountFullName:System.String.$Content,None,True,True,,Sorozatok száma
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstRateOfFireFullName:System.String.$Content,None,True,True,,Sorozat tűzgyorsasága
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCaliberFullName:System.String.$Content,None,True,True,,Kaliber
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealthFullName:System.String.$Content,None,True,True,,Löveg Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeightFullName:System.String.$Content,None,True,True,,Löveg Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmorFullName:System.String.$Content,None,True,True,,Páncéltest Frontális vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmorFullName:System.String.$Content,None,True,True,,Páncéltest Oldalsó vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmorFullName:System.String.$Content,None,True,True,,Páncéltest Hátsó vastagság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealthFullName:System.String.$Content,None,True,True,,Páncéltest Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeightFullName:System.String.$Content,None,True,True,,Páncéltest Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealthFullName:System.String.$Content,None,True,True,,Rádio Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioSignalDistanceFullName:System.String.$Content,None,True,True,,Rádio hatótávolság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeightFullName:System.String.$Content,None,True,True,,Rádio Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellCaliberFullName:System.String.$Content,None,True,True,,Kaliber
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellExplosionRadiusFullName:System.String.$Content,None,True,True,,Robbanási sugár
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellSpeedFullName:System.String.$Content,None,True,True,,Lövedék sebessége
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellGravityFullName:System.String.$Content,None,True,True,,Lövedékre ható gravitációs erő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellMaxDistanceFullName:System.String.$Content,None,True,True,,Lövedék max. hatótávolsága
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationFullName:System.String.$Content,None,True,True,,Páncélátütés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationAt400mFullName:System.String.$Content,None,True,True,,Páncélátütés 400 méteren
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellArmorDamageFullName:System.String.$Content,None,True,True,,Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellDamagePerMinuteFullName:System.String.$Content,None,True,True,,Sebzés/Perc
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellModuleDamageFullName:System.String.$Content,None,True,True,,Module Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPriceFullName:System.String.$Content,None,True,True,,Lövedék ára
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamageFullName:System.String.$Content,None,True,True,,Ár/Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPiercingPowerLossFactorByDistanceFullName:System.String.$Content,None,True,True,,Páncélátütés csökkenési faktor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealthFullName:System.String.$Content,None,True,True,,Periszkóp Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealthFullName:System.String.$Content,None,True,True,,Tank Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankWeightFullName:System.String.$Content,None,True,True,,Tank Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankEquipmentWeightFullName:System.String.$Content,None,True,True,,Felszerelés Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankRepairCostFullName:System.String.$Content,None,True,True,,Javítási költség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeightFullName:System.String.$Content,None,True,True,,Matchmaking Súly
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiersFullName:System.String.$Content,None,True,True,,Csata Tierek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPriceFullName:System.String.$Content,None,True,True,,Tank Ár
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankStationaryCamouflageFullName:System.String.$Content,None,True,True,,Helyben állás közbeni álcaérték
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMovingCamouflageFullName:System.String.$Content,None,True,True,,Mozgás közbeni álcaérték
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringStationaryCamouflageFullName:System.String.$Content,None,True,True,,Helyben állás + Lövés közbeni álcaérték
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringMovingCamouflageFullName:System.String.$Content,None,True,True,,Mozgás + Lövés közbeni álcaérték
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealthFullName:System.String.$Content,None,True,True,,Toronymozgató Mechanika Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeedFullName:System.String.$Content,None,True,True,,Toronyforgatási sebesség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretCircularVisionRadiusFullName:System.String.$Content,None,True,True,,Látótáv
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmorFullName:System.String.$Content,None,True,True,,Turret Frontal Armor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmorFullName:System.String.$Content,None,True,True,,Turret Side Armor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmorFullName:System.String.$Content,None,True,True,,Turret Rear Armor
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverseFullName:System.String.$Content,None,True,True,,Torony Horizontális Kitérés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealthFullName:System.String.$Content,None,True,True,,Torony Hp
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeightFullName:System.String.$Content,None,True,True,,Torony Tömeg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealthDescription:System.String.$Content,None,True,True,,"A lőszerrekesz max. Hp-ja. Ha ez az érték a javított érték alá csökken, az újratöltési idő megduplázódik. Ha 0 alá csökken és van még lőszer a tankban, a tank azonnal felrobban."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeedDescription:System.String.$Content,None,True,True,,Az alváz forgási sebessége.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisForwardSpeedLimitDescription:System.String.$Content,None,True,True,,A maximálisan tartható sebesség előremenetben.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBackwardSpeedLimitDescription:System.String.$Content,None,True,True,,A maximálisan tartható sebesség hátramenetben.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHardTerrainResistanceDescription:System.String.$Content,None,True,True,,"A jármű ellenállási faktora miközben kemény talajon közlekedik (utak, járdák és macskakövön)."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMediumTerrainResistanceDescription:System.String.$Content,None,True,True,,"A jármű ellenállási faktora miközben közepes talajon közlekedik (néhány út, földút, homok, füves talaj és sekély víz)."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisSoftTerrainResistanceDescription:System.String.$Content,None,True,True,,A jármű ellenállási faktora miközben laza talajon közlekedik (mocsár és mélyvíz).
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisCanTraverseDescription:System.String.$Content,None,True,True,,"Képes-e a tank alváza megfordulni anélkül, hogy előre vagy hátra elmozdulna."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBrakeForceDescription:System.String.$Content,None,True,True,,A jármű fékezőereje.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxClimbAngleDescription:System.String.$Content,None,True,True,,"A max. szög, amin képes a harckocsi felmászni"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleMoveDescription:System.String.$Content,None,True,True,,A löveg szórási faktora a tank mozgása közben.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedMovingDescription:System.String.$Content,None,True,True,,A löveg szórási faktora a tank max. sebességgel történő mozgása közben.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleRotationDescription:System.String.$Content,None,True,True,,A löveg szórási faktora a tank forgása közben.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedRotatingDescription:System.String.$Content,None,True,True,,A löveg szórási faktora a tank max. sebességgel történő forgása közben.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxLoadDescription:System.String.$Content,None,True,True,,A felfüggesztés maximális terhelhetősége.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealthDescription:System.String.$Content,None,True,True,,"A lánctalpak Hp-ja. Ha ez az érték lecsökken 0-ra, a lánctalp elszakad. A sérült lánctalp nem befolyásolja a tank mozgékonyságát. Mindkét lánctalpnak külön Hp-ja van."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeightDescription:System.String.$Content,None,True,True,,Az alváz tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmorDescription:System.String.$Content,None,True,True,,A lánctalpak páncélzata.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePowerDescription:System.String.$Content,None,True,True,,A motor effektív ereje.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineSpecificPowerDescription:System.String.$Content,None,True,True,,"A motor tejlesítménye elosztva a tank tömegével, befolyásolja a tank gyorsulását."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChanceDescription:System.String.$Content,None,True,True,,"Az esélye annak, hogy kigyullad a motor, ha eltalálják."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealthDescription:System.String.$Content,None,True,True,,"A motor maximális Hp-ja. Ha ez az érték a javított érték alá csökken, a jármű 50%-al lassabban gyorsul és fordul. Ha ez az érték 0-ra csökken, a motor felmondja a szolgálatot és a jármű mozgásképtelen lesz."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeightDescription:System.String.$Content,None,True,True,,A motor tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealthDescription:System.String.$Content,None,True,True,,"Az üzemanyagtartály maximális Hp-ja. Ha ez az érték 0-ra csökken, a jármű kigyullad."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankFuelTypeDescription:System.String.$Content,None,True,True,,Az üzemanyagtípus
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunReloadTimeDescription:System.String.$Content,None,True,True,,A löveg újratöltési ideje. Autoloaderes tank esetén ez a teljes tár újratöltését mutatja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAccuracyDescription:System.String.$Content,None,True,True,,"A löveg pontossága, durván a célzókör minimális átmérője 100 méterre a tanktól."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmorDescription:System.String.$Content,None,True,True,,A löveg páncélzata.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAimingTimeDescription:System.String.$Content,None,True,True,,"A löveg célzási ideje. Ennyi idő kell ahhoz, hogy a célzókör durván 1/3-ára csökkenjen."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRateOfFireDescription:System.String.$Content,None,True,True,,"Azt mutatja meg, hogy hány lövést tudsz leadni egy perc alatt."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunElevationDescription:System.String.$Content,None,True,True,,Maximálisan mekkora szögben lehet megemelni a löveget.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDepressionDescription:System.String.$Content,None,True,True,,Maximálisan mekkora szögben lehet lehajtani a löveget.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionAfterShotDescription:System.String.$Content,None,True,True,,A lövés utáni szórásfaktor.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretRotationDescription:System.String.$Content,None,True,True,,A toronyforgatás közbeni szórásfaktor.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretFullSpeedRotatingDescription:System.String.$Content,None,True,True,,A maximális sebességgel történő toronyforgatás közbeni szórásfaktor.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionWhileGunDamagedDescription:System.String.$Content,None,True,True,,A sérült lövegnél fellépő szórásfaktor.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverseDescription:System.String.$Content,None,True,True,,A löveg horizontális kitérési szöge.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeedDescription:System.String.$Content,None,True,True,,A löveg maximális kitérítési sebessége a kitérítési szögön belül.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunMaxAmmoDescription:System.String.$Content,None,True,True,,A lőszerkapacitása a tanknak.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipCountDescription:System.String.$Content,None,True,True,,A tár lőszerkapacitása.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipReloadTimeDescription:System.String.$Content,None,True,True,,A tár újratöltési ideje.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstCountDescription:System.String.$Content,None,True,True,,Egy sorozatban kilőhető lövedékek száma.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstRateOfFireDescription:System.String.$Content,None,True,True,,"Egy perc alatt hány lövedéket lehet kilőni, ha a tárat nem kell újratölteni."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCaliberDescription:System.String.$Content,None,True,True,,A löveg kaliberje.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealthDescription:System.String.$Content,None,True,True,,"A löveg maximális Hp-ja. Ha ez az érték a megjavított érték alá esik, a célzókör mérete megduplázódik. Ha ez az érték 0-ra csökken nem lehet lőni a löveggel."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeightDescription:System.String.$Content,None,True,True,,A löveg tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmorDescription:System.String.$Content,None,True,True,,A páncéltest elsődleges frontpáncélja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmorDescription:System.String.$Content,None,True,True,,A páncéltest elsődleges oldalpáncélja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmorDescription:System.String.$Content,None,True,True,,A páncéltest elsődleges oldalpáncélja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealthDescription:System.String.$Content,None,True,True,,"A páncéltest maximális Hp-ja, ami hozzáadódik a tank Hp-jához."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeightDescription:System.String.$Content,None,True,True,,A páncéltest tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealthDescription:System.String.$Content,None,True,True,,"A rádió maximális Hp-ja. Ha ez az érték a megjavított érték alá csökken, a rádió hatótávolsága megfeleződik. "
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioSignalDistanceDescription:System.String.$Content,None,True,True,,"A rádió hatótávolsága. Két szövetséges tank akkor látja egymást és az egymás által spottolt tankokat, ha a távolságuk kevesebb, mint a rádió hatotávolságuknak összege."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeightDescription:System.String.$Content,None,True,True,,A rádió tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellCaliberDescription:System.String.$Content,None,True,True,,A lövedék kalibere.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellExplosionRadiusDescription:System.String.$Content,None,True,True,,"A sugár, amiben a robbanó lövedék kárt tehet."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellSpeedDescription:System.String.$Content,None,True,True,,A lövedék repülési sebessége.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellGravityDescription:System.String.$Content,None,True,True,,A lövedék gravitációs gyorsulása.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellMaxDistanceDescription:System.String.$Content,None,True,True,,"A maximális távolság, amit a lövedék elérhet."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationDescription:System.String.$Content,None,True,True,,A lövedék páncélátütőereje. Ez az érték 100 és 400 méteres távolság között lineárisan csökken. Az érték véletlenszerűen változhat maximum +/-25%-al.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellArmorDamageDescription:System.String.$Content,None,True,True,,A löveg sebzése. Az érték véletlenszerűen változhat maximum +/-25%-al.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellDamagePerMinuteDescription:System.String.$Content,None,True,True,,A kiválasztott lőszerrel egy perc alatt átlagosan okozható sebzés értéke.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellModuleDamageDescription:System.String.$Content,None,True,True,,A lövedék ekkora sebzést képes okozni a moduloknak.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPriceDescription:System.String.$Content,None,True,True,,Egy lövedék ára.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamageDescription:System.String.$Content,None,True,True,,A lövedék ára elosztva a sebzésével.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPiercingPowerLossFactorByDistanceDescription:System.String.$Content,None,True,True,,"A kumultatív lőszerre vonatkozó érték. Ha bármilyen páncélzatot eltalál ez a lövedék, az átütőereje a páncélvastagságtól függően ezzel az értékkel csökken."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealthDescription:System.String.$Content,None,True,True,,"A maximális Hp-ja a periszkópnak. Ha ez az érték a megjavított érték alá csökken, a látótávolság megfeleződik. "
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealthDescription:System.String.$Content,None,True,True,,A tank maximális Hp-ja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankWeightDescription:System.String.$Content,None,True,True,,A tank tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankEquipmentWeightDescription:System.String.$Content,None,True,True,,Az összes használt felszerelés tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankRepairCostDescription:System.String.$Content,None,True,True,,A tank maximális javítási költsége.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiersDescription:System.String.$Content,None,True,True,,A csata tierek amikkel találkozhat ez a tank.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPriceDescription:System.String.$Content,None,True,True,,A tank ára alap modulokkal felszerelve.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankStationaryCamouflageDescription:System.String.$Content,None,True,True,,"Az ellenséges tank látótávolságának lecsökkentése %-ban, aki úgy akar spottolni, hogy te egy helyben állsz. Ezek az értékek pontatlanok lehetnek, AndrasD és Devilhunter mérésein alapulnak."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMovingCamouflageDescription:System.String.$Content,None,True,True,,"Az ellenséges tank látótávolságának lecsökkentése %-ban, aki úgy akar spottolni, hogy te mozogsz. Ezek az értékek pontatlanok lehetnek, AndrasD és Devilhunter mérésein alapulnak."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringStationaryCamouflageDescription:System.String.$Content,None,True,True,,"Az ellenséges tank látótávolságának lecsökkentése %-ban, aki úgy akar spottolni, hogy te egy helyben állsz és lősz. Ezek az értékek pontatlanok lehetnek, AndrasD és Devilhunter mérésein alapulnak."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringMovingCamouflageDescription:System.String.$Content,None,True,True,,"Az ellenséges tank látótávolságának lecsökkentése %-ban, aki úgy akar spottolni, hogy te mozogsz és lősz. Ezek az értékek pontatlanok lehetnek, AndrasD és Devilhunter mérésein alapulnak."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeightDescription:System.String.$Content,None,True,True,,"A matchmaking súlya a tanknak, azt mutatja meg, hogy a matchmaking rendszer szerint mennyire vagy fontos a csapatnak."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealthDescription:System.String.$Content,None,True,True,,"A toronymozgató mechanika maximális Hp-ja. Ha ez az érték a javított érték alá csökken, a torony forgatási sebessége felére csökken. Ha 0-ra csökken a torony beragad és nem lehet forgatni."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeedDescription:System.String.$Content,None,True,True,,A torony maximális forgási sebessége.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretCircularVisionRadiusDescription:System.String.$Content,None,True,True,,A tank maximális látótávolsága.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmorDescription:System.String.$Content,None,True,True,,A torony elsődleges frontpáncélja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmorDescription:System.String.$Content,None,True,True,,A torony elsődleges oldalsó páncélja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmorDescription:System.String.$Content,None,True,True,,A torony elsődleges hátsó páncélja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverseDescription:System.String.$Content,None,True,True,,A horizontális kitéríthetőségi szöge a toronynak.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealthDescription:System.String.$Content,None,True,True,,"A torony maximális Hp-ja, ami a tank maximális Hp-jához hozzáadódik."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeightDescription:System.String.$Content,None,True,True,,A torony tömege.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealtDescription:System.String.$Content,None,True,True,,"Csatánkéni átlagos sebzés. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceivedDescription:System.String.$Content,None,True,True,,"Csatánként átlagosan elszenvedett sebzés. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceivedDescription:System.String.$Content,None,True,True,,"Csatánkénti átlagosan szerzett lehetséges sérülés. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssistDescription:System.String.$Content,None,True,True,,"Csatánkénti átlagos spottolt sebzés. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssistDescription:System.String.$Content,None,True,True,,"Csatánkénti átlagosan segített sebzés ellenséges tankot láncolva. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRateDescription:System.String.$Content,None,True,True,,"A tank találati aránya. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperienceDescription:System.String.$Content,None,True,True,,"Átlagosan szerzett tapasztalati pont ezzel a járművel. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncomeDescription:System.String.$Content,None,True,True,,"Átlagosan szerzett nettó kredit ezzel a járművel. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncomeDescription:System.String.$Content,None,True,True,,"Átlagosan szerzett bruttó kredit ezzel a járművel. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCostDescription:System.String.$Content,None,True,True,,"A jármű átlagos üzemelési költsége. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCostDescription:System.String.$Content,None,True,True,,"A járművön használt fogyócikkek átlagos költsége. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCostDescription:System.String.$Content,None,True,True,,"A járművön elhasznált lőszer átlagos költsége. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCostDescription:System.String.$Content,None,True,True,,"A jármű átlagos javítási költsége. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileageDescription:System.String.$Content,None,True,True,,"A jármű által átlagosan megtett távolság egy csatában. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpottedDescription:System.String.$Content,None,True,True,,"Csatánként átlagosan spottolt tankok száma ezzel a járművel. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRateDescription:System.String.$Content,None,True,True,,"A jármű nyerési aránya Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamagedDescription:System.String.$Content,None,True,True,,"Csatánként megsebzett ellenséges járművek számának átlaga. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiencyDescription:System.String.$Content,None,True,True,,"PA értéke a tanknak. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7EfficiencyDescription:System.String.$Content,None,True,True,,"WN7 értéke a tanknak. A WN7 az általános teljesítménymutató. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8EfficiencyDescription:System.String.$Content,None,True,True,,"WN8(D) értéke a tanknak. A WN8 a következő generációs teljesítménymutató ami még fejlesztés alatt áll. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiencyDescription:System.String.$Content,None,True,True,,"A csatakapacitása a tanknak. A csatakapacitás egy módosított XVM érték. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilledDescription:System.String.$Content,None,True,True,,"Csatánként átlagosan megsemmisített tankok száma. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTimeDescription:System.String.$Content,None,True,True,,"Csatánkénti átlagos csataideje a tanknak. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRateDescription:System.String.$Content,None,True,True,,"A tank túlélési aránya. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSizeDescription:System.String.$Content,None,True,True,,"A mintavételi mennyisége ennek a járműnek. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinuteDescription:System.String.$Content,None,True,True,,"A percenként gyűjtött tapasztalati érték. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRateDescription:System.String.$Content,None,True,True,,"A páncélátütési aránya a járműnek. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRateDescription:System.String.$Content,None,True,True,,"Lepattanási értéke a járműnek. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatioDescription:System.String.$Content,None,True,True,,"A megsemmisült tankok azon százaléka, ami 1 percen belül megsemmisült és spottolt tankokat. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatioDescription:System.String.$Content,None,True,True,,"A járművek azon százaléka ami nem mozdult meg és nem osztott sebzést sem. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeightDescription:System.String.$Content,None,True,True,,"Az átlagos csata tier amibe ez a tank kerül. Ez egy dinamikusan frissülő adat, ami az utolsó 30 nap random csatáin alapul. Az adatokat a vBAddict.net szolgáltatta."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealtFullName:System.String.$Content,None,True,True,,Átlagos Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceivedFullName:System.String.$Content,None,True,True,,Átlagos Elszenvedett Sérülés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceivedFullName:System.String.$Content,None,True,True,,Átlagos Lehetséges Sérülés Received
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssistFullName:System.String.$Content,None,True,True,,Átlagos Spottolt Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssistFullName:System.String.$Content,None,True,True,,Átlagos Sebzés Láncolás Által
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRateFullName:System.String.$Content,None,True,True,,Találati Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperienceFullName:System.String.$Content,None,True,True,,Átlagos Tapasztalati Pont
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncomeFullName:System.String.$Content,None,True,True,,Átlagos Nettó Nyereség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncomeFullName:System.String.$Content,None,True,True,,Átlagos Bruttó Nyereség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCostFullName:System.String.$Content,None,True,True,,Átlagos Üzemeltetési Költség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCostFullName:System.String.$Content,None,True,True,,Átlagos Fogyócikk Költség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCostFullName:System.String.$Content,None,True,True,,Átlagos Lőszerköltség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCostFullName:System.String.$Content,None,True,True,,Átlagos Javítási Költség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileageFullName:System.String.$Content,None,True,True,,Átlagos Megtett Távolság
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpottedFullName:System.String.$Content,None,True,True,,Átlagosan Spottolt Tankok
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRateFullName:System.String.$Content,None,True,True,,Nyerési Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamagedFullName:System.String.$Content,None,True,True,,Átlagosan Megsebzett Tankok
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiencyFullName:System.String.$Content,None,True,True,,Átlagos PA Érték
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7EfficiencyFullName:System.String.$Content,None,True,True,,Átlagos WN7 Érték
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8EfficiencyFullName:System.String.$Content,None,True,True,,Átlagos WN8 Érték
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiencyFullName:System.String.$Content,None,True,True,,Átlagos Csata Kapacitás
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilledFullName:System.String.$Content,None,True,True,,Átlagosan Kilőtt Tankok
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTimeFullName:System.String.$Content,None,True,True,,Átlagos Csataidő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRateFullName:System.String.$Content,None,True,True,,Túlélési Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSizeFullName:System.String.$Content,None,True,True,,vBAddict minta nagysága
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinuteFullName:System.String.$Content,None,True,True,,Tapasztalati Pont/Perc
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRateFullName:System.String.$Content,None,True,True,,Átütési Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRateFullName:System.String.$Content,None,True,True,,Sebzés Nélküli Lövések Aránya
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatioFullName:System.String.$Content,None,True,True,,Kamikaze Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatioFullName:System.String.$Content,None,True,True,,AFK Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeightFullName:System.String.$Content,None,True,True,,Átlagos Matchmaking Súly
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealt:System.String.$Content,None,True,True,,Átl. Sebzés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceived:System.String.$Content,None,True,True,,Átl. Elszenvedett Sérülés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceived:System.String.$Content,None,True,True,,Átl. Lehetséges Sérülés
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Assist:System.String.$Content,None,True,True,,Átl. Támogatás
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssist:System.String.$Content,None,True,True,,Spottolással
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssist:System.String.$Content,None,True,True,,Láncolással
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRate:System.String.$Content,None,True,True,,Találati Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperience:System.String.$Content,None,True,True,,Átl. Tapasztalat
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageIncome:System.String.$Content,None,True,True,,Átl. Nyereség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncome:System.String.$Content,None,True,True,,Nettó
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncome:System.String.$Content,None,True,True,,Bruttó
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankOperationCost:System.String.$Content,None,True,True,,Üzemeltetési Költség
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCost:System.String.$Content,None,True,True,,Átl. Összesen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCost:System.String.$Content,None,True,True,,Átl. Fogyócikkek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCost:System.String.$Content,None,True,True,,Átl. Lőszer
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCost:System.String.$Content,None,True,True,,Átl. Javítás
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileage:System.String.$Content,None,True,True,,Átl. Megtett Táv
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotted:System.String.$Content,None,True,True,,Átl. Spottolt
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRate:System.String.$Content,None,True,True,,Nyerési arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamaged:System.String.$Content,None,True,True,,Átl. Sebzett
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Efficiency:System.String.$Content,None,True,True,,Átl. Teljesítmény
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiency:System.String.$Content,None,True,True,,PA
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7Efficiency:System.String.$Content,None,True,True,,WN7
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8Efficiency:System.String.$Content,None,True,True,,WN8
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiency:System.String.$Content,None,True,True,,Box
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilled:System.String.$Content,None,True,True,,Átl. Megölt
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTime:System.String.$Content,None,True,True,,Átl. Csataidő
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRate:System.String.$Content,None,True,True,,Túlélési Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSize:System.String.$Content,None,True,True,,vBAddict minta nagysága
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinute:System.String.$Content,None,True,True,,Tapasztalati Pont/Perc
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRate:System.String.$Content,None,True,True,,Átütési Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRate:System.String.$Content,None,True,True,,Sebzés Nélküli Lövések Aránya
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatio:System.String.$Content,None,True,True,,Kamikaze Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatio:System.String.$Content,None,True,True,,AFK Arány
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Matchmaking:System.String.$Content,None,True,True,,Matchmaking
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeight:System.String.$Content,None,True,True,,Átl. Tier
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithTank:System.String.$Content,None,True,True,,Összehasonlítás Ezzel A Tankkal: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedGun:System.String.$Content,None,True,True,,Összehasonlítás A Lecserélt Löveggel: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedTurret:System.String.$Content,None,True,True,,Összehasonlítás A Lecserélt Toronnyal: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedEngine:System.String.$Content,None,True,True,,Összehasonlítás A Lecserélt Motorral: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedRadio:System.String.$Content,None,True,True,,Összehasonlítás A Lecserélt Rádióval: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedChassis:System.String.$Content,None,True,True,,Összehasonlítás A Lecserélt Alvázzal: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedShell:System.String.$Content,None,True,True,,Összehasonlítás A Lecserélt Lövedékkel: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownLoginError:System.String.$Content,None,True,True,,A bejelentkezés sikertelen egy ismeretlen hiba miatt.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Messages:System.String.$Content,None,True,True,,Üzenetek
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MessagesWithCount:System.String.$Content,None,True,True,,Üzenetek({0})
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectLinkToolTip:System.String.$Content,None,True,True,,"Jelenleg ezzel a fiókkal csatlakoztál {0}. Kattints, hogy kijelentkezz és kilépj a Tank Inspector Online-ból, következő alkalommal új fiókba jelentkezhetsz be ."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidMessage:System.String.$Content,None,True,True,,Hiba: érvénytelen üzenet
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToCreateMessageDirectory:System.String.$Content,None,True,True,,"A kapott üzenetet nem sikerült elmenteni. Ha fontos az üzenet tartalma, ne felejtsd el manuálisan lementeni."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToCreateMessageDirectoryTitle:System.String.$Content,None,True,True,,Hiba
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ConnectFailed:System.String.$Content,None,True,True,,Sikertelen csatlakozás.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OfflineMessage:System.String.$Content,None,True,True,,"Hálózati probléma miatt offline módban fut a program. A hálózati kapcsolatot igénylő adatok (pl.: the LiveStats) nem fog működni míg a Tank Inspector a hálózathoz nem csatlakozik.
+
+Hibaüzenet: {0}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OfflineTitle:System.String.$Content,None,True,True,,Offline Mód
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidAccount:System.String.$Content,None,True,True,,Az E-Mail címed vagy a jelszavad hibás. Próbáld újra.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CannotCreateAccount:System.String.$Content,None,True,True,,A fiókot nem lehet létrehozni. A Marsról valósi vagy?
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailOccupied:System.String.$Content,None,True,True,,Ezt az E-Mail címet egy másik fiók használja.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailTooLong:System.String.$Content,None,True,True,,A megadott e-Mail cím túl hosszú.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMail:System.String.$Content,None,True,True,,A megadott e-Mail cím érvénytelen.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidInviteCode:System.String.$Content,None,True,True,,Ez a meghívókód érvénytelen.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidRequest:System.String.$Content,None,True,True,,Hiba: érvénytelen kérés.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PasswordTooLong:System.String.$Content,None,True,True,,"Ez a jelszó túl hosszú, adj meg egy olyat, amit könnyebb megjegyezned."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownRegisterError:System.String.$Content,None,True,True,,A regisztráció sikerelen egy ismeretlen hiba miatt.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ResetPasswordEMailSent:System.String.$Content,None,True,True,,Elküldtünk egy levelet a következő címre {0}. Ebben lesznek az utasítások az új jelszó kéréséhez.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ResetPasswordEMailSentTitle:System.String.$Content,None,True,True,,Az új jelszót igénylő levél sikeresen elküldve
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailed:System.String.$Content,None,True,True,,"Sajnáljuk, de nem sikerült elküldeni at új jeszót igánylő levelet erre a címre: {0}. Kérjük próbáld meg később."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailedTitle:System.String.$Content,None,True,True,,Az új jelszót igénylő levél elküldése sikertelen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailedWithReason:System.String.$Content,None,True,True,,"Sajnáljuk, de nem sikerült elküldeni at új jeszót igánylő levelet erre a címre {0}. Kérjük próbáld meg később.
+
+Hibaüzenet: {1}."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailNotActivated:System.String.$Content,None,True,True,,"Az E-Mail címed még nincs érvényesítve, kérlek minél hamarabb kattints rá a linkre abban a levélben, amit elküldtün az E-Mail címedre.
+ 
+Szeretnéd, hogy ismét elküldjük az érvényesítő levelet (ha nem kaptad még meg)?"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailNotActivatedTitle:System.String.$Content,None,True,True,,Az E-Mail Címed Nincs Érvényesítve
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ActivationEMailSent:System.String.$Content,None,True,True,,Az érvényesítő levelet elküldtük. Kérlek kattints a linkre a levélben.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ActivationEMailSentTitle:System.String.$Content,None,True,True,,Az Érvényesitő Levél Kiküldve
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailed:System.String.$Content,None,True,True,,Sajnáljuk
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailedTitle:System.String.$Content,None,True,True,,Az Érvényesítő Levél Kiküldése Sikertelen
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailedWithReason:System.String.$Content,None,True,True,,"Sajnáljuk, de nem sikerült elküldeni az érvényesítő levelet. Kérjük próbáld meg később.
+
+Hibaüzenet: {0}. "
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToOpenServicePage:System.String.$Content,None,True,True,,"Sajnáljuk, de ezt a szolgáltatás jelenleg nem elérhető.
+
+Hibaüzenet: {0}."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToOpenServicePageTitle:System.String.$Content,None,True,True,,A Szolgáltatás Nem Elérhető
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegisterSucceed:System.String.$Content,None,True,True,,A fiókod sikeresen létre lett hozva. A megerősítő levelet elküldtük az E-Mail címedre.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegisterSucceedTitle:System.String.$Content,None,True,True,,Kész!
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedOnException:System.String.$Content,None,True,True,,A kapcsolat bontva.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedDueToUnknownError:System.String.$Content,None,True,True,,Ismeretlen hiba miatt a kapcsolat bontva.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AccountLoggedInElsewhere:System.String.$Content,None,True,True,,A kapcsolat bontva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedTitle:System.String.$Content,None,True,True,,Kapcsolat bontva
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownError:System.String.$Content,None,True,True,,ismeretlen hiba
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DuowanWoT:System.String.$Content,None,True,True,,Duowan WoT (Kínai)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DuowanWoTDescription:System.String.$Content,None,True,True,,Hivatalos kínai WoT kapcsolattartó
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoT:System.String.$Content,None,True,True,,Baidu WoT (Kínai)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTDescription:System.String.$Content,None,True,True,,A legnépesebb WoT fórum a világon
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTGiftCardEvent:System.String.$Content,None,True,True,,Szerezz Baidu WoT ajándékkártyát!
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTGiftCardEventLearnMore:System.String.$Content,None,True,True,,Learn more...
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WOTNews:System.String.$Content,None,True,True,,WoT-News (Orosz)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WOTNewsDescription:System.String.$Content,None,True,True,,Orosz WoT hírportál
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_vBAddict:System.String.$Content,None,True,True,,vBAddict.net (Angol)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_vBAddictDescription:System.String.$Content,None,True,True,,LiveStat szolgáltató
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_XVMGarphy:System.String.$Content,None,True,True,,XVMCN (Kínai)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_XVMGarphyDescription:System.String.$Content,None,True,True,,WoT statisztikai kutatások &amp; XVM fordítócsapat
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FTR:System.String.$Content,None,True,True,,For the Record (Angol)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FTRDescription:System.String.$Content,None,True,True,,For the Record WoT hírportál
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AnisotropicLevelFormat:System.String.$Content,None,True,True,,{0}x
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PNGFileFilter:System.String.$Content,None,True,True,,PNG Fájl (*.png)|*.png
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SaveAs:System.String.$Content,None,True,True,,Mentés
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.$Content,Text,True,True,,FOTÓ KÉSZÍTÉSE
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.FontSize,None,True,True,,48
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Grafikai teljesítménytől függően, egy percig is eltarthat"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,HD MODELLEL JOBBAN NÉZ KI!
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.Controls.TextBlock.FontSize,None,True,True,,24
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,ToggleCollisionModelButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Válts a rendes modell és páncélvastagság modell között
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,RegularArmorIndicatorToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Rendes páncélvastagság
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SpacingArmorIndicatorToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Üreges páncélvastagság
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.Text,Text,True,True,,KERESÉS
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFFFFFFF
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SearchTextBoxToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Gépeld be a tank nevét
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,CurrentTankButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Kattints
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.Text,Text,True,True,,REFERENCIA
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SelectReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Listázd ki az összes azonost tierű és tipusű tankot, amit referenciaként lehet használni"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SwapReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A jelenlegi és referenciatank cseréje
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,ReferenceTankToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"A jelenlegi referenciatank. Az adatok a modulok felugró ablakaiban és a részletes adatok nézetben ezzel a tankkal vannak összehasonlítva. A referenciatank alapból elit modulokkal felszerelt, 100%-os legénységű, fogyócikkek és felszerelés nélkül. De megpróbál a kiválasztott tankhoz hasonló lövedéket betölteni."
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,LoadEliteConfigButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Elit felszereltség kiválasztása
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.Controls.TextBlock.Text,Text,True,True,,Tier
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.Title,Title,True,True,,Tank Inspector PRO
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.FrameworkElement.Height,None,False,True,,441
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.FrameworkElement.Width,None,False,True,,620
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.ResizeMode,None,False,True,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.Controls.Image.$Content,None,False,True,,
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.Controls.Image.Source,None,False,True,,"pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.UIElement.IsHitTestVisible,None,False,True,,False
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.FrameworkElement.Height,None,False,True,,25
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.Controls.Button.$Content,Button,True,True,,Támogasd a Tank Inspector PRO-t indiegogo.com-on!
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.FrameworkElement.Margin,None,False,True,,"10,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.Controls.Control.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.$Content,Text,True,True,,DEMO VERZIÓ
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.$Content,Text,True,True,,HD SNAPSHOT
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.FontSize,None,True,True,,32
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Készíts nagyfelbontású képet a tankról.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Nyomj <b>PRINTSCREEN</b>-t modell nézetben a kép készítéséhez.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Több adat elérhető aTank Inspector PRO-ban.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.Text,Text,True,True,,V.S.
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.Text,Text,True,True,,Benchmark:
+Smellyriver.TankInspector.g.en-US.resources:shellview.baml,Millimeters:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:shellview.baml,Millimeters:System.Windows.Controls.TextBlock.Text,Text,True,True,,mm
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.Text,Text,True,True,,mm
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:tankgalleryview.baml,CloseTechTreeButtonToolTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tech tree bezárása
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveStatNotLoadedTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Ez a LiveStat nem lett betöltve.
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveLoadingTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,LiveStat adatok letöltése a szerverről...
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveStatLoadFailedTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Ez a LiveStat nem lett betöltve. Kérlek próbáld meg később a tank újra kiválasztásával.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.SizeToContent,None,False,True,,Height
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.Title,Title,True,True,,Csatlakozás
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.FrameworkElement.Width,None,False,True,,523
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.Icon,None,False,True,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.ResizeMode,None,False,True,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.$Content,Text,True,True,,CSATLAKOZÁS
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.FontSize,None,True,True,,28
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,A TANK INSPECTOR ONLINE-HOZ
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,20
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.FrameworkElement.Margin,None,False,True,,"10,45,10,10"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.$Content,Text,True,True,,E-MAIL
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.Margin,None,False,True,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.$Content,Text,True,True,,JELSZÓ
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.Margin,None,False,True,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ToggleShowPasswordTop:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Kattints, hogy megjelenítsd vagy elrejtsd a jelszavad."
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.$Content,Text,True,True,,MEGHÍVÓKÓD
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.Margin,None,False,True,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserCheckbox:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Új vagyok (<u>Regisztráció</u>).
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserCheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckbox:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Új vagyok és van kódom.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckboxTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Sajnáljuk
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ResetPassword:System.Windows.Controls.Button.$Content,Button,True,True,,Jelszócsere
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ResetPassword:System.Windows.Controls.Control.Foreground,None,False,True,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.Controls.TextBlock.$Content,Text,True,True,,jelszócsere feldolgozása...
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AgreeToEULACheckbox:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Elfogadom a végfelhasználói licenszszerződést, már ha van"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AgreeToEULACheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,A jövőben a fenti E-Mail és jelszó párossal tudsz majd belépni a Tank Inspector Online-ba.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.FrameworkElement.Margin,None,False,True,,"20,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,<b>NE a World of Tanks fiókadataid használd</b>. Használj más jelszót és lehetőleg E-Mailcímet.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.FrameworkElement.Margin,None,False,True,,"20,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.$Content,Text,True,True,,CSATLAKOZÁS...
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.FontSize,None,True,True,,24
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AutoConnecting:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Automata csatlakozás:
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AutoConnecting:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.Text,Text,True,True,,CSATLAKOZÁS
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:generic.baml,Font:System.Windows.Media.FontFamily.$Content,Font,True,True,,"Wasco Sans, pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Fonts/\#Wasco Sans, Segoe UI, Arial"
+Smellyriver.TankInspector.g.en-US.resources:generic.baml,CondensedFont:System.Windows.Media.FontFamily.$Content,Font,True,True,,"Open Sans Condensed, pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Fonts/\#Open Sans Condensed, Segoe UI Condensed, Segoe UI"
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.Text,Text,True,True,,V.S.
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.Text,Text,True,True,,Benchmark:
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.Margin,None,False,True,,"6,0"
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.FontSize,None,True,True,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.Text,Text,True,True,,LIVESTAT
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.FontSize,None,True,True,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.Text,Text,True,True,, 
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.FontSize,None,True,True,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.Text,Text,True,True,, csata átlaga
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.Text,Text,True,True,,TÖLTÉS
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.FontSize,None,True,True,,22
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.FrameworkElement.Margin,None,False,True,,"0,-5,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.FrameworkElement.Margin,None,False,True,,"0,31,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.UIElement.Opacity,None,False,True,,0.0
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.Text,Text,True,True,,"Töltés első alkalommal, vagy cache készítése kliensváltás miatt. Kicsit hosszabb lehet a megszokottnál, kérjük várj."
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.UIElement.SnapsToDevicePixels,None,False,True,,True
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.UseLayoutRounding,None,False,True,,True
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.Title,Title,True,True,,Tank Inspector
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.Height,None,False,True,,700
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.Width,None,False,True,,1300
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.MinHeight,None,False,True,,480
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.MinWidth,None,False,True,,640
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.Icon,None,False,True,,Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.WindowStyle,None,True,False,,SingleBorderWindow
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.$Content,None,False,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.Source,None,False,True,,"pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.UIElement.IsHitTestVisible,None,False,True,,False
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.FrameworkElement.Margin,None,False,True,,"105,5,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.Stretch,None,True,False,,None
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ProButton:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Tank Inspector PRO
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,SettingsLink:System.Windows.Controls.Button.$Content,Button,True,True,,Beállítások
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,SettingsLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Beállítások megváltoztatása
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,AboutLink:System.Windows.Controls.Button.$Content,Button,True,True,,Rólunk
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,AboutLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,A Tank Inspector-ról információ
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DonateLink:System.Windows.Controls.Button.$Content,Button,True,True,,Adományozás
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DonateLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Adományozás Smellyriver-nek
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DisconnectLink:System.Windows.Controls.Button.$Content,Button,True,True,,Kapcsolat bontása
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.Controls.Button.$Content,Button,True,True,,Csatlakozás az internethez
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Jelenleg offline módban vagy. Az inernetes kapcsolatot igénylő adatok nem működnek amíg a Tank Inspector nem tud a szerverhez csatlakozni. Kattints ide, hogy a Tank Inspector csatlakozzon az internethez.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tech Tree megnyitása
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,25,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,az oldalsó oszlopot is aktiválja
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,15,25,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Adat Nézetre Váltás
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,25,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,hogy lásd a részletes adatokat és összehasonlítást
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,15,25,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Adat Nézetre Váltás
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.Margin,None,False,True,,"25,0,0,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,hogy lásd a részletes adatokat és összehasonlítást
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"25,15,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Nézet Váltás
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,hogy lásd a páncélzatot
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tank felszerelése
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"modulok, lőszerek, felszerelés, fogyócikkek és legénység"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Referencia Tank
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,tankod összehasonlítása másikkal
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.Controls.TextBlock.FontSize,None,True,True,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.Margin,None,False,True,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.Text,Text,True,True,,ÜDVÖZLÜNK!
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.FontSize,None,True,True,,36
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.Text,Text,True,True,,Itt van néhány alapvető használati utasítás.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.Text,Text,True,True,,Kattints a gombra ha készen állsz.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.Text,Text,True,True,,RENDBEN
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.Controls.TextBlock.$Content,Text,True,True,,EFF. VASTAGSÁG
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.FrameworkElement.Margin,None,False,True,,4
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,ImpactAngleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A teszt lövedék becsapódási szöge.
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,NormalizationAngleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"A szög, amihez igazodik a becsapódási szög. Csak Páncéltörő és Keménymagvas lövedékekre érvényes."
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,2xRuleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha a lövedék kalibere legalább kétszer olyan vastag, mint a páncélzat névleges vastagsága, a normalizációs szög megnövekedik. Csak Páncéltörő és Keménymagvas lövedékekre érvényes."
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,3xRuleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha a lövedék kalibere legalább kétszer olyan vastag, mint a páncélzat névleges vastagsága, a lövedék akkor sem pattan le, ha a becsapódási szög nagyobb, mint 70°. Csak Páncéltörő és Keménymagvas lövedékekre érvényes."
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,APShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Pántéltörő lövedék, standard 5°-os normalizációs szöggel"
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,APCRShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Keménymagvas lövedék, standard 2°-os normalizációs szöggel"
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,HEShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Robbanó lövedék
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,HEATShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Kumultatív lövedék
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,CaliberTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A lövedék kalibere
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,ToggleSelectShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Kattints, hogy elrejtsd, előhozd a lövedéknézetet"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ElementMenuItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Kattints a felszereléshez
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ElementMenuItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,", tartsd lenyomva a jobb egérgombot, hogy eltüntesd ezt az ablakot ideiglenesen"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewElementMenuItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"Kattints, hogy megtanulja, vagy elfelejtse"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewElementMenuItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,", tartsd lenyomva a jobb egérgombot, hogy eltüntesd ezt az ablakot ideiglenesen"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPrefix:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPrefix:System.Windows.Controls.TextBlock.Text,Text,True,True,,Legénység kiképzése 
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPostfix:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPostfix:System.Windows.Controls.TextBlock.Text,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ToggleCrewDeadOrAliveTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Váltás sérült és egészséges legénységi tag között.
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewMenuTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Kattints a legénységi képességek és kiképzés beállításához
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,BulkLearnCamoButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A legénység összes tagja tanulja meg az Álcázást
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,BulkLearnBiAButtonTooltip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A legénység összes tagja tanulja meg az Elit Alakulatot
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TurnToLeftPageButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Váltás a Modell nézet és a Részletes adatok között
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TurnToRightPageButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Váltás a Modell nézet és a Részletes adatok között
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SelectAsReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Referenciatankként kiválasztás
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SearchResultItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tank kiválasztása
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SearchResultItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Referenciatankként kiválasztás
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.Title,Title,True,True,,Üdvözlünk
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.FrameworkElement.Width,None,False,True,,624
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.Icon,None,False,True,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.ResizeMode,None,False,True,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.SizeToContent,None,False,True,,Height
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.$Content,Text,True,True,,ÜDVÖZLÜNK
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.FontSize,None,True,True,,28
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,A Tank Inspector a kliensből olvassa be a tankokat és adatokat. Kérlek add meg a kliens elérési útját.
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Game Folder:
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,10,0"
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.Text,Text,True,True,,KÉSZ
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:modelview.baml,FPS:System.Windows.Controls.TextBlock.$Content,Text,True,True,,FPS:
+Smellyriver.TankInspector.g.en-US.resources:modelview.baml,Triangles:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Triangles:
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.Title,Title,True,True,,Messages
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.SizeToContent,None,False,True,,Height
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MinWidth,None,False,True,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MaxWidth,None,False,True,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.Width,None,False,True,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MinHeight,None,False,True,,180
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.WindowStartupLocation,None,False,True,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.Icon,None,False,True,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.$Content,Text,True,True,,ÜZENETEK
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.FontSize,None,True,True,,28
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.FrameworkElement.Margin,None,False,True,,10
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.Foreground,None,False,True,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.FontSize,None,True,True,,18
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.Text,Text,True,True,,BEZÁRÁS
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.Controls.TextBlock.Text,Text,True,True,,BEÁLLÍTÁSOK
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Top
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.Margin,None,False,True,,"15,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameClientSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,JÁTÉK KLIENS
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,A Tank Inspector a kliensből olvassa be a tankokat és adatokat. Kérlek add meg a kliens elérési útját.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,10"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Ez a beállítás a következő indításkor lép érvénybe.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,10"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Kliens mappája:
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,10,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GeneralSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,ALAP
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowBackgroundImage:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Háttérkép mutatása
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowBackgroundImageTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Bekapcsolva egy random háttérkép jelenik meg, egyébként üresen marad a háttér."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PhotoSize:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Fotó méret (szélesség):
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PhotoSize:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.Controls.TextBlock.$Content,Text,True,True,,*Nyomj PRINTSCREEN-t kép készítéséhez
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.FrameworkElement.Margin,None,False,True,,"10,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.Controls.TextBlock.FontStyle,None,True,True,,Italic
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GraphicsSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,GRAFIKA
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.Controls.TextBlock.Text,Text,True,True,,MINŐSÉG
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.Controls.TextBlock.$Content,Text,True,True,,"A következő beállítások javítanak a modellek minőségén, de ronthatnak a teljesítményen. Ha a Tank Inspector lassan futna, kapcsold ki őket."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.Controls.TextBlock.TextWrapping,None,False,True,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.FrameworkElement.Margin,None,False,True,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SSAO:System.Windows.Controls.TextBlock.$Content,Text,True,True,,SSAO
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SSAOTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"A SSAO környezetfüggő árnyékokat renderel. Ez a beállítás befolyásolhatja a render teljesítményét. Ha a Tank Inspector lassan futna, kapcsold ki."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SMAA:System.Windows.Controls.TextBlock.$Content,Text,True,True,,SMAA
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SMAATip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"A SMAA a modellek éleit símábbá teszi. Ez a beállítás befolyásolhatja a render teljesítményét. Ha a Tank Inspector lassan futna, kapcsold ki."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Specularity:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tükröződés
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SpecularityTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"A Tükröződés fényvisszaverést szimulál, néhány anyag felülete csillogó lesz tőle. Ez a beállítás befolyásolhatja a render teljesítményét. Ha a Tank Inspector lassan futna, kapcsold ki."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,NormalMapping:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Normal Mapping
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,NormalMappingTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"A Normal mapping a modellek részletességén javít. Ez a beállítás befolyásolhatja a render teljesítményét. Ha a Tank Inspector lassan futna, kapcsold ki."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilter:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Anizotropikus Szűrés
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilter:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilterTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Az Anizotropikus Szűrés javít a textúrák minőségén. Ha a Tank Inspector lassan futna miatta, kapcsold ki."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.Controls.TextBlock.Text,Text,True,True,,MEGJELENÍTÉS
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.FrameworkElement.Margin,None,False,True,,"0,10,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,CollisionModelStroke:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Vonalak a páncélvastagsági nézetben
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,CollisionModelStrokeTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha bekapcsolod, akkor a különböző páncélvastagságok határára vonalat húz a program."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WireframeMode:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Drótváz modell
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WireframeModeTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha bekapcsolod, akkor a modellek drótvázasan lesznek kirenderelve."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowFPS:System.Windows.Controls.TextBlock.$Content,Text,True,True,,FPS mutatása
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowFPSTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha bekapcsolod, akkor a modellnézetben láthatod, hogy hány képkocka/másodperccel fut a program."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowModelTriangleCount:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Poligonszám mutatása
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowModelTriangleCountTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha bekapcsolod, akkor a modellnézetben láthatod, hogy hány poligonból áll a tank modellje."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowSoftwareCrosshair:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Célkereszt mutatása a modellen
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowSoftwareCrosshairTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha bekapcsolod, akkor egy célkereszt lesz a modellen, ahova a kurzorod mutat. Ez hasznos, ha tudni akarod, hogy hova mutat a kurzor képmentés közben."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GarageSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,GARÁZS
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,UseRealTraverseSpeedOnTurretController:System.Windows.Controls.TextBlock.$Content,Text,True,True,,A torony valós forgási sebességének használata
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,UseRealTraverseSpeedOnTurretControllerTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ahelyett, hogy egyből odanézne a torony és a löveg, ahova szeretnéd, hogy mutasson, a valós sebességgel fordulnak oda."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WhenChangingVehicle:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Jármű váltásakor:
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WhenChangingVehicle:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoLoadEliteConfig:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Elit konfiguráció alapból
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoLoadEliteConfigTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha bekapcsolod, akkor a kiválasztott tank alapból elit felszereltségű lesz."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ReuseCrews:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Új legénység toborzása
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ReuseCrewsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Új legénység toborzása, a jelenlegi tagok átképzése helyett."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,RecruitFullyTrainedCrews:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Teljesen kiképzett legénység toborzása
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,RecruitFullyTrainedCrewsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A legénység 100%-os képzettségű lesz 50% helyett.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoResetReferenceTank:System.Windows.Controls.TextBlock.$Content,Text,True,True,,A referencia tank visszaállítása a benchmark tankra ha új tankot választasz
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoResetReferenceTankTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha egyedi referenciatankot választottál, majd megváltoztatod a tankot amit nézel, akkor a program meghagyja-e a kiválasztott referenciatankot, vagy visszarakja az alapértelmezett benchmark tankot."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ResetToDefaultAmmunition:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Alap lőszerre visszaállítás
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ResetToDefaultAmmunitionTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"Ha tankot váltasz, az alap lőszer lesz betöltve."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearEquipments:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Felszerelés leszedése
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearEquipmentsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A felszerelések eltávolítása újrahasználás helyett.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearConsumables:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Fogyócikkek leszedése
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearConsumablesTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,A fogyócikkek eltávolítása újrahasználás helyett.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DataSection:System.Windows.Controls.HeaderedContentControl.Header,Label,True,True,,ADAT
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowDescriptionInDataTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Az adatok leírásának mutatása
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowDescriptionInDataTipTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,Az adatok leírásának mutatása a felugró ablakokban.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowAsMuchStatsAsPossible:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Minden adat mutatása ami kifér
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowAsMuchStatsAsPossibleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,True,True,,"A lényegtelen adatok rejtve vannak. Engedélyezd ezt a funkciót, hogy lásd mind, ami kifér a képernyőre."
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.$Content,None,False,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.Source,None,False,True,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Top
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.Margin,None,False,True,,"170,47,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.Stretch,None,True,False,,None
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Top
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.Text,Text,True,True,,EZ EGY SMELLYRIVER STUDIO TERMÉK
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.FontSize,None,True,True,,16
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.Margin,None,False,True,,"171,87,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.Controls.Button.$Content,Button,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.FrameworkElement.ToolTip,ToolTip,True,True,,Látogasd meg weblapunk
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.Controls.ContentControl.Content,Button,True,True,,Látogasd meg weblapunk
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.FrameworkElement.Margin,None,False,True,,"0,15,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.Controls.TextBlock.Text,Text,True,True,,"Copyright © 2013 - 2014, Smellyriver."
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ProductVersion:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ProductVersion:System.Windows.Controls.TextBlock.Text,Text,True,True,,Termékverzió
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.Controls.TextBlock.$Content,Text,True,True,,KÜLÖN KÖSZÖNET
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.Controls.TextBlock.FontWeight,None,True,True,,Bold
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.FrameworkElement.Margin,None,False,True,,"0,20,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,DesignedAndCraftedBy:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tervezte és programozta <i>hillin</i> és <i>edward</i>.
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,QualityAssurance:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Minőségellenőr: <i>appark</i>
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,LocalizationTitle:System.Windows.Controls.TextBlock.$Content,Text,True,True,,<b>HU</b> Fordítás <i>Muerte92</i>.
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,AdditionalLocalizationCredits:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Minőségellenőrzés: <i>Mifee</i> és <i>Orino</i>
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,LocalizerLink:System.Windows.Controls.Button.$Content,Button,True,True,,LocalizerLink
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,TechTreeTankButtonToolTip:System.Windows.Controls.TextBlock.$Content,Text,True,True,,Tank kiválasztása
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.FontSize,None,True,True,,48
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.FrameworkElement.HorizontalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Center
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.Text,Text,True,True,,TÖLTÉS

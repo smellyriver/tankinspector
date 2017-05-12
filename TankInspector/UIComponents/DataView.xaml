@@ -1,0 +1,280 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.DataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:data ="clr-namespace:Smellyriver.TankInspector.DataAnalysis"
+             xmlns:wpfUtils="clr-namespace:Smellyriver.Wpf.Utilities;assembly=Smellyriver.Wpf"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/DataDisplay.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <design:RatioToSolidColorBrushConverter x:Key="RatioToSolidColorBrushConverter" BestColor="#00B22D" WorstColor="#FF5C26" />
+            <design:ComparedTankIconConverter x:Key="ComparedTankIconConverter" />
+            
+            <design:RatioToComparationIconConverter x:Key="RatioToComparationIconConverter" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <ContentControl Content="{Binding DataGroup}">
+        <ContentControl.Resources>
+            <DataTemplate DataType="{x:Type ui:DataSeparatorViewModel}">
+                <Image Style="{StaticResource Separator}"/>
+            </DataTemplate>
+        </ContentControl.Resources>
+        <ContentControl.ContentTemplate>
+            <DataTemplate DataType="{x:Type ui:DataGroupViewModel}">
+                <Grid>
+                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ModuleViewTitleBackground.png" 
+                           HorizontalAlignment="Center" VerticalAlignment="Top" Height="45" Stretch="Fill" 
+                           Visibility="{Binding ShowHeader, Converter={StaticResource BoolToVisibleCollapsedConverter}}"/>
+                    <StackPanel Margin="10">
+                        <Grid Height="30" Visibility="{Binding ShowHeader, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                            <Viewbox StretchDirection="DownOnly" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <TextBlock Text="{Binding Name}" Style="{StaticResource DataTipTitle}" />
+                            </Viewbox>
+                        </Grid>
+                        <ItemsControl ItemsSource="{Binding Items}" Margin="0,10,0,0">
+                            <ItemsControl.Resources>
+
+                                <Style TargetType="ui:ChangeAnimationContentControl" x:Key="DataValue">
+                                    <Style.Resources>
+                                        <Storyboard x:Key="ShowStoryboard">
+                                            <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <ExponentialEase />
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Storyboard.TargetProperty="(ui:ChangeAnimationContentControl.RenderTransform).(TranslateTransform.Y)" From="10" To="0" Duration="0:0:0.5" >
+                                                <DoubleAnimation.EasingFunction>
+                                                    <ExponentialEase />
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                        </Storyboard>
+                                        <Storyboard x:Key="HideStoryboard">
+                                            <DoubleAnimation Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5" >
+                                                <DoubleAnimation.EasingFunction>
+                                                    <ExponentialEase />
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                        </Storyboard>
+                                        <Style TargetType="ContentPresenter">
+                                            <Setter Property="RenderTransform">
+                                                <Setter.Value>
+                                                    <TranslateTransform X="0" Y="0" />
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </Style.Resources>
+
+
+                                    <Setter Property="Content" Value="{Binding DataItem.Value}" />
+                                    <Setter Property="Grid.Column" Value="1" />
+                                    <Setter Property="HorizontalContentAlignment" Value="Right" />
+                                    <Setter Property="VerticalContentAlignment" Value="Center" />
+                                    <Setter Property="HorizontalAlignment" Value="Right" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock x:Name="ValueText" Text="{Binding}" />
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+
+                                <Style TargetType="ui:ChangeAnimationContentControl" x:Key="ComparedDataValue" BasedOn="{StaticResource DataValue}">
+                                    <Setter Property="Content" Value="{Binding DataItem.Delta}" />
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <Grid>
+                                                    <TextBlock x:Name="ValueText" Foreground="{Binding Ratio, Converter={StaticResource RatioToSolidColorBrushConverter}}" Visibility="{Binding IconMode, Converter={StaticResource BoolToCollapsedVisibleConverter}}" Text="{Binding Value}" />
+                                                    <Image Visibility="{Binding IconMode, Converter={StaticResource BoolToVisibleCollapsedConverter}}" Stretch="None">
+                                                        <Image.Source>
+                                                            <MultiBinding Converter="{StaticResource RatioToComparationIconConverter}">
+                                                                <Binding Path="Ratio" />
+                                                                <Binding Path="ComparationMode" />
+                                                            </MultiBinding>
+                                                        </Image.Source>
+                                                    </Image>
+                                                </Grid>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="DataTitle" BasedOn="{StaticResource DataItemTitle}">
+                                    <Setter Property="HorizontalAlignment" Value="Left" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                </Style>
+                                <Style TargetType="TextBlock" x:Key="DataSubTitle" BasedOn="{StaticResource DataSubItemTitle}">
+                                    <Setter Property="HorizontalAlignment" Value="Left" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="DataUnit" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                    <Setter Property="HorizontalAlignment" Value="Left" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                    <Setter Property="Margin" Value="2,0,0,0" />
+                                    <Setter Property="FontSize" Value="8" />
+                                    <Setter Property="Grid.Column" Value="2" />
+                                </Style>
+
+                                <Storyboard x:Key="DarkenDataItem">
+                                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0.1" Duration="0:0:0.5" />
+                                </Storyboard>
+
+                                <Storyboard x:Key="UndarkenDataItem">
+                                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.5" />
+                                </Storyboard>
+
+                                <Style TargetType="Grid" x:Key="DataItemRow" >
+                                    <Setter Property="Opacity" Value="1.0" />
+                                    <Setter Property="Background" Value="Transparent" />
+                                    <Setter Property="ToolTipService.BetweenShowDelay" Value="500" />
+                                    <Setter Property="ToolTip">
+                                        <Setter.Value>
+                                            <ToolTip Style="{StaticResource DataTip}">
+                                                <Grid>
+                                                    <Viewbox Margin="0,18,0,0"  HorizontalAlignment="Center" VerticalAlignment="Top" Height="30" Width="205" StretchDirection="DownOnly" Stretch="Uniform">
+                                                        <TextBlock Text="{Binding FullName}" FontWeight="Bold" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" />
+                                                    </Viewbox>
+                                                    <StackPanel Margin="14,50,14,14">
+                                                        <Viewbox HorizontalAlignment="Center" VerticalAlignment="Top" Width="205"  Stretch="Uniform" MaxHeight="100">
+                                                            <TextBlock wpfUtils:TextBlockHelper.Inlines="{Binding DataItem.ValueTipContent}" HorizontalAlignment="Center" VerticalAlignment="Center"  TextAlignment="Center" />
+                                                        </Viewbox>
+                                                        <TextBlock Margin="-4,10,-4,0" Text="{Binding DataItem.Description}" FontSize="10" TextWrapping="Wrap" TextAlignment="Justify"/>
+
+                                                        <StackPanel Visibility="{Binding DataItem.HasComparedValue, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                                                            <Viewbox Margin="0,10,0,0" Height="20" Width="205" StretchDirection="DownOnly" Stretch="Uniform">
+                                                                <StackPanel Orientation="Horizontal">
+                                                                    <Image Source="{Binding DataItem.ComparedTank, Converter={StaticResource ComparedTankIconConverter}}" Stretch="None" />
+                                                                    <TextBlock x:Uid="Versus" FontWeight="Bold" FontSize="16" Text="V.S." VerticalAlignment="Center" />
+                                                                    <TextBlock Margin="5,0,0,0" FontWeight="Bold" FontSize="16" Text="{Binding DataItem.ComparedTank.Tank.ShortName}" VerticalAlignment="Center" />
+                                                                </StackPanel>
+                                                            </Viewbox>
+                                                            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/DataTipSeparator.png" Stretch="None" Margin="-14,0" />
+                                                            <Grid>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="4*"/>
+                                                                    <ColumnDefinition Width="7*"/>
+                                                                </Grid.ColumnDefinitions>
+                                                                <TextBlock x:Uid="BenchmarkValue" Text="Benchmark:" />
+                                                                <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal" >
+                                                                    <TextBlock Margin="3,0" Text="{Binding DataItem.ComparedValue}" />
+                                                                    <TextBlock Margin="3,0" Foreground="{Binding DataItem.DeltaRatio, Converter={StaticResource RatioToSolidColorBrushConverter}}" Text="{Binding DataItem.DeltaValue, StringFormat={}({0})}">
+                                                                        <TextBlock.Style>
+                                                                            <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                                                                <Setter Property="Visibility" Value="Visible" />
+                                                                                <Style.Triggers>
+                                                                                    <DataTrigger Binding="{Binding DataItem.DeltaValue}" Value="{x:Null}">
+                                                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                                                    </DataTrigger>
+                                                                                </Style.Triggers>
+                                                                            </Style>
+                                                                        </TextBlock.Style>
+                                                                    </TextBlock>
+
+                                                                    <Image Margin="3,0" Stretch="None">
+                                                                        <Image.Source>
+                                                                            <MultiBinding Converter="{StaticResource RatioToComparationIconConverter}">
+                                                                                <Binding Path="DataItem.DeltaRatio" />
+                                                                                <Binding Path="DataItem.Descriptor.ComparationMode" />
+                                                                            </MultiBinding>
+                                                                        </Image.Source>
+                                                                    </Image>
+                                                                </StackPanel>
+                                                            </Grid>
+
+                                                        </StackPanel>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </ToolTip>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding DataItem.IsDarken}" Value="True">
+                                            <DataTrigger.EnterActions>
+                                                <BeginStoryboard Storyboard="{StaticResource DarkenDataItem}" />
+                                            </DataTrigger.EnterActions>
+                                            <DataTrigger.ExitActions>
+                                                <BeginStoryboard Storyboard="{StaticResource UndarkenDataItem}" />
+                                            </DataTrigger.ExitActions>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+
+                                <Style TargetType="TextBlock" x:Key="ComplexDataItemHeader" BasedOn="{StaticResource DataTitle}" >
+                                    <Setter Property="Opacity" Value="1.0" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsDarken}" Value="True">
+                                            <DataTrigger.EnterActions>
+                                                <BeginStoryboard Storyboard="{StaticResource DarkenDataItem}" />
+                                            </DataTrigger.EnterActions>
+                                            <DataTrigger.ExitActions>
+                                                <BeginStoryboard Storyboard="{StaticResource UndarkenDataItem}" />
+                                            </DataTrigger.ExitActions>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+
+                                <DataTemplate DataType="{x:Type ui:DataItemViewModel}">
+                                    <Grid Style="{StaticResource DataItemRow}">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="20" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="{Binding Name}" Style="{StaticResource DataTitle}"/>
+                                        <ui:ChangeAnimationContentControl Style="{StaticResource DataValue}" />
+                                        <Viewbox StretchDirection="DownOnly" Grid.Column="2" HorizontalAlignment="Right">
+                                            <ui:ChangeAnimationContentControl Style="{StaticResource ComparedDataValue}" />
+                                        </Viewbox>
+                                    </Grid>
+                                </DataTemplate>
+
+                                <DataTemplate DataType="{x:Type ui:ComplexDataItemViewModel}">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="{Binding Name}" Style="{StaticResource ComplexDataItemHeader}"/>
+                                        <ItemsControl ItemsSource="{Binding Items}" Grid.Row="1" >
+                                            <ItemsControl.Resources>
+                                                <DataTemplate DataType="{x:Type ui:DataItemViewModel}">
+                                                    <Grid Style="{StaticResource DataItemRow}" >
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="auto" />
+                                                            <ColumnDefinition Width="*" />
+                                                            <ColumnDefinition Width="20" />
+                                                        </Grid.ColumnDefinitions>
+                                                        <TextBlock Text="{Binding Name}" Style="{StaticResource DataSubTitle}"/>
+                                                        <ui:ChangeAnimationContentControl Style="{StaticResource DataValue}" />
+                                                        <Viewbox StretchDirection="DownOnly" Grid.Column="2" HorizontalAlignment="Right">
+                                                            <ui:ChangeAnimationContentControl Style="{StaticResource ComparedDataValue}" />
+                                                        </Viewbox>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ItemsControl.Resources>
+                                        </ItemsControl>
+                                    </Grid>
+                                </DataTemplate>
+
+                            </ItemsControl.Resources>
+                        </ItemsControl>
+                    </StackPanel>
+                </Grid>
+            </DataTemplate>
+        </ContentControl.ContentTemplate>
+    </ContentControl>
+</UserControl>

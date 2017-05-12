@@ -1,0 +1,257 @@
+﻿<UserControl x:Name="Root"
+             x:Class="Smellyriver.TankInspector.UIComponents.ModelView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:Smellyriver.TankInspector"
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             mc:Ignorable="d"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:gfx="clr-namespace:Smellyriver.TankInspector.Graphics"
+             xmlns:gfxfx="clr-namespace:Smellyriver.TankInspector.Graphics.Frameworks"
+             xmlns:scene="clr-namespace:Smellyriver.TankInspector.Graphics.Scene"
+             d:DesignHeight="600" d:DesignWidth="800">
+    <!-- The Viewport3D provides a rendering surface for 3-D visual content. -->
+    <UserControl.Resources>
+        <design:ModelConverter x:Key="ModelConverter" />
+        <design:SharpDxConverter x:Key="SharpDXConverter" />
+        <design:RectangleToPositionsConverter x:Key="RectangleToPositionsConverter" />
+        <design:NationalFlagConverter x:Key="NationalFlagConverter" Type="Small" />
+        <design:TankClassIconConverter x:Key="TankClassIconConverter" Type="Auto" />
+
+
+        <FrameworkElement x:Key="ProxyElement" DataContext="{Binding}">
+        </FrameworkElement>
+        
+
+        <Style x:Key="PopupStyle" TargetType="Grid">
+            <Style.Resources>
+                <system:Double x:Key="TipWidth">284</system:Double>
+            </Style.Resources>
+            
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="{StaticResource TipWidth}" />
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="ModelNameStyle" BasedOn="{StaticResource {x:Type TextBlock}}">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="36" />
+        </Style>
+
+
+        <Style x:Key="PopupContentStyle" TargetType="ContentControl">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ContentControl">
+                        <Grid>
+                            <DockPanel LastChildFill="True">
+                                <Image Margin="-59,-59,-59,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ModulePopupHeader.png" DockPanel.Dock="Top" />
+                                <Image Margin="-59,0,-59,-56" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ModulePopupFooter.png" DockPanel.Dock="Bottom">
+                                    
+                                </Image>
+                                <Grid Margin="-59,0">
+                                    <Grid.Background>
+                                        <ImageBrush ImageSource="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ModulePopupFill.png" Stretch="Fill" />
+                                    </Grid.Background>
+                                    <ContentPresenter Margin="59,0" />
+                                </Grid>
+                            </DockPanel>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+
+        <BitmapImage  x:Key="Logo"
+            UriSource="/Resources/Images/UIElements/SmellyriverLogo.png"/>
+
+        <DiffuseMaterial x:Key="LogoMaterial">
+            <DiffuseMaterial.Brush>
+                <ImageBrush ImageSource="{StaticResource Logo}"/>
+            </DiffuseMaterial.Brush>
+        </DiffuseMaterial>
+
+        <Storyboard x:Key="Logo3DStoryboard">
+            <DoubleAnimation 
+                              Storyboard.TargetName="myAngleRotation"
+                              Storyboard.TargetProperty="Angle"
+                              From="0" To="360" Duration="0:0:1"
+                              RepeatBehavior="Forever" />
+        </Storyboard>
+
+        <!--<RotateTransform3D x:Key="Rotation" d:EulerAngles="0,40,0">
+            <RotateTransform3D.Rotation>
+                <AxisAngleRotation3D Axis="0,1,0" Angle="{Binding Value,ElementName=RotationSlider}"/>
+            </RotateTransform3D.Rotation>
+        </RotateTransform3D>
+
+        <RotateTransform3D x:Key="Yaw" d:EulerAngles="0,40,0">
+            <RotateTransform3D.Rotation>
+                <AxisAngleRotation3D Axis="1,0,0" Angle="{Binding Value,ElementName=YawSlider}"/>
+            </RotateTransform3D.Rotation>
+        </RotateTransform3D>-->
+
+        <Transform3DGroup x:Key="ChassisTransform">
+            <TranslateTransform3D OffsetY="-1.5"
+                                  />
+            <MatrixTransform3D Matrix="-1.0,0.0,0.0,0,0.0,1.0,0.0,0,0.0,0.0,1.0,0,0.0,0.0,0.0,1" >         
+            </MatrixTransform3D>
+            <!--<StaticResource ResourceKey="Rotation"/>
+            <StaticResource ResourceKey="Yaw"/>-->
+        </Transform3DGroup>
+
+        <Transform3DGroup x:Key="HullTransform">
+            <TranslateTransform3D OffsetX="{Binding HullPosition.X}"
+                                   OffsetY="{Binding HullPosition.Y}"
+                                   OffsetZ="{Binding HullPosition.Z}"
+                                  />
+            <StaticResource ResourceKey="ChassisTransform"/>
+        </Transform3DGroup>
+
+        <Transform3DGroup x:Key="TurretTransform">
+            <TranslateTransform3D OffsetX="{Binding TurretPosition.X}"
+                                   OffsetY="{Binding TurretPosition.Y}"
+                                   OffsetZ="{Binding TurretPosition.Z}"
+                                  />
+            <StaticResource ResourceKey="HullTransform"/>
+        </Transform3DGroup>
+
+        <Transform3DGroup x:Key="NameTransform">
+            <TranslateTransform3D OffsetY="2.1"/>
+            <MatrixTransform3D Matrix="-1.0,0.0,0.0,0,0.0,1.0,0.0,0,0.0,0.0,1.0,0,0.0,0.0,0.0,1" />
+            <StaticResource ResourceKey="TurretTransform"/>
+        </Transform3DGroup>
+
+        <Transform3DGroup x:Key="GunTransform">
+            <TranslateTransform3D OffsetX="{Binding GunPosition.X}"
+                                   OffsetY="{Binding GunPosition.Y}"
+                                   OffsetZ="{Binding GunPosition.Z}"
+                                  />
+            <StaticResource ResourceKey="TurretTransform"/>
+        </Transform3DGroup>
+
+
+
+        <ModelVisual3D x:Key="AmbientLight">
+            <ModelVisual3D.Content>
+                <AmbientLight Color="White">
+                </AmbientLight>
+            </ModelVisual3D.Content>
+        </ModelVisual3D>
+
+        <ModelVisual3D x:Key="DirectionalLight1">
+            <ModelVisual3D.Content>
+                <DirectionalLight Color="White">
+                    <DirectionalLight.Direction>
+                        <Vector3D X="0.8" Y ="-0.6" Z="-0.8"></Vector3D>
+                    </DirectionalLight.Direction>
+                    <DirectionalLight.Transform>
+                        <Transform3DGroup>
+                        </Transform3DGroup>
+                    </DirectionalLight.Transform>
+                </DirectionalLight>
+            </ModelVisual3D.Content>
+        </ModelVisual3D>
+
+        <ModelVisual3D x:Key="DirectionalLight2">
+            <ModelVisual3D.Content>
+                <DirectionalLight Color="White">
+                    <DirectionalLight.Direction>
+                        <Vector3D X="0.0" Y ="-1" Z="0"></Vector3D>
+                    </DirectionalLight.Direction>
+                    <DirectionalLight.Transform>
+                        <Transform3DGroup>
+                        </Transform3DGroup>
+                    </DirectionalLight.Transform>
+                </DirectionalLight>
+            </ModelVisual3D.Content>
+        </ModelVisual3D>
+        
+    </UserControl.Resources>
+
+    <Grid>      
+        
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0" Opacity="0.5">
+            <StackPanel Orientation="Horizontal" Visibility="{Binding ShowFPS, Source={x:Static local:ApplicationSettings.Default}, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                <TextBlock x:Uid="FPS">FPS: </TextBlock>
+                <TextBlock Text="{Binding FPS, StringFormat=F1}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Visibility="{Binding ShowModelTriangleCount, Source={x:Static local:ApplicationSettings.Default}, Converter={StaticResource BoolToVisibleCollapsedConverter}}">
+                <TextBlock x:Uid="Triangles">Triangles: </TextBlock>
+                <TextBlock Text="{Binding TriangleCount}" />
+            </StackPanel>
+        </StackPanel>
+        
+        <!--<Slider Name="RotationSlider" Height="25" DockPanel.Dock="Bottom" Minimum="-180" Maximum="180"/>
+        <Slider Name="YawSlider" Width="25"  Orientation="Vertical"  DockPanel.Dock="Left" Minimum="-60" Maximum="60"/>-->
+        <ContentControl Visibility="Collapsed"
+             Content="{StaticResource ProxyElement}"/>
+
+        <gfxfx:DxElement RenderActivityLevel ="{Binding RenderActivityLevel}" SnapsToDevicePixels="True" UseLayoutRounding="True">
+            <gfxfx:DxElement.Renderer>
+                <scene:HangarScene x:Name="hangarScene"
+                    Hull ="{Binding DataContext.Hull, Source={StaticResource ProxyElement}}"
+                    HullPosition ="{Binding DataContext.HullPosition,Source={StaticResource ProxyElement},Converter={StaticResource SharpDXConverter}}"
+                    Turret ="{Binding DataContext.Turret, Source={StaticResource ProxyElement}}"
+                    TurretPosition ="{Binding DataContext.TurretPosition,Source={StaticResource ProxyElement},Converter={StaticResource SharpDXConverter}}"
+                    Gun ="{Binding DataContext.Gun, Source={StaticResource ProxyElement}}"
+                    GunPosition ="{Binding DataContext.GunPosition,Source={StaticResource ProxyElement},Converter={StaticResource SharpDXConverter}}"            
+                    Chassis ="{Binding DataContext.Chassis, Source={StaticResource ProxyElement}}"
+                    RegularArmorSpectrumStops="{Binding DataContext.RegularArmorSpectrumStops, Source={StaticResource ProxyElement}}"
+                    SpacingArmorSpectrumStops="{Binding DataContext.SpacingArmorSpectrumStops, Source={StaticResource ProxyElement}}"
+                    RegularArmorValueSelectionBegin="{Binding DataContext.RegularArmorValueSelectionBegin, Source={StaticResource ProxyElement}}"
+                    RegularArmorValueSelectionEnd="{Binding DataContext.RegularArmorValueSelectionEnd, Source={StaticResource ProxyElement}}"
+                    SpacingArmorValueSelectionBegin="{Binding DataContext.SpacingArmorValueSelectionBegin, Source={StaticResource ProxyElement}}"
+                    SpacingArmorValueSelectionEnd="{Binding DataContext.SpacingArmorValueSelectionEnd, Source={StaticResource ProxyElement}}"
+                    TankThickestArmor="{Binding DataContext.TankThickestArmor, Source={StaticResource ProxyElement}}"
+                    TankThinnestArmor="{Binding DataContext.TankThinnestArmor, Source={StaticResource ProxyElement}}"
+                    TankThickestSpacingArmor="{Binding DataContext.TankThickestSpacingArmor, Source={StaticResource ProxyElement}}"
+                    TankThinnestSpacingArmor="{Binding DataContext.TankThinnestSpacingArmor, Source={StaticResource ProxyElement}}"
+                    ModelType="{Binding DataContext.ModelType, Source={StaticResource ProxyElement}}" 
+                    RegularArmorHintValue="{Binding DataContext.RegularArmorHintValue, Source={StaticResource ProxyElement},Mode=TwoWay}" 
+                    SpacingArmorHintValue="{Binding DataContext.SpacingArmorHintValue, Source={StaticResource ProxyElement},Mode=TwoWay}" 
+                    HasRegularArmorHintValue="{Binding DataContext.HasRegularArmorHintValue, Source={StaticResource ProxyElement},Mode=TwoWay}" 
+                    HasSpacingArmorHintValue="{Binding DataContext.HasSpacingArmorHintValue, Source={StaticResource ProxyElement},Mode=TwoWay}"                     
+                    MousePoition="{Binding DataContext.MousePosition, Source={StaticResource ProxyElement}}"
+                    Fps="{Binding DataContext.FPS, Source={StaticResource ProxyElement},Mode=TwoWay}"
+                    TriangleCount="{Binding DataContext.TriangleCount, Source={StaticResource ProxyElement},Mode=TwoWay}"
+                    ShootTestResult="{Binding DataContext.ShootTestResult, Source={StaticResource ProxyElement},Mode=TwoWay}"
+                    IsMouseOverModel="{Binding DataContext.IsMouseOverModel, Source={StaticResource ProxyElement},Mode=TwoWay}"
+                    IsHitTestEnabled="{Binding DataContext.IsHitTestEnabled, Source={StaticResource ProxyElement}}"
+                    TestShell="{Binding DataContext.TestShell, Source={StaticResource ProxyElement}}"
+                    CameraMode="{Binding DataContext.CameraMode, Source={StaticResource ProxyElement}}"
+                    TrackBallTransform="{Binding DataContext.TrackBallTransform, Source={StaticResource ProxyElement},Converter={StaticResource SharpDXConverter}}"
+                    LookDirection="{Binding DataContext.LookDirection, Source={StaticResource ProxyElement},Converter={StaticResource SharpDXConverter}}"
+                    Zoom="{Binding DataContext.Zoom, Source={StaticResource ProxyElement}}"  
+                    ShotDistance="{Binding DataContext.Distance, Source={StaticResource ProxyElement}}"
+                    TurretYaw="{Binding DataContext.TurretYaw, Source={StaticResource ProxyElement}}"
+                    GunPitch="{Binding DataContext.GunPitch, Source={StaticResource ProxyElement}}"           
+                    >
+                    <scene:HangarScene.Renderer>
+                        <gfxfx:D3D9/>
+                    </scene:HangarScene.Renderer>
+                </scene:HangarScene>
+            </gfxfx:DxElement.Renderer>
+        </gfxfx:DxElement>
+
+
+
+        <ui:Capture3DInputBorder x:Name="trackballBorder" MouseDown="TrackballBorder_MouseDown" MouseUp="TrackballBorder_MouseUp" MouseMove="TrackballBorder_MouseMove"
+                            CameraMode="{Binding CameraMode}"
+                            Transform="{Binding TrackBallTransform,Mode=OneWayToSource}"
+                            LookDirection="{Binding LookDirection,Mode=OneWayToSource}"
+                            Zoom="{Binding Zoom,Mode=OneWayToSource}"
+                            VehicleYaw="{Binding VehicleYaw,Mode=OneWayToSource}">
+                            
+
+
+        </ui:Capture3DInputBorder>
+
+    </Grid>
+</UserControl>
+

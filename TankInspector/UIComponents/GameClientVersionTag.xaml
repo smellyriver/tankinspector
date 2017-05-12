@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.GameClientVersionTag"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             mc:Ignorable="d" 
+             x:Name="_this">
+    <UserControl.Resources>
+        <x:Array Type="Brush" x:Key="TagBrushes">
+            <SolidColorBrush>DarkGoldenrod</SolidColorBrush>
+            <SolidColorBrush>DarkSlateBlue</SolidColorBrush>
+            <SolidColorBrush>DarkRed</SolidColorBrush>
+            <SolidColorBrush>DarkCyan</SolidColorBrush>
+            <SolidColorBrush>DarkGreen</SolidColorBrush>
+            <SolidColorBrush>DarkMagenta</SolidColorBrush>
+            <SolidColorBrush>DarkOrchid</SolidColorBrush>
+        </x:Array>
+    </UserControl.Resources>
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="Border" CornerRadius="3" BorderThickness="1" Background="DarkMagenta" Padding="2,0">
+        <TextBlock x:Name="VersionDisplay" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="{StaticResource CondensedFont}" Text="9.0CT" />
+    </Border>
+</UserControl>

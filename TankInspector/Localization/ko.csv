@@ -1,0 +1,1087 @@
+﻿Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,LocalizationVersion:System.Int32.$Content,None,TRUE,TRUE,,35
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LocalizerLinkURL:System.String.$Content,None,TRUE,TRUE,,http://gall.dcinside.com/list.php?id=worldoftanks
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CommonTest:System.String.$Content,None,TRUE,TRUE,,CT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ObsoleteLocalization:System.String.$Content,None,TRUE,TRUE,,기간이 만료되서 호환되지 않는 언어팩입니다. 업데이트해주세요.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ObsoleteLocalizationTitle:System.String.$Content,None,TRUE,TRUE,,만료된 언어팩
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FollowingAreInvalidGamePathes:System.String.$Content,None,TRUE,TRUE,,설정에서 잘못된 게임 경로가 선택되었습니다:
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelectedGamePathIsInvalid:System.String.$Content,None,TRUE,TRUE,,"잘못된 게임 경로입니다, 다시 선택하세요."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelectGameRootFolder:System.String.$Content,None,TRUE,TRUE,,게임이 설치된 폴더를 선택하세요.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameFolderChangedMessage:System.String.$Content,None,TRUE,TRUE,,변경된 게임 경로는 다음 실행부터 적용됩니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameFolderChangedTitle:System.String.$Content,None,TRUE,TRUE,,게임 경로 변경됨
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMailAddress:System.String.$Content,None,TRUE,TRUE,,잘못된 메일 주소입니다. 다시 입력하거나 입력을 원치 않으면 공란으로 두세요.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMailAddressTitle:System.String.$Content,None,TRUE,TRUE,,잘못된 메일 주소
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DonationTip:System.String.$Content,None,TRUE,TRUE,,"Smellyriver와 Tank Inspector를 지원해주셔서 정말 감사합니다. 
+
+기부 페이지로 자동으로 이동합니다. 기부하실때 이메일 주소를 꼭 입력해주세요."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DonationTitle:System.String.$Content,None,TRUE,TRUE,,감사합니다!
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidGamePath:System.String.$Content,None,TRUE,TRUE,,잘못된 클라이언트 경로
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HeavyTank:System.String.$Content,None,TRUE,TRUE,,중전차
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MediumTank:System.String.$Content,None,TRUE,TRUE,,중형전차
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LightTank:System.String.$Content,None,TRUE,TRUE,,경전차
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankDestroyer:System.String.$Content,None,TRUE,TRUE,,구축전차
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelfPropelledGun:System.String.$Content,None,TRUE,TRUE,,자주포
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HeavyTankShort:System.String.$Content,None,TRUE,TRUE,,HT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MediumTankShort:System.String.$Content,None,TRUE,TRUE,,MT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_LightTankShort:System.String.$Content,None,TRUE,TRUE,,LT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankDestroyerShort:System.String.$Content,None,TRUE,TRUE,,TD
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SelfPropelledGunShort:System.String.$Content,None,TRUE,TRUE,,SPG
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BenchmarkTankName:System.String.$Content,None,TRUE,TRUE,,{0} 밴치마크 {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BenchmarkTankShortName:System.String.$Content,None,TRUE,TRUE,,{0}-{1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Tier:System.String.$Content,None,TRUE,TRUE,,티어
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Name:System.String.$Content,None,TRUE,TRUE,,이름
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Elite:System.String.$Content,None,TRUE,TRUE,,정예
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankTaxologyDescription:System.String.$Content,None,TRUE,TRUE,,{0} 티어 {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EliteTankTaxologyDescription:System.String.$Content,None,TRUE,TRUE,,{0}티어 정예 {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AP:System.String.$Content,None,TRUE,TRUE,,철갑탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_APCR:System.String.$Content,None,TRUE,TRUE,,고속 철갑탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_APHE:System.String.$Content,None,TRUE,TRUE,,철갑 고폭탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HE:System.String.$Content,None,TRUE,TRUE,,고폭탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HEAT:System.String.$Content,None,TRUE,TRUE,,성형작약탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PremiumHE:System.String.$Content,None,TRUE,TRUE,,프리미엄 고폭탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellTypeDisplay:System.String.$Content,None,TRUE,TRUE,,{0}mm {1}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessNotApplicable:System.String.$Content,None,TRUE,TRUE,,N/A
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessRicochet:System.String.$Content,None,TRUE,TRUE,,도탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquivalentThicknessUnpenetratable:System.String.$Content,None,TRUE,TRUE,,∞
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDevice:System.String.$Content,None,TRUE,TRUE,,관측장비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotator:System.String.$Content,None,TRUE,TRUE,,포탑 구동부
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBay:System.String.$Content,None,TRUE,TRUE,,탄약고
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Diesel:System.String.$Content,None,TRUE,TRUE,,디젤
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gasoline:System.String.$Content,None,TRUE,TRUE,,가솔린
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTank:System.String.$Content,None,TRUE,TRUE,,연료 탱크
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Penetration:System.String.$Content,None,TRUE,TRUE,,관통력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Caliber:System.String.$Content,None,TRUE,TRUE,,구경
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Damage:System.String.$Content,None,TRUE,TRUE,,데미지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Armor:System.String.$Content,None,TRUE,TRUE,,장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Price:System.String.$Content,None,TRUE,TRUE,,가격
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PricePerDamage:System.String.$Content,None,TRUE,TRUE,,데미지당 가격비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePower:System.String.$Content,None,TRUE,TRUE,,마력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SpecificPower:System.String.$Content,None,TRUE,TRUE,,추중비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FireChance:System.String.$Content,None,TRUE,TRUE,,화재 확률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DefaultSuperstructure:System.String.$Content,None,TRUE,TRUE,,(기본 차체)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxLoad:System.String.$Content,None,TRUE,TRUE,,한계 중량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioDistance:System.String.$Content,None,TRUE,TRUE,,통신 범위
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AddDatabase:System.String.$Content,None,TRUE,TRUE,,다른 버전의 게임 클라이언트를 추가합니다...
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameVersionExisted:System.String.$Content,None,TRUE,TRUE,,같은 버전의 클라이언트가 이미 존재합니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GameVersionExistedTitle:System.String.$Content,None,TRUE,TRUE,,존재하는 클라이언트 버전
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverseYes:System.String.$Content,None,TRUE,TRUE,,예
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverseNo:System.String.$Content,None,TRUE,TRUE,,아니요
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NotApplicable:System.String.$Content,None,TRUE,TRUE,,n/a
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_At400m:System.String.$Content,None,TRUE,TRUE,,400m에서
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveEquipment:System.String.$Content,None,TRUE,TRUE,,제거
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveEquipmentDescription:System.String.$Content,None,TRUE,TRUE,,이 장비 제거
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveConsumable:System.String.$Content,None,TRUE,TRUE,,제거
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RemoveConsumableDescription:System.String.$Content,None,TRUE,TRUE,,이 소모품 제거
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyEquipmentSlot:System.String.$Content,None,TRUE,TRUE,,빈 장비 슬롯
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyEquipmentSlotDescription:System.String.$Content,None,TRUE,TRUE,,선택할 장비를 클릭하세요
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyConsumableSlot:System.String.$Content,None,TRUE,TRUE,,빈 소모품 슬롯
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EmptyConsumableSlotDescription:System.String.$Content,None,TRUE,TRUE,,선택할 소모품을 클릭하세요
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SecondsBeforeCamouflageNetActivate:System.String.$Content,None,TRUE,TRUE,,{0} 초간 대기
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NormalCamouflageValue:System.String.$Content,None,TRUE,TRUE,,기본수치: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SecondsBeforeStereoscopeActivate:System.String.$Content,None,TRUE,TRUE,,{0} 초간 대기
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_NormalViewRangeValue:System.String.$Content,None,TRUE,TRUE,,기본수치: {0}
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BasicSkill:System.String.$Content,None,TRUE,TRUE,,일반 스킬
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BasicSkills:System.String.$Content,None,TRUE,TRUE,,일반 스킬들
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitSeconds:System.String.$Content,None,TRUE,TRUE,,{0} 초
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMinutes:System.String.$Content,None,TRUE,TRUE,,{0} 분
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPer100Meters:System.String.$Content,None,TRUE,TRUE,,{0}×20mil
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitFactor:System.String.$Content,None,TRUE,TRUE,,{0} ɑ
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMillimeters:System.String.$Content,None,TRUE,TRUE,,{0} mm
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMeters:System.String.$Content,None,TRUE,TRUE,,{0} m
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitShotsPerMinute:System.String.$Content,None,TRUE,TRUE,,{0} 발/분
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitDegrees:System.String.$Content,None,TRUE,TRUE,,{0}°
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitTimes:System.String.$Content,None,TRUE,TRUE,,{0}x
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitDegreesPerSecond:System.String.$Content,None,TRUE,TRUE,,{0}°/초
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitShots:System.String.$Content,None,TRUE,TRUE,,{0} 발
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHealthPoints:System.String.$Content,None,TRUE,TRUE,,{0} HP
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHealthPointsPerMinute:System.String.$Content,None,TRUE,TRUE,,{0} HP/분
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitKilograms:System.String.$Content,None,TRUE,TRUE,,{0} kg
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitPerMeter:System.String.$Content,None,TRUE,TRUE,,{0}/m
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPerSecond:System.String.$Content,None,TRUE,TRUE,,{0} m/초
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitMetersPerSquareSecond:System.String.$Content,None,TRUE,TRUE,,{0} m/초²
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitNewtons:System.String.$Content,None,TRUE,TRUE,,{0} N
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitKilometersPerHour:System.String.$Content,None,TRUE,TRUE,,{0} km/h
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHorsePowers:System.String.$Content,None,TRUE,TRUE,,{0} 마력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitHorsePowersPerTon:System.String.$Content,None,TRUE,TRUE,,{0} 마력/톤
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitCredits:System.String.$Content,None,TRUE,TRUE,,{0} 크레딧
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitGolds:System.String.$Content,None,TRUE,TRUE,,{0} 골드
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitCreditsPerHealthPoint:System.String.$Content,None,TRUE,TRUE,,{0} 크레딧/HP
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnitGoldsPerHealthPoint:System.String.$Content,None,TRUE,TRUE,,{0} 골드/HP
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Turrets:System.String.$Content,None,TRUE,TRUE,,포탑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Engines:System.String.$Content,None,TRUE,TRUE,,엔진
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Radios:System.String.$Content,None,TRUE,TRUE,,무전기
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Hull:System.String.$Content,None,TRUE,TRUE,,동체
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gun:System.String.$Content,None,TRUE,TRUE,,주포
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Shells:System.String.$Content,None,TRUE,TRUE,,포탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagePerMinute:System.String.$Content,None,TRUE,TRUE,,분당 데미지율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RateOfFire:System.String.$Content,None,TRUE,TRUE,,분당 발사속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ReloadTime:System.String.$Content,None,TRUE,TRUE,,재장전 시간
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ClipCount:System.String.$Content,None,TRUE,TRUE,,클립 탄 수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ClipReloadTime:System.String.$Content,None,TRUE,TRUE,,클립 재장전 시간
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BurstCount:System.String.$Content,None,TRUE,TRUE,,연사 탄수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BurstRateOfFire:System.String.$Content,None,TRUE,TRUE,,연사 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxAmmo:System.String.$Content,None,TRUE,TRUE,,최대 포탄 적재량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Accuracy:System.String.$Content,None,TRUE,TRUE,,명중률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AimingTime:System.String.$Content,None,TRUE,TRUE,,조준 시간
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunShotDispersion:System.String.$Content,None,TRUE,TRUE,,조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionAfterShot:System.String.$Content,None,TRUE,TRUE,,사격 후 
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnTurretRotation:System.String.$Content,None,TRUE,TRUE,,포탑 회전 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnTurretFullSpeedRotating:System.String.$Content,None,TRUE,TRUE,,포탑 최대속력 회전 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionWhileGunDamaged:System.String.$Content,None,TRUE,TRUE,,주포 손상 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Elevation:System.String.$Content,None,TRUE,TRUE,,앙각
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Depression:System.String.$Content,None,TRUE,TRUE,,부각
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HorizontalTraverse:System.String.$Content,None,TRUE,TRUE,,수평 선회 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RotationSpeed:System.String.$Content,None,TRUE,TRUE,,회전 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Health:System.String.$Content,None,TRUE,TRUE,,체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Regenerated:System.String.$Content,None,TRUE,TRUE,,수리 후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,수리 후 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RepairCostFactor:System.String.$Content,None,TRUE,TRUE,,수리 비용 계수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Weight:System.String.$Content,None,TRUE,TRUE,,중량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VerticalTraverse:System.String.$Content,None,TRUE,TRUE,,부앙각
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DefaultPitchLimits:System.String.$Content,None,TRUE,TRUE,,기본
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FrontExtraPitchLimit:System.String.$Content,None,TRUE,TRUE,,전면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BackExtraPitchLimit:System.String.$Content,None,TRUE,TRUE,,후면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExtraPitchLimitTransition:System.String.$Content,None,TRUE,TRUE,,변동
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Turret:System.String.$Content,None,TRUE,TRUE,,포탑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Guns:System.String.$Content,None,TRUE,TRUE,,주포
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CircularVisionRadius:System.String.$Content,None,TRUE,TRUE,,관측 범위
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Frontal:System.String.$Content,None,TRUE,TRUE,,전면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Side:System.String.$Content,None,TRUE,TRUE,,측면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Rear:System.String.$Content,None,TRUE,TRUE,,후면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Shell:System.String.$Content,None,TRUE,TRUE,,포탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ModuleDamage:System.String.$Content,None,TRUE,TRUE,,부품 데미지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExplosionRadius:System.String.$Content,None,TRUE,TRUE,,폭발 반경
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationLossFactorByDistance:System.String.$Content,None,TRUE,TRUE,,관통력 손실 계수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxDistance:System.String.$Content,None,TRUE,TRUE,,최대 거리
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Speed:System.String.$Content,None,TRUE,TRUE,,탄속
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Gravity:System.String.$Content,None,TRUE,TRUE,,중력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Chassis:System.String.$Content,None,TRUE,TRUE,,차체
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SpeedLimits:System.String.$Content,None,TRUE,TRUE,,속력 제한
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Forward:System.String.$Content,None,TRUE,TRUE,,전진
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Backward:System.String.$Content,None,TRUE,TRUE,,후진
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TerrainResistance:System.String.$Content,None,TRUE,TRUE,,지형 저항력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnHardTerrain:System.String.$Content,None,TRUE,TRUE,,단단한 지반
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnMediumTerrain:System.String.$Content,None,TRUE,TRUE,,보통 지반
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OnSoftTerrain:System.String.$Content,None,TRUE,TRUE,,무른 지반
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CanTraverse:System.String.$Content,None,TRUE,TRUE,,피봇
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BrakeForce:System.String.$Content,None,TRUE,TRUE,,제동력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MaxClimbAngle:System.String.$Content,None,TRUE,TRUE,,최대 상승각
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleMove:System.String.$Content,None,TRUE,TRUE,,전차 이동 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleFullSpeedMoving:System.String.$Content,None,TRUE,TRUE,,전차 최대속력 이동 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleRotation:System.String.$Content,None,TRUE,TRUE,,전차 선회 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DispersionOnVehicleFullSpeedRotating:System.String.$Content,None,TRUE,TRUE,,전차 최대속력 선회 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelType:System.String.$Content,None,TRUE,TRUE,,연료 유형
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SignalDistance:System.String.$Content,None,TRUE,TRUE,,통신 범위
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CamouflageValues:System.String.$Content,None,TRUE,TRUE,,위장 수치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_StationaryCamouflageValue:System.String.$Content,None,TRUE,TRUE,,정지 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MovingCamouflageValue:System.String.$Content,None,TRUE,TRUE,,이동 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FiringStationaryCamouflageValue:System.String.$Content,None,TRUE,TRUE,,정지 사격 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FiringMovingCamouflageValue:System.String.$Content,None,TRUE,TRUE,,이동 사격 시
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FirePower:System.String.$Content,None,TRUE,TRUE,,화력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Scoutability:System.String.$Content,None,TRUE,TRUE,,정찰력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Economy:System.String.$Content,None,TRUE,TRUE,,경제력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Miscellaneous:System.String.$Content,None,TRUE,TRUE,,기타
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Mobility:System.String.$Content,None,TRUE,TRUE,,기동성
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Survivability:System.String.$Content,None,TRUE,TRUE,,생존력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Maneuverability:System.String.$Content,None,TRUE,TRUE,,조종성
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Battle:System.String.$Content,None,TRUE,TRUE,,전투
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeed:System.String.$Content,None,TRUE,TRUE,,주포 선회 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverse:System.String.$Content,None,TRUE,TRUE,,주포 수평 선회 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverse:System.String.$Content,None,TRUE,TRUE,,포탑 수평 회전 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeed:System.String.$Content,None,TRUE,TRUE,,포탑 회전 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeed:System.String.$Content,None,TRUE,TRUE,,차체 선회 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeight:System.String.$Content,None,TRUE,TRUE,,동체
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeight:System.String.$Content,None,TRUE,TRUE,,포탑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeight:System.String.$Content,None,TRUE,TRUE,,차체
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeight:System.String.$Content,None,TRUE,TRUE,,주포
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeight:System.String.$Content,None,TRUE,TRUE,,무전기
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EquipmentWeight:System.String.$Content,None,TRUE,TRUE,,장비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeight:System.String.$Content,None,TRUE,TRUE,,엔진
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealth:System.String.$Content,None,TRUE,TRUE,,차체
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,차체 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealth:System.String.$Content,None,TRUE,TRUE,,포탑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,포탑 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealth:System.String.$Content,None,TRUE,TRUE,,탄약고
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,탄약고 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealth:System.String.$Content,None,TRUE,TRUE,,포탑 구동부
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,포탑 구동부 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealth:System.String.$Content,None,TRUE,TRUE,,연료 탱크
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,연료 탱크 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealth:System.String.$Content,None,TRUE,TRUE,,엔진
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,엔진 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealth:System.String.$Content,None,TRUE,TRUE,,궤도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,궤도 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealth:System.String.$Content,None,TRUE,TRUE,,주포
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,주포 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealth:System.String.$Content,None,TRUE,TRUE,,관측장비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,관측장비 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealth:System.String.$Content,None,TRUE,TRUE,,무전기
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioRegeneratedHealth:System.String.$Content,None,TRUE,TRUE,,무전기 - 수리후
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmor:System.String.$Content,None,TRUE,TRUE,,차체 정면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmor:System.String.$Content,None,TRUE,TRUE,,차체 측면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmor:System.String.$Content,None,TRUE,TRUE,,차체 후면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmor:System.String.$Content,None,TRUE,TRUE,,포탑 정면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmor:System.String.$Content,None,TRUE,TRUE,,포탑 측면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmor:System.String.$Content,None,TRUE,TRUE,,포탑 후면
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmor:System.String.$Content,None,TRUE,TRUE,,궤도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmor:System.String.$Content,None,TRUE,TRUE,,주포
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChance:System.String.$Content,None,TRUE,TRUE,,엔진 화재율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPrice:System.String.$Content,None,TRUE,TRUE,,전차 가격
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMaxRepairCost:System.String.$Content,None,TRUE,TRUE,,최대 수리비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiers:System.String.$Content,None,TRUE,TRUE,,배틀 티어
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeight:System.String.$Content,None,TRUE,TRUE,,매치메이킹 비중
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealth:System.String.$Content,None,TRUE,TRUE,,전차
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComponentHealth:System.String.$Content,None,TRUE,TRUE,,부품 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VehicleWeight:System.String.$Content,None,TRUE,TRUE,,전차
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPrice:System.String.$Content,None,TRUE,TRUE,,포탄 가격
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamage:System.String.$Content,None,TRUE,TRUE,,데미지 당 포탄 가격비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealthFullName:System.String.$Content,None,TRUE,TRUE,,탄약고 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeedFullName:System.String.$Content,None,TRUE,TRUE,,차체 선회 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisForwardSpeedLimitFullName:System.String.$Content,None,TRUE,TRUE,,전진 최대속력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBackwardSpeedLimitFullName:System.String.$Content,None,TRUE,TRUE,,후진 최대속력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHardTerrainResistanceFullName:System.String.$Content,None,TRUE,TRUE,,단단한 지형에 대한 적응성
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMediumTerrainResistanceFullName:System.String.$Content,None,TRUE,TRUE,,보통 지형에 대한 적응성
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisSoftTerrainResistanceFullName:System.String.$Content,None,TRUE,TRUE,,무른 지형에 대한 적응성
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisCanTraverseFullName:System.String.$Content,None,TRUE,TRUE,,차체 피봇
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBrakeForceFullName:System.String.$Content,None,TRUE,TRUE,,제동력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxClimbAngleFullName:System.String.$Content,None,TRUE,TRUE,,최대 상승각
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleMoveFullName:System.String.$Content,None,TRUE,TRUE,,전차 이동 시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedMovingFullName:System.String.$Content,None,TRUE,TRUE,,전차 최대속력 이동 시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleRotationFullName:System.String.$Content,None,TRUE,TRUE,,전차 선회 시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedRotatingFullName:System.String.$Content,None,TRUE,TRUE,,전차 최대속력 선회 시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxLoadFullName:System.String.$Content,None,TRUE,TRUE,,현가장치 한계 중량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealthFullName:System.String.$Content,None,TRUE,TRUE,,궤도 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeightFullName:System.String.$Content,None,TRUE,TRUE,,차체 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmorFullName:System.String.$Content,None,TRUE,TRUE,,궤도 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePowerFullName:System.String.$Content,None,TRUE,TRUE,,엔진 출력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineSpecificPowerFullName:System.String.$Content,None,TRUE,TRUE,,추중비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChanceFullName:System.String.$Content,None,TRUE,TRUE,,엔진 화재율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealthFullName:System.String.$Content,None,TRUE,TRUE,,엔진 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeightFullName:System.String.$Content,None,TRUE,TRUE,,엔진 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealthFullName:System.String.$Content,None,TRUE,TRUE,,연료탱크 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankFuelTypeFullName:System.String.$Content,None,TRUE,TRUE,,연료 타입
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunReloadTimeFullName:System.String.$Content,None,TRUE,TRUE,,재장전 시간
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAccuracyFullName:System.String.$Content,None,TRUE,TRUE,,명중률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmorFullName:System.String.$Content,None,TRUE,TRUE,,주포 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAimingTimeFullName:System.String.$Content,None,TRUE,TRUE,,조준 시간
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRateOfFireFullName:System.String.$Content,None,TRUE,TRUE,,분당 발사속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunElevationFullName:System.String.$Content,None,TRUE,TRUE,,앙각
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDepressionFullName:System.String.$Content,None,TRUE,TRUE,,부각
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCamouflageFactorAfterShot:System.String.$Content,None,TRUE,TRUE,,사격 후 위장 수치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionAfterShotFullName:System.String.$Content,None,TRUE,TRUE,,사격시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretRotationFullName:System.String.$Content,None,TRUE,TRUE,,포탑 회전 시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretFullSpeedRotatingFullName:System.String.$Content,None,TRUE,TRUE,,포탑 최대속력 회전 시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionWhileGunDamagedFullName:System.String.$Content,None,TRUE,TRUE,,주포 손상 시 조준원 분산율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverseFullName:System.String.$Content,None,TRUE,TRUE,,주포 수평 선회 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeedFullName:System.String.$Content,None,TRUE,TRUE,,주포 선회 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunMaxAmmoFullName:System.String.$Content,None,TRUE,TRUE,,포탄 적재량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipCountFullName:System.String.$Content,None,TRUE,TRUE,,클립 장탄수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipReloadTimeFullName:System.String.$Content,None,TRUE,TRUE,,클립 재장전 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstCountFullName:System.String.$Content,None,TRUE,TRUE,,연사 탄수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstRateOfFireFullName:System.String.$Content,None,TRUE,TRUE,,연사 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCaliberFullName:System.String.$Content,None,TRUE,TRUE,,구경
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealthFullName:System.String.$Content,None,TRUE,TRUE,,주포 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeightFullName:System.String.$Content,None,TRUE,TRUE,,주포 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmorFullName:System.String.$Content,None,TRUE,TRUE,,차체 정면 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmorFullName:System.String.$Content,None,TRUE,TRUE,,차체 측면 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmorFullName:System.String.$Content,None,TRUE,TRUE,,차체 후면 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealthFullName:System.String.$Content,None,TRUE,TRUE,,차체 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeightFullName:System.String.$Content,None,TRUE,TRUE,,차체 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealthFullName:System.String.$Content,None,TRUE,TRUE,,라디오 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioSignalDistanceFullName:System.String.$Content,None,TRUE,TRUE,,무전기 교신 거리
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeightFullName:System.String.$Content,None,TRUE,TRUE,,무전기 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellCaliberFullName:System.String.$Content,None,TRUE,TRUE,,구경
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellExplosionRadiusFullName:System.String.$Content,None,TRUE,TRUE,,폭발 반경
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellSpeedFullName:System.String.$Content,None,TRUE,TRUE,,탄속
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellGravityFullName:System.String.$Content,None,TRUE,TRUE,,탄 중력가속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellMaxDistanceFullName:System.String.$Content,None,TRUE,TRUE,,탄체 최대 사거리
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationFullName:System.String.$Content,None,TRUE,TRUE,,관통력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationAt400mFullName:System.String.$Content,None,TRUE,TRUE,,400 미터에서의 관통력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellArmorDamageFullName:System.String.$Content,None,TRUE,TRUE,,평균 데미지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellDamagePerMinuteFullName:System.String.$Content,None,TRUE,TRUE,,분당 데미지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellModuleDamageFullName:System.String.$Content,None,TRUE,TRUE,,모듈 피해량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPriceFullName:System.String.$Content,None,TRUE,TRUE,,포탄 가격
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamageFullName:System.String.$Content,None,TRUE,TRUE,,데미지당 포탄 가격
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPiercingPowerLossFactorByDistanceFullName:System.String.$Content,None,TRUE,TRUE,,거리에 따른 관통력 감소 계수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealthFullName:System.String.$Content,None,TRUE,TRUE,,관측장비 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealthFullName:System.String.$Content,None,TRUE,TRUE,,전차 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankWeightFullName:System.String.$Content,None,TRUE,TRUE,,전차 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankEquipmentWeightFullName:System.String.$Content,None,TRUE,TRUE,,장비 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankRepairCostFullName:System.String.$Content,None,TRUE,TRUE,,전차 수리 비용
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeightFullName:System.String.$Content,None,TRUE,TRUE,,매치 메이킹 값
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiersFullName:System.String.$Content,None,TRUE,TRUE,,배틀 티어
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPriceFullName:System.String.$Content,None,TRUE,TRUE,,전차 가격
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankStationaryCamouflageFullName:System.String.$Content,None,TRUE,TRUE,,정차시 위장 수치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMovingCamouflageFullName:System.String.$Content,None,TRUE,TRUE,,이동시 위장 수치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringStationaryCamouflageFullName:System.String.$Content,None,TRUE,TRUE,,사격시 위장 수치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringMovingCamouflageFullName:System.String.$Content,None,TRUE,TRUE,,기동사격시 위장 수치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealthFullName:System.String.$Content,None,TRUE,TRUE,,포탑 구동부 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeedFullName:System.String.$Content,None,TRUE,TRUE,,포탑 회전 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretCircularVisionRadiusFullName:System.String.$Content,None,TRUE,TRUE,,관측 범위
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmorFullName:System.String.$Content,None,TRUE,TRUE,,포탑 정면 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmorFullName:System.String.$Content,None,TRUE,TRUE,,포탑 측면 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmorFullName:System.String.$Content,None,TRUE,TRUE,,포탑 수평 회전 속도
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverseFullName:System.String.$Content,None,TRUE,TRUE,,포탑 후면 장갑
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealthFullName:System.String.$Content,None,TRUE,TRUE,,포탑 체력
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeightFullName:System.String.$Content,None,TRUE,TRUE,,포탑 무게
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AmmoBayHealthDescription:System.String.$Content,None,TRUE,TRUE,,"탄약고 최대 체력. 해당 수리후 체력값 이하로 수치가 떨어지면, 재장전 시간이 100% 증가합니다. 만약 이 수치가 0이되고 포탄이 탄약고에 닿으면, 유폭이 발생하고 전차가 즉시 파괴됩니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisRotationSpeedDescription:System.String.$Content,None,TRUE,TRUE,,차체 선회 속도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisForwardSpeedLimitDescription:System.String.$Content,None,TRUE,TRUE,,순항 전진시 최대 속도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBackwardSpeedLimitDescription:System.String.$Content,None,TRUE,TRUE,,순항 후진시 최대 속도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHardTerrainResistanceDescription:System.String.$Content,None,TRUE,TRUE,,"전차를 단단한 지반(도로, 포장 및 자갈)에서 이동 또는 회전하는 동안 적용되는 저항 요소."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMediumTerrainResistanceDescription:System.String.$Content,None,TRUE,TRUE,,"전차를 일반 지형(몇몇 길, 흙, 모래,초원과 얕은 물)에서 이동 또는 회전하는 동안 적용되는 저항 요소."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisSoftTerrainResistanceDescription:System.String.$Content,None,TRUE,TRUE,,전차를 무른지형(늪지와 깊은 물)에서 이동 또는 회전하는 동안 적용되는 저항 요소.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisCanTraverseDescription:System.String.$Content,None,TRUE,TRUE,,전진이나 후진없이 차체가 선회할 수 있는지의 여부.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisBrakeForceDescription:System.String.$Content,None,TRUE,TRUE,,전차의 제동력.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxClimbAngleDescription:System.String.$Content,None,TRUE,TRUE,,전차가 등반할 수 있는 최대 각도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleMoveDescription:System.String.$Content,None,TRUE,TRUE,,전차 이동 시 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedMovingDescription:System.String.$Content,None,TRUE,TRUE,,전차 최대속력 이동 시 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleRotationDescription:System.String.$Content,None,TRUE,TRUE,,전차 선회 시 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisDispersionOnVehicleFullSpeedRotatingDescription:System.String.$Content,None,TRUE,TRUE,,전차 최대속력 선회 시 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisMaxLoadDescription:System.String.$Content,None,TRUE,TRUE,,현가 장치의 무게 한계.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisHealthDescription:System.String.$Content,None,TRUE,TRUE,,"궤도의 최대 체력.이 값이 0이 된 경우, 궤도가 파괴되어 전차를 움직이거나 선회할수 없게됩니다. 그러나 피해입은 차체는 기동력에 영향을 미치지 않습니다. 각 궤도는 각자 별도의 체력을 가지고 있습니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisWeightDescription:System.String.$Content,None,TRUE,TRUE,,차체 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ChassisArmorDescription:System.String.$Content,None,TRUE,TRUE,,궤도 장갑수치.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EnginePowerDescription:System.String.$Content,None,TRUE,TRUE,,유효 출력 엔진 마력.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineSpecificPowerDescription:System.String.$Content,None,TRUE,TRUE,,"전차 엔진의 마력에 무게를 나눈것으로, 전차의 가속도 능력을 보여줍니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineFireChanceDescription:System.String.$Content,None,TRUE,TRUE,,피격시 엔진 화재 확률.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineHealthDescription:System.String.$Content,None,TRUE,TRUE,,"엔진의 최대 체력을 표시. 만일 이 값이 수리후 체력 값까지 떨어질 경우, 전차는 이동과 선회가 50퍼센트 느려지게됩니다. 이 값이 0이 된다면 엔진은 파괴되고 전차는 움직이거나 선회할 수 없습니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EngineWeightDescription:System.String.$Content,None,TRUE,TRUE,,엔진의 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankHealthDescription:System.String.$Content,None,TRUE,TRUE,,"연료탱크 체력. 이 수치가 0이 되면, 전차에 화재가 발생합니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FuelTankFuelTypeDescription:System.String.$Content,None,TRUE,TRUE,,연료탱크에 적재된 연료의 종류.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunReloadTimeDescription:System.String.$Content,None,TRUE,TRUE,,"재장전 시간. 자동 장전장치의 경우, 한 클립을 장전하는데 걸리는 시간."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAccuracyDescription:System.String.$Content,None,TRUE,TRUE,,"주포의 명중률입니다. 100미터 기준 조준원의 최소 반경으로, 정확히는 조준 중심으로부터 3σ(표준 편차)를 나타냅니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunArmorDescription:System.String.$Content,None,TRUE,TRUE,,주포의 장갑.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunAimingTimeDescription:System.String.$Content,None,TRUE,TRUE,,"주포의 조준 시간으로, 조준원이 조준원의 1/e(약 1/3) 크기로 줄어드는데 필요한 시간을 보여줍니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRateOfFireDescription:System.String.$Content,None,TRUE,TRUE,,1 분당 얼마나 많은 탄을 발사 할수 있는지 알려줍니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunElevationDescription:System.String.$Content,None,TRUE,TRUE,,주포 최대 앙각.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDepressionDescription:System.String.$Content,None,TRUE,TRUE,,주포 최대 부각.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionAfterShotDescription:System.String.$Content,None,TRUE,TRUE,,발포 후 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretRotationDescription:System.String.$Content,None,TRUE,TRUE,,포탑 회전 시 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionOnTurretFullSpeedRotatingDescription:System.String.$Content,None,TRUE,TRUE,,포탑 최대속력 회전 시 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunDispersionWhileGunDamagedDescription:System.String.$Content,None,TRUE,TRUE,,주포 손상 시 적용되는 조준원 분산도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHorizontalTraverseDescription:System.String.$Content,None,TRUE,TRUE,,포탑 수평 선회 범위.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunRotationSpeedDescription:System.String.$Content,None,TRUE,TRUE,,선회 범위 안에서 움직이는동안 포탑의 최대 선회 속도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunMaxAmmoDescription:System.String.$Content,None,TRUE,TRUE,,탄 최대 적재량.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipCountDescription:System.String.$Content,None,TRUE,TRUE,,1 클립당 탄 적재수.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunClipReloadTimeDescription:System.String.$Content,None,TRUE,TRUE,,클립 탄창의 재장전시간.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstCountDescription:System.String.$Content,None,TRUE,TRUE,,1회 사격시 발사되는 탄의 수량.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunBurstRateOfFireDescription:System.String.$Content,None,TRUE,TRUE,,"클립의 재장전이 필요하지 않을 경우, 분당 최대 발사수를 표시합니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunCaliberDescription:System.String.$Content,None,TRUE,TRUE,,포의 구경.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunHealthDescription:System.String.$Content,None,TRUE,TRUE,,"주포의 최대 체력을 표시. 만일 이 값이 수리 후 체력 보다 떨어진 경우, 주포 분산도가 두배 증가합니다. 만일 이 값이 0까지 떨어질 경우 주포는 파괴되고 사격이 불가능하게 됩니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_GunWeightDescription:System.String.$Content,None,TRUE,TRUE,,주포 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullFrontalArmorDescription:System.String.$Content,None,TRUE,TRUE,,전차 정면장갑의 가장 두꺼운 곳.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullSideArmorDescription:System.String.$Content,None,TRUE,TRUE,,전차 측면장갑의 가장 두꺼운 곳.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullRearArmorDescription:System.String.$Content,None,TRUE,TRUE,,전차 후면장갑의 가장 두꺼운 곳.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullHealthDescription:System.String.$Content,None,TRUE,TRUE,,전차의 최대 체력에 반영될 차체의 최대 체력.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HullWeightDescription:System.String.$Content,None,TRUE,TRUE,,차체의 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioHealthDescription:System.String.$Content,None,TRUE,TRUE,,무전기의 최대 체력을 표시. 만일 체력 값이 수리후 체력값 이하로 떨어졌다면 무전 교신거리가 50퍼센트 감소하게 됩니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioSignalDistanceDescription:System.String.$Content,None,TRUE,TRUE,,무전기의 교신거리. 두 가까운 전차는 두 전차의 무전기 교신거리보다 더 긴 거리의 적을 탐지할 수 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RadioWeightDescription:System.String.$Content,None,TRUE,TRUE,,무전기 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellCaliberDescription:System.String.$Content,None,TRUE,TRUE,,포탄 구경.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellExplosionRadiusDescription:System.String.$Content,None,TRUE,TRUE,,고폭탄 폭발 반경
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellSpeedDescription:System.String.$Content,None,TRUE,TRUE,,포탄 체공 속도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellGravityDescription:System.String.$Content,None,TRUE,TRUE,,포탄의 중력가속도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellMaxDistanceDescription:System.String.$Content,None,TRUE,TRUE,,포탄이 날아가는 최대 거리.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPenetrationDescription:System.String.$Content,None,TRUE,TRUE,,포탄의 관통력. 이 수치는 관통력이 선형으로 감소하는 100m와 400m 사이의 거리에서의 관통력에 해당됩니다 . 이 수치는 25% 이하의 범위 내에서 무작위로 변합니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellArmorDamageDescription:System.String.$Content,None,TRUE,TRUE,,포탄 데미지. 이 수치는 25%이하 범위내에서 무작위로 변한다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellDamagePerMinuteDescription:System.String.$Content,None,TRUE,TRUE,,해당 유형의 포탄으로 입힐 수 있는 분당 평균 피해량.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellModuleDamageDescription:System.String.$Content,None,TRUE,TRUE,,모듈과 장비에 입힐 수 있는 데미지.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPriceDescription:System.String.$Content,None,TRUE,TRUE,,1발당 포탄 가격.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPricePerDamageDescription:System.String.$Content,None,TRUE,TRUE,,평균 데미지로 나눈 포탄 가격
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ShellPiercingPowerLossFactorByDistanceDescription:System.String.$Content,None,TRUE,TRUE,,HEAT(성형작약탄)관통력. 만일 공간 장갑에 맞을 경우 관통력은 거리에 비해 감소합니다
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurveyingDeviceHealthDescription:System.String.$Content,None,TRUE,TRUE,,관측 장치의 최대 체력을 표시합니다. 만일 이 값이 수리후 체력값 이하로 떨어졌다면 관측 거리가 50퍼센트 감소합니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankHealthDescription:System.String.$Content,None,TRUE,TRUE,,전차 최대 체력.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankWeightDescription:System.String.$Content,None,TRUE,TRUE,,전차 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankEquipmentWeightDescription:System.String.$Content,None,TRUE,TRUE,,적재한 추가장비 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankRepairCostDescription:System.String.$Content,None,TRUE,TRUE,,전차 최대 수리비.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankBattleTiersDescription:System.String.$Content,None,TRUE,TRUE,,이 전차가 갈수 있는 전투의 티어.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankPriceDescription:System.String.$Content,None,TRUE,TRUE,,스톡 상태의 탱크를 구입할 때의 가격.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankStationaryCamouflageDescription:System.String.$Content,None,TRUE,TRUE,,정지해 있는 상태의 당신을 탐지하려고 하는 적의 무효화된 관측 범위 비율. 실험에 의해 측정되었기 때문에 부정확할 수 있습니다. 주로 AndrasD와 Devilhunter가 한 실험의 결과에 기반을 두고 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMovingCamouflageDescription:System.String.$Content,None,TRUE,TRUE,,이동 중인 상태의 당신을 탐지하려고 하는 적의 무효화된 관측 범위 비율. 실험에 의해 측정되었기 때문에 부정확할 수 있습니다. 주로 AndrasD와 Devilhunter가 한 실험의 결과에 기반을 두고 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringStationaryCamouflageDescription:System.String.$Content,None,TRUE,TRUE,,정지 중 발포하는 상태의 당신을 탐지하려고 하는 적의 무효화된 관측 범위 비율. 실험에 의해 측정되었기 때문에 부정확할 수 있습니다. 주로 AndrasD와 Devilhunter가 한 실험의 결과에 기반을 두고 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankFiringMovingCamouflageDescription:System.String.$Content,None,TRUE,TRUE,,이동 중 발포하는 상태의 당신을 탐지하려고 하는 적의 무효화된 관측 범위 비율. 실험에 의해 측정되었기 때문에 부정확할 수 있습니다. 주로 AndrasD와 Devilhunter가 한 실험의 결과에 기반을 두고 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankMatchmakingWeightDescription:System.String.$Content,None,TRUE,TRUE,,"전차의 매치메이킹 가중치로, 매치메이킹 시스템이 간주하는 팀에 대한 중요도를 나타냅니다."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotatorHealthDescription:System.String.$Content,None,TRUE,TRUE,,포탑 구동장치의 최대 체력을 표시합니다.만일 이 값이 수리후 체력값 이하로 떨어질경우 포탑 회전속도가 50퍼센트 감소합니다.만일 이 값이 0에 도달한다면 포탑은 회전이 불가능하게 됩니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRotationSpeedDescription:System.String.$Content,None,TRUE,TRUE,,포탑 최대 회전속도.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretCircularVisionRadiusDescription:System.String.$Content,None,TRUE,TRUE,,최대 관측거리.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretFrontalArmorDescription:System.String.$Content,None,TRUE,TRUE,,포탑 정면 1단 측 장갑.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretSideArmorDescription:System.String.$Content,None,TRUE,TRUE,,포탑 측면 1단 측 장갑.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretRearArmorDescription:System.String.$Content,None,TRUE,TRUE,,포탑 후면 1 단측 장갑.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHorizontalTraverseDescription:System.String.$Content,None,TRUE,TRUE,,포탑 수평 선회값.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretHealthDescription:System.String.$Content,None,TRUE,TRUE,,전차의 최대 체력에 포함되는 포탑의 최대 체력.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TurretWeightDescription:System.String.$Content,None,TRUE,TRUE,,포탑 무게.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealtDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 입힌 평균 피해량. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceivedDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 받은 평균 피해량. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceivedDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 받은 평균 잠재피해량을 표시합니다. 이 값은 30일간 무작위 전투에 기반. 데이터는 vBAddict.net 정보 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssistDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 스팟으로 도움을 준 평균 피해량. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssistDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 궤도끊기로 도움을 준 평균 피해량. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRateDescription:System.String.$Content,None,TRUE,TRUE,,도탄과 비관통 명중을 포함한 명중률. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperienceDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 얻은 평균 경험치. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncomeDescription:System.String.$Content,None,TRUE,TRUE,,전투당 평균 순 이익. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncomeDescription:System.String.$Content,None,TRUE,TRUE,,전투당 평균 총 수입. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCostDescription:System.String.$Content,None,TRUE,TRUE,,평균 전투비용. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCostDescription:System.String.$Content,None,TRUE,TRUE,,전투당 평균 소모품 가격. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCostDescription:System.String.$Content,None,TRUE,TRUE,,전투당 평균 포탄 가격. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCostDescription:System.String.$Content,None,TRUE,TRUE,,평균 수리비. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileageDescription:System.String.$Content,None,TRUE,TRUE,,전투당 평균 주행거리. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpottedDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 탐지한 평균 전차량. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRateDescription:System.String.$Content,None,TRUE,TRUE,,전차의 승률. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamagedDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 입힌 평균 피해량. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiencyDescription:System.String.$Content,None,TRUE,TRUE,,"전차의 PA. PA는 vBAddict.net에서 사용하고 있는, wot-news 효율 체계의 수정 버전입니다. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7EfficiencyDescription:System.String.$Content,None,TRUE,TRUE,,전차의 Wn7. WN7는 현재 사용되고 있는 표준 효율 체계입니다. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8EfficiencyDescription:System.String.$Content,None,TRUE,TRUE,,전차의 WN8. WN8은 개발 중인 차세대 효율시스템입니다. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiencyDescription:System.String.$Content,None,TRUE,TRUE,,전차의 전투 수용력. 전투 수용력은 XVM 효율 체계의 변형입니다. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilledDescription:System.String.$Content,None,TRUE,TRUE,,전투에서 파괴한 평균 전차량. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTimeDescription:System.String.$Content,None,TRUE,TRUE,,전차의 평균 전투시간. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRateDescription:System.String.$Content,None,TRUE,TRUE,,전차의 생존률. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSizeDescription:System.String.$Content,None,TRUE,TRUE,,전차의 표본 크기. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinuteDescription:System.String.$Content,None,TRUE,TRUE,,분당 획득 경험치. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRateDescription:System.String.$Content,None,TRUE,TRUE,,전차의 관통 비율. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRateDescription:System.String.$Content,None,TRUE,TRUE,,도탄과 비명중 비율. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatioDescription:System.String.$Content,None,TRUE,TRUE,,전투 시작 후 1분 안에 적에게 탐지되어 파괴된 비율. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatioDescription:System.String.$Content,None,TRUE,TRUE,,전차가 잠수한 비율. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeightDescription:System.String.$Content,None,TRUE,TRUE,,전차의 평균 전투 티어. 최근 30일간의 무작위 전투를 기준으로 합니다. vBAddict.net 자료 제공.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealtFullName:System.String.$Content,None,TRUE,TRUE,,평균 입힌 피해량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceivedFullName:System.String.$Content,None,TRUE,TRUE,,평균 입은 피해
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceivedFullName:System.String.$Content,None,TRUE,TRUE,,평균 받은 잠재피해량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssistFullName:System.String.$Content,None,TRUE,TRUE,,관측 중에 얻은 평균 피해
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssistFullName:System.String.$Content,None,TRUE,TRUE,,궤도 파괴로 얻은 평균 피해
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRateFullName:System.String.$Content,None,TRUE,TRUE,,명중률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperienceFullName:System.String.$Content,None,TRUE,TRUE,,평균 경험치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncomeFullName:System.String.$Content,None,TRUE,TRUE,,평균 순수익
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncomeFullName:System.String.$Content,None,TRUE,TRUE,,평균 총수익
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCostFullName:System.String.$Content,None,TRUE,TRUE,,평균 전투 비용
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCostFullName:System.String.$Content,None,TRUE,TRUE,,평균 소모품 소비 비용
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCostFullName:System.String.$Content,None,TRUE,TRUE,,평균 포탄 소비 비용
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCostFullName:System.String.$Content,None,TRUE,TRUE,,평균 수리 비용
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileageFullName:System.String.$Content,None,TRUE,TRUE,,평균 주행 거리
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpottedFullName:System.String.$Content,None,TRUE,TRUE,,평균 탐지한 적
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRateFullName:System.String.$Content,None,TRUE,TRUE,,승률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamagedFullName:System.String.$Content,None,TRUE,TRUE,,평균 입은 피해
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiencyFullName:System.String.$Content,None,TRUE,TRUE,,PA 평균 효율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7EfficiencyFullName:System.String.$Content,None,TRUE,TRUE,,WN7 평균 효율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8EfficiencyFullName:System.String.$Content,None,TRUE,TRUE,,WN8 평균 효율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiencyFullName:System.String.$Content,None,TRUE,TRUE,,전투 수용력 평균 효율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilledFullName:System.String.$Content,None,TRUE,TRUE,,평균 파괴 수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTimeFullName:System.String.$Content,None,TRUE,TRUE,,평균 전투 시간
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRateFullName:System.String.$Content,None,TRUE,TRUE,,생존률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSizeFullName:System.String.$Content,None,TRUE,TRUE,,vBAddict 표본 크기
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinuteFullName:System.String.$Content,None,TRUE,TRUE,,분당 획득 경험치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRateFullName:System.String.$Content,None,TRUE,TRUE,,관통 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRateFullName:System.String.$Content,None,TRUE,TRUE,,비관통/명중 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatioFullName:System.String.$Content,None,TRUE,TRUE,,카미카제 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatioFullName:System.String.$Content,None,TRUE,TRUE,,잠수 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeightFullName:System.String.$Content,None,TRUE,TRUE,,평균 MM 티어 값
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageDealt:System.String.$Content,None,TRUE,TRUE,,평균 입힌 피해량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamageReceived:System.String.$Content,None,TRUE,TRUE,,평균 받은 피해량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AveragePotentialDamageReceived:System.String.$Content,None,TRUE,TRUE,,평균 받은 잠재피해량
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Assist:System.String.$Content,None,TRUE,TRUE,,평균 도움
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotAssist:System.String.$Content,None,TRUE,TRUE,,탐지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDetrackAssist:System.String.$Content,None,TRUE,TRUE,,트랙
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_HitRate:System.String.$Content,None,TRUE,TRUE,,명중 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageExperience:System.String.$Content,None,TRUE,TRUE,,평균 경험치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageIncome:System.String.$Content,None,TRUE,TRUE,,평균 수입
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageNetIncome:System.String.$Content,None,TRUE,TRUE,,순수입
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageGrossIncome:System.String.$Content,None,TRUE,TRUE,,총수입
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_TankOperationCost:System.String.$Content,None,TRUE,TRUE,,전투 비용
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageOperationCost:System.String.$Content,None,TRUE,TRUE,,전체 평균
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageConsumableCost:System.String.$Content,None,TRUE,TRUE,,평균 소모품
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageAmmunitionCost:System.String.$Content,None,TRUE,TRUE,,평균 포탄
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageRepairCost:System.String.$Content,None,TRUE,TRUE,,평균 수리비
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMileage:System.String.$Content,None,TRUE,TRUE,,평균 이동거리
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageSpotted:System.String.$Content,None,TRUE,TRUE,,평균 탐지수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WinRate:System.String.$Content,None,TRUE,TRUE,,승률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageDamaged:System.String.$Content,None,TRUE,TRUE,,평균 데미지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Efficiency:System.String.$Content,None,TRUE,TRUE,,평균 효율성
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWNXEfficiency:System.String.$Content,None,TRUE,TRUE,,PA
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN7Efficiency:System.String.$Content,None,TRUE,TRUE,,WN7
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageWN8Efficiency:System.String.$Content,None,TRUE,TRUE,,WN8
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBoxEfficiency:System.String.$Content,None,TRUE,TRUE,,Box
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageKilled:System.String.$Content,None,TRUE,TRUE,,평균 전차 파괴횟수
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageBattleTime:System.String.$Content,None,TRUE,TRUE,,평균 전투시간
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SurviveRate:System.String.$Content,None,TRUE,TRUE,,생존률
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_VBAddictSampleSize:System.String.$Content,None,TRUE,TRUE,,vBAddict 표본 값
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ExperiencePerMinute:System.String.$Content,None,TRUE,TRUE,,분당 획득 경험치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PenetrationRate:System.String.$Content,None,TRUE,TRUE,,관통 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DamagelessShotsRate:System.String.$Content,None,TRUE,TRUE,,비관통 발사 수 비율(발사한 탄 대비 비관통 비율)
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_KamikazeRatio:System.String.$Content,None,TRUE,TRUE,,충각 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SleepingRatio:System.String.$Content,None,TRUE,TRUE,,잠수 비율
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Matchmaking:System.String.$Content,None,TRUE,TRUE,,매치메이킹
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AverageMatchmakingTierWeight:System.String.$Content,None,TRUE,TRUE,,평균 티어
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithTank:System.String.$Content,None,TRUE,TRUE,,{0}과의 전차 비교
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedGun:System.String.$Content,None,TRUE,TRUE,,{0}과의 교체된 주포 비교
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedTurret:System.String.$Content,None,TRUE,TRUE,,{0}과의 교체된 포탑 비교
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedEngine:System.String.$Content,None,TRUE,TRUE,,{0}과의 교체된 엔진 비교
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedRadio:System.String.$Content,None,TRUE,TRUE,,{0}과의 교체된 라디오 비교
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedChassis:System.String.$Content,None,TRUE,TRUE,,{0}과의 교체된 차체 비교
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ComparingWithReplacedShell:System.String.$Content,None,TRUE,TRUE,,{0}과의 교체된 탄 비교
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownLoginError:System.String.$Content,None,TRUE,TRUE,,알 수 없는 에러로 인한 접속 실패
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_Messages:System.String.$Content,None,TRUE,TRUE,,메시지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_MessagesWithCount:System.String.$Content,None,TRUE,TRUE,,메시지({0})
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectLinkToolTip:System.String.$Content,None,TRUE,TRUE,,{0}과 연결되어있습니다. 선택하여 Tank Inspector 에서 접속을 끊으세요. 나중에 다른 계정으로 접속할 수 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidMessage:System.String.$Content,None,TRUE,TRUE,,에러 : 알수 없는 메시지
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToCreateMessageDirectory:System.String.$Content,None,TRUE,TRUE,,메세지를 저장하는데 실패했습니다. 만약 당신이 받은 메세지에 중요한 내용이 있다면 직접 저장해주십시오.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToCreateMessageDirectoryTitle:System.String.$Content,None,TRUE,TRUE,,오류
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ConnectFailed:System.String.$Content,None,TRUE,TRUE,,접속 실패
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OfflineMessage:System.String.$Content,None,TRUE,TRUE,,"네트워크 문제로 인해, 현재 오프라인 모드입니다. 네트워크 연결이 필요한 기능(ex. LiveStats)은 탱크 인스펙터가 서버에 재연결될때까지 작동하지 않습니다. 
+
+에러 메시지: {0}"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_OfflineTitle:System.String.$Content,None,TRUE,TRUE,,오프라인 모드
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidAccount:System.String.$Content,None,TRUE,TRUE,,이메일 혹은 비밀번호가 잘못되었습니다. 다시 시도해주세요
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_CannotCreateAccount:System.String.$Content,None,TRUE,TRUE,,계정을 생성할 수 없습니다. 화성에서 오셨나요?
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailOccupied:System.String.$Content,None,TRUE,TRUE,,이 이메일은 다른 계정에 의해 사용되고 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailTooLong:System.String.$Content,None,TRUE,TRUE,,이 이메일은 너무 깁니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidEMail:System.String.$Content,None,TRUE,TRUE,,이 이메일은 사용할 수 없습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidInviteCode:System.String.$Content,None,TRUE,TRUE,,이 초대 코드는 사용할 수 없습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_InvalidRequest:System.String.$Content,None,TRUE,TRUE,,오류: 잘못된 요청
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PasswordTooLong:System.String.$Content,None,TRUE,TRUE,,이 비밀번호는 너무 깁니다. 기억하기 쉬운 걸로 해보세요.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownRegisterError:System.String.$Content,None,TRUE,TRUE,,알 수 없는 오류로 인해 등록에 실패했습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ResetPasswordEMailSent:System.String.$Content,None,TRUE,TRUE,,당신의 비밀번호를 초기화 시키는 방법을 {0}로 전송하였습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ResetPasswordEMailSentTitle:System.String.$Content,None,TRUE,TRUE,,초기화 메일 전송
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailed:System.String.$Content,None,TRUE,TRUE,,죄송합니다만 비밀번호 초기화 메일을 {0}로 전송하는데 실패하였습니다. 잠시후 다시 시도해주세요. 
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailedTitle:System.String.$Content,None,TRUE,TRUE,,초기화 메일 전송 실패
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendResetPasswordEMailFailedWithReason:System.String.$Content,None,TRUE,TRUE,,"죄송합니다만 비밀번호 초기화 메일을 {0}로 전송하는데 실패하였습니다. 잠시후 다시 시도해주세요.
+
+에러 메시지: {1}."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailNotActivated:System.String.$Content,None,TRUE,TRUE,,"당신의 메일 주소는 아직 유효하지 않습니다. 빠른 시일 내에 저희가 보낸 메일에 첨부된 링크를 클릭해주시길 바랍니다.
+ 
+인증 메일을 다시 받기를 원하십니까(만약 못받았다면?)?"
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_EMailNotActivatedTitle:System.String.$Content,None,TRUE,TRUE,,인증되지 않은 이메일 주소
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ActivationEMailSent:System.String.$Content,None,TRUE,TRUE,,인증 메일을 전송하였습니다. 이 링크를 눌러서 당신의 이메일을 인증하세요.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_ActivationEMailSentTitle:System.String.$Content,None,TRUE,TRUE,,인증 메일 전송
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailed:System.String.$Content,None,TRUE,TRUE,,죄송합니다만 인증 메일 전송을 실패하였습니다. 잠시후 다시 시도해주세요.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailedTitle:System.String.$Content,None,TRUE,TRUE,,인증메일 발송 실패
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SendActivationEMailFailedWithReason:System.String.$Content,None,TRUE,TRUE,,"죄송합니다만 인증 메일 전송을 실패하였습니다. 잠시후 다시 시도해주세요.
+
+에러 메시지: {0}. "
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToOpenServicePage:System.String.$Content,None,TRUE,TRUE,,"죄송하지만 저희는 이 서비스를 제공할 수 없습니다.
+
+에러 메시지: {0}."
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FailedToOpenServicePageTitle:System.String.$Content,None,TRUE,TRUE,,서비스 제공 불가
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegisterSucceed:System.String.$Content,None,TRUE,TRUE,,계정이 생성되었습니다. 당신의 이메일로 확인 메일이 발송될 것입니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_RegisterSucceedTitle:System.String.$Content,None,TRUE,TRUE,,준비!
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedOnException:System.String.$Content,None,TRUE,TRUE,,접속이 끊겼습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedDueToUnknownError:System.String.$Content,None,TRUE,TRUE,,알 수 없는 오류로 인해 접속이 끊겼습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AccountLoggedInElsewhere:System.String.$Content,None,TRUE,TRUE,,당신의 계정이 다른 곳에서 접속됐기 때문에 접속이 끊겼습니다.
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DisconnectedTitle:System.String.$Content,None,TRUE,TRUE,,접속 끊김
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_UnknownError:System.String.$Content,None,TRUE,TRUE,,알 수 없는 에러
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DuowanWoT:System.String.$Content,None,TRUE,TRUE,,Duowan WoT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_DuowanWoTDescription:System.String.$Content,None,TRUE,TRUE,,WoT 중국 공식 협찬사
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoT:System.String.$Content,None,TRUE,TRUE,,Baidu WoT
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTDescription:System.String.$Content,None,TRUE,TRUE,,세상에서 가장 사람이 많은 월드 오브 탱크 포럼
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTGiftCardEvent:System.String.$Content,None,TRUE,TRUE,,Baidu WoT 기프트 카드를 가지세요!
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_BaiduWoTGiftCardEventLearnMore:System.String.$Content,None,TRUE,TRUE,,Learn more...
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WOTNews:System.String.$Content,None,TRUE,TRUE,,wot-news.com
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_WOTNewsDescription:System.String.$Content,None,TRUE,TRUE,,WoT 러시아 뉴스 사이트
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_vBAddict:System.String.$Content,None,TRUE,TRUE,,vBAddict.net
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_vBAddictDescription:System.String.$Content,None,TRUE,TRUE,,실시간 데이터 제공장치
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_XVMGarphy:System.String.$Content,None,TRUE,TRUE,,XVMCN
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_XVMGarphyDescription:System.String.$Content,None,TRUE,TRUE,,WoT 통계-연구 &amp; XVM 현지화 팀
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FTR:System.String.$Content,None,TRUE,TRUE,,For the Record
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_FTRDescription:System.String.$Content,None,TRUE,TRUE,,For the Record WoT 뉴스 사이트
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_AnisotropicLevelFormat:System.String.$Content,None,TRUE,TRUE,,{0}x
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_PNGFileFilter:System.String.$Content,None,TRUE,TRUE,,PNG File (*.png)|*.png
+Smellyriver.TankInspector.g.en-US.resources:localizationresources.baml,L10N_SaveAs:System.String.$Content,None,TRUE,TRUE,,다른 이름으로 저장
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,사진 찍기
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,48
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakingPhoto:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,그래픽 성능에 따라서 1분정도 걸릴수 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoPerformanceTip:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,HD모델에서 더 잘됩니다!
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,24
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,TakePhotoHDModelTip:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,ToggleCollisionModelButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,일반 모델 및 장갑 모델 표시 전환
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,RegularArmorIndicatorToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,일반 장갑 두께
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SpacingArmorIndicatorToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,공간 장갑 두께
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,탐색
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFFFFFFF
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Search:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,14
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SearchTextBoxToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,검색할 전차의 차종
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,CurrentTankButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,테크 트리를 열기 위해 클릭하세요.
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,기준전차
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,Reference:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SelectReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,기준처럼 선택될 수 있는(참조에서 선택할 수 있는) 같은 티어와 같은 종류(차종)의 전차 목록
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,SwapReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,현재 전차와 기준 전차 바꾸기
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,ReferenceTankToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,"현재 기준 전차. 모듈 툴 팁에 있는 보여주는 데이터들과 자세한 데이터들은 이 전차와 비교됩니다. 기준 전차는 근본적으로 엘리트 상태이고 100% 능률의 승무원을 가지고 있으며, 장비와 소모품은 가지고 있지 않고, 승무원 스킬을 배우지 않았습니다. 하지만 현재 선택된 전차와 비슷하게 시험해 볼 수 있습니다."
+Smellyriver.TankInspector.g.en-US.resources:hangarview.baml,LoadEliteConfigButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,정예 전차 설정
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,티어
+Smellyriver.TankInspector.g.en-US.resources:tierview.baml,Tier:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.Title,Title,TRUE,TRUE,,Tank Inspector PRO
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.FrameworkElement.Height,None,FALSE,TRUE,,441
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.FrameworkElement.Width,None,FALSE,TRUE,,620
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.ResizeMode,None,FALSE,TRUE,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,ProDemoWindow:System.Windows.Window.WindowStartupLocation,None,FALSE,TRUE,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.Controls.Image.$Content,None,FALSE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.Controls.Image.Source,None,FALSE,TRUE,,"pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.UIElement.IsHitTestVisible,None,FALSE,TRUE,,FALSE
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,TitleImage:System.Windows.FrameworkElement.Height,None,FALSE,TRUE,,25
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,indiegogo.com에서 Tank Inspector PRO를 지원하고 후원하세요!
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"10,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,SupportAndFundTankInspectorPro:System.Windows.Controls.Control.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,데모 기능
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,DemoFeature:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,HD 스크린샷
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,32
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshot:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,선택한 전차의 고화질 사진을 찍습니다.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription1:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,사진을 찍으려면 모델 뷰에서 <b>PRINTSCREEN</b>를 누르세요.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription2:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,Tank Inspector PRO에선 더 많은 수치를 볼 수 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:prodemowindow.baml,HDSnapshotDescription3:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,V.S.
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,Versus:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:dataview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,벤치마크:
+Smellyriver.TankInspector.g.en-US.resources:shellview.baml,Millimeters:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:shellview.baml,Millimeters:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,mm
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,mm
+Smellyriver.TankInspector.g.en-US.resources:compactshellview.baml,Millimeters:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:tankgalleryview.baml,CloseTechTreeButtonToolTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,테크 트리 닫기
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveStatNotLoadedTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,실시간 데이터가 로딩되지 않았습니다.
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveLoadingTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,서버에서 실시간 데이터를 재요청 중입니다.
+Smellyriver.TankInspector.g.en-US.resources:dynastatcontainer.baml,LiveStatLoadFailedTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,실시간 데이터를 불러오는데 실패하였습니다. 나중에 다시 이 전차를 선택해주시기 바랍니다.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.SizeToContent,None,FALSE,TRUE,,Height
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.Title,Title,TRUE,TRUE,,접속
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.FrameworkElement.Width,None,FALSE,TRUE,,523
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.WindowStartupLocation,None,FALSE,TRUE,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.Icon,None,FALSE,TRUE,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,LoginWindow:System.Windows.Window.ResizeMode,None,FALSE,TRUE,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,TANK INSPECTOR 온라인으로
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,28
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,10
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,접속
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,20
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connect2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"10,45,10,10"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,이메일
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,EMailAddress:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,비밀번호
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Password:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ToggleShowPasswordTop:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,클릭으로 당신의 비밀번호를 드러내거나 감출수 있습니다.(표시하거나 숨길 수 있습니다)
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,초대코드
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,5
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,InviteCode:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,22
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserCheckbox:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,처음 시작합니다 (<u>등록</u>).
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserCheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckbox:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,처음 시작하고 초대 코드가 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NewUserWithInviteCodeCheckboxTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,"죄송하지만 베타테스터는 초대받은 인원만 접속이 가능합니다. 만약 초대코드가 없으시면, 공개 버전을 사용해 보세요."
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ResetPassword:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,비밀번호 재설정
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ResetPassword:System.Windows.Controls.Control.Foreground,None,FALSE,TRUE,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,비밀번호 재설정 요청 전송중...
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,RequestingResetPassword:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AgreeToEULACheckbox:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,"만약 있다면, 소프트웨어 사용권 동의에 동의합니다.(소프트웨어 라이센스 조항이 있을 경우 그?조항에 동의합니다.)"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AgreeToEULACheckbox:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,상단의 이메일과 비밀번호는 차후 Tank Inspector Online 에 접속하기 위한것입니다.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AccountTip:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"20,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,<b>월드 오브 탱크 계정을 사용하지 마세요</b>. 다른 비밀번호를 사용하시고 이메일 주소도 다른 편이 좋습니다.
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,NoWoTAccountTip:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"20,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,접속중...
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,10
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,24
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,Connecting:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AutoConnecting:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,자동 접속중:
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,AutoConnecting:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,접속
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loginwindow.baml,ConnectButton:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:generic.baml,Font:System.Windows.Media.FontFamily.$Content,Font,TRUE,TRUE,,"Wasco Sans, pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Fonts/\#Wasco Sans, Microsoft NeoGothic, DotumChe"
+Smellyriver.TankInspector.g.en-US.resources:generic.baml,CondensedFont:System.Windows.Media.FontFamily.$Content,Font,TRUE,TRUE,,"Open Sans Condensed, pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Fonts/\#Open Sans Condensed, Segoe UI Condensed, Segoe UI, Microsoft NeoGothic, DotumChe"
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,V.S.
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,Versus:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,BenchmarkValue:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,벤치마크:
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,6
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStat:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,LIVESTAT
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBasedOn:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,기반으로 한 
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,11
+Smellyriver.TankInspector.g.en-US.resources:detaileddatagroupview.baml,LiveStatBattles:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,, 전투들
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,LOADING
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,22
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,Loading:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,-5,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,31,0,0"
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.UIElement.Opacity,None,FALSE,TRUE,,0
+Smellyriver.TankInspector.g.en-US.resources:loadingview.baml,FirstTimeLoadingTip:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,첫 화면을 로딩 중 이거나(처음으로 접속 중 이거나) 게임 클라이언트에서 빌딩 캐쉬를 받아오는중입니다. 조금 오래걸릴수 있으니 잠시 기다려 주세요.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.UIElement.SnapsToDevicePixels,None,FALSE,TRUE,,TRUE
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.UseLayoutRounding,None,FALSE,TRUE,,TRUE
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.Title,Title,TRUE,TRUE,,Tank Inspector
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.Height,None,FALSE,TRUE,,700
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.Width,None,FALSE,TRUE,,1300
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.MinHeight,None,FALSE,TRUE,,480
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.FrameworkElement.MinWidth,None,FALSE,TRUE,,640
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.Icon,None,FALSE,TRUE,,Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,MainWindow:System.Windows.Window.WindowStyle,None,TRUE,FALSE,,SingleBorderWindow
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.$Content,None,FALSE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.Source,None,FALSE,TRUE,,"pack://application:,,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.UIElement.IsHitTestVisible,None,FALSE,TRUE,,FALSE
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"105,5,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TitleImage:System.Windows.Controls.Image.Stretch,None,TRUE,FALSE,,None
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ProButton:System.Windows.FrameworkElement.ToolTip,ToolTip,TRUE,TRUE,,Tank Inspector PRO
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,SettingsLink:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,환경설정
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,SettingsLink:System.Windows.FrameworkElement.ToolTip,ToolTip,TRUE,TRUE,,환경설정 세팅 재설정
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,AboutLink:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,소개
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,AboutLink:System.Windows.FrameworkElement.ToolTip,ToolTip,TRUE,TRUE,,Tank Inpector에 대한 정보 보기
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DonateLink:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,기부
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DonateLink:System.Windows.FrameworkElement.ToolTip,ToolTip,TRUE,TRUE,,Smellyriver에게 기부
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,DisconnectLink:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,접속 해제
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,온라인 접속
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,GoOnline:System.Windows.FrameworkElement.ToolTip,ToolTip,TRUE,TRUE,,"네트워크 문제로 인해, 현재 오프라인 모드입니다. 네트워크 연결이 필요한 기능(ex. LiveStats)은 탱크 인스펙터가 서버에 재연결될때까지 작동하지 않습니다. 온라인으로 연결하려면 클릭하세요."
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,테크 트리 열기
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro1:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,25,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,또한 사이드바를 작동시켜서
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,TechTreeButtonIntro2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,15,25,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,데이터 보기로 전환
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro1:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,25,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,자세한 성능 비교
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Right
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,RightToggleDataViewIntro2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,15,25,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,데이터 보기로 전환
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro1:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"25,0,0,20"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,자세한 성능 비교
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,LeftToggleDataViewIntro2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"25,15,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,장갑 모델로 전환
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,자세한 장갑 형태
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ToggleCollisionButtonIntro2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,전차 설정
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,"부품, 탄, 장비, 소모품과 승무원 교체"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ConfigureTankIntro2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,기준 전차
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro1:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,전차가 해당 전차와 비교됩니다.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,14
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ReferenceTankIntro2:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,35,0,0"
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,환영합니다!
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,36
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Welcom:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,Tank Inspector 를 사용하는 기본적인 방법들이 수록되어 있습니다.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,HereAreSomeBasics:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,준비되었다면 아래 버튼을 선택하세요.
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,ClickToContinue:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,알겠다
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:mainwindow.baml,Ready:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,동등한 장갑
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,4
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,Equivalent:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,ImpactAngleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,시험탄이 해당 장갑에 피격되는 각도
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,NormalizationAngleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,탄이 충돌하는 각도에서 정상축으로 조절됩니다. 철갑탄과 고속철갑탄에만 적용됩니다.
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,2xRuleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,포탄의 구경이 해당 장갑보다 두배 혹은 더욱 두꺼울경우 입사각 보정값이 증가합니다. 철갑탄과 고속철갑탄에만 해당됩니다.
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,3xRuleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,포탄의 구경이 해당 장갑보다 3배 혹은 더욱 두꺼울경우 피격 각도가 70도를 넘어가더라도 관통될 것입니다. 이것은 철갑탄과 고속철갑탄에만 해당됩니다.
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,APShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,"철갑탄, 5도의 입사각 보정값"
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,APCRShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,"고속철갑탄, 2도의 입사각 보정값"
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,HEShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,고폭탄
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,HEATShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,대전차고폭탄
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,CaliberTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,포탄의 구경
+Smellyriver.TankInspector.g.en-US.resources:equivalentarmorview.baml,ToggleSelectShellTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,선택하여 선택된 포탄을 보이거나 감추기
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ElementMenuItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,선택하여 장비
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ElementMenuItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,", 마우스를 눌러서 잠시동안 이 메뉴를 숨기세요"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewElementMenuItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,선택하여 배우거나 잊어버리기
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewElementMenuItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,", 마우스를 눌러서 잠시동안 이 메뉴를 숨기세요"
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPrefix:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPrefix:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,을 위한 연습 레벨
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPostfix:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TrainingLevelPostfix:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,ToggleCrewDeadOrAliveTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,승무원 생존여부 표시
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,CrewMenuTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,승무원 기술과 훈련 레벨 설정
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,BulkLearnCamoButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,모든 승무원에게 위장 스킬 습득
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,BulkLearnBiAButtonTooltip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,모든 승무원에게 전우애 스킬 습득
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TurnToLeftPageButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,모델 뷰와 자세한 데이터 중간에 표시
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,TurnToRightPageButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,모델 뷰와 자세한 데이터에 표시
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SelectAsReferenceButtonToolTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,선택된 전차를 표시
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SearchResultItemToolTip1:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,이 전차를 표시
+Smellyriver.TankInspector.g.en-US.resources:hangar.baml,SearchResultItemToolTip2:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,선택된 전차를 표시
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.Title,Title,TRUE,TRUE,,환영합니다
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.FrameworkElement.Width,None,FALSE,TRUE,,624
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.WindowStartupLocation,None,FALSE,TRUE,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.Icon,None,FALSE,TRUE,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.ResizeMode,None,FALSE,TRUE,,NoResize
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,FirstRunWindow:System.Windows.Window.SizeToContent,None,FALSE,TRUE,,Height
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,환영합니다
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,28
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Welcome:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,10
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,Tank Inspector 는 당신의 게임 클라이언트에서 데이터를 가져옵니다. 이곳에 놓아주세요.
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,게임 폴더
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,10,0"
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,GameFolder:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FF000000
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,준비
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:firstrunwindow.baml,Ready:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:modelview.baml,FPS:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,FPS:
+Smellyriver.TankInspector.g.en-US.resources:modelview.baml,Triangles:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,폴리곤:
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.Title,Title,TRUE,TRUE,,메세지
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.SizeToContent,None,FALSE,TRUE,,Height
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MinWidth,None,FALSE,TRUE,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MaxWidth,None,FALSE,TRUE,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.Width,None,FALSE,TRUE,,600
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.FrameworkElement.MinHeight,None,FALSE,TRUE,,180
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.WindowStartupLocation,None,FALSE,TRUE,,CenterScreen
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,MessagesWindow:System.Windows.Window.Icon,None,FALSE,TRUE,,/Resources/Images/sti.ico
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,메세지
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,28
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Messages:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,10
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.Foreground,None,FALSE,TRUE,,\#FFD3D3D3
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,18
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,닫기
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:messageswindow.baml,Close:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,설정
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Top
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Title:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"15,10,0,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameClientSection:System.Windows.Controls.HeaderedContentControl.Header,Label,TRUE,TRUE,,게임 클라이언트
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,Tank Inspector 는 당신의 게임 클라이언트에서 정보를 읽어들입니다. 이곳에 옮겨주세요.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,LocateGameFolderPrompt:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,0,10"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,이 설정은 당신이 다음에 Tank Inspector를 실행할 때 적용됩니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakeEffectOnNextLaunchPrompt:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,0,10"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,게임 경로:
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GameFolder:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,10,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GeneralSection:System.Windows.Controls.HeaderedContentControl.Header,Label,TRUE,TRUE,,기본설정
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowBackgroundImage:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,배경 이미지 표시
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowBackgroundImageTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,선택하여 배경 이미지 무작위로 표시. 선택하지 않으면 배경이 검은색으로 보입니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PhotoSize:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,사진 크기 (가로):
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PhotoSize:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,*모델 뷰에서 PRINTSCREEN을 눌러 사진 촬영
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"10,0,0,0"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.Controls.TextBlock.FontStyle,None,TRUE,TRUE,,Italic
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,TakePhotoMessage:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GraphicsSection:System.Windows.Controls.HeaderedContentControl.Header,Label,TRUE,TRUE,,그래픽
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,품질
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,QualitySubSection:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,"다음 옵션들은 모델 그래픽 품질을 향상시키지만, 성능에 영향을 줄 수 있습니다. Tank Inspector 가 느리다면 일부 혹은 전체 옵션을 꺼보세요."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.Controls.TextBlock.TextWrapping,None,FALSE,TRUE,,Wrap
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,PerformancePrompt:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,0,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SSAO:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,SSAO
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SSAOTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,SSAO 는 주변의 폐색된 명암을 생성합니다. 해당 옵션은 렌더링에 영향을 줄 수 있습니다. Tank Inspector 가 느리다면 옵션을 꺼보세요.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SMAA:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,SMAA
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SMAATip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,SMAA는 모델의 끝을 부드럽게 만드는 렌더링의 안티 앨리어싱을 제공합니다. 해당 옵션은 렌더링에 영향을 줄 수 있습니다. Tank Inspector 가 느리다면 옵션을 꺼보세요.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,Specularity:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,반사도
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,SpecularityTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,"반사도는 빛의 반사를 표현하며, 특정 물질을 빛냅니다. 해당 옵션은 렌더링에 영향을 줄 수 있습니다. Tank Inspector 가 느리다면 옵션을 꺼보세요."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,NormalMapping:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,일반 측정
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,NormalMappingTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,일반 측정은 모델의 부분을 더욱 향상시켜 보여줍니다.이 옵션은 렌더가 수행하는 옵션과 충돌할수도 있습니다. Tank Inspector 가 느리다면 옵션을 꺼보세요.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilter:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,이방성 필터링
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilter:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AnisotropicFilterTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,이방성 필터링은 앨리어싱 효과를 제거하여 텍스쳐 이미지 품질을 향상시킵니다.  Tank Inspector 가 느리다면 필터 단계를 내리거나 꺼보세요.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,화면
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DisplaySubSection:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,10,0,5"
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,CollisionModelStroke:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,장갑 모델 스트로크
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,CollisionModelStrokeTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,장갑 모델에서의 장갑두께를 다르게 분리하여 충돌시키는것을 무효화 하는것을 선택합니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WireframeMode:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,와이어프레임 모드
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WireframeModeTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,선택하여 모델을 렌더링할때 와이어 프레임을 사용.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowFPS:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,FPS 표시
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowFPSTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,매초 프레임을 표시하기.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowModelTriangleCount:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,모델의 폴리곤 수를 표시하기
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowModelTriangleCountTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,선택하여 오른쪽 상단에 렌더링중인 폴리곤 수를 표시.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowSoftwareCrosshair:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,모델에 십자선 표시
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowSoftwareCrosshairTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,모델위에 마우스가 있는 곳에 십자선을 표시합니다. 마우스 포인터가 어디를 가리키는지 알고 싶을 때 유용합니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,GarageSection:System.Windows.Controls.HeaderedContentControl.Header,Label,TRUE,TRUE,,차고
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,UseRealTraverseSpeedOnTurretController:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,포탑 조종에 실제 선회 속도를 쓰기
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,UseRealTraverseSpeedOnTurretControllerTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,포탑과 포가 순간적으로 방향을 바꾸지않고 실제 선회 속도로 포탑을 조종하게 됩니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WhenChangingVehicle:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,전차를 바꿀때:
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,WhenChangingVehicle:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoLoadEliteConfig:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,전차를 풀업상태로 불러오기
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoLoadEliteConfigTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,새로 선택된 전차를 풀업상태로 불러오기.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ReuseCrews:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,새로운 승무원을 모집
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ReuseCrewsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,현재 승무원의 스킬과 숙련도를 재훈련하지 않고 새로운 승무원을 모집합니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,RecruitFullyTrainedCrews:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,완전히 숙련된 승무원을 모집
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,RecruitFullyTrainedCrewsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,승무원은 50%의 대신 100%의 숙련도를 가집니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoResetReferenceTank:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,표시된 전차를 새 전차가 선택될 때마다 기본상태로 되돌립니다
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,AutoResetReferenceTankTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,"만일 당신이 기본값으로 설정되지 않은 전차를 선택할 경우, 대상을 선택한 전차로 둘것인지 기본값으로 설정된 전차로 바꿀것인지 확인 할것입니다."
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ResetToDefaultAmmunition:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,기본 포탄으로 초기화
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ResetToDefaultAmmunitionTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,기존 선택된 포탄을 계속 유지하지 않고 기본 포탄으로 초기화 합니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearEquipments:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,추가장비들 초기화
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearEquipmentsTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,설치된 추가장비들을 다시 쓰지않고 초기화 합니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearConsumables:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,소모품 초기화
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ClearConsumablesTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,적용된 소모품들을 다시 쓰지않고 초기화 합니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,DataSection:System.Windows.Controls.HeaderedContentControl.Header,Label,TRUE,TRUE,,데이터
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowDescriptionInDataTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,데이터 말풍선에 설명 보여주기
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowDescriptionInDataTipTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,선택한 아이템의 데이터 설명을 보여줍니다.
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowAsMuchStatsAsPossible:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,모든 수치 보여주기
+Smellyriver.TankInspector.g.en-US.resources:settingsview.baml,ShowAsMuchStatsAsPossibleTip:System.Windows.Controls.ToolTip.$Content,ToolTip,TRUE,TRUE,,중요하지 않은 수치들은 기본적으로 데이터 페이지에서 감춰집니다. 데이터 페이지에서 모든 수치들을 보려면 이 옵션을 키세요.
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.$Content,None,FALSE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.Source,None,FALSE,TRUE,,/Smellyriver.TankInspector\;component/Resources/Images/UIElements/Title.png
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Top
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"170,47,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,TitleImage:System.Windows.Controls.Image.Stretch,None,TRUE,FALSE,,None
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Top
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,SMELLYRIVER 스튜디오 제품
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,16
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ASmellyriverStudioProduct:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"171,87,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Left
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.FrameworkElement.ToolTip,ToolTip,TRUE,TRUE,,사이트에 방문하세요
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,WebsiteLink:System.Windows.Controls.ContentControl.Content,Button,TRUE,TRUE,,사이트에 방문하세요
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,15,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,CopyrightInfo:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,"저작권 © 2013 - 2014, Smellyriver."
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ProductVersion:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,ProductVersion:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,제품 버전
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,제작에 도움을 주신
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.Controls.TextBlock.FontWeight,None,TRUE,TRUE,,Bold
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,SpecialThanksTo:System.Windows.FrameworkElement.Margin,None,FALSE,TRUE,,"0,20,0,0"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,DesignedAndCraftedBy:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,디자인 &amp; 제작 <i>hillin</i> 그리고 <i>edward</i>.
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,QualityAssurance:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,품질 보증: <i>appark</i>
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,LocalizationTitle:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,<b>한국어</b> 현지화:
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,AdditionalLocalizationCredits:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,," - <i>Jeehoon &quot;Yeti&quot; Ahn</i> 
+ - <i>ydcombine / 머구시민</i> 
+ - <i>russyboina / 혈진</i> 
+ - <i>Suppordle / 서포들</i> 
+ - <i>Andrewhedge</i> 
+ - <i>nata de coco / 나타드코코</i> 
+ - <i>NPC04</i> 
+ - <i>Kibric</i>"
+Smellyriver.TankInspector.g.en-US.resources:creditsview.baml,LocalizerLink:System.Windows.Controls.Button.$Content,Button,TRUE,TRUE,,DCinside WoT Gallery
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,TechTreeTankButtonToolTip:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,이 전차를 선택합니다.
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.$Content,Text,TRUE,TRUE,,
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.FontSize,None,TRUE,TRUE,,48
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.FrameworkElement.HorizontalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.FrameworkElement.VerticalAlignment,None,FALSE,TRUE,,Center
+Smellyriver.TankInspector.g.en-US.resources:nationaltechtreepageview.baml,LOADING:System.Windows.Controls.TextBlock.Text,Text,TRUE,TRUE,,LOADING

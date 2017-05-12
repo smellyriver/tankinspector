@@ -1,0 +1,210 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.EquivalentArmorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:anim="clr-namespace:Smellyriver.Wpf.Animation;assembly=Smellyriver.Wpf"
+             xmlns:effect="clr-namespace:Smellyriver.Wpf.Effects;assembly=Smellyriver.Wpf"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             MouseLeave="UserControl_MouseLeave"
+             mc:Ignorable="d" Width="133" Height="114">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style TargetType="FrameworkElement" x:Key="FadeShowHideTarget">
+                <Setter Property="anim:ShowHideAnimation.ShowStoryboard">
+                    <Setter.Value>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.2" />
+                        </Storyboard>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="anim:ShowHideAnimation.HideStoryboard">
+                    <Setter.Value>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.2" FillBehavior="Stop" />
+                        </Storyboard>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid x:Name="RootElement">
+        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/EquivalentThicknessPanel.png" Stretch="None"/>
+        <Grid Margin="6,3,5,9">
+
+            <Grid VerticalAlignment="Top" Height="77" Style="{StaticResource FadeShowHideTarget}" 
+                  anim:ShowHideAnimation.Visibility="{Binding IsSelectShellViewShown, Converter={StaticResource BoolToHiddenVisibleConverter}}">
+                <TextBlock x:Uid="Equivalent" Margin="4" HorizontalAlignment="Center" FontWeight="Bold">EQUIVALENT</TextBlock>
+                <Viewbox Margin="13,18,11,19">
+                    <TextBlock FontWeight="Bold" Text="{Binding EquivalentThicknessDisplay}" />
+                </Viewbox>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Margin="3,0">
+
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="1,0,0,0" Width="31" Cursor="{x:Static ui:Cursors.Hand}">
+                        <Image Margin="0,1,1,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ImpactAngleIcon.png" Stretch="None"/>
+                        <TextBlock VerticalAlignment="Center" FontSize="10" TextAlignment="Right" Text="{Binding ImpactAngle, StringFormat=F0}" />
+                        <TextBlock VerticalAlignment="Center" FontSize="10">°</TextBlock>
+                        <StackPanel.ToolTip>
+                            <ToolTip x:Uid="ImpactAngleTip">
+                                The angle at which the test shell hits the target armor.
+                            </ToolTip>
+                        </StackPanel.ToolTip>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Width="25" Cursor="{x:Static ui:Cursors.Hand}">
+                        <Image Margin="0,0,1,0" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ArmorNormalizationIcon.png" Stretch="None"/>
+                        <TextBlock VerticalAlignment="Center" FontSize="10" Text="{Binding NormalizationAngle, StringFormat=F0}" />
+                        <TextBlock VerticalAlignment="Center" FontSize="10">°</TextBlock>
+                        <StackPanel.ToolTip>
+                            <ToolTip x:Uid="NormalizationAngleTip">
+                                The angle to which the impact angle is adjusted towards the armor's normal axis. Only applicable for AP and APCR shells.
+                            </ToolTip>
+                        </StackPanel.ToolTip>
+                    </StackPanel>
+                    
+                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/2xRuleIcon.png" Stretch="None" Cursor="{x:Static ui:Cursors.Hand}">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Setter Property="Opacity" Value="0.2" />
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <effect:GrayscaleEffect DesaturationFactor="0" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Is2xRuleActive}" Value="True">
+                                        <DataTrigger.EnterActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.1" />
+                                                    <DoubleAnimation Storyboard.TargetProperty="(Image.Effect).(effect:GrayscaleEffect.DesaturationFactor)" To="1" Duration="0:0:0.1" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.EnterActions>
+                                        <DataTrigger.ExitActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.1" FillBehavior="Stop" />
+                                                    <DoubleAnimation Storyboard.TargetProperty="(Image.Effect).(effect:GrayscaleEffect.DesaturationFactor)" To="0" Duration="0:0:0.1" FillBehavior="Stop" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.ExitActions>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+
+                        <Image.ToolTip>
+                            <ToolTip x:Uid="2xRuleTip">
+                                If the caliber of the shell is 2 times or more than the nominal thickness of the armor, the normalization angle will be increased. Only applicable for AP and APCR shells.
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
+                    <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/3xRuleIcon.png" Stretch="None" Cursor="{x:Static ui:Cursors.Hand}">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Setter Property="Opacity" Value="0.2" />
+                                <Setter Property="Effect">
+                                    <Setter.Value>
+                                        <effect:GrayscaleEffect DesaturationFactor="0" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Is3xRuleActive}" Value="True">
+                                        <DataTrigger.EnterActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.1" />
+                                                    <DoubleAnimation Storyboard.TargetProperty="(Image.Effect).(effect:GrayscaleEffect.DesaturationFactor)" To="1" Duration="0:0:0.1" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.EnterActions>
+                                        <DataTrigger.ExitActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.1" FillBehavior="Stop" />
+                                                    <DoubleAnimation Storyboard.TargetProperty="(Image.Effect).(effect:GrayscaleEffect.DesaturationFactor)" To="0" Duration="0:0:0.1" FillBehavior="Stop" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.ExitActions>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+
+                        <Image.ToolTip>
+                            <ToolTip x:Uid="3xRuleTip">
+                                If the caliber of the shell is 3 times or more than the nominal thickness of the armor, no ricochet will happen even if the impact angle is more than 70° from normal. Only applicable for AP and APCR shells.
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
+                </StackPanel>
+
+            </Grid>
+
+            <Grid VerticalAlignment="Top" Height="77" Style="{StaticResource FadeShowHideTarget}"
+                  anim:ShowHideAnimation.Visibility="{Binding IsSelectShellViewShown, Converter={StaticResource BoolToVisibleHiddenConverter}}">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,5">
+                    <RadioButton Style="{StaticResource SaturationRadioButton}" VerticalAlignment="Center" IsChecked="{Binding isAPShellSelected, Mode=TwoWay}">
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/GameElements/APShellNoDecal.png" Stretch="None"/>
+                        <RadioButton.ToolTip>
+                            <ToolTip x:Uid="APShellTip">AP Shell, with a standard normalization angle of 5°</ToolTip>
+                        </RadioButton.ToolTip>
+                    </RadioButton>
+                    <RadioButton Style="{StaticResource SaturationRadioButton}" VerticalAlignment="Center" IsChecked="{Binding IsAPCRShellSelected, Mode=TwoWay}">
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/GameElements/APCRShellNoDecal.png" Stretch="None"/>
+                        <RadioButton.ToolTip>
+                            <ToolTip x:Uid="APCRShellTip">APCR Shell, with a standard normalization angle of 2°</ToolTip>
+                        </RadioButton.ToolTip>
+                    </RadioButton>
+                    <RadioButton Style="{StaticResource SaturationRadioButton}" VerticalAlignment="Center" IsChecked="{Binding IsHEShellSelected, Mode=TwoWay}">
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/GameElements/HEShellNoDecal.png" Stretch="None"/>
+                        <RadioButton.ToolTip>
+                            <ToolTip x:Uid="HEShellTip">HE Shell</ToolTip>
+                        </RadioButton.ToolTip>
+                    </RadioButton>
+                    <RadioButton Style="{StaticResource SaturationRadioButton}" VerticalAlignment="Center" IsChecked="{Binding IsHEATShellSelected, Mode=TwoWay}">
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/GameElements/HEATShellNoDecal.png" Stretch="None"/>
+                        <RadioButton.ToolTip>
+                            <ToolTip x:Uid="HEATShellTip">HEAT Shell</ToolTip>
+                        </RadioButton.ToolTip>
+                    </RadioButton>
+                </StackPanel>
+
+                <Slider VerticalAlignment="Bottom" Margin="5" Ticks="{Binding CaliberTicks}" IsSnapToTickEnabled="True" Value="{Binding Caliber, Mode=TwoWay}"
+                        Minimum="{Binding MinCaliber}" Maximum="{Binding MaxCaliber}">
+                    <Slider.ToolTip>
+                        <ToolTip x:Uid="CaliberTip">Caliber of the shell</ToolTip>
+                    </Slider.ToolTip>
+                </Slider>
+            </Grid>
+
+            <Grid VerticalAlignment="Bottom" Margin="2">
+                <Button Style="{StaticResource ContentButton}" Command="{Binding ToggleSelectShellViewCommand}">
+                    <Grid>
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ChangeTestShellButton.png" Stretch="None"/>
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ChangeTestShellButtonIcon.png" HorizontalAlignment="Right" Margin="0,0,5,0" Stretch="None"
+                               Style="{StaticResource FadeShowHideTarget}" anim:ShowHideAnimation.Visibility="{Binding IsSelectShellViewShown, Converter={StaticResource BoolToHiddenVisibleConverter}}" />
+
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/ChangeTestShellButtonIcon.png" HorizontalAlignment="Right" Margin="0,0,5,0" Stretch="None"
+                               RenderTransformOrigin="0.5,0.5" Style="{StaticResource FadeShowHideTarget}" anim:ShowHideAnimation.Visibility="{Binding IsSelectShellViewShown, Converter={StaticResource BoolToVisibleHiddenConverter}}">
+                            <Image.RenderTransform>
+                                <RotateTransform Angle="180" />
+                            </Image.RenderTransform>
+                        </Image>
+
+                        <TextBlock Text="{Binding SelectedShellName}" Margin="5,0,0,0" VerticalAlignment="Center" />
+                    </Grid>
+
+                    <Button.ToolTip>
+                        <ToolTip x:Uid="ToggleSelectShellTip">Click to show or hide select shell view</ToolTip>
+                    </Button.ToolTip>
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.TankGalleryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:model="clr-namespace:Smellyriver.TankInspector.Modeling"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             MinHeight="700" MinWidth="1280"
+             d:DesignHeight="768" d:DesignWidth="1280">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/TechTree.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <design:NationalFlagConverter x:Key="NationalFlagConverter" Type="Small" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid Name="TankGalleryContent">
+            <Grid.Background>
+                <VisualBrush TileMode="Tile" Viewport="0,0,1,0.1" ViewportUnits="RelativeToBoundingBox" Stretch="None">
+                    <VisualBrush.Visual>
+                        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeBackground.jpg" Stretch="None" />
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Grid.Background>
+
+            <Grid Margin="0,66,0,41">
+                
+                <TabControl Style="{StaticResource TechTreeTabControl}" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory, Mode=TwoWay}">
+                    <TabControl.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Key, Converter={StaticResource NationalFlagConverter}}" Stretch="None" />
+                        </DataTemplate>
+                    </TabControl.ItemTemplate>
+                    <TabControl.ContentTemplate>
+                        <DataTemplate DataType="{x:Type ui:NationalTechTreePageViewModel}">
+                            <ui:NationalTechTreePageView DataContext="{Binding Value}" />
+                        </DataTemplate>
+                    </TabControl.ContentTemplate>
+                </TabControl>
+                
+            </Grid>
+
+            <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeFooter.png" VerticalAlignment="Bottom" HorizontalAlignment="Center" Stretch="None" />
+            <Button Style="{StaticResource ContentButton}" Command="{Binding CloseTankGalleryCommand}" VerticalAlignment="Bottom" Margin="1017,0,191,18"
+                    Visibility="{Binding CanCloseTankGallery, Converter={StaticResource BoolToVisibleHiddenConverter}}" Cursor="{x:Static ui:Cursors.Hand}">
+                <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/CloseTechTreeButton.png" Stretch="None" />
+                <Button.ToolTip>
+                    <TextBlock x:Uid="CloseTechTreeButtonToolTip">Close tech tree</TextBlock>
+                </Button.ToolTip>
+            </Button>
+
+        </Grid>
+        
+        
+    </Grid>
+
+</UserControl>

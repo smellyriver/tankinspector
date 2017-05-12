@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.PriceView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <StackPanel Orientation="Horizontal">
+        <Image x:Name="CurrencyIcon" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/GameElements/Credit.png" Stretch="None" Margin="0,-1,0,0" />
+        <TextBlock x:Name="PriceText" Text="30000" VerticalAlignment="Center"/>
+    </StackPanel>
+</UserControl>

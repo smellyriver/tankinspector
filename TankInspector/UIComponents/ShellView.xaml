@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.ShellView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary Source="pack://application:,,,/Smellyriver.TankInspector;component/themes/DataDisplay.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <design:ShellIconConverter x:Key="ShellIconConverter" />
+            <design:ShellTypeNameConverter x:Key="ShellTypeNameConverter" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <UserControl.Background>
+        <ImageBrush ImageSource="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SectionTitleBackgroundRed.png" />
+    </UserControl.Background>
+
+    <Grid>
+        <Image Source="{Binding Shell, Converter={StaticResource ShellIconConverter}}" Width="48" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5" />
+        <TextBlock Text="{Binding Shell.Name}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="58,6,0,0" FontSize="16" FontWeight="Bold" />
+        <StackPanel Orientation="Horizontal" Margin="58,28,0,0">
+            <TextBlock Text="{Binding Shell.Caliber}" />
+            <TextBlock x:Uid="Millimeters" Text="mm" />
+            <TextBlock Text="{Binding Shell.Type, Converter={StaticResource ShellTypeNameConverter}}" Margin="5,0,0,0" />
+        </StackPanel>
+        <ui:DataView DataContext="{Binding DataViewModel}" Margin="0,30,0,0" />
+    </Grid>
+</UserControl>

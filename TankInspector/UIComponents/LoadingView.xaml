@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="Smellyriver.TankInspector.UIComponents.LoadingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
+             xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+
+
+    <UserControl.Style>
+        <Style>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding LoadingCompleted}" Value="True">
+                    <DataTrigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard x:Name="HideLoadingView">
+                                <DoubleAnimation Storyboard.TargetProperty="Opacity" From="1.0" To="0.0" Duration="0:0:0.5" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </DataTrigger.EnterActions>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </UserControl.Style>
+
+    <Grid Background="Black">
+        <Viewbox MinWidth="728" MaxWidth="1456" Margin="50,50,50,150">
+            <Canvas Width="1456" Height="388">
+                <Canvas.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="Logo" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:3" />
+                                <DoubleAnimation Storyboard.TargetName="Tank3" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" BeginTime="0:0:2" Duration="0:0:3"  />
+                                <DoubleAnimation Storyboard.TargetName="Tank4" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" BeginTime="0:0:2" Duration="0:0:3"  />
+                                <DoubleAnimation Storyboard.TargetName="Tank2" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" BeginTime="0:0:5" Duration="0:0:3"  />
+                                <DoubleAnimation Storyboard.TargetName="Tank5" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" BeginTime="0:0:5" Duration="0:0:3"  />
+                                <DoubleAnimation Storyboard.TargetName="Tank1" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" BeginTime="0:0:8" Duration="0:0:3"  />
+                                <DoubleAnimation Storyboard.TargetName="Tank6" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" BeginTime="0:0:8" Duration="0:0:3"  />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Canvas.Triggers>
+
+
+                <Image Name="Tank1" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LoadingTank1.png" Opacity="0" Canvas.Left="15" Canvas.Top="187" Stretch="None" />
+                <Image Name="Tank2" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LoadingTank2.png" Opacity="0" Canvas.Left="30" Canvas.Top="142" Stretch="None" />
+                <Image Name="Tank3" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LoadingTank3.png" Opacity="0" Canvas.Left="194" Canvas.Top="15" Stretch="None" />
+                <Image Name="Tank6" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LoadingTank6.png" Opacity="0" Canvas.Left="1288" Canvas.Top="196" Stretch="None" />
+                <Image Name="Tank5" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LoadingTank5.png" Opacity="0" Canvas.Left="1118" Canvas.Top="155" Stretch="None" />
+                <Image Name="Tank4" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LoadingTank4.png" Opacity="0" Canvas.Left="766" Canvas.Top="28" Stretch="None" />
+                <Image Name="Logo" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/LoadingLogo.png" Opacity="0" Canvas.Left="594" Canvas.Top="28" Stretch="None" />
+            </Canvas>
+        </Viewbox>
+
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,15">
+                <StackPanel.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="FirstTimeLoadingTip" Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" BeginTime="0:0:3" Duration="0:0:1"  />
+                                <ThicknessAnimation Storyboard.TargetName="LoadingTitle" Storyboard.TargetProperty="Margin" To="0,-30,0,0" BeginTime="0:0:3" Duration="0:0:1"  />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </StackPanel.Triggers>
+                <ui:GearView Width="64" Height="64" />
+                <Grid Margin="15,5" >
+                    <TextBlock x:Uid="Loading" Name="LoadingTitle" Text="LOADING" FontWeight="Bold" VerticalAlignment="Center" FontSize="22" Margin="0,-5,0,0"  />
+                    <TextBlock Name="FirstTimeLoadingTip" x:Uid="FirstTimeLoadingTip" Margin="0,31,0,0" FontSize="16" Opacity="0.0" Text="Loading for the first time, or building cache due to game client change, might take a longer time, please wait." />
+                </Grid>
+                    
+            </StackPanel>
+            
+        </StackPanel>
+
+        <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/SmellyriverLogo.png" Width="75" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="50" />
+        
+    </Grid>
+</UserControl>
