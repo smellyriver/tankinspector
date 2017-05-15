@@ -5,8 +5,6 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
              xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
-             xmlns:model="clr-namespace:Smellyriver.TankInspector.Modeling"
-             xmlns:system="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d" 
              MinHeight="700" MinWidth="1280"
              d:DesignHeight="768" d:DesignWidth="1280">

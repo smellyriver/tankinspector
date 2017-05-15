@@ -11,7 +11,6 @@
         PreviewKeyUp="Window_PreviewKeyUp"
         Activated="Window_Activated" Deactivated="Window_Deactivated"
         x:Uid="MainWindow" Cursor="{x:Static ui:Cursors.Arrow}"
-        xmlns:system="clr-namespace:System;assembly=mscorlib"
         Title="Tank Inspector" Height="700" Width="1300" MinHeight="480" MinWidth="640"  Icon="Resources/Images/sti.ico" WindowStyle="SingleBorderWindow" >
 
     <Window.Resources>

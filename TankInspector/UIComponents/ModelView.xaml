@@ -9,7 +9,6 @@
              xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
              mc:Ignorable="d"
              xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
-             xmlns:gfx="clr-namespace:Smellyriver.TankInspector.Graphics"
              xmlns:gfxfx="clr-namespace:Smellyriver.TankInspector.Graphics.Frameworks"
              xmlns:scene="clr-namespace:Smellyriver.TankInspector.Graphics.Scene"
              d:DesignHeight="600" d:DesignWidth="800">

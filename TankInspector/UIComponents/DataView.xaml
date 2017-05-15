@@ -5,9 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:ui="clr-namespace:Smellyriver.TankInspector.UIComponents"
              xmlns:design="clr-namespace:Smellyriver.TankInspector.Design"
-             xmlns:data ="clr-namespace:Smellyriver.TankInspector.DataAnalysis"
-             xmlns:wpfUtils="clr-namespace:Smellyriver.Wpf.Utilities;assembly=Smellyriver.Wpf"
-             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:utilities="http://schemas.smellyriver.com/common/wpf/"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="300">
 
@@ -150,7 +148,7 @@
                                                     </Viewbox>
                                                     <StackPanel Margin="14,50,14,14">
                                                         <Viewbox HorizontalAlignment="Center" VerticalAlignment="Top" Width="205"  Stretch="Uniform" MaxHeight="100">
-                                                            <TextBlock wpfUtils:TextBlockHelper.Inlines="{Binding DataItem.ValueTipContent}" HorizontalAlignment="Center" VerticalAlignment="Center"  TextAlignment="Center" />
+                                                            <TextBlock utilities:TextBlockHelper.Inlines="{Binding DataItem.ValueTipContent}" HorizontalAlignment="Center" VerticalAlignment="Center"  TextAlignment="Center" />
                                                         </Viewbox>
                                                         <TextBlock Margin="-4,10,-4,0" Text="{Binding DataItem.Description}" FontSize="10" TextWrapping="Wrap" TextAlignment="Justify"/>
 
