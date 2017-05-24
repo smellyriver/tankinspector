@@ -13,7 +13,7 @@ using System.Windows.Markup;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Smellyriver")]
 [assembly: AssemblyProduct("Tank Inspector")]
-[assembly: AssemblyCopyright("Copyright © Smellyriver 2013 - 2015")]
+[assembly: AssemblyCopyright("Copyright © Smellyriver 2013 - 2017")]
 [assembly: AssemblyTrademark("Smellyriver")]
 [assembly: AssemblyCulture("")]
 
@@ -32,7 +32,7 @@ using System.Windows.Markup;
 #if DEBUG
 [assembly: NeutralResourcesLanguage("en")]
 #else
-[assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]
+[assembly: NeutralResourcesLanguage("ru", UltimateResourceFallbackLocation.Satellite)]
 #endif
 
 
@@ -56,8 +56,8 @@ using System.Windows.Markup;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.8.0.200")]
-[assembly: AssemblyFileVersion("1.8.0.200")]
+[assembly: AssemblyVersion("1.8.1.204")]
+[assembly: AssemblyFileVersion("1.8.1.204")]
 
 [assembly:XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml/presentation", "Smellyriver.TankInspector")]
 [assembly:XmlnsDefinition("http://schemas.microsoft.com/winfx/2006/xaml/presentation", "Smellyriver.TankInspector.Design")]

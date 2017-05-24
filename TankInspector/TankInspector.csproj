@@ -945,7 +945,6 @@
     <None Include="Localization\ko.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Localization\loc-csv.bat" />
     <None Include="Localization\loc-dll.bat" />
     <Compile Include="Modeling\Database.Maintainance.cs" />
     <None Include="Localization\pl.csv">
@@ -1834,8 +1833,7 @@
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>$(ProjectDir)Localization\loc-dll.bat $(OutDir)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
