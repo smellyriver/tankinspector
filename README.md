@@ -1,3 +1,11 @@
+# :exclamation::exclamation: CONTRIBUTORS NEEDED :exclamation::exclamation:
+As two once-upon-a-time serious World of Tanks players, Hillin and Edward has created this project in 2013 and kept it maintained ever since. However, we are not playing World of Tanks for years, and the game has evolved quite a lot since our absence. Hence we are not able to catch up with the most recent changes, nor Tank Inspector. Besides, we barely have time to put our hands on this project, so the fix of crashes, which is very likely to be introduced by every tiny game file change, tends to come late. 
+We are here to ask for help. If you are a WoT player with adequate knowledge of C# programming (and some XAML when UI issues are involved), you can help by looking into these aspects:
+- **Fix crashes introduced by new game versions**. These crashes will most likely to be caused by XML file changes. Actually we have a quite decent passive XML handler in [Tank Inspector PRO](https://github.com/smellyriver/tank-inspector-pro), which could avoid most of these crashes. Hopefully one day we can port it into Tank Inspector.
+- **Implement new game mechanisms**. New mechanisms and change of old ones are constantly introduced by game updates. Tank Inspector is falling behind quite a lot, we need to catch up. This includes the new camouflage mechanism, battle boosters introduced in 9.19 etc.
+
+
+
 # Tank Inspector
 Tank Inspector is a beloved utility program of World of Tank players, in which you can inspect all the secrets of every tank in the game - model, armor scheme, specs and everything. First released in November 2013, this program acted as a great counsellor to millions of players.
 And now it's open source.
