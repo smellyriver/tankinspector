@@ -17,10 +17,10 @@ namespace Smellyriver.TankInspector.UIComponents
         {
             switch (reference)
             {
-                case ShellType.Ap:
-                    return type == ShellType.Ap || type == ShellType.Aphe;
-                case ShellType.He:
-                    return type == ShellType.He || type == ShellType.PremiumHe;
+                case ShellType.AP:
+                    return type == ShellType.AP || type == ShellType.APHE;
+                case ShellType.HE:
+                    return type == ShellType.HE || type == ShellType.PremiumHE;
                 default:
                     return type == reference;
             }
@@ -54,68 +54,68 @@ namespace Smellyriver.TankInspector.UIComponents
         }
 
 
-        private bool _isApShellSelected;
-        public bool IsApShellSelected
+        private bool _isAPShellSelected;
+        public bool IsAPShellSelected
         {
-            get => _isApShellSelected;
+            get => _isAPShellSelected;
 	        set
             {
-                _isApShellSelected = value;
-                this.RaisePropertyChanged(() => this.IsApShellSelected);
+                _isAPShellSelected = value;
+                this.RaisePropertyChanged(() => this.IsAPShellSelected);
                 if (value)
                 {
-                    this.SelectedShellType = ShellType.Ap;
+                    this.SelectedShellType = ShellType.AP;
                     this.UpdateCalibers();
                     this.RaisePropertyChanged(() => this.SelectedShellName);
                 }
             }
         }
 
-        private bool _isApcrShellSelected;
-        public bool IsApcrShellSelected
+        private bool _isAPCRShellSelected;
+        public bool IsAPCRShellSelected
         {
-            get => _isApcrShellSelected;
+            get => _isAPCRShellSelected;
 	        set
             {
-                _isApcrShellSelected = value;
-                this.RaisePropertyChanged(() => this.IsApcrShellSelected);
+                _isAPCRShellSelected = value;
+                this.RaisePropertyChanged(() => this.IsAPCRShellSelected);
                 if (value)
                 {
-                    this.SelectedShellType = ShellType.Apcr;
+                    this.SelectedShellType = ShellType.APCR;
                     this.UpdateCalibers();
                     this.RaisePropertyChanged(() => this.SelectedShellName);
                 }
             }
         }
 
-        private bool _isHeShellSelected;
-        public bool IsHeShellSelected
+        private bool _isHEShellSelected;
+        public bool IsHEShellSelected
         {
-            get => _isHeShellSelected;
+            get => _isHEShellSelected;
 	        set
             {
-                _isHeShellSelected = value;
-                this.RaisePropertyChanged(() => this.IsHeShellSelected);
+                _isHEShellSelected = value;
+                this.RaisePropertyChanged(() => this.IsHEShellSelected);
                 if (value)
                 {
-                    this.SelectedShellType = ShellType.He;
+                    this.SelectedShellType = ShellType.HE;
                     this.UpdateCalibers();
                     this.RaisePropertyChanged(() => this.SelectedShellName);
                 }
             }
         }
 
-        private bool _isHeatShellSelected;
-        public bool IsHeatShellSelected
+        private bool _isHEATShellSelected;
+        public bool IsHEATShellSelected
         {
-            get => _isHeatShellSelected;
+            get => _isHEATShellSelected;
 	        set
             {
-                _isHeatShellSelected = value;
-                this.RaisePropertyChanged(() => this.IsHeatShellSelected);
+                _isHEATShellSelected = value;
+                this.RaisePropertyChanged(() => this.IsHEATShellSelected);
                 if (value)
                 {
-                    this.SelectedShellType = ShellType.Heat;
+                    this.SelectedShellType = ShellType.HEAT;
                     this.UpdateCalibers();
                     this.RaisePropertyChanged(() => this.SelectedShellName);
                 }
@@ -172,7 +172,7 @@ namespace Smellyriver.TankInspector.UIComponents
             }
         }
 
-        public string SelectedShellName => string.Format(App.GetLocalizedString("ShellTypeDisplay"), this.Caliber, App.GetLocalizedString(this.SelectedShellType.ToString()));
+        public string SelectedShellName => string.Format(App.GetLocalizedString("ShellTypeDisplay"), Caliber, App.GetLocalizedString(this.SelectedShellType.ToString()));
 
 	    private bool _isUpdatingShootResult;
 
@@ -338,20 +338,20 @@ namespace Smellyriver.TankInspector.UIComponents
 
             switch (ApplicationSettings.Default.TestShellType)
             {
-                case ShellType.Apcr:
-                    this.IsApcrShellSelected = true;
+                case ShellType.APCR:
+                    this.IsAPCRShellSelected = true;
                     break;
-                case ShellType.Heat:
-                    this.IsHeatShellSelected = true;
+                case ShellType.HEAT:
+                    this.IsHEATShellSelected = true;
                     break;
-                case ShellType.He:
-                case ShellType.PremiumHe:
-                    this.IsHeShellSelected = true;
+                case ShellType.HE:
+                case ShellType.PremiumHE:
+                    this.IsHEShellSelected = true;
                     break;
-                case ShellType.Ap:
-                case ShellType.Aphe:
+                case ShellType.AP:
+                case ShellType.APHE:
                 default:
-                    this.IsApShellSelected = true;
+                    this.IsAPShellSelected = true;
                     break;
             }
         }

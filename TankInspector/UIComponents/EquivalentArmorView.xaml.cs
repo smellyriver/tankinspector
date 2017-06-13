@@ -40,7 +40,7 @@ namespace Smellyriver.TankInspector.UIComponents
         }
 
         public static readonly DependencyProperty TestShellProperty =
-            DependencyProperty.Register("TestShell", typeof(TestShellInfo), typeof(EquivalentArmorView), new PropertyMetadata(new TestShellInfo(Modeling.ShellType.Ap, 0.0)));
+            DependencyProperty.Register("TestShell", typeof(TestShellInfo), typeof(EquivalentArmorView), new PropertyMetadata(new TestShellInfo(Modeling.ShellType.AP, 0.0)));
 
 
 

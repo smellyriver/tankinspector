@@ -109,17 +109,17 @@ namespace Smellyriver.TankInspector.Modeling
             switch (type)
             {
                 case "ARMOR_PIERCING":
-                    return ShellType.Ap;
+                    return ShellType.AP;
                 case "ARMOR_PIERCING_CR":
-                    return ShellType.Apcr;
+                    return ShellType.APCR;
                 case "HIGH_EXPLOSIVE":
-                    return ShellType.He;
+                    return ShellType.HE;
                 case "HOLLOW_CHARGE":
-                    return ShellType.Heat;
+                    return ShellType.HEAT;
                 case "ARMOR_PIERCING_HE":
-                    return ShellType.Aphe;
+                    return ShellType.APHE;
                 case "HIGH_EXPLOSIVE_PREMIUM":
-                    return ShellType.PremiumHe;
+                    return ShellType.PremiumHE;
                 default:
                     throw new NotSupportedException();
             }

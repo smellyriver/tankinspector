@@ -194,11 +194,15 @@
     <Compile Include="Modeling\StatAttributeBase.cs" />
     <Compile Include="Modeling\StatGroupAttribute.cs" />
     <Compile Include="Modeling\StatSubItemAttribute.cs" />
+    <Compile Include="Modeling\Tank\AdditiveBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\AfterburningScript.cs" />
     <Compile Include="Modeling\Tank\ArtilleryScript.cs" />
     <Compile Include="Modeling\Tank\BadRoadsKingSkill.cs" />
     <Compile Include="Modeling\Tank\BomberScript.cs" />
     <Compile Include="Modeling\Tank\BrotherhoodSkill.cs" />
+    <Compile Include="Modeling\Tank\FactorBattleBoosterScript.cs" />
+    <Compile Include="Modeling\Tank\FactorPerLevelBattleBoosterScript.cs" />
+    <Compile Include="Modeling\Tank\FactorSkillBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\Invisibility.cs" />
     <Compile Include="Modeling\Tank\CamouflageSkill.cs" />
     <Compile Include="Modeling\Tank\CommanderSkill.cs" />
@@ -221,11 +225,15 @@
     <Compile Include="Modeling\Tank\IntuitionSkill.cs" />
     <Compile Include="Modeling\Tank\InventorSkill.cs" />
     <Compile Include="Modeling\Tank\ITankExtensions.cs" />
+    <Compile Include="Modeling\Tank\LastEffortBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\LastEffortSkill.cs" />
+    <Compile Include="Modeling\Tank\PedantBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\PedantSkill.cs" />
     <Compile Include="Modeling\Tank\RammingMasterSkill.cs" />
+    <Compile Include="Modeling\Tank\RancorousBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\RancorousSkill.cs" />
     <Compile Include="Modeling\Tank\RetransmitterSkill.cs" />
+    <Compile Include="Modeling\Tank\SixthSenseBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\SmoothTurretSkill.cs" />
     <Compile Include="Modeling\Tank\SniperSkill.cs" />
     <Compile Include="Modeling\StatAttribute.cs" />
@@ -1159,6 +1167,7 @@
     <Content Include="Additional\Camouflage.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Resources\Images\GameElements\Crystal.png" />
     <Resource Include="Resources\Images\Flags\SwedenSmall.bmp" />
     <Resource Include="Resources\Images\Flags\CzechLargeBlurred.png" />
     <Resource Include="Resources\Images\Flags\CzechSmall.bmp" />
