@@ -1,5 +1,6 @@
 ﻿using Smellyriver.TankInspector.Modeling;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using System.Windows.Input;
 
 namespace Smellyriver.TankInspector.UIComponents
@@ -21,7 +22,7 @@ namespace Smellyriver.TankInspector.UIComponents
 
         public override string Name => Accessory.Name;
 
-	    public override string Description => Accessory.Description;
+	    public override string Description => Regex.Replace(Accessory.Description, @"\{\w+\}", "");
 
 	    public override bool IsLoadCapable => this.Owner.IsLoadCapableIfReplacedWith(this);
 
