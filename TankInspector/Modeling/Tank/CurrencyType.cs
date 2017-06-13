@@ -3,6 +3,7 @@
     public enum CurrencyType
     {
         Credit,
-        Gold
+        Gold,
+		Crystal
     }
 }

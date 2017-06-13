@@ -63,7 +63,7 @@ namespace Smellyriver.TankInspector.Modeling
                 case "price":
                     reader.Read(out _price, out _currencyType);
                     return true;
-                case "notInShop":
+				case "notInShop":
                     reader.Read(out _notInShop);
                     return true;
 
