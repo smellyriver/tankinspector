@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BattleTierRules GameVersion="v.0.8.9 #550" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<BattleTierRules GameVersion="v.0.9.19 #456" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Regular>
     <Rule VehicleTier="1" Class="LightTank">
       <BattleTier>1-2</BattleTier>
@@ -20,7 +20,7 @@
     <Rule VehicleTier="2" Class="SelfPropelledGun">
       <BattleTier>2-3</BattleTier>
     </Rule>
-    
+
     <Rule VehicleTier="3" Class="LightTank">
       <BattleTier>3-5</BattleTier>
     </Rule>
@@ -35,7 +35,7 @@
     </Rule>
 
     <Rule VehicleTier="4" Class="LightTank">
-      <BattleTier>4-8</BattleTier>
+      <BattleTier>4-6</BattleTier>
     </Rule>
     <Rule VehicleTier="4" Class="MediumTank">
       <BattleTier>4-6</BattleTier>
@@ -51,7 +51,7 @@
     </Rule>
 
     <Rule VehicleTier="5" Class="LightTank">
-      <BattleTier>6-9</BattleTier>
+      <BattleTier>5-7</BattleTier>
     </Rule>
     <Rule VehicleTier="5" Class="MediumTank">
       <BattleTier>5-7</BattleTier>
@@ -67,7 +67,7 @@
     </Rule>
 
     <Rule VehicleTier="6" Class="LightTank">
-      <BattleTier>7-10</BattleTier>
+      <BattleTier>6-8</BattleTier>
     </Rule>
     <Rule VehicleTier="6" Class="MediumTank">
       <BattleTier>6-8</BattleTier>
@@ -83,7 +83,7 @@
     </Rule>
 
     <Rule VehicleTier="7" Class="LightTank">
-      <BattleTier>8-11</BattleTier>
+      <BattleTier>7-9</BattleTier>
     </Rule>
     <Rule VehicleTier="7" Class="MediumTank">
       <BattleTier>7-9</BattleTier>
@@ -99,7 +99,7 @@
     </Rule>
 
     <Rule VehicleTier="8" Class="LightTank">
-      <BattleTier>9-11</BattleTier>
+      <BattleTier>8-10</BattleTier>
     </Rule>
     <Rule VehicleTier="8" Class="MediumTank">
       <BattleTier>8-10</BattleTier>
@@ -114,6 +114,9 @@
       <BattleTier>8-10</BattleTier>
     </Rule>
 
+    <Rule VehicleTier="9" Class="LightTank">
+      <BattleTier>9-11</BattleTier>
+    </Rule>
     <Rule VehicleTier="9" Class="MediumTank">
       <BattleTier>9-11</BattleTier>
     </Rule>
@@ -127,113 +130,129 @@
       <BattleTier>9-11</BattleTier>
     </Rule>
 
+    <Rule VehicleTier="10" Class="LightTank">
+      <BattleTier>10-12</BattleTier>
+    </Rule>
     <Rule VehicleTier="10" Class="MediumTank">
-      <BattleTier>10-11</BattleTier>
+      <BattleTier>10-12</BattleTier>
     </Rule>
     <Rule VehicleTier="10" Class="HeavyTank">
-      <BattleTier>10-11</BattleTier>
+      <BattleTier>10-12</BattleTier>
     </Rule>
     <Rule VehicleTier="10" Class="TankDestroyer">
-      <BattleTier>10-11</BattleTier>
+      <BattleTier>10-12</BattleTier>
     </Rule>
     <Rule VehicleTier="10" Class="SelfPropelledGun">
-      <BattleTier>10-11</BattleTier>
+      <BattleTier>10-12</BattleTier>
     </Rule>
 
 
   </Regular>
   <Special>
-    <Rule Vehicle="germany:Karl">
-      <BattleTier>1</BattleTier>
-    </Rule>
-    <Rule Vehicle="germany:PzI">
+    <Rule Vehicle="germany:G53_PzI">
       <BattleTier>2</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:PzII_J">
+    <Rule Vehicle="germany:G36_PzII_J">
       <BattleTier>3-4</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:B-1bis_captured">
+    <Rule Vehicle="germany:G35_B-1bis_captured">
       <BattleTier>4</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:PzIV_Hydro">
+    <Rule Vehicle="germany:G70_PzIV_Hydro">
       <BattleTier>5-6</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:PzV_PzIV">
+    <Rule Vehicle="germany:G104_Stug_IV">
+      <BattleTier>5-6</BattleTier>
+    </Rule>
+    <Rule Vehicle="germany:G32_PzV_PzIV">
       <BattleTier>6-7</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:PzV_PzIV_ausf_Alfa">
+    <Rule Vehicle="germany:G32_PzV_PzIV_ausf_Alfa">
       <BattleTier>6-7</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:E-25">
+    <Rule Vehicle="germany:G48_E-25">
       <BattleTier>7-8</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:Panther_M10">
+    <Rule Vehicle="germany:G78_Panther_M10">
       <BattleTier>7-8</BattleTier>
     </Rule>
-    <Rule Vehicle="germany:JagdTiger_SdKfz_185">
+    <Rule Vehicle="germany:G65_JagdTiger_SdKfz_185">
       <BattleTier>8-9</BattleTier>
     </Rule>
-    
-    <Rule Vehicle="usa:T7_Combat_Car">
+
+    <Rule Vehicle="usa:A93_T7_Combat_Car">
       <BattleTier>2</BattleTier>
     </Rule>
-    <Rule Vehicle="usa:T2_lt">
+    <Rule Vehicle="usa:A19_T2_lt">
       <BattleTier>2-4</BattleTier>
     </Rule>
-    <Rule Vehicle="usa:M24_Chaffee">
-      <BattleTier>6-11</BattleTier>
-    </Rule>
-    <Rule Vehicle="usa:M4A2E4">
+    <Rule Vehicle="usa:A44_M4A2E4">
       <BattleTier>5-6</BattleTier>
     </Rule>
-    <Rule Vehicle="usa:T14">
+    <Rule Vehicle="usa:A21_T14">
       <BattleTier>5-6</BattleTier>
     </Rule>
-    <Rule Vehicle="usa:T26_E4_SuperPershing">
+    <Rule Vehicle="usa:A86_T23E3">
+      <BattleTier>7-8</BattleTier>
+    </Rule>
+    <Rule Vehicle="usa:A80_T26_E4_SuperPershing">
+      <BattleTier>8-9</BattleTier>
+    </Rule>
+    <Rule Vehicle="usa:A45_M6A2E1">
       <BattleTier>8-9</BattleTier>
     </Rule>
 
-    <Rule Vehicle="ussr:BT-SV">
+    <Rule Vehicle="ussr:R34_BT-SV">
       <BattleTier>3-4</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:M3_Stuart_LL">
+    <Rule Vehicle="ussr:R67_M3_LL">
       <BattleTier>3-4</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:T-127">
+    <Rule Vehicle="ussr:R86_LTP">
       <BattleTier>3-4</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:A-32">
+    <Rule Vehicle="ussr:R56_T-127">
+      <BattleTier>3-4</BattleTier>
+    </Rule>
+    <Rule Vehicle="ussr:R50_SU76I">
+      <BattleTier>3-4</BattleTier>
+    </Rule>
+    <Rule Vehicle="ussr:R68_A-32">
       <BattleTier>4-5</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:T80">
-      <BattleTier>4-6</BattleTier>
-    </Rule>
-    <Rule Vehicle="ussr:Valentine_LL">
+    <Rule Vehicle="ussr:R31_Valentine_LL">
       <BattleTier>4</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:Churchill_LL">
+    <Rule Vehicle="ussr:R33_Churchill_LL">
       <BattleTier>5-6</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:KV-220">
+    <Rule Vehicle="ussr:R78_SU_85I">
       <BattleTier>5-6</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:KV-220_action">
+    <Rule Vehicle="ussr:R38_KV-220">
       <BattleTier>5-6</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:Matilda_II_LL">
+    <Rule Vehicle="ussr:R38_KV-220_beta">
       <BattleTier>5-6</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:Object252">  <!-- IS-6 -->
+    <Rule Vehicle="ussr:R32_Matilda_II_LL">
+      <BattleTier>5-6</BattleTier>
+    </Rule>
+    <Rule Vehicle="ussr:R99_T44_122">
+      <BattleTier>7-8</BattleTier>
+    </Rule>
+    <Rule Vehicle="ussr:R61_Object252">
+      <!-- IS-6 -->
       <BattleTier>8-9</BattleTier>
     </Rule>
-    <Rule Vehicle="ussr:KV-5">
+    <Rule Vehicle="ussr:R54_KV-5">
       <BattleTier>8-9</BattleTier>
     </Rule>
 
-    <Rule Vehicle="france:AMX40">
+    <Rule Vehicle="france:F14_AMX40">
       <BattleTier>4-6</BattleTier>
     </Rule>
-    <Rule Vehicle="france:FCM_50t">
+    <Rule Vehicle="france:F65_FCM_50t">
       <BattleTier>8-9</BattleTier>
     </Rule>
 
@@ -257,6 +276,9 @@
     </Rule>
     <Rule Vehicle="uk:GB63_TOG_II">
       <BattleTier>6-7</BattleTier>
+    </Rule>
+    <Rule Vehicle="uk:GB72_AT15">
+      <BattleTier>7-8</BattleTier>
     </Rule>
 
     <Rule Vehicle="china:Ch03_WZ-111">
