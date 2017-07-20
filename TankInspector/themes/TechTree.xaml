@@ -276,13 +276,13 @@
                                                 </VisualStateGroup>
                                             </VisualStateManager.VisualStateGroups>
 
-                                            <Image Margin="-12,-2,-12,-2" x:Name="Background" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeSelectedFlagBackground.png" Stretch="None" />
+                                            <Image Margin="-12,-1,-12,-1" x:Name="Background" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeSelectedFlagBackground.png" Stretch="None" />
                                             <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" RecognizesAccessKey="True">
                                                 <ContentPresenter.Effect>
                                                     <effects:GrayscaleEffect x:Name="GrayscaleEffect" DesaturationFactor="0" />
                                                 </ContentPresenter.Effect>
                                             </ContentPresenter>
-                                            <Image Margin="-12,-2,-12,-2" x:Name="Mask" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeSelectedFlagMask.png" Stretch="None" />
+                                            <Image Margin="-12,-1,-12,-1" x:Name="Mask" Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeSelectedFlagMask.png" Stretch="None" />
                                             <Grid.Effect>
                                                 <effects:BrightContrastEffect x:Name="BrightnessEffect" Brightness="0.0" />
                                             </Grid.Effect>
