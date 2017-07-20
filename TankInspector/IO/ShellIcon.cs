@@ -15,22 +15,22 @@ namespace Smellyriver.TankInspector.IO
 
             switch (shellType)
             {
-                case ShellType.Ap:
+                case ShellType.AP:
                     key = "ARMOR_PIERCING";
                     break;
-                case ShellType.Apcr:
+                case ShellType.APCR:
                     key = "ARMOR_PIERCING_CR";
                     break;
-                case ShellType.Aphe:
+                case ShellType.APHE:
                     key = "ARMOR_PIERCING_HE";
                     break;
-                case ShellType.He:
+                case ShellType.HE:
                     key = "HIGH_EXPLOSIVE";
                     break;
-                case ShellType.PremiumHe:
+                case ShellType.PremiumHE:
                     key = "HIGH_EXPLOSIVE_PREMIUM";
                     break;
-                case ShellType.Heat:
+                case ShellType.HEAT:
                     key = "HOLLOW_CHARGE";
                     break;
                 default:

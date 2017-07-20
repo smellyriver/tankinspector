@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Smellyriver.TankInspector.Modeling
 {
     public enum ShellType
     {
-        Ap,
-        Apcr,
-        He,
-        PremiumHe,
-        Heat,
-        Aphe
+        AP,
+        APCR,
+        HE,
+        PremiumHE,
+        HEAT,
+        APHE
     }
 
 	internal static class ShellTypeExtensions
@@ -18,13 +19,13 @@ namespace Smellyriver.TankInspector.Modeling
         {
             switch (type)
             {
-                case ShellType.He:
-                case ShellType.PremiumHe:
+                case ShellType.HE:
+                case ShellType.PremiumHE:
                     return false;
-                case ShellType.Ap:
-                case ShellType.Apcr:
-                case ShellType.Aphe:
-                case ShellType.Heat:
+                case ShellType.AP:
+                case ShellType.APCR:
+                case ShellType.APHE:
+                case ShellType.HEAT:
                     return true;
                 default:
                     throw new NotSupportedException();
@@ -35,13 +36,13 @@ namespace Smellyriver.TankInspector.Modeling
         {
             switch (type)
             {
-                case ShellType.He:
-                case ShellType.PremiumHe:
-                case ShellType.Heat:
+                case ShellType.HE:
+                case ShellType.PremiumHE:
+                case ShellType.HEAT:
                     return false;
-                case ShellType.Ap:
-                case ShellType.Apcr:
-                case ShellType.Aphe:          
+                case ShellType.AP:
+                case ShellType.APCR:
+                case ShellType.APHE:          
                     return true;
                 default:
                     throw new NotSupportedException();
@@ -52,14 +53,14 @@ namespace Smellyriver.TankInspector.Modeling
         {
             switch (type)
             {
-                case ShellType.He:
-                case ShellType.PremiumHe:
-                case ShellType.Heat:
+                case ShellType.HE:
+                case ShellType.PremiumHE:
+                case ShellType.HEAT:
                     return 0.0;
-                case ShellType.Ap:
-                case ShellType.Aphe:
+                case ShellType.AP:
+                case ShellType.APHE:
                     return 5.0;
-                case ShellType.Apcr:
+                case ShellType.APCR:
                     return 2.0;
                 default:
                     throw new NotSupportedException();
@@ -70,14 +71,14 @@ namespace Smellyriver.TankInspector.Modeling
         {
             switch (type)
             {
-                case ShellType.He:  
-                case ShellType.PremiumHe:
+                case ShellType.HE:  
+                case ShellType.PremiumHE:
                     return 90.0;
-                case ShellType.Heat:
+                case ShellType.HEAT:
                     return 85.0;
-                case ShellType.Ap:
-                case ShellType.Aphe:
-                case ShellType.Apcr:
+                case ShellType.AP:
+                case ShellType.APHE:
+                case ShellType.APCR:
                     return 70.0;
                 default:
                     throw new NotSupportedException();

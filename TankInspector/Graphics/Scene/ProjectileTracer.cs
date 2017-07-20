@@ -160,12 +160,12 @@ namespace Smellyriver.TankInspector.Graphics.Scene
                     penetrationState = PenetrationState.Penetratable;
                     break;
                 }
-	            if (testShell.ShellType == ShellType.He || testShell.ShellType == ShellType.PremiumHe)
+	            if (testShell.ShellType == ShellType.HE || testShell.ShellType == ShellType.PremiumHE)
 	            {
 		            penetrationState = PenetrationState.Unpenetratable;
 		            break;
 	            }
-	            if (testShell.ShellType == ShellType.Heat && !heatExploded)
+	            if (testShell.ShellType == ShellType.HEAT && !heatExploded)
 	            {
 		            heatExploded = true;
 		            heatExplodedDistance = hit.Distance;

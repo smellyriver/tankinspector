@@ -460,7 +460,7 @@ namespace Smellyriver.TankInspector.Graphics.Scene
 
         // Using a DependencyProperty as the backing store for TestShell.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty TestShellProperty =
-            DependencyProperty.Register("TestShell", typeof(TestShellInfo), typeof(HangarScene), new PropertyMetadata(new TestShellInfo(ShellType.Ap, 0.0),
+            DependencyProperty.Register("TestShell", typeof(TestShellInfo), typeof(HangarScene), new PropertyMetadata(new TestShellInfo(ShellType.AP, 0.0),
                 (d, e) => ((HangarScene)d).OnTestShellChanged((TestShellInfo)e.OldValue, (TestShellInfo)e.NewValue)));
 
         private void OnTestShellChanged(TestShellInfo oldValue, TestShellInfo newValue)

@@ -35,7 +35,31 @@ namespace Smellyriver.TankInspector.Modeling
                 case "Afterburning":
                     script = new AfterburningScript(database);
                     break;
-                default:
+				case "FactorBattleBooster":
+					script = new FactorBattleBoosterScript(database);
+					break;
+				case "AdditiveBattleBooster":
+					script = new AdditiveBattleBoosterScript(database);
+					break;
+				case "FactorSkillBattleBooster":
+					script = new FactorSkillBattleBoosterScript(database);
+					break;
+				case "FactorPerLevelBattleBooster":
+					script = new FactorPerLevelBattleBoosterScript(database);
+					break;
+				case "SixthSenseBattleBooster":
+					script = new SixthSenseBattleBoosterScript(database);
+					break;
+				case "RancorousBattleBooster":
+					script = new RancorousBattleBoosterScript(database);
+					break;
+				case "PedantBattleBooster":
+					script = new PedantBattleBoosterScript(database);
+					break;
+				case "LastEffortBattleBooster":
+					script = new LastEffortBattleBoosterScript(database);
+					break;
+				default:
                     throw new NotSupportedException();
             }
 

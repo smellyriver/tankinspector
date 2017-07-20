@@ -10,17 +10,17 @@ namespace Smellyriver.TankInspector.Design
         {
             switch((ShellType)value)
             {
-                case ShellType.Ap:
+                case ShellType.AP:
                     return App.GetLocalizedString("AP");
-                case ShellType.Apcr:
+                case ShellType.APCR:
                     return App.GetLocalizedString("APCR");
-                case ShellType.Aphe:
+                case ShellType.APHE:
                     return App.GetLocalizedString("APHE");
-                case ShellType.He:
+                case ShellType.HE:
                     return App.GetLocalizedString("HE");
-                case ShellType.Heat:
+                case ShellType.HEAT:
                     return App.GetLocalizedString("HEAT");
-                case ShellType.PremiumHe:
+                case ShellType.PremiumHE:
                     return App.GetLocalizedString("PremiumHE");
                 default:
                     return value.ToString();
