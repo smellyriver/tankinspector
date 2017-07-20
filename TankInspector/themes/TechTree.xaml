@@ -6,6 +6,7 @@
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
     <design:TankIconConverter x:Key="TankSmallIconConverter" Type="Small" />
+    <design:TankColorIconConverter x:Key="TankColorIconConverter" />
 
     <Thickness x:Key="NodeButtonPadding">6,3,6,9</Thickness>
     <Thickness x:Key="NodeButtonMarginInTechTree">15,5</Thickness>
@@ -40,12 +41,13 @@
                                 </VisualState>
                             </VisualStateGroup>
                         </VisualStateManager.VisualStateGroups>
-                        
+
                         <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeNodeBackground.png" />
+                        <Image Source="{Binding Tank.Class, Converter={StaticResource TankColorIconConverter}}"/>
                         <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreePremiumTankMask.png"
                                Visibility="{Binding Tank.IsPremiumTank, Converter={StaticResource BoolToVisibleHiddenConverter}}"/>
                         <Image Source="pack://application:,,,/Smellyriver.TankInspector;component/Resources/Images/UIElements/TechTreeObsoletedTankMask.png"
-                               Visibility="{Binding Tank.IsObsoleted, Converter={StaticResource BoolToVisibleHiddenConverter}}"/>    
+                               Visibility="{Binding Tank.IsObsoleted, Converter={StaticResource BoolToVisibleHiddenConverter}}"/>
                         <Grid Margin="{StaticResource NodeButtonPadding}">
                             <Image Source="{Binding Tank, Converter={StaticResource TankSmallIconConverter}}" Stretch="None" HorizontalAlignment="Left" />
                             <Viewbox Margin="83,4,3,4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="87" StretchDirection="DownOnly">

@@ -177,6 +177,7 @@
     <Compile Include="Design\RatioToSolidColorBrushConverter.cs" />
     <Compile Include="Design\RomanNumber.cs" />
     <Compile Include="Design\RomanNumberService.cs" />
+    <Compile Include="Design\TankColorIconConverter.cs" />
     <Compile Include="Graphics\ModelTexture.cs" />
     <Compile Include="Graphics\ModelTextureManager.cs" />
     <Compile Include="Graphics\Scene\CollisionModelHitTestResult.cs" />
@@ -1167,6 +1168,11 @@
     <Content Include="Additional\Camouflage.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Resources\Images\TankIcons\Classes\HeavyTankColor.png" />
+    <Resource Include="Resources\Images\TankIcons\Classes\LightTankColor.png" />
+    <Resource Include="Resources\Images\TankIcons\Classes\MediumTankColor.png" />
+    <Resource Include="Resources\Images\TankIcons\Classes\SelfPropelledGunColor.png" />
+    <Resource Include="Resources\Images\TankIcons\Classes\TankDestroyerColor.png" />
     <Resource Include="Resources\Images\Flags\PolandLargeBlurred.png" />
     <Resource Include="Resources\Images\Flags\PolandSmall.bmp" />
     <Resource Include="Resources\Images\Flags\SwedenLargeBlurred.png" />
