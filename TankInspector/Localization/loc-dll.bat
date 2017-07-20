@@ -1,15 +1,15 @@
-copy /y locbaml.exe %1\locbaml.exe
-copy /y zh-hans.csv %1\zh-hans.csv
-copy /y zh-hant.csv %1\zh-hant.csv
-copy /y zh-tw.csv %1\zh-tw.csv
-copy /y en-gb.csv %1\en-gb.csv
-copy /y ko.csv %1\ko.csv
-copy /y ru.csv %1\ru.csv
-copy /y fr.csv %1\fr.csv
-copy /y de.csv %1\de.csv
-copy /y pl.csv %1\pl.csv
-copy /y hu.csv %1\hu.csv
-cd %1
+copy /y %1\locbaml.exe %2\locbaml.exe
+copy /y %1\zh-hans.csv %2\zh-hans.csv
+copy /y %1\zh-hant.csv %2\zh-hant.csv
+copy /y %1\zh-tw.csv %2\zh-tw.csv
+copy /y %1\en-gb.csv %2\en-gb.csv
+copy /y %1\ko.csv %2\ko.csv
+copy /y %1\ru.csv %2\ru.csv
+copy /y %1\fr.csv %2\fr.csv
+copy /y %1\de.csv %2\de.csv
+copy /y %1\pl.csv %2\pl.csv
+copy /y %1\hu.csv %2\hu.csv
+cd %2
 md zh-HANS
 locbaml /generate en-US/Smellyriver.TankInspector.resources.dll /trans:zh-hans.csv /out:"zh-HANS" /cul:zh-HANS
 md zh-TW
