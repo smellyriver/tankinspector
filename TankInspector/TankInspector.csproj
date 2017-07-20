@@ -1167,6 +1167,9 @@
     <Content Include="Additional\Camouflage.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Resources\Images\Flags\PolandLargeBlurred.png" />
+    <Resource Include="Resources\Images\Flags\PolandSmall.bmp" />
+    <Resource Include="Resources\Images\Flags\SwedenLargeBlurred.png" />
     <Resource Include="Resources\Images\GameElements\Crystal.png" />
     <Resource Include="Resources\Images\Flags\SwedenSmall.bmp" />
     <Resource Include="Resources\Images\Flags\CzechLargeBlurred.png" />
