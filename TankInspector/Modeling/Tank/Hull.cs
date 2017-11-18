@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml;
 
 namespace Smellyriver.TankInspector.Modeling
@@ -27,11 +28,11 @@ namespace Smellyriver.TankInspector.Modeling
 	        set => _armor = value;
         }
 
-        private Vector3D _turretPosition;
+        private Queue<Vector3D> _turretPosition=new Queue<Vector3D>();
         public Vector3D TurretPosition
         {
-            get => _turretPosition;
-	        set => _turretPosition = value;
+            get => _turretPosition.Dequeue();
+            set => _turretPosition.Enqueue(value);
         }
 
         private PrimaryArmorKeys _primaryArmorKeys;
@@ -70,15 +71,17 @@ namespace Smellyriver.TankInspector.Modeling
                     _ammoBay.Deserialize(reader);
                     return true;
 
+
                 case "turretPositions":
 
-                    // turret position of usa T20 appeared twice, maozi sucks
-                    if (this.TurretPosition != null)
-                        return false;
-
-                    reader.ReadStartElement("turret");
-                    reader.Read(out _turretPosition);
-                    reader.ReadEndElement();
+                    while (!reader.Name.Equals("turretPositions"))
+                    {
+                        reader.ReadStartElement(reader.Name);
+                        Vector3D pos;
+                        reader.Read(out pos);
+                        _turretPosition.Enqueue(pos);
+                        reader.ReadEndElement();
+                    }
                     return true;
 
                 case "swinging":
