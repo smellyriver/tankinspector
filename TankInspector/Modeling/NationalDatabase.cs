@@ -184,8 +184,15 @@ namespace Smellyriver.TankInspector.Modeling
 
 		private void LoadTanks()
 		{
-			foreach (var tankInfo in this.TankInfoCollection)
-				this.Tanks.Add(tankInfo.Key, new Tank(tankInfo));
+            foreach (var tankInfo in this.TankInfoCollection)
+            {
+                Tank t = new Tank(tankInfo);
+                if (t.Name == null)
+                {
+                    continue;
+                }
+                this.Tanks.Add(tankInfo.Key, t);
+            }
 		}
 
 
