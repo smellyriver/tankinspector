@@ -177,14 +177,7 @@ namespace Smellyriver.TankInspector.Modeling
             var scriptEntries = PackageStream.GetFileEntries(Path.Combine(RootPath, ScriptsPackageFile));
 
 
-            var nationEntries =
-                scriptEntries.Where(s => s.StartsWith(VehiclesFolderInPackage))
-                    .Select(
-                        s =>
-                            s.Substring(VehiclesFolderInPackage.Length,
-                                s.IndexOf("/", VehiclesFolderInPackage.Length, StringComparison.InvariantCulture) -
-                                VehiclesFolderInPackage.Length))
-                    .Distinct();
+            var nationEntries = scriptEntries.Where(s => s.StartsWith(VehiclesFolderInPackage)&&s.Length>VehiclesFolderInPackage.Length).Select( s => s.Substring(VehiclesFolderInPackage.Length, s.IndexOf("/", VehiclesFolderInPackage.Length, StringComparison.InvariantCulture) - VehiclesFolderInPackage.Length)).Distinct();
             
             foreach (var nationName in nationEntries)
             {
