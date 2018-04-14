@@ -1168,6 +1168,8 @@
     <Content Include="Additional\Camouflage.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Resources\Images\Flags\ItalyLargeBlurred.png" />
+    <Resource Include="Resources\Images\Flags\ItalySmall.bmp" />
     <Resource Include="Resources\Images\TankIcons\Classes\HeavyTankColor.png" />
     <Resource Include="Resources\Images\TankIcons\Classes\LightTankColor.png" />
     <Resource Include="Resources\Images\TankIcons\Classes\MediumTankColor.png" />
