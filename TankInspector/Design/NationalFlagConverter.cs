@@ -44,6 +44,9 @@ namespace Smellyriver.TankInspector.Design
                 case "poland":
                     prefix = "Poland";
                     break;
+                case "italy":
+                    prefix = "Italy";
+                    break;
                 default:
                     return null;
             }

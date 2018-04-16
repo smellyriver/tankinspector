@@ -56,7 +56,7 @@ namespace Smellyriver.TankInspector.Modeling
             var packageRoot = Path.Combine(this.Database.RootPath, "res/packages");
 
             var paths = XElement.Load(Path.Combine(this.Database.RootPath, "paths.xml"));
-            var packageFiles = paths.Descendants("Path").Select(p => p.Value)
+            var packageFiles = paths.Descendants("Package").Select(p => p.Value)
                                                         .Where(p => p.EndsWith(".pkg"))
                                                         .Select(p => Path.Combine(this.Database.RootPath, p));
 
