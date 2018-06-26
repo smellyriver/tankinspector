@@ -10,7 +10,8 @@ namespace Smellyriver.TankInspector.Modeling
         HE,
         PremiumHE,
         HEAT,
-        APHE
+        APHE,
+        SMOKE
     }
 
 	internal static class ShellTypeExtensions
@@ -21,6 +22,7 @@ namespace Smellyriver.TankInspector.Modeling
             {
                 case ShellType.HE:
                 case ShellType.PremiumHE:
+                case ShellType.SMOKE:
                     return false;
                 case ShellType.AP:
                 case ShellType.APCR:
@@ -39,6 +41,7 @@ namespace Smellyriver.TankInspector.Modeling
                 case ShellType.HE:
                 case ShellType.PremiumHE:
                 case ShellType.HEAT:
+                case ShellType.SMOKE:
                     return false;
                 case ShellType.AP:
                 case ShellType.APCR:
@@ -56,6 +59,7 @@ namespace Smellyriver.TankInspector.Modeling
                 case ShellType.HE:
                 case ShellType.PremiumHE:
                 case ShellType.HEAT:
+                case ShellType.SMOKE:
                     return 0.0;
                 case ShellType.AP:
                 case ShellType.APHE:
@@ -71,6 +75,8 @@ namespace Smellyriver.TankInspector.Modeling
         {
             switch (type)
             {
+                case ShellType.SMOKE:
+                    return 0.0;
                 case ShellType.HE:  
                 case ShellType.PremiumHE:
                     return 90.0;
