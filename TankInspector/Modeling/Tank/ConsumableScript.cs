@@ -26,11 +26,17 @@ namespace Smellyriver.TankInspector.Modeling
                 case "RemovedRpmLimiter":
                     script = new RemovedRpmLimiterScript(database);
                     break;
-                case "Artillery":
+                case "RageArtillery":
+                case "ConsumableArtillery":
                     script = new ArtilleryScript(database);
                     break;
-                case "Bomber":
+                case "RageBomber":
+                case "ConsumableBomber":
                     script = new BomberScript(database);
+                    break;
+                case "EpicRecon":
+                case "ConsumableRecon":
+                    script = new ReconScript(database);
                     break;
                 case "Afterburning":
                     script = new AfterburningScript(database);
@@ -60,7 +66,9 @@ namespace Smellyriver.TankInspector.Modeling
 					script = new LastEffortBattleBoosterScript(database);
 					break;
 				default:
-                    throw new NotSupportedException();
+                    script = new DefaultScript(database,type);
+                    break;
+                    //TODO throw new NotSupportedException();
             }
 
             script.Deserialize(reader);

@@ -120,6 +120,8 @@ namespace Smellyriver.TankInspector.Modeling
                     return ShellType.APHE;
                 case "HIGH_EXPLOSIVE_PREMIUM":
                     return ShellType.PremiumHE;
+                case "SMOKE":
+                    return ShellType.SMOKE;
                 default:
                     throw new NotSupportedException();
             }
