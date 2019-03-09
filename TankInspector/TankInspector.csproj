@@ -201,6 +201,7 @@
     <Compile Include="Modeling\Tank\BadRoadsKingSkill.cs" />
     <Compile Include="Modeling\Tank\BomberScript.cs" />
     <Compile Include="Modeling\Tank\BrotherhoodSkill.cs" />
+    <Compile Include="Modeling\Tank\DefaultScript.cs" />
     <Compile Include="Modeling\Tank\FactorBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\FactorPerLevelBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\FactorSkillBattleBoosterScript.cs" />
@@ -233,6 +234,7 @@
     <Compile Include="Modeling\Tank\RammingMasterSkill.cs" />
     <Compile Include="Modeling\Tank\RancorousBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\RancorousSkill.cs" />
+    <Compile Include="Modeling\Tank\ReconScript.cs" />
     <Compile Include="Modeling\Tank\RetransmitterSkill.cs" />
     <Compile Include="Modeling\Tank\SixthSenseBattleBoosterScript.cs" />
     <Compile Include="Modeling\Tank\SmoothTurretSkill.cs" />
