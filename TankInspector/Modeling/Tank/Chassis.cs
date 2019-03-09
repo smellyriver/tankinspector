@@ -12,9 +12,9 @@ namespace Smellyriver.TankInspector.Modeling
 	    public Armor Armor { get; private set; }
 
 	    [Stat("ChassisArmorFullName", DataAnalysis.ComparisonMode.HigherBetter)]
-        public double TrackArmor => this.Armor.ArmorGroups["leftTrack"].Value;
+        public double TrackArmor  {get; private set; }
 
-	    private double _maxClimbAngle;
+        private double _maxClimbAngle;
         public double MaxClimbAngle => _maxClimbAngle;
 
 	    private double _maxLoad;
@@ -53,12 +53,11 @@ namespace Smellyriver.TankInspector.Modeling
         public SpeedLimits SpeedLimits { get; internal set; }
 
 
-
         public Chassis(Database database)
             : base(database)
         {
             this.Wheels = new WheelInfo();
-        }
+    }
 
         protected override bool DeserializeSection(string name, XmlReader reader)
         {
@@ -67,6 +66,11 @@ namespace Smellyriver.TankInspector.Modeling
                 case "armor":
                     this.Armor = new Armor(((Tank)this.Owner).Nation.Database);
                     this.Armor.Deserialize(reader);
+                    foreach (var item in this.Armor.ArmorGroups.Keys)
+                    {
+                        this.TrackArmor = this.Armor.ArmorGroups[item].Value;
+                        break;
+                    }
                     return true;
 
                 case "maxClimbAngle":
