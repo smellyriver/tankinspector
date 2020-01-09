@@ -40,7 +40,7 @@ namespace Smellyriver.TankInspector.UIComponents
         {
             this.Accessory = accessory;
             this.Price = new PriceViewModel(accessory.Price, accessory.CurrencyType);
-            this.Icon = "gui" + accessory.Icon.Substring(2);
+            //this.Icon = "gui" + accessory.Icon.Substring(2);
 
         }
         public void NotifyIsEquippedChanged()
