@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Windows.Input;
-using System;
 
 namespace Smellyriver.TankInspector.UIComponents
 {
