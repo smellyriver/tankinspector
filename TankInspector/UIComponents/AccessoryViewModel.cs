@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Windows.Input;
+using System;
 
 namespace Smellyriver.TankInspector.UIComponents
 {
@@ -41,7 +42,6 @@ namespace Smellyriver.TankInspector.UIComponents
             this.Accessory = accessory;
             this.Price = new PriceViewModel(accessory.Price, accessory.CurrencyType);
             this.Icon = "gui" + accessory.Icon.Substring(2);
-
         }
         public void NotifyIsEquippedChanged()
         {
